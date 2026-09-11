@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>911 Targa Finder</title>
+<style>
+:root{
+  --bg:#101216;--panel:#181b21;--panel2:#1f232b;--line:#2b303a;
+  --text:#e8eaed;--muted:#9aa1ad;--accent:#d5001c;--accent2:#e8b64c;
+  --ok:#4cc38a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding-block:0 60px;padding-inline:16px}
+.wrap{max-width:1060px;margin:0 auto}
+header{padding:36px 0 8px}
+h1{font-size:30px;margin:0 0 6px;letter-spacing:.5px}
+h1 span{color:var(--accent)}
+.sub{color:var(--muted);margin:0 0 24px}
+h2{font-size:18px;margin:0 0 14px;border-left:3px solid var(--accent);padding-left:10px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px;margin-bottom:22px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+label{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:5px}
+input[type=text],input[type=number],select,textarea{width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:8px;color:var(--text);padding:9px 11px;font-size:14px}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:999px;padding:7px 14px;cursor:pointer;font-size:13px;user-select:none}
+.chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.chip.on.gold{background:var(--accent2);border-color:var(--accent2);color:#1a1a1a}
+.btn{display:inline-block;background:var(--accent);color:#fff;border:none;border-radius:8px;padding:10px 18px;font-size:14px;font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;border:1px solid var(--line);color:var(--text)}
+.btn.small{padding:6px 12px;font-size:13px}
+.links a{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-bottom:8px;color:var(--text);text-decoration:none}
+.links a:hover{border-color:var(--accent)}
+.links .portal{font-weight:600}
+.links .flag{color:var(--muted);font-size:13px}
+.links .go{color:var(--accent);font-weight:700}
+.note{color:var(--muted);font-size:13px;margin-top:10px}
+textarea{min-height:220px;font-family:inherit;line-height:1.5}
+.row2{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+td a{color:var(--accent2);text-decoration:none;word-break:break-all}
+.status-neu{color:var(--muted)} .status-angeschrieben{color:var(--accent2)} .status-antwort{color:var(--ok)} .status-besichtigung{color:var(--ok);font-weight:700} .status-raus{color:var(--muted);text-decoration:line-through}
+.del{color:var(--muted);cursor:pointer;background:none;border:none;font-size:16px}
+.copied{color:var(--ok);font-size:13px;margin-left:10px}
+.checks{display:grid;gap:6px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));font-size:14px}
+.checks label{display:flex;align-items:center;gap:8px;text-transform:none;letter-spacing:0;font-size:14px;color:var(--text);cursor:pointer;margin:0}
+@media(max-width:520px){h1{font-size:24px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>911 <span>Targa</span> Finder</h1>
+  <p class="sub">Suche über Kleinanzeigen, mobile.de, AutoScout24, AutoUncle, willhaben &amp; Co. in DE, AT und den Nachbarländern (ohne CH). Filter setzen, Links öffnen, anschreiben, tracken.</p>
+</header>
+
+<div class="card">
+  <h2>1. Suche konfigurieren</h2>
+  <div class="grid" style="margin-bottom:16px">
+    <div><label>Preis von (€)</label><input type="number" id="pmin" placeholder="z.B. 60000"></div>
+    <div><label>Preis bis (€)</label><input type="number" id="pmax" placeholder="z.B. 140000"></div>
+    <div><label>EZ von</label><input type="number" id="ymin" placeholder="z.B. 2014"></div>
+    <div><label>EZ bis</label><input type="number" id="ymax" placeholder="z.B. 2021"></div>
+    <div><label>km max</label><input type="number" id="kmmax" placeholder="z.B. 80000"></div>
+  </div>
+  <div style="margin-bottom:14px">
+    <label>Karosserie / Generation</label>
+    <div class="chips" id="variantChips">
+      <div class="chip gold on" data-v="targa">Targa</div>
+      <div class="chip" data-v="alle">Alle 911</div>
+      <div class="chip" data-g="992">992</div>
+      <div class="chip" data-g="991">991</div>
+      <div class="chip" data-g="997">997</div>
+      <div class="chip" data-g="996">996</div>
+      <div class="chip" data-g="993">993</div>
+      <div class="chip" data-g="964">964</div>
+    </div>
+  </div>
+  <div>
+    <label>Länder</label>
+    <div class="chips" id="countryChips">
+      <div class="chip on" data-c="DE">🇩🇪 Deutschland</div>
+      <div class="chip on" data-c="AT">🇦🇹 Österreich</div>
+      <div class="chip" data-c="NL">🇳🇱 Niederlande</div>
+      <div class="chip" data-c="BE">🇧🇪 Belgien</div>
+      <div class="chip" data-c="FR">🇫🇷 Frankreich</div>
+      <div class="chip" data-c="IT">🇮🇹 Italien</div>
+      <div class="chip" data-c="LU">🇱🇺 Luxemburg</div>
+      <div class="chip" data-c="DK">🇩🇰 Dänemark</div>
+      <div class="chip" data-c="PL">🇵🇱 Polen</div>
+      <div class="chip" data-c="CZ">🇨🇿 Tschechien</div>
+    </div>
+  </div>
+  <p class="note">CH ist bewusst nicht dabei. Generation wird als Suchbegriff angehängt, wo das Portal es unterstützt.</p>
+</div>
+
+<div class="card">
+  <h2>2. Portale öffnen</h2>
+  <div class="links" id="links"></div>
+  <button class="btn" id="openAll">Alle Links in neuen Tabs öffnen</button>
+  <p class="note">Tipp: Auf mobile.de und AutoScout24 zusätzlich einen Suchagenten mit E-Mail-Alarm anlegen, damit du neue Targa sofort siehst. Bei Portalen ohne Targa-Filter im Suchfeld "Targa" nachtragen.</p>
+</div>
+
+<div class="card">
+  <h2>3. Anschreiben-Generator</h2>
+  <div class="row2" style="margin-bottom:14px">
+    <div><label>Dein Name</label><input type="text" id="myName" placeholder="Patrick"></div>
+    <div><label>Fahrzeug (aus Anzeige)</label><input type="text" id="carDesc" placeholder="z.B. 911 Targa 4S (991.2), 2017"></div>
+    <div><label>Sprache</label><select id="lang"><option value="de">Deutsch</option><option value="en">Englisch (für NL/BE/DK/PL/CZ...)</option></select></div>
+    <div><label>Stil</label><select id="tone"><option value="serioes">Seriös / Kaufbereit</option><option value="locker">Locker / Erste Anfrage</option></select></div>
+  </div>
+  <label style="margin-bottom:8px">Fragen mitschicken</label>
+  <div class="checks" style="margin-bottom:14px">
+    <label><input type="checkbox" class="q" value="historie" checked> Wartungshistorie / Scheckheft</label>
+    <label><input type="checkbox" class="q" value="unfall" checked> Unfallfreiheit / Lackdichte</label>
+    <label><input type="checkbox" class="q" value="halter"> Anzahl Vorbesitzer</label>
+    <label><input type="checkbox" class="q" value="reifen"> Zustand Reifen / Bremsen</label>
+    <label><input type="checkbox" class="q" value="dach" checked> Funktion Targa-Dach</label>
+    <label><input type="checkbox" class="q" value="approved"> Porsche Approved / Garantie</label>
+    <label><input type="checkbox" class="q" value="preis"> Preisvorstellung / Verhandlungsspielraum</label>
+    <label><input type="checkbox" class="q" value="besichtigung" checked> Besichtigungstermin</label>
+  </div>
+  <button class="btn" id="genMsg">Anschreiben erzeugen</button>
+  <button class="btn ghost" id="copyMsg">Kopieren</button><span id="copyOk" class="copied" hidden>Kopiert ✓</span>
+  <textarea id="msgOut" style="margin-top:14px" placeholder="Hier erscheint dein Anschreiben..."></textarea>
+</div>
+
+<div class="card">
+  <h2>4. Merkliste &amp; Status</h2>
+  <div class="row2" style="margin-bottom:12px">
+    <div><label>Link zur Anzeige</label><input type="text" id="wUrl" placeholder="https://..."></div>
+    <div><label>Beschreibung</label><input type="text" id="wDesc" placeholder="991.2 Targa 4S, GT-Silber, 45tkm"></div>
+    <div><label>Preis (€)</label><input type="number" id="wPrice" placeholder="129900"></div>
+  </div>
+  <button class="btn small" id="wAdd">Zur Merkliste</button>
+  <div style="overflow-x:auto;margin-top:14px">
+    <table id="wTable">
+      <thead><tr><th>Fahrzeug</th><th>Preis</th><th>Status</th><th>Notiz</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <p class="note">Wird lokal im Browser gespeichert (localStorage), bleibt also auf diesem Gerät erhalten.</p>
+</div>
+
+</div>
+<script>
+(function(){
+"use strict";
+var $=function(s){return document.querySelector(s)};
+var $$=function(s){return Array.prototype.slice.call(document.querySelectorAll(s))};
+
+/* ---------- Filter-Status ---------- */
+function state(){
+  var gens=$$('#variantChips .chip[data-g].on').map(function(c){return c.dataset.g});
+  return {
+    pmin:$('#pmin').value, pmax:$('#pmax').value,
+    ymin:$('#ymin').value, ymax:$('#ymax').value,
+    kmmax:$('#kmmax').value,
+    targa:$('#variantChips .chip[data-v="targa"]').classList.contains('on'),
+    gens:gens,
+    countries:$$('#countryChips .chip.on').map(function(c){return c.dataset.c})
+  };
+}
+function term(s,base){
+  var t=base||'Porsche 911';
+  if(s.targa)t+=' Targa';
+  if(s.gens.length===1)t+=' '+s.gens[0];
+  return t;
+}
+
+/* ---------- Link-Builder pro Portal ---------- */
+function buildLinks(s){
+  var L=[];
+  var has=function(c){return s.countries.indexOf(c)>=0};
+  var q=encodeURIComponent(term(s));
+
+  // Kleinanzeigen (DE)
+  if(has('DE')){
+    var slug='porsche-911'+(s.targa?'-targa':'')+(s.gens.length===1?'-'+s.gens[0]:'');
+    var price=(s.pmin||s.pmax)?('preis:'+(s.pmin||'')+':'+(s.pmax||'')+'/'):'';
+    L.push(['Kleinanzeigen','DE','https://www.kleinanzeigen.de/s-autos/'+price+slug+'/k0c216']);
+  }
+
+  // mobile.de (deckt DE + EU-Händler ab, Länderfilter je Land)
+  var mobileCountries=s.countries.filter(function(c){return ['DE','AT','NL','BE','FR','IT','LU','DK','PL','CZ'].indexOf(c)>=0});
+  mobileCountries.forEach(function(c){
+    var u='https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&dam=false&ms=20100%3B15%3B%3B'+(s.targa?'Targa':'');
+    if(s.pmin||s.pmax)u+='&p='+(s.pmin||'')+'%3A'+(s.pmax||'');
+    if(s.ymin||s.ymax)u+='&fr='+(s.ymin||'')+'%3A'+(s.ymax||'');
+    if(s.kmmax)u+='&ml=%3A'+s.kmmax;
+    u+='&cn='+c;
+    L.push(['mobile.de',c,u]);
+  });
+
+  // AutoScout24 (eine Suche über alle gewählten Länder)
+  var asMap={DE:'D',AT:'A',NL:'NL',BE:'B',FR:'F',IT:'I',LU:'L'};
+  var asCy=s.countries.map(function(c){return asMap[c]}).filter(Boolean);
+  if(asCy.length){
+    var tld=has('AT')&&!has('DE')?'at':'de';
+    var u2='https://www.autoscout24.'+tld+'/lst/porsche/911?atype=C&cy='+asCy.join('%2C')+'&damaged_listing=exclude&powertype=kw';
+    if(s.pmin)u2+='&pricefrom='+s.pmin;
+    if(s.pmax)u2+='&priceto='+s.pmax;
+    if(s.ymin)u2+='&fregfrom='+s.ymin;
+    if(s.ymax)u2+='&fregto='+s.ymax;
+    if(s.kmmax)u2+='&kmto='+s.kmmax;
+    L.push(['AutoScout24',asCy.join(', '),u2]);
+  }
+
+  // AutoUncle (Preisbewertung!)
+  ['DE','AT','NL','FR','IT','DK'].forEach(function(c){
+    if(!has(c))return;
+    var tldMap={DE:['autouncle.de','de'],AT:['autouncle.at','de'],NL:['autouncle.nl','nl'],FR:['autouncle.fr','fr'],IT:['autouncle.it','it'],DK:['autouncle.dk','da']};
+    var m=tldMap[c];
+    var u3='https://www.'+m[0]+'/'+m[1]+'/gebrauchtwagen?s%5Bbrand%5D=Porsche&s%5Bmodel_name%5D=911';
+    if(s.targa)u3+='&s%5Bsearch_in_headlines%5D=targa';
+    if(s.pmin)u3+='&s%5Bmin_price%5D='+s.pmin;
+    if(s.pmax)u3+='&s%5Bmax_price%5D='+s.pmax;
+    if(s.ymin)u3+='&s%5Bmin_year%5D='+s.ymin;
+    if(s.kmmax)u3+='&s%5Bmax_km%5D='+s.kmmax;
+    L.push(['AutoUncle',c,u3]);
+  });
+
+  // willhaben (AT)
+  if(has('AT')){
+    var u4='https://www.willhaben.at/iad/gebrauchtwagen/gebrauchtwagenboerse?keyword='+q;
+    if(s.pmin)u4+='&PRICE_FROM='+s.pmin;
+    if(s.pmax)u4+='&PRICE_TO='+s.pmax;
+    if(s.ymin)u4+='&YEAR_MODEL_FROM='+s.ymin;
+    if(s.ymax)u4+='&YEAR_MODEL_TO='+s.ymax;
+    if(s.kmmax)u4+='&MILEAGE_TO='+s.kmmax;
+    L.push(['willhaben','AT',u4]);
+  }
+
+  // Länder-Portale
+  if(has('NL'))L.push(['Marktplaats','NL','https://www.marktplaats.nl/q/'+q.replace(/%20/g,'+')+'/']);
+  if(has('BE'))L.push(['2dehands','BE','https://www.2dehands.be/q/'+q.replace(/%20/g,'+')+'/']);
+  if(has('FR'))L.push(['Leboncoin','FR','https://www.leboncoin.fr/recherche?category=2&text='+q]);
+  if(has('PL'))L.push(['Otomoto','PL','https://www.otomoto.pl/osobowe/porsche/911'+(s.targa?'?search%5Bfilter_enum_version%5D=targa':'')]);
+  if(has('CZ'))L.push(['Sauto','CZ','https://www.sauto.cz/inzerce/osobni/porsche/911']);
+  if(has('DK'))L.push(['Bilbasen','DK','https://www.bilbasen.dk/brugt/bil/porsche/911']);
+
+  // Spezialisten (europaweit, immer sinnvoll für 911)
+  L.push(['Elferspot (911-Spezialist)','EU','https://www.elferspot.com/en/?s='+q]);
+  L.push(['Classic Trader','EU','https://www.classic-trader.com/de/fahrzeuge/suche?keywords='+q]);
+
+  return L;
+}
+
+function render(){
+  var L=buildLinks(state());
+  $('#links').innerHTML=L.map(function(l){
+    return '<a href="'+l[2]+'" target="_blank" rel="noopener"><span class="portal">'+l[0]+'</span><span class="flag">'+l[1]+'</span><span class="go">→</span></a>';
+  }).join('');
+}
+$('#openAll').addEventListener('click',function(){
+  $$('#links a').forEach(function(a){window.open(a.href,'_blank')});
+});
+
+/* Chips */
+$$('#countryChips .chip').forEach(function(c){c.addEventListener('click',function(){c.classList.toggle('on');render()})});
+$$('#variantChips .chip').forEach(function(c){
+  c.addEventListener('click',function(){
+    if(c.dataset.v==='targa'){c.classList.add('on');$('#variantChips .chip[data-v="alle"]').classList.remove('on');}
+    else if(c.dataset.v==='alle'){c.classList.add('on');$('#variantChips .chip[data-v="targa"]').classList.remove('on');}
+    else{c.classList.toggle('on');}
+    render();
+  });
+});
+['pmin','pmax','ymin','ymax','kmmax'].forEach(function(id){$('#'+id).addEventListener('input',render)});
+render();
+
+/* ---------- Anschreiben ---------- */
+var QDE={
+  historie:'Ist die Wartungshistorie lückenlos dokumentiert (Scheckheft, Rechnungen, idealerweise Porsche Zentrum)?',
+  unfall:'Ist das Fahrzeug nachweislich unfallfrei und der Lack im Originalzustand?',
+  halter:'Wie viele Vorbesitzer hatte das Fahrzeug?',
+  reifen:'Wie ist der Zustand von Reifen und Bremsen (Restprofil, letzte Erneuerung)?',
+  dach:'Funktioniert das Targa-Dach einwandfrei und ohne Geräusche?',
+  approved:'Besteht noch Porsche Approved Garantie bzw. wäre eine Übernahme möglich?',
+  preis:'Wie ist Ihre Preisvorstellung, gibt es noch Verhandlungsspielraum?',
+  besichtigung:'Wann wäre eine Besichtigung mit Probefahrt möglich?'
+};
+var QEN={
+  historie:'Is the full service history documented (service book, invoices, ideally Porsche centre)?',
+  unfall:'Is the car accident-free with original paint?',
+  halter:'How many previous owners has the car had?',
+  reifen:'What is the condition of tyres and brakes?',
+  dach:'Does the Targa roof operate flawlessly and without noises?',
+  approved:'Is there remaining Porsche Approved warranty, or could it be extended?',
+  preis:'What is your price expectation, is there room for negotiation?',
+  besichtigung:'When would a viewing and test drive be possible?'
+};
+$('#genMsg').addEventListener('click',function(){
+  var name=$('#myName').value||'',car=$('#carDesc').value||'Ihrem Porsche 911',lang=$('#lang').value,tone=$('#tone').value;
+  var qs=$$('.q:checked').map(function(c){return (lang==='de'?QDE:QEN)[c.value]});
+  var out;
+  if(lang==='de'){
+    out=(tone==='serioes'
+      ?'Sehr geehrte Damen und Herren,\n\nich interessiere mich ernsthaft für '+car+' aus Ihrer Anzeige. Ich bin konkret auf der Suche nach einem 911'+($('#variantChips .chip[data-v="targa"]').classList.contains('on')?' Targa':'')+' und kaufbereit, sofern das Fahrzeug meinen Vorstellungen entspricht.\n\nVorab hätte ich folgende Fragen:\n'
+      :'Hallo,\n\nich bin auf Ihre Anzeige zu '+car+' gestoßen und sehr interessiert.\n\nEin paar Fragen vorab:\n');
+    out+=qs.map(function(x){return '- '+x}).join('\n');
+    out+='\n\nÜber eine kurze Rückmeldung würde ich mich freuen.\n\nMit freundlichen Grüßen\n'+name;
+  }else{
+    out='Dear Sir or Madam,\n\nI am seriously interested in '+(($('#carDesc').value)||'the Porsche 911 from your listing')+'. I am specifically looking for a 911'+($('#variantChips .chip[data-v="targa"]').classList.contains('on')?' Targa':'')+' and ready to buy if the car meets my expectations. I would travel for a viewing.\n\nA few questions in advance:\n';
+    out+=qs.map(function(x){return '- '+x}).join('\n');
+    out+='\n\nI look forward to your reply.\n\nBest regards\n'+name;
+  }
+  $('#msgOut').value=out;
+});
+$('#copyMsg').addEventListener('click',function(){
+  var t=$('#msgOut');t.select();
+  try{navigator.clipboard.writeText(t.value)}catch(e){document.execCommand('copy')}
+  $('#copyOk').hidden=false;setTimeout(function(){$('#copyOk').hidden=true},1500);
+});
+
+/* ---------- Merkliste ---------- */
+var KEY='targa-watchlist';
+function load(){try{return JSON.parse(localStorage.getItem(KEY))||[]}catch(e){return[]}}
+function save(w){try{localStorage.setItem(KEY,JSON.stringify(w))}catch(e){}}
+var STATI=['neu','angeschrieben','antwort','besichtigung','raus'];
+var STATL={neu:'Neu',angeschrieben:'Angeschrieben',antwort:'Antwort da',besichtigung:'Besichtigung',raus:'Raus'};
+function renderList(){
+  var w=load(),tb=$('#wTable tbody');
+  tb.innerHTML=w.map(function(e,i){
+    var opts=STATI.map(function(st){return '<option value="'+st+'"'+(e.status===st?' selected':'')+'>'+STATL[st]+'</option>'}).join('');
+    return '<tr>'+
+      '<td>'+(e.url?'<a href="'+e.url+'" target="_blank" rel="noopener">':'')+(e.desc||e.url||'?')+(e.url?'</a>':'')+'</td>'+
+      '<td>'+(e.price?Number(e.price).toLocaleString('de-DE')+' €':'')+'</td>'+
+      '<td><select data-i="'+i+'" class="wStatus status-'+e.status+'">'+opts+'</select></td>'+
+      '<td><input type="text" data-i="'+i+'" class="wNote" value="'+(e.note||'').replace(/"/g,'&quot;')+'" placeholder="Notiz..."></td>'+
+      '<td><button class="del" data-i="'+i+'" title="Löschen">✕</button></td>'+
+    '</tr>';
+  }).join('');
+  $$('.wStatus').forEach(function(s){s.addEventListener('change',function(){var w=load();w[s.dataset.i].status=s.value;save(w);renderList()})});
+  $$('.wNote').forEach(function(n){n.addEventListener('change',function(){var w=load();w[n.dataset.i].note=n.value;save(w)})});
+  $$('.del').forEach(function(b){b.addEventListener('click',function(){var w=load();w.splice(b.dataset.i,1);save(w);renderList()})});
+}
+$('#wAdd').addEventListener('click',function(){
+  var url=$('#wUrl').value.trim(),desc=$('#wDesc').value.trim();
+  if(!url&&!desc)return;
+  var w=load();w.unshift({url:url,desc:desc,price:$('#wPrice').value,status:'neu',note:''});save(w);
+  $('#wUrl').value='';$('#wDesc').value='';$('#wPrice').value='';
+  renderList();
+});
+renderList();
+})();
+</script>
+</body>
+</html>
