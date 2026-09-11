@@ -213,6 +213,8 @@ for (const s of SOURCES) {
 const fresh = [];
 for (const l of found) {
   if (PROJEKT.test(l.title || '')) continue;
+  if (NICHT_911.test(l.title || '') && !/911|912|964|targa/i.test(l.title || '')) continue; // zentrale Modell-Sperre (996/993/944 etc.)
+  if (/996|993|997|991|992/.test(l.title || '')) continue; // wassergekuehlt/zu modern: raus
   if (l.km >= 900000) continue; // km unbekannt/999999 = Projektverdacht, raus
   const k1 = norm(l.url).slice(-40), k2 = fuzzy(l);
   if (known.has(k1) || known.has(k2)) continue;
