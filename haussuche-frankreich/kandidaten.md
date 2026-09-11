@@ -8,17 +8,21 @@
 - Budget: renoviert bis 500.000 €, unrenoviert bis ca. 300.000 €. Immer prüfen!
 - NUR freistehend am Land (Alleinlage oder lockere Bebauung). Dorfhäuser, Ortskerne, Avenue-Lagen: raus. Zwei Ebenen bevorzugt, ebenerdig ok.
 - 16 Gemeinden: Beaumes-de-Venise, Aubignan, Vacqueyras, Lafare, La Roque-Alric, Suzette, Sarrians, Gigondas, Sablet, Séguret, Caromb, Le Barroux, Saint-Hippolyte-le-Graveyron, Loriol-du-Comtat, Bédoin, Crillon-le-Brave.
-- Adress-Check auf öffentliche Spuren (Airbnb, Gîte, Firma) bei jedem Kandidaten.
+- Adress-Check auf öffentliche Spuren bei jedem Kandidaten (Airbnb/Gîte, Firmenregister, Pages Jaunes). Kontaktweg ist Aufnahme-Kriterium. Personennamen stehen NIE in dieser Datei (öffentliches Repo), nur privat per Mail.
 - Jede Mail: komplette Liste, NEU-Markierung, Verkauftes raus mit Vermerk.
 - Kontaktaufnahme nur nach Go von Patrick, keine automatisierte Personensuche.
 
 ## HEISS: Verhandlung läuft
 
-**P1: 47 Rue Coste Froide, Bédoin.** ACHTUNG: Dorfhaus, widerspricht der neuen Landlage-Regel, läuft aber als aktive Verhandlung weiter bis Patrick anders entscheidet.  126 m² (DPE E, 07.09.), Bj. 1900, mehrere Ebenen, 4 Schlafzimmer, 2,5 Bäder, Pool 8x4 an der Dorfmauer, Dachterrasse mit Ventoux-Blick, Garage, 60 Jahre alter Olivenbaum. Dorfhaus unter der Kirche, komplett als Airbnb eingerichtet (★4,97, 37 Bewertungen). Eigentümer: Claudius Furtwängler (deutsch), verkauft in Kürze, LinkedIn-Kontakt hergestellt, Preisfrage gestellt. Fairer Bereich geschätzt 320.000 bis 400.000 €, als Airbnb-Renditeobjekt könnte er mehr wollen. Airbnb: airbnb.co.uk/rooms/751470513803605588
+**P1: 47 Rue Coste Froide, Bédoin.** ACHTUNG: Dorfhaus, widerspricht der neuen Landlage-Regel, läuft aber als aktive Verhandlung weiter bis Patrick anders entscheidet.  126 m² (DPE E, 07.09.), Bj. 1900, mehrere Ebenen, 4 Schlafzimmer, 2,5 Bäder, Pool 8x4 an der Dorfmauer, Dachterrasse mit Ventoux-Blick, Garage, 60 Jahre alter Olivenbaum. Dorfhaus unter der Kirche, komplett als Airbnb eingerichtet (★4,97, 37 Bewertungen). Eigentümer bekannt (Details privat per Mail), verkauft in Kürze, Kontakt hergestellt, Preisfrage gestellt. Fairer Bereich geschätzt 320.000 bis 400.000 €, als Airbnb-Renditeobjekt könnte er mehr wollen. Airbnb: airbnb.co.uk/rooms/751470513803605588
 
-## Aktive Kandidaten
+## Aktive Kandidaten (alle Kriterien erfüllt, Kontaktdetails privat per Mail)
 
-(derzeit keine, Scan läuft)
+**N1: 597 Route de Lafare, Beaumes-de-Venise.** 130 m², DPE C (27.04.), Bj. 2009. Pool im Luftbild direkt am Haus bestätigt, freistehend an der Weinbergstraße Richtung Lafare. Kontaktspuren im Firmenregister vorhanden.
+
+**N2: 235 Chemin de Beaumont-du-Ventoux, Bédoin.** 107 m², DPE D (27.04.), Bj. 1989-2000, lockere Villenlage, Pool (vermutlich abgedeckt) auf Parzelle. Starke Kontaktspur über Firmenregister; Doppelsignal: Nachbarparzelle Nr. 268 (170 m², DPE B, 11.03.) desselben Umfelds ebenfalls mit frischem Ausweis.
+
+**N3: 419 Ancien Chemin de Carpentras, Caromb.** 163 m², DPE C (15.04.), Pool am Gebäude-Ensemble sichtbar, Straßenweiler am Ortsrand. Registerhinweis auf Wegzug früherer Bewohner (Verkaufsmotiv).
 
 ## Beobachten
 
