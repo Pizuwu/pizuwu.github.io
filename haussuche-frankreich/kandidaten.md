@@ -16,7 +16,7 @@
 | Nr | Adresse | DPE | Fläche | Baujahr | Notiz |
 |----|---------|-----|--------|---------|-------|
 | P11 | 85 Chemin de la Bonne Font, Le Barroux | B | 130 m² | 2008 | Freistehende Villa, Pool klar sichtbar. Top-Kandidat. |
-| P1 | 47 Rue Coste Froide, Bédoin | E | 126 m² | 1900 | Dorfhaus am Ortsrand mit Pool direkt am Haus. Nicht freistehend. |
+| P1 | 47 Rue Coste Froide, Bédoin | E | 126 m² | 1900 | HEISS: identifiziert als Airbnb-Ferienhaus von Claudius Furtwängler (4 SZ, Pool 8x4, Garage, Dachterrasse), Verkauf von ihm angekündigt, LinkedIn-Kontakt läuft, Antwort von Patrick gesendet. Airbnb: airbnb.co.uk/rooms/751470513803605588 |
 | P13 | 484e Route Chante Gu, Sarrians | B | 173 m² | 1948-74 | Gehöft in den Weinbergen, Pool sichtbar. Größe grenzwertig. |
 
 ## Beobachten (Größe passt, Pool-Zuordnung im Luftbild unklar)
