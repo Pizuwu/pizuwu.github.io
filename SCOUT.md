@@ -2,6 +2,8 @@
 
 Kanonische Anleitung für den stündlichen Alert-Lauf. Empfänger: patrickgrosspoetzl@gmail.com.
 
+**WICHTIG: Scoring, Mail-Schwellen (Mail nur ab Score ≥7 bzw. Sonderregeln!), Funnel-Pflege und Betrugs-Heuristik stehen in REGELN.md und haben Vorrang vor allem, was hier oder im Trigger-Prompt steht. Preisfilter jetzt bis 33.000 € (31.5-33k = Verhandlungsziel). Zulassungsland ist Deutschland (keine NoVA, NL-Arbitrage spielbar). Die Routine ist Backstop- und Analyse-Layer; Erstalarm machen Patricks native Portal-Suchagenten.**
+
 ## Suchprofil
 - Porsche 911, Generation 996 (EZ 1997-2005), alle Karosserien (Coupé/Targa/Cabrio), Getriebe egal
 - Preis: bis 30.000 € hart; 30.000-31.500 € nur erwähnen wenn verhandelbar wirkend
