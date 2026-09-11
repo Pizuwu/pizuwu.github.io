@@ -22,6 +22,10 @@
 
 **N2: 235 Chemin de Beaumont-du-Ventoux, Bédoin.** 107 m², DPE D (27.04.), Bj. 1989-2000, lockere Villenlage, Pool (vermutlich abgedeckt) auf Parzelle. Starke Kontaktspur über Firmenregister; Doppelsignal: Nachbarparzelle Nr. 268 (170 m², DPE B, 11.03.) desselben Umfelds ebenfalls mit frischem Ausweis.
 
+**N4: 192 Allée Saint-Roch, Beaumes-de-Venise.** 131 m², DPE C (13.02.), Bj. 1977, Pool bestätigt, Ortsrand an den Weinbergen. Nachbar im Register auffindbar. In Maison Match als a1.
+
+**N5: 515 Chemin des Vergers aux Baux, Bédoin.** 124 m², DPE C (09.02.), Bj. 1997, grüne Villenlage, Pool sehr wahrscheinlich. In Maison Match als a2.
+
 **N3: 419 Ancien Chemin de Carpentras, Caromb.** 163 m², DPE C (15.04.), Pool am Gebäude-Ensemble sichtbar, Straßenweiler am Ortsrand. Registerhinweis auf Wegzug früherer Bewohner (Verkaufsmotiv).
 
 ## Beobachten
@@ -38,6 +42,9 @@
 Keine bestätigten privaten Inserate mit Pool. Tägliche Prüfung über Suchmaschinen-Index.
 
 ## Aussortiert / Historie
+
+- Scan Jan-Apr (11.09.): kein Pool auf Parzelle: 365 Chemin de Crillon Caromb, 290 Chemin Saint Roch Sablet, 123 chemin de la saugie Sablet (trotz Doppel-DPE), 80 Chemin du Ploutas Caromb (Reihenlage); Ortslage: diverse Avenue/Impasse/Lotissement-Adressen; Patrick-Neins: 597 Route de Lafare und 419 Ancien Chemin (Straßennähe), 216 Route de la Tapiole (zu groß)
+- Gelernt aus Swipes: Straßennähe = Ausschluss, Zielgröße 100 bis 130 m²
 
 - Ortslage (neue Regel 11.09.): P2 Loriol 100 Av. Général Eydoux (160 m², D)
 - Keine Kontaktmöglichkeit (Patrick, 11.09.): P11 Le Barroux 85 Chemin de la Bonne Font (130 m², B, Pool). Routine meldet, falls es inseriert wird.
