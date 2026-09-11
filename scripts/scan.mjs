@@ -19,7 +19,7 @@ const KA_QUERIES = [
   'preis::45000/porsche-oldtimer', 'preis::45000/porsche-964', 'preis::45000/porsche-912',
   'preis::45000/porshe', 'preis::45000/porche', 'preis::45000/carera', 'preis::45000/porsche-911-targa',
 ];
-const kaSlot = Math.floor(CYCLE / 6) % KA_QUERIES.length;
+const kaSlot = Math.floor(CYCLE / 12) % KA_QUERIES.length;
 
 const SOURCES = [
   { key: 'as24-de', everyN: 1, type: 'as24', base: 'https://www.autoscout24.de',
@@ -38,8 +38,8 @@ const SOURCES = [
     url: 'https://www.marktplaats.nl/q/porsche+targa/' },
   { key: '2dehands', everyN: 2, type: 'mp', base: 'https://www.2dehands.be',
     url: 'https://www.2dehands.be/q/porsche+targa/' },
-  // kleinanzeigen nur jeden 6. Zyklus (~stuendlich), sonst IP-Sperre; Query rotiert (inkl. Tippfehler)
-  { key: 'kleinanzeigen', everyN: 6, type: 'ka', base: 'https://www.kleinanzeigen.de',
+  // kleinanzeigen nur jeden 12. Zyklus (~stuendlich bei 5-Min-Takt), sonst IP-Sperre; Query rotiert
+  { key: 'kleinanzeigen', everyN: 12, type: 'ka', base: 'https://www.kleinanzeigen.de',
     url: 'https://www.kleinanzeigen.de/s-autos/' + KA_QUERIES[kaSlot] + '/k0c216' },
 ];
 const NICHT_911 = /cayenne|macan|panamera|boxster|cayman|taycan|914|924|944|928|968|996|997|991|992|993|carrera gt|junior|traktor|diesel/i;
