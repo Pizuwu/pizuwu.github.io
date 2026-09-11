@@ -1,35 +1,39 @@
-# Master-Liste Kandidaten (Stand 11.09.2026)
+# Master-Liste Kandidaten (Stand 11.09.2026, nach Luftbild-Check)
 
-Pflichtkriterien: NUR Privatverkauf (keine Makler), freistehend, Pool bzw. Grundstück, renoviert bis 500.000 €, unrenoviert bis ca. 300.000 €, ab ca. 100 m², zwei Stockwerke bevorzugt.
-Jeder Tagesreport enthält immer die komplette Liste, neue Einträge markiert mit NEU, Verkauftes wird entfernt (Vermerk unter Historie).
+## Fixe Kriterien (von Patrick bestätigt)
 
-## Pre-Market (frischer Energieausweis, noch kein Inserat = direkt vom Eigentümer, kein Makler)
+- NUR Privatverkauf. Makler nur als markierte Ausnahme bei perfekten Treffern am Mailende.
+- Pool IMMER Pflicht und muss auf dem Luftbild sichtbar sein, sonst keine Aufnahme.
+- Größe ca. 100 bis 170 m² (3 Personen plus evtl. ein Kind), über ca. 180 m² raus, Schnitt zählt.
+- Zwei Stockwerke bevorzugt, ebenerdig ok. Freistehend bevorzugt.
+- Budget: renoviert bis 500.000 €, unrenoviert bis ca. 300.000 €.
+- Gemeinden: Beaumes-de-Venise, Aubignan, Vacqueyras, Lafare, La Roque-Alric, Suzette, Sarrians, Gigondas, Sablet, Séguret, Caromb, Le Barroux, Saint-Hippolyte-le-Graveyron, Loriol-du-Comtat, Bédoin, Crillon-le-Brave.
+- Jede Mail: immer komplette Liste, Neues mit NEU, Verkauftes raus mit Vermerk.
+- Kontaktaufnahme nur nach Go von Patrick, keine automatisierte Personensuche.
 
-| Nr | Adresse | DPE | Fläche | Baujahr | Ausweis vom |
-|----|---------|-----|--------|---------|-------------|
-| P1 | 47 Rue Coste Froide, Bédoin | E | 126 m² | 1900 | 07.09. |
-| P2 | 100 Av. Général Eydoux, Loriol-du-Comtat | D | 160 m² | vor 1948 | 04.09. |
-| P3 | 296 Ancien Chemin de Carpentras, Caromb | E | 172 m² | vor 1948 | 31.08. |
-| P4 | 429 Chemin de Bouquet, Beaumes-de-Venise (DPE 2x erstellt) | E | 112 m² | vor 1948 | 31.08. |
-| P5 | 66 Impasse du Pasquier, Beaumes-de-Venise | D | 194 m² | vor 1948 | 26.08. |
-| P6 | 216 Route de la Tapiole, Sarrians | D | 134 m² | 1900 | 14.08. |
-| P7 | Chemin de Bédoin à Caromb, Crillon-le-Brave | E | 207 m² | 1900 | 12.08. |
-| P8 | 1013 Av. Majoral Jouve, Aubignan | E | 216 m² | 1966 | 27.07. |
-| P9 | 11 Chemin du Pasquier, Beaumes-de-Venise | F | 184 m² + Nebengebäude | vor 1948 | 07.07. |
-| P10 | Chemin de la Ferraille, Bédoin (Haus + Gîte) | B | 108 + 71 m² | saniert | 03.09. |
-| P11 | 85 Chemin de la Bonne Font, Le Barroux | B | 130 m² | 2008 | 04.09. |
-| P12 | Chemin Limite des Côtes, St-Hippolyte-le-Graveyron | C | 179 m² | 1970 | 12.08. |
-| P13 | 484e Route Chante Gu, Sarrians | B | 173 m² | 1948-74 | 10.08. |
-| P14 | 391 Chemin des Empaulets, Aubignan | B | 240 m² | 2001-05 | 07.08. |
-| P15 | 249 Rue de Suza, Suzette | C | 171 m² | 2001-05 | 24.07. |
+## Aktive Kandidaten (Pool im Luftbild bestätigt, Größe passt)
+
+| Nr | Adresse | DPE | Fläche | Baujahr | Notiz |
+|----|---------|-----|--------|---------|-------|
+| P11 | 85 Chemin de la Bonne Font, Le Barroux | B | 130 m² | 2008 | Freistehende Villa, Pool klar sichtbar. Top-Kandidat. |
+| P1 | 47 Rue Coste Froide, Bédoin | E | 126 m² | 1900 | Dorfhaus am Ortsrand mit Pool direkt am Haus. Nicht freistehend. |
+| P13 | 484e Route Chante Gu, Sarrians | B | 173 m² | 1948-74 | Gehöft in den Weinbergen, Pool sichtbar. Größe grenzwertig. |
+
+## Beobachten (Größe passt, Pool-Zuordnung im Luftbild unklar)
+
+| Nr | Adresse | DPE | Fläche | Notiz |
+|----|---------|-----|--------|-------|
+| P2 | 100 Av. Général Eydoux, Loriol-du-Comtat | D | 160 m² | Pools in Nachbarschaft, Parzellen-Zuordnung unklar, bei Interesse Kataster-Check |
+| P6 | 216 Route de la Tapiole, Sarrians | D | 134 m² | Pool am Gebäude-Ensemble sichtbar, Zuordnung unklar |
 
 ## Private Inserate (Leboncoin/PAP/Entreparticuliers)
 
-Noch keine bestätigten privaten Inserate mit Pool in den Gemeinden gefunden. Die Portale blockieren automatische Abrufe; tägliche Prüfung läuft über Suchmaschinen-Index. Patricks Handy-Links (Filter "nur privat") stehen im Tagesreport.
+Aktuell keine bestätigten privaten Inserate mit Pool. Tägliche Prüfung über Suchmaschinen-Index (Portale blockieren Direktabruf).
 
-## Aussortiert / Historie
+## Aussortiert / Historie (11.09.)
 
-- 220 chemin de Font Redonne, Beaumes-de-Venise: bereits verkauft (11.09.)
-- Alle iad- und Capifrance-Objekte vom 11.09. (8 Stück, Sarrians/Loriol/Beaumes/Aubignan): Makler, entfernt auf Patricks Ansage
-- Sarrians r2043364, r2045740, Beaumes r1969535, Loriol r2080437: kein Pool
-- Bédoin 692.000/879.000/1.360.000 €: über Budget und Makler
+- Kein Pool sichtbar: P4 (429 Chemin de Bouquet, Beaumes, 112 m², Alleinlage in Weinbergen, DPE 2x erstellt. ACHTUNG: fällt NUR wegen Pool raus, riesiges Grundstück, sonst Traumprofil), P10 (Chemin de la Ferraille, Bédoin, 108 m² + Gîte), P15 (249 Rue de Suza, Suzette, 171 m²)
+- Zu groß (über ca. 180 m² bzw. Patricks Ansage "zu viel zum Putzen"): P3 (172), P5 (194), P7 (207), P8 (216), P9 (184), P12 (179), P14 (240)
+- Makler entfernt: 8 iad/Capifrance-Objekte
+- Kein Pool (Inserate): Sarrians r2043364, r2045740, Beaumes r1969535, Loriol r2080437
+- Bereits verkauft: 220 chemin de Font Redonne, Beaumes-de-Venise
