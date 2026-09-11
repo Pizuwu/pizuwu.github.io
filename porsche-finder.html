@@ -60,21 +60,21 @@ td a{color:var(--accent2);text-decoration:none;word-break:break-all}
 <div class="card">
   <h2>1. Suche konfigurieren</h2>
   <div class="grid" style="margin-bottom:16px">
-    <div><label>Preis von (€)</label><input type="number" id="pmin" placeholder="z.B. 60000"></div>
-    <div><label>Preis bis (€)</label><input type="number" id="pmax" placeholder="z.B. 140000"></div>
-    <div><label>EZ von</label><input type="number" id="ymin" placeholder="z.B. 2014"></div>
-    <div><label>EZ bis</label><input type="number" id="ymax" placeholder="z.B. 2021"></div>
-    <div><label>km max</label><input type="number" id="kmmax" placeholder="z.B. 80000"></div>
+    <div><label>Preis von (€)</label><input type="number" id="pmin" placeholder="z.B. 15000"></div>
+    <div><label>Preis bis (€)</label><input type="number" id="pmax" value="30000"></div>
+    <div><label>EZ von</label><input type="number" id="ymin" placeholder="z.B. 1998"></div>
+    <div><label>EZ bis</label><input type="number" id="ymax" placeholder="z.B. 2005"></div>
+    <div><label>km max</label><input type="number" id="kmmax" placeholder="leer = egal"></div>
   </div>
   <div style="margin-bottom:14px">
     <label>Karosserie / Generation</label>
     <div class="chips" id="variantChips">
-      <div class="chip gold on" data-v="targa">Targa</div>
-      <div class="chip" data-v="alle">Alle 911</div>
+      <div class="chip gold" data-v="targa">Targa</div>
+      <div class="chip on" data-v="alle">Alle 911</div>
       <div class="chip" data-g="992">992</div>
       <div class="chip" data-g="991">991</div>
       <div class="chip" data-g="997">997</div>
-      <div class="chip" data-g="996">996</div>
+      <div class="chip on" data-g="996">996</div>
       <div class="chip" data-g="993">993</div>
       <div class="chip" data-g="964">964</div>
     </div>

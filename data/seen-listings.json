@@ -1,0 +1,76 @@
+{
+  "profile": {
+    "model": "Porsche 911 (996), alle Karosserien, Getriebe egal",
+    "max_price_eur": 30000,
+    "countries": ["DE", "AT", "NL", "BE", "FR", "IT", "LU", "DK", "PL", "CZ"],
+    "must_have": ["IMS-Lager ersetzt oder geprüft", "großer Service / Verschleißteile frisch"],
+    "recipient": "patrickgrosspoetzl@gmail.com"
+  },
+  "listings": [
+    {
+      "title": "Porsche 996 Carrera Coupé, Schwarz, Sportauspuff, Klima",
+      "price_eur": 24800,
+      "km": 199900,
+      "ez": "06/2002",
+      "location": "47800 Krefeld",
+      "source": "mobile.de via 12gebrauchtwagen",
+      "first_seen": "2026-09-11"
+    },
+    {
+      "title": "Porsche 996 Carrera Cabriolet",
+      "price_eur": 24900,
+      "km": 195000,
+      "ez": "05/1998",
+      "location": "81827 Pullach",
+      "source": "mobile.de via 12gebrauchtwagen",
+      "first_seen": "2026-09-11"
+    },
+    {
+      "title": "Porsche 996 Carrera Cabriolet Schalter",
+      "price_eur": 26850,
+      "km": 136500,
+      "ez": "04/2001",
+      "location": "63456 Hanau",
+      "source": "mobile.de via 12gebrauchtwagen",
+      "first_seen": "2026-09-11"
+    },
+    {
+      "title": "Porsche 996 Coupé (Inzahlungnahme-Angebot Turbo/GTS/997)",
+      "price_eur": 28222,
+      "km": 139999,
+      "ez": "01/2001",
+      "location": "10315 Berlin",
+      "source": "autoscout24.de via 12gebrauchtwagen",
+      "first_seen": "2026-09-11"
+    },
+    {
+      "title": "Porsche 996 911 Cabrio Facelift 2003 schwarz/schwarz",
+      "price_eur": 28500,
+      "km": 182500,
+      "ez": "07/2003",
+      "location": "94469 Deggendorf",
+      "source": "autoscout24.de via 12gebrauchtwagen",
+      "first_seen": "2026-09-11"
+    },
+    {
+      "title": "Porsche 996 Carrera Cabriolet BRD II. Hand",
+      "price_eur": 30990,
+      "km": 162000,
+      "ez": "04/2003",
+      "location": "61250 Usingen",
+      "source": "mobile.de via 12gebrauchtwagen",
+      "url": "https://www.12gebrauchtwagen.de/c/partner?offer_id=327899120",
+      "first_seen": "2026-09-11"
+    },
+    {
+      "title": "Porsche 996 Carrera 4 Coupé, Motor revidiert, TÜV neu",
+      "price_eur": null,
+      "km": 197500,
+      "ez": "09/2000",
+      "location": "Trier",
+      "source": "kleinanzeigen.de",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-carrera-4-coup-carrera/3048933752-216-5449",
+      "first_seen": "2026-09-11"
+    }
+  ]
+}
