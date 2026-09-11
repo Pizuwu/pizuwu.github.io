@@ -23,7 +23,7 @@ Sofort-Mail NUR bei: Score ≥7, ODER ehrlich wirkender Klassiker ≤32k (Glück
 Mail-Aufbau für 60-Sekunden-Reaktion, Reihenfolge fix:
 1. Offene Funnel-Aktionen (wo ist Nachfassen fällig)
 2. tel:-Link falls Nummer im Inserat, sonst Kontakt-Deeplink, plus Inserats-Link
-3. Kopierfertiges Anschreiben in Landessprache des Portals + deutsche Version, immer mit den 3 Prüffragen: (a) IMS-Lager ersetzt bzw. beim Kupplungstausch mitgemacht, steht das auf einer Rechnung? (b) Alle Rechnungen einsehbar? (c) Verkaufsgrund + Besichtigung binnen 7 Tagen möglich?
+3. Kopierfertiges Anschreiben in Landessprache des Portals + deutsche Version, immer mit den Prüffragen: (a) Rost: Zustand Schweller, Wagenheberaufnahmen, Batteriekasten, Fotos der Unterseite? (b) Matching Numbers, Historie, Wertgutachten vorhanden? (c) Bei US-Import: Title, Einfuhrbelege, Meilen oder km? (d) Verkaufsgrund + Besichtigung binnen 7 Tagen möglich?
 4. Empfehlungsstufe: SOFORT ANRUFEN / ANSCHREIBEN / BEOBACHTEN / FINGER WEG
 5. Ein-Zeilen-Preisurteil, effektiver Gesamtpreis, max 3 Red Flags
 
@@ -34,4 +34,4 @@ Felder: url, titel, status (neu/angeschrieben/geantwortet/besichtigung/verworfen
 Jedes Portal in eigenem try/catch. Ausfall loggen, Lauf fortsetzen. 2 Fails in Folge → stummschalten, nur im Wochen-Digest melden, sonntags re-testen. 0 Treffer bei zuvor liefernder Quelle = "Quelle möglicherweise defekt", nicht "leerer Markt". Kleinanzeigen: MAX 1 Abruf pro Lauf. NIEMALS Suchmaschinen-Snippets als Quelle.
 
 ## Entscheidungspunkt 31.10.2026
-Wenn bis dahin kein 8/10-Auto unter 30k gekauft oder mindestens besichtigt: Budget auf 33-35k anheben und das Winterfenster Nov-Feb spielen (Saisonabschlag 5-15%, Auswahl an IMS-belegten Autos vervielfacht sich). Nicht mit demselben Filter in den Frühjahrsmarkt 2027 laufen.
+Wenn bis dahin kein überzeugender Klassiker unter 32k gekauft oder mindestens besichtigt: gezielt fürs Winterfenster Nov-Feb sparen (Ziel 38-45k) und dort mit Saisonabschlag 5-15% auf die Watchlist-Autos gehen. Nicht mit demselben Filter in den Frühjahrsmarkt 2027 laufen, dann ziehen die Preise wieder an.
