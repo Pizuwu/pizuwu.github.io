@@ -34,6 +34,12 @@ const SOURCES = [
     url: 'https://www.willhaben.at/iad/gebrauchtwagen/auto/gebrauchtwagenboerse?CAR_MODEL%2FMAKE=Porsche&PRICE_TO=45000&YEAR_MODEL_TO=1994' },
   { key: '12gw', everyN: 1, type: 'gw', base: 'https://www.12gebrauchtwagen.de',
     url: 'https://www.12gebrauchtwagen.de/auto/porsche/911' },
+  { key: 'ct-g-modell', everyN: 2, type: 'ct', base: 'https://www.classic-trader.com',
+    url: 'https://www.classic-trader.com/de/automobile/suche/porsche/911/g-modell?sort=price_asc' },
+  { key: 'ct-urmodell', everyN: 2, type: 'ct', base: 'https://www.classic-trader.com',
+    url: 'https://www.classic-trader.com/de/automobile/suche/porsche/911/urmodell?sort=price_asc' },
+  { key: 'ct-912', everyN: 3, type: 'ct', base: 'https://www.classic-trader.com',
+    url: 'https://www.classic-trader.com/de/automobile/suche/porsche/912?sort=price_asc' },
   { key: 'marktplaats', everyN: 2, type: 'mp', base: 'https://www.marktplaats.nl',
     url: 'https://www.marktplaats.nl/q/porsche+targa/' },
   { key: '2dehands', everyN: 2, type: 'mp', base: 'https://www.2dehands.be',
@@ -132,6 +138,26 @@ function parseKa(html) {
   }
   return out.filter(l => IST_911.test(l.title) && !NICHT_911.test(l.title) && yearOk(l.ez));
 }
+function parseCt(html) {
+  // classic-trader: ld+json SearchResultsPage mit ItemList von Car-Objekten
+  const out = [];
+  for (const m of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+    let j; try { j = JSON.parse(m[1]); } catch { continue; }
+    if (j['@type'] !== 'SearchResultsPage') continue;
+    for (const li of (j.mainEntity?.[0]?.itemListElement || [])) {
+      const c = li.item; if (!c || c['@type'] !== 'Car') continue;
+      const yr = parseInt((c.name || '').slice(0, 4), 10) || c.vehicleModelDate || null;
+      out.push({
+        title: (c.name || '').replace(/^\d{4}\s*\|\s*/, '') + (yr ? ' (' + yr + ')' : ''),
+        price_eur: Math.round(parseFloat(c.offers?.price || '0')),
+        km: Math.round(c.mileageFromOdometer?.value || 0) || null,
+        ez: String(yr || ''), location: c.offers?.seller?.name || '', country: '',
+        seller: 'Haendler/classic-trader', url: c.url || '', src: 'classic-trader',
+      });
+    }
+  }
+  return out.filter(l => l.url && l.price_eur >= 8000 && l.price_eur <= MAX_EUR && yearOk(l.ez));
+}
 function parseMp(html, base) {
   const j = nextData(html); if (!j) return [];
   const ls = j?.props?.pageProps?.searchRequestAndResponse?.listings || [];
@@ -174,6 +200,7 @@ for (const s of SOURCES) {
        : s.type === 'wh' ? parseWh(html)
        : s.type === 'gw' ? parseGw(html)
        : s.type === 'mp' ? parseMp(html, s.base)
+       : s.type === 'ct' ? parseCt(html)
        : parseKa(html);
   } catch (e) { health.push(s.key + ':PARSE'); continue; }
   if (ls === null) { health.push(s.key + ':RATELIMIT'); continue; }

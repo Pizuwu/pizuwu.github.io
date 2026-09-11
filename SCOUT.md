@@ -30,7 +30,12 @@ Alle Abrufe per `curl -sS -L --max-time 25` (WebFetch wird von den meisten geblo
 | marktplaats NL | `https://www.marktplaats.nl/l/auto-s/porsche/f/911/10898/` | HTML, "Bieden"-Angebote ohne Preis weglassen |
 | 2dehands BE | `https://www.2dehands.be/l/auto-s/q/porsche+996/` | wie marktplaats |
 
-**Geblockt (nicht erneut versuchen, nur als Suchlink in Mail):** mobile.de direkt (403, läuft über 12gebrauchtwagen), eBay (403), otomoto.pl (403), lacentrale.fr (403), autouncle (403), bilbasen.dk (202-Queue), gaspedaal.nl (403), elferspot (Timeout), pkw.de/luxauto (404-Pfade).
+| classic-trader | `https://www.classic-trader.com/de/automobile/suche/porsche/911/g-modell?sort=price_asc` (+`/urmodell`, `/912`) | ld+json `SearchResultsPage` → ItemList mit Car-Objekten (url, offers.price, mileage, Jahr). Günstigste zuerst dank sort=price_asc |
+
+## Gmail-Alert-Ingestion (Quellen, die Scraping blocken)
+Bei JEDEM Wake zusätzlich: Gmail durchsuchen (`search_threads`) nach neuen Alert-Mails von classicdriver.com, elferspot.com, mobile.de Suchagent, AutoScout24, willhaben, kleinanzeigen Suchauftrag sowie Antworten auf Patricks Gesuche (ferdineo/elfertreff/PFF). Inserats-Links extrahieren, tiefenprüfen (Beschreibung lesen, fahrbereit belegt), dann ins Deck. Die Alert-Mails danach als gelesen behandeln (Label oder Datum in data/mail-cursor.json merken). Damit sind auch alle Portale abgedeckt, die Bots blocken, deren eigene Alerts sind sogar schneller als jeder Scan.
+
+**Geblockt für Direkt-Scraping (auch per Chromium/Proxy nicht erreichbar, NICHT erneut versuchen; Abdeckung über Gmail-Alerts s.o.):** mobile.de direkt, eBay, otomoto.pl, lacentrale.fr, autouncle, bilbasen.dk, gaspedaal.nl, elferspot, classicdriver, zwischengas, ferdineo, elfertreff (403/Connection-Reset auch via Chromium; Egress-Relay kappt Browser-Tunnel).
 
 ## Eiserne Regel: Nur Verifiziertes in die Mail
 Jedes Inserat in der Mail MUSS im selben Lauf verifiziert sein:
