@@ -18,7 +18,7 @@
 
 ## Aktive Kandidaten
 
-**P11: 85 Chemin de la Bonne Font, Le Barroux.** 130 m², DPE B (04.09.), Bj. 2008, freistehende Villa, Pool klar sichtbar. Keine öffentliche Spur (kein Airbnb, keine Firma), also privates Haus. Weg: Mairie/SPF nach Go, Routine überwacht auf Inserat.
+(derzeit keine, Scan läuft)
 
 ## Beobachten
 
@@ -36,6 +36,7 @@ Keine bestätigten privaten Inserate mit Pool. Tägliche Prüfung über Suchmasc
 ## Aussortiert / Historie
 
 - Ortslage (neue Regel 11.09.): P2 Loriol 100 Av. Général Eydoux (160 m², D)
+- Keine Kontaktmöglichkeit (Patrick, 11.09.): P11 Le Barroux 85 Chemin de la Bonne Font (130 m², B, Pool). Routine meldet, falls es inseriert wird.
 
 - Zu groß: P3 Caromb 172, P5 Beaumes 194, P7 Crillon 207, P8 Aubignan 216, P9 Beaumes 184, P12 St-Hippolyte 179, P14 Aubignan 240
 - Kein Pool sichtbar: P10 Bédoin (108 + Gîte), P15 Suzette (171)
