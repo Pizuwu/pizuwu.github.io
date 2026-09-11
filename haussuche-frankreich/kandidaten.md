@@ -1,22 +1,9 @@
 # Master-Liste Kandidaten (Stand 11.09.2026)
 
-Pflichtkriterien: freistehend, Pool, Grundstück, renoviert bis 500.000 €, unrenoviert bis ca. 300.000 €, ab ca. 100 m².
-Diese Datei ist die laufende Master-Liste. Jeder Tagesreport enthält die komplette Liste, neue Einträge markiert mit NEU, verkaufte werden entfernt (Vermerk unter Historie).
+Pflichtkriterien: NUR Privatverkauf (keine Makler), freistehend, Pool bzw. Grundstück, renoviert bis 500.000 €, unrenoviert bis ca. 300.000 €, ab ca. 100 m², zwei Stockwerke bevorzugt.
+Jeder Tagesreport enthält immer die komplette Liste, neue Einträge markiert mit NEU, Verkauftes wird entfernt (Vermerk unter Historie).
 
-## Inserate (alle mit Pool)
-
-| Nr | Ort | Fläche | Grund | Preis | Link | Aufgenommen |
-|----|-----|--------|-------|-------|------|-------------|
-| I1 | Sarrians | 122 m² | 814 m² | 343.000 € | https://www.iadfrance.fr/annonce/maison-vente-5-pieces-sarrians-122m2/r2108698 | 11.09. |
-| I2 | Sarrians | 120 m² | eingezäunt | 349.000 € | https://www.iadfrance.fr/annonce/maison-vente-5-pieces-sarrians-120m2/r2083187 | 11.09. |
-| I3 | Sarrians | 110 m² | gepflegt | 418.000 € | https://www.iadfrance.fr/annonce/maison-vente-5-pieces-sarrians-110m2/r2036056 | 11.09. |
-| I4 | Sarrians (2 Wohneinheiten) | 149 m² | 2.560 m² | 425.000 € | https://www.iadfrance.fr/annonce/maison-vente-6-pieces-sarrians-149m2/r1859730 | 11.09. |
-| I5 | Sarrians | 200 m² | groß | 470.000 € | https://www.iadfrance.fr/annonce/maison-vente-8-pieces-sarrians-200m2/r2005266 | 11.09. |
-| I6 | Loriol-du-Comtat (ebenerdig) | 128 m² | mit Garage | 480.000 € | https://www.iadfrance.fr/annonce/maison-vente-5-pieces-loriol-du-comtat-128m2/r2091426 | 11.09. |
-| I7 | Beaumes-de-Venise (über Budget) | 136 m² | 2.600 m² | 520.000 € | https://www.iadfrance.fr/annonce/maison-vente-4-pieces-beaumes-de-venise-136m2/r2102000 | 11.09. |
-| I8 | Aubignan (über Budget) | 150 m² | 1.232 m² | 549.000 € | https://www.capifrance.fr/fr/immobilier/vente/maison/aubignan/maison-de-plain-pied-piscine-pool-house-et-jardin-paysage-aubignan-84/354043 | 11.09. |
-
-## Pre-Market (frischer Energieausweis, noch kein Inserat; Pool unbekannt, wird bei Go per Luftbild geprüft)
+## Pre-Market (frischer Energieausweis, noch kein Inserat = direkt vom Eigentümer, kein Makler)
 
 | Nr | Adresse | DPE | Fläche | Baujahr | Ausweis vom |
 |----|---------|-----|--------|---------|-------------|
@@ -36,11 +23,13 @@ Diese Datei ist die laufende Master-Liste. Jeder Tagesreport enthält die komple
 | P14 | 391 Chemin des Empaulets, Aubignan | B | 240 m² | 2001-05 | 07.08. |
 | P15 | 249 Rue de Suza, Suzette | C | 171 m² | 2001-05 | 24.07. |
 
+## Private Inserate (Leboncoin/PAP/Entreparticuliers)
+
+Noch keine bestätigten privaten Inserate mit Pool in den Gemeinden gefunden. Die Portale blockieren automatische Abrufe; tägliche Prüfung läuft über Suchmaschinen-Index. Patricks Handy-Links (Filter "nur privat") stehen im Tagesreport.
+
 ## Aussortiert / Historie
 
-- 220 chemin de Font Redonne, Beaumes-de-Venise: bereits verkauft (Info 11.09.)
-- Sarrians 129 m² 339.000 € (r2043364): kein Pool
-- Sarrians 129 m² 418.000 € (r2045740): kein Pool, nur Möglichkeit
-- Beaumes 176 m² 392.000 € (r1969535): kein Pool
-- Loriol 127 m² 296.000 € (r2080437): kein Pool, nur Möglichkeit
-- Bédoin iad 692.000 / 879.000 / 1.360.000 €: über Budget
+- 220 chemin de Font Redonne, Beaumes-de-Venise: bereits verkauft (11.09.)
+- Alle iad- und Capifrance-Objekte vom 11.09. (8 Stück, Sarrians/Loriol/Beaumes/Aubignan): Makler, entfernt auf Patricks Ansage
+- Sarrians r2043364, r2045740, Beaumes r1969535, Loriol r2080437: kein Pool
+- Bédoin 692.000/879.000/1.360.000 €: über Budget und Makler
