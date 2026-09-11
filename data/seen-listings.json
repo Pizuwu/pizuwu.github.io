@@ -1394,9 +1394,23 @@
    "src": "classic-trader",
    "url": "https://www.classic-trader.com/de/automobile/inserat/porsche/911/911-sc-3-0/1978/466068",
    "verdict": "alive",
-   "score": 5,
+   "score": 2,
    "first_seen": "2026-09-11",
-   "hinweis": "Betrugs-Signale + CH-Import-Kosten, Score gedeckelt"
+   "hinweis": "BETRUGSVERDACHT bestätigt: Anbieter-Serie, siehe Blacklist"
+  },
+  {
+   "title": "911 Targa (1977) Viperngrün, GB Auto CH",
+   "price_eur": 32801,
+   "km": 193766,
+   "ez": "1977",
+   "location": "Mugena CH (Anbieter)",
+   "country": "CH-Anbieter",
+   "src": "classic-trader",
+   "url": "https://www.classic-trader.com/de/automobile/inserat/porsche/911/911-sc-3-0/1977/466263",
+   "verdict": "alive",
+   "score": 2,
+   "first_seen": "2026-09-11",
+   "hinweis": "BETRUGSVERDACHT: gleiche Serie wie 466068"
   }
  ]
 }
