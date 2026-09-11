@@ -13,6 +13,7 @@ Porsche 996, EZ 1997-2005, Karosserie und Getriebe egal. Preisfilter bis **33.00
   - IMS belegt: +1.5
   - IMS unbekannt: neutral, aber 2.500 € Reserve in den Gesamtpreis rechnen und Anschreiben-Frage priorisieren
   - 996.1 bis MJ2000 (robustes Doppelreihenlager, ~1% Ausfall): +0.5
+  - **Klassik-Präferenz (Patrick, 11.09.): je früher desto besser, EZ 1997-2000 zusätzlich +0.5; der 996.2 ist ihm tendenziell zu modern.** Spiegel/Bügel-Facelift-Optik zählt: pre-Facelift bevorzugt.
   - 996.2 ohne IMS-Beleg: -0.5
   - "Kupplung/Simmerring neu" = High-Signal (Getriebe war draußen, EINE Rechnung klärt IMS): +0.5 + Pflichtfrage
 - Volle Historie mit Rechnungen +1.5, großer Service frisch +1, privat +0.5

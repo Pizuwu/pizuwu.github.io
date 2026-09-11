@@ -11,6 +11,15 @@ const REPO = path.dirname(path.dirname(new URL(import.meta.url).pathname));
 const CYCLE = parseInt(process.env.CYCLE || '0', 10);
 const MAX_EUR = 33000;
 
+// Tippfehler-Rotation fuer kleinanzeigen (exakte Suche, 1 Abruf pro Stunde):
+// jeder Stunden-Slot nimmt die naechste Query, Tippfehler-Inserate haben weniger Konkurrenz
+const KA_QUERIES = [
+  'preis::33000/porsche-996', 'preis::33000/porshe', 'preis::33000/porche',
+  'preis::33000/posche', 'preis::33000/carera', 'preis::33000/porsch',
+  'preis::33000/porsche-911-carrera', 'preis::33000/carrerra',
+];
+const kaSlot = Math.floor(CYCLE / 6) % KA_QUERIES.length;
+
 const SOURCES = [
   { key: 'as24-de', everyN: 1, type: 'as24', base: 'https://www.autoscout24.de',
     url: 'https://www.autoscout24.de/lst/porsche/911?atype=C&priceto=33000&fregfrom=1997&fregto=2005&cy=D&damaged_listing=exclude&sort=age&desc=1' },
@@ -22,10 +31,16 @@ const SOURCES = [
     url: 'https://www.willhaben.at/iad/gebrauchtwagen/auto/gebrauchtwagenboerse?CAR_MODEL%2FMAKE=Porsche&PRICE_TO=33000&YEAR_MODEL_FROM=1997&YEAR_MODEL_TO=2005' },
   { key: '12gw', everyN: 1, type: 'gw', base: 'https://www.12gebrauchtwagen.de',
     url: 'https://www.12gebrauchtwagen.de/auto/porsche/996' },
-  // kleinanzeigen nur jeden 6. Zyklus (~stuendlich), sonst IP-Sperre
+  { key: 'marktplaats', everyN: 2, type: 'mp', base: 'https://www.marktplaats.nl',
+    url: 'https://www.marktplaats.nl/q/porsche+996/' },
+  { key: '2dehands', everyN: 2, type: 'mp', base: 'https://www.2dehands.be',
+    url: 'https://www.2dehands.be/q/porsche+996/' },
+  // kleinanzeigen nur jeden 6. Zyklus (~stuendlich), sonst IP-Sperre; Query rotiert (inkl. Tippfehler)
   { key: 'kleinanzeigen', everyN: 6, type: 'ka', base: 'https://www.kleinanzeigen.de',
-    url: 'https://www.kleinanzeigen.de/s-autos/preis::33000/porsche-996/k0c216' },
+    url: 'https://www.kleinanzeigen.de/s-autos/' + KA_QUERIES[kaSlot] + '/k0c216' },
 ];
+const NICHT_911 = /cayenne|macan|panamera|boxster|cayman|taycan|924|944|928|968/i;
+const IST_911 = /996|911|porshe|porche|posche|porsch\b|carera|carrerra/i;
 
 function fetch(url) {
   try {
@@ -110,7 +125,24 @@ function parseKa(html) {
       location: loc ? loc[1].trim() : '', country: 'DE', seller: '',
       url: 'https://www.kleinanzeigen.de' + href[1], src: 'kleinanzeigen' });
   }
-  return out.filter(l => /996|911/i.test(l.title) && yearOk(l.ez));
+  return out.filter(l => IST_911.test(l.title) && !NICHT_911.test(l.title) && yearOk(l.ez));
+}
+function parseMp(html, base) {
+  const j = nextData(html); if (!j) return [];
+  const ls = j?.props?.pageProps?.searchRequestAndResponse?.listings || [];
+  return ls.map(l => {
+    const at = {}; (l.attributes || []).forEach(a => at[a.key] = a.value);
+    return {
+      title: l.title || '', price_eur: Math.round((l.priceInfo?.priceCents || 0) / 100),
+      km: parseInt(at.mileage || '', 10) || null, ez: String(at.constructionYear || ''),
+      location: l.location?.cityName || '', country: base.includes('2dehands') ? 'BE' : 'NL',
+      seller: l.sellerInformation?.sellerName || '',
+      url: l.vipUrl ? base + l.vipUrl : '', src: base.includes('2dehands') ? '2dehands' : 'marktplaats',
+      bieden: l.priceInfo?.priceType === 'MIN_BID',
+    };
+  }).filter(l => l.url && IST_911.test(l.title) && !NICHT_911.test(l.title)
+    && /\/v\/auto-s\//.test(l.url) // nur Fahrzeug-Kategorie, keine Teile
+    && l.price_eur >= 8000 && l.price_eur <= MAX_EUR && yearOk(l.ez));
 }
 
 // bekannte Inserate laden
@@ -136,6 +168,7 @@ for (const s of SOURCES) {
     ls = s.type === 'as24' ? parseAs24(html, s.base)
        : s.type === 'wh' ? parseWh(html)
        : s.type === 'gw' ? parseGw(html)
+       : s.type === 'mp' ? parseMp(html, s.base)
        : parseKa(html);
   } catch (e) { health.push(s.key + ':PARSE'); continue; }
   if (ls === null) { health.push(s.key + ':RATELIMIT'); continue; }
