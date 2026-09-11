@@ -131,7 +131,9 @@ function parseKa(html) {
     const loc = /aditem-main--top--left[^>]*>\s*([^<]+)/.exec(a);
     const p = price ? parseInt(price[1].replace(/\./g, ''), 10) : null;
     if (!p || p < 8000 || p > MAX_EUR) continue;
-    out.push({ title: title ? title[1].trim() : 'Porsche 911', price_eur: p,
+    // Titel notfalls aus dem URL-Slug ableiten, sonst greifen die Modell-Filter nicht
+    var slugTitle = href[1].replace(/^\/s-anzeige\//, '').split('/')[0].replace(/-/g, ' ');
+    out.push({ title: title ? title[1].trim() : slugTitle, price_eur: p,
       km: km ? parseInt(km[1].replace(/\./g, ''), 10) : null, ez: ez ? ez[1] : '',
       location: loc ? loc[1].trim() : '', country: 'DE', seller: '',
       url: 'https://www.kleinanzeigen.de' + href[1], src: 'kleinanzeigen' });
