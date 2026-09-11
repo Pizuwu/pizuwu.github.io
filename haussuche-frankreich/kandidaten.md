@@ -1,39 +1,44 @@
-# Master-Liste Kandidaten (Stand 11.09.2026, nach Luftbild-Check)
+# Master-Liste Kandidaten (Stand 11.09.2026, abends)
 
-## Fixe Kriterien (von Patrick bestätigt)
+## Fixe Kriterien
 
 - NUR Privatverkauf. Makler nur als markierte Ausnahme bei perfekten Treffern am Mailende.
-- Pool IMMER Pflicht und muss auf dem Luftbild sichtbar sein, sonst keine Aufnahme.
-- Größe ca. 100 bis 170 m² (3 Personen plus evtl. ein Kind), über ca. 180 m² raus, Schnitt zählt.
-- Zwei Stockwerke bevorzugt, ebenerdig ok. Freistehend bevorzugt.
-- Budget: renoviert bis 500.000 €, unrenoviert bis ca. 300.000 €.
-- Gemeinden: Beaumes-de-Venise, Aubignan, Vacqueyras, Lafare, La Roque-Alric, Suzette, Sarrians, Gigondas, Sablet, Séguret, Caromb, Le Barroux, Saint-Hippolyte-le-Graveyron, Loriol-du-Comtat, Bédoin, Crillon-le-Brave.
-- Jede Mail: immer komplette Liste, Neues mit NEU, Verkauftes raus mit Vermerk.
+- Pool Pflicht und im Luftbild sichtbar, sonst keine Aufnahme.
+- Größe ca. 100 bis 170 m² (3 Personen plus evtl. ein Kind), über ca. 180 m² raus.
+- Budget: renoviert bis 500.000 €, unrenoviert bis ca. 300.000 €. Immer prüfen!
+- Zwei Ebenen bevorzugt, ebenerdig ok. Freistehend bevorzugt.
+- 16 Gemeinden: Beaumes-de-Venise, Aubignan, Vacqueyras, Lafare, La Roque-Alric, Suzette, Sarrians, Gigondas, Sablet, Séguret, Caromb, Le Barroux, Saint-Hippolyte-le-Graveyron, Loriol-du-Comtat, Bédoin, Crillon-le-Brave.
+- Adress-Check auf öffentliche Spuren (Airbnb, Gîte, Firma) bei jedem Kandidaten.
+- Jede Mail: komplette Liste, NEU-Markierung, Verkauftes raus mit Vermerk.
 - Kontaktaufnahme nur nach Go von Patrick, keine automatisierte Personensuche.
 
-## Aktive Kandidaten (Pool im Luftbild bestätigt, Größe passt)
+## HEISS: Verhandlung läuft
 
-| Nr | Adresse | DPE | Fläche | Baujahr | Notiz |
-|----|---------|-----|--------|---------|-------|
-| P11 | 85 Chemin de la Bonne Font, Le Barroux | B | 130 m² | 2008 | Freistehende Villa, Pool klar sichtbar. Top-Kandidat. |
-| P1 | 47 Rue Coste Froide, Bédoin | E | 126 m² | 1900 | HEISS: identifiziert als Airbnb-Ferienhaus von Claudius Furtwängler (4 SZ, Pool 8x4, Garage, Dachterrasse), Verkauf von ihm angekündigt, LinkedIn-Kontakt läuft, Antwort von Patrick gesendet. Airbnb: airbnb.co.uk/rooms/751470513803605588 |
-| P13 | 484e Route Chante Gu, Sarrians | B | 173 m² | 1948-74 | Gehöft in den Weinbergen, Pool sichtbar. Größe grenzwertig. |
+**P1: 47 Rue Coste Froide, Bédoin.** 126 m² (DPE E, 07.09.), Bj. 1900, mehrere Ebenen, 4 Schlafzimmer, 2,5 Bäder, Pool 8x4 an der Dorfmauer, Dachterrasse mit Ventoux-Blick, Garage, 60 Jahre alter Olivenbaum. Dorfhaus unter der Kirche, komplett als Airbnb eingerichtet (★4,97, 37 Bewertungen). Eigentümer: Claudius Furtwängler (deutsch), verkauft in Kürze, LinkedIn-Kontakt hergestellt, Preisfrage gestellt. Fairer Bereich geschätzt 320.000 bis 400.000 €, als Airbnb-Renditeobjekt könnte er mehr wollen. Airbnb: airbnb.co.uk/rooms/751470513803605588
 
-## Beobachten (Größe passt, Pool-Zuordnung im Luftbild unklar)
+## Aktive Kandidaten
 
-| Nr | Adresse | DPE | Fläche | Notiz |
-|----|---------|-----|--------|-------|
-| P2 | 100 Av. Général Eydoux, Loriol-du-Comtat | D | 160 m² | Pools in Nachbarschaft, Parzellen-Zuordnung unklar, bei Interesse Kataster-Check |
-| P6 | 216 Route de la Tapiole, Sarrians | D | 134 m² | Pool am Gebäude-Ensemble sichtbar, Zuordnung unklar |
+**P11: 85 Chemin de la Bonne Font, Le Barroux.** 130 m², DPE B (04.09.), Bj. 2008, freistehende Villa, Pool klar sichtbar. Keine öffentliche Spur (kein Airbnb, keine Firma), also privates Haus. Weg: Mairie/SPF nach Go, Routine überwacht auf Inserat.
 
-## Private Inserate (Leboncoin/PAP/Entreparticuliers)
+## Beobachten
 
-Aktuell keine bestätigten privaten Inserate mit Pool. Tägliche Prüfung über Suchmaschinen-Index (Portale blockieren Direktabruf).
+- **P13: 484e Route Chante Gu, Sarrians.** 173 m², DPE B (10.08.). Identifiziert als Domaine de Chantegut (Weingut mit 2 Gîtes, Magnanerie 18. Jh.). Vermutlich ÜBER BUDGET falls Gesamtverkauf; nur relevant, falls ein einzelnes Gebäude verkauft wird. Größe grenzwertig. Kontakt möglich über Airbnb/Website des Weinguts.
+- **P2: 100 Av. Général Eydoux, Loriol-du-Comtat.** 160 m², DPE D (04.09.), vor 1948. Pool-Zuordnung im Luftbild unklar, bei Interesse Kataster-Check.
+- **P6: 216 Route de la Tapiole, Sarrians.** 134 m², DPE D (14.08.), Bj. 1900. Pool am Gebäude-Ensemble sichtbar, Zuordnung unklar.
 
-## Aussortiert / Historie (11.09.)
+## Sonderfall (fällt nur an der Pool-Regel)
 
-- Kein Pool sichtbar: P4 (429 Chemin de Bouquet, Beaumes, 112 m², Alleinlage in Weinbergen, DPE 2x erstellt. ACHTUNG: fällt NUR wegen Pool raus, riesiges Grundstück, sonst Traumprofil), P10 (Chemin de la Ferraille, Bédoin, 108 m² + Gîte), P15 (249 Rue de Suza, Suzette, 171 m²)
-- Zu groß (über ca. 180 m² bzw. Patricks Ansage "zu viel zum Putzen"): P3 (172), P5 (194), P7 (207), P8 (216), P9 (184), P12 (179), P14 (240)
-- Makler entfernt: 8 iad/Capifrance-Objekte
+- **P4: 429 Chemin de Bouquet, Beaumes-de-Venise.** 112 m², DPE E, zweimal erstellt (Juli und August, stärkstes Verkaufssignal). Alleinlage mitten in den Weinbergen, riesiges eingezäuntes Grundstück, Nebengebäude. Kein Pool sichtbar, Platz für Pool massig. Auf Patricks Ansage im Sonderfall-Status.
+
+## Private Inserate
+
+Keine bestätigten privaten Inserate mit Pool. Tägliche Prüfung über Suchmaschinen-Index.
+
+## Aussortiert / Historie
+
+- Zu groß: P3 Caromb 172, P5 Beaumes 194, P7 Crillon 207, P8 Aubignan 216, P9 Beaumes 184, P12 St-Hippolyte 179, P14 Aubignan 240
+- Kein Pool sichtbar: P10 Bédoin (108 + Gîte), P15 Suzette (171)
+- Makler entfernt: 8 iad/Capifrance-Objekte (11.09.)
 - Kein Pool (Inserate): Sarrians r2043364, r2045740, Beaumes r1969535, Loriol r2080437
 - Bereits verkauft: 220 chemin de Font Redonne, Beaumes-de-Venise
+- Abgesagt nach Besichtigung (zu groß): 425 chemin des Limites, Aubignan
