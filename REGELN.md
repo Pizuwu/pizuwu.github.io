@@ -17,8 +17,13 @@ Patrick will den klassischen luftgekühlten Look (Bild: G-Modell Targa weinrot, 
 - **Betrugs-Heuristik verschärft**: Klassiker sind Fake-Magnet. Preis >25% unter Markt (2.4S unter 60k, F-Targa unter 35k, SC-Targa unter 30k, 3.2 Carrera unter 35k) → Score-Deckel 3, erst Rückwärts-Bildersuche und Anruf. "911 Junior" (Kinderauto), Porsche-Diesel-Traktoren und Replikas rausfiltern.
 - **Gesamtpreis**: Kaufpreis + Überführung + bei US-Import ggf. Umrüstung/TÜV-Abnahme (500-1.500 €) + 2-3k Puffer erste Wartungsrunde. Marktreferenzen: 911 SC Targa fahrbereit 35-45k, Carrera 3.2 Targa 40-55k, F-Modell Targa 45k+, 964 45k+, 912 30-45k.
 
+## GELERNT AM 11.09. (aus Patricks Feedback, bindend)
+1. **Billig ist bei Klassikern das Warnsignal, nicht der Treffer.** Fahrbereite klassische Targa beginnen bei ~38k. Alles deutlich darunter ist Karosserie, Projekt oder Köder (bewiesen: 2.2T Targa 28.9k = Motor dreht nur von Hand; 1968er 24.9k = komplett restaurierungsbedürftig; 912 21k = nackte Karosserie ohne Motor).
+2. **NICHTS erreicht Patrick ohne Tiefenprüfung**: Beschreibung der Detailseite lesen, fahrbereit muss belegt sein (TÜV/Pickerl, "fahrbereit", H-Zulassung, aktuelle Nutzung). Titel-Scan reicht NIE.
+3. Patrick will minimalen Aufwand: Er swipet im Targa Deck (Artifact https://claude.ai/code/artifact/a160aa7d-4852-48d3-a09b-8dd8aa7de884, DB-Collections `deck` und `swipes`). Bei JEDEM Wake: `swipes` mit gelesen=false lesen, daraus lernen (Nein-Gründe = neue Filterregeln hier eintragen!), gelesen=true setzen, Ja-Autos in funnel.json + Anschreiben-Mail, neue tiefengeprüfte Autos per write_db in `deck` nachlegen (rank fortlaufend). Wake-Subscription aufs Artifact ist in dieser Umgebung nicht verfügbar, also Swipes aktiv pollen bei jedem Lauf.
+
 ## Mail-Politik (gegen Alert-Fatigue)
-Sofort-Mail NUR bei: Score ≥7, ODER ehrlich wirkender Klassiker ≤32k (Glückstreffer-Zone), ODER Preis-Drop eines Watchlist-Autos um ≥2k bzw. unter 35k. Betreff: `[ALERT 8/10] 911 SC Targa 31.5k 1981 privat DE` (ALERT-Prefix ab 8). Score 5-6: nur sammeln für Sonntags-Digest, KEINE Mail. Nichts Neues über der Schwelle und keine fällige Funnel-Aktion → **komplett still**.
+Sofort-Mail NUR bei: tiefengeprüftem, belegt fahrbereitem Klassiker der zum Look-Profil passt (dann zugleich ins Deck), ODER Preis-Drop eines verifizierten Watchlist-Autos um ≥2k bzw. unter 38k. Mail enthält immer den Deck-Link. Betreff: `[ALERT 8/10] 911 SC Targa 31.5k 1981 privat DE` (ALERT-Prefix ab 8). Score 5-6: nur sammeln für Sonntags-Digest, KEINE Mail. Nichts Neues über der Schwelle und keine fällige Funnel-Aktion → **komplett still**.
 
 Mail-Aufbau für 60-Sekunden-Reaktion, Reihenfolge fix:
 1. Offene Funnel-Aktionen (wo ist Nachfassen fällig)
