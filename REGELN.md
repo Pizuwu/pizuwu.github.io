@@ -17,6 +17,9 @@ Patrick will den klassischen luftgekühlten Look (Bild: G-Modell Targa weinrot, 
 - **Betrugs-Heuristik verschärft**: Klassiker sind Fake-Magnet. Preis >25% unter Markt (2.4S unter 60k, F-Targa unter 35k, SC-Targa unter 30k, 3.2 Carrera unter 35k) → Score-Deckel 3, erst Rückwärts-Bildersuche und Anruf. "911 Junior" (Kinderauto), Porsche-Diesel-Traktoren und Replikas rausfiltern.
 - **Gesamtpreis**: Kaufpreis + Überführung + bei US-Import ggf. Umrüstung/TÜV-Abnahme (500-1.500 €) + 2-3k Puffer erste Wartungsrunde. Marktreferenzen: 911 SC Targa fahrbereit 35-45k, Carrera 3.2 Targa 40-55k, F-Modell Targa 45k+, 964 45k+, 912 30-45k.
 
+## FAKTEN-VERIFIKATIONSPROTOKOLL (bindend, nach zwei Vorfällen)
+Vorfall 1: toter Inserats-Link aus Suchmaschinen-Snippet. Vorfall 2: nicht existierende Domain ferdineo.com aus einer Websuche-Zusammenfassung als Anlaufstelle empfohlen. Regel: **JEDE URL, Domain oder Tatsachenbehauptung, die Patrick erreicht (Mail, Chat, Deck), muss im selben Lauf direkt verifiziert sein**: Domain per DNS/Abruf, Links per curl (Status <400; kleinanzeigen-Ratelimit-403 gilt als ok wenn das Inserat aus frischem Live-Abruf stammt), Fakten gegen die Originalseite. WebSearch-/KI-Zusammenfassungen sind NIE eine Quelle, nur ein Hinweis zum Selbstprüfen. Vor JEDER Mail: alle enthaltenen URLs durchtesten.
+
 ## GELERNT AM 11.09. (aus Patricks Feedback, bindend)
 1. **Billig ist bei Klassikern das Warnsignal, nicht der Treffer.** Fahrbereite klassische Targa beginnen bei ~38k. Alles deutlich darunter ist Karosserie, Projekt oder Köder (bewiesen: 2.2T Targa 28.9k = Motor dreht nur von Hand; 1968er 24.9k = komplett restaurierungsbedürftig; 912 21k = nackte Karosserie ohne Motor).
 2. **NICHTS erreicht Patrick ohne Tiefenprüfung**: Beschreibung der Detailseite lesen, fahrbereit muss belegt sein (TÜV/Pickerl, "fahrbereit", H-Zulassung, aktuelle Nutzung). Titel-Scan reicht NIE.
