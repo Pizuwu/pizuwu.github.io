@@ -5,24 +5,20 @@ Einzige Wahrheitsquelle neben SCOUT.md (Prozedur/Quellen). Stand: 2026-09-11. Zu
 ## Rollenverständnis
 Die Claude-Routine ist **Backstop- und Analyse-Layer, nicht Erstalarm**. Patricks native Portal-Suchagenten (mobile.de, kleinanzeigen, willhaben, AutoScout24, eBay) pushen in Minuten und übernehmen den Erstalarm. Mehrwert der Routine: Auslands- und Nischenportale, Scoring, Gesamtkostenrechnung, Anschreiben, Funnel-Pflege, Preis-Drop-Tracking.
 
-## Suchraum
-Porsche 996, EZ 1997-2005, Karosserie und Getriebe egal. Preisfilter bis **33.000 €**; 31.5-33k als "Verhandlungsziel" kennzeichnen. Budget: 30k hart als **Gesamtkosten** verstanden (siehe Gesamtpreis).
+## Suchraum (NEU seit 11.09. nachmittags: KLASSIKER, Look-basiert!)
+Patrick will den klassischen luftgekühlten Look (Bild: G-Modell Targa weinrot, ER Classics): **911 F-Modell (bis 1973), G-Modell (1974-1989), 964 (1989-1994), 912**. Targa bevorzugt, Coupé/Cabrio ok. Es zählt Optik, nicht Baujahr/Laufleistung. Fahrbereit, kleine Arbeiten selbst machbar, KEINE Schweiß-Projekte. US-Reimporte ok mit Prüfung (Title, Meilen/km, Sonnenstaaten-Historie = wenig Rost; H-Kennzeichen ab 30 Jahren = günstige Steuer/Versicherung). Der 996 ist NICHT mehr Ziel (zu modern), Daten bleiben archiviert.
 
-## Scoring (1-10)
-- **IMS ist Preisfaktor und Erstkontakt-Frage, KEIN K.O.-Filter.** Die Rechnung liegt im Ordner des Verkäufers, nicht im Inseratstext. Fehlender IMS-Hinweis tötet den Score nicht.
-  - IMS belegt: +1.5
-  - IMS unbekannt: neutral, aber 2.500 € Reserve in den Gesamtpreis rechnen und Anschreiben-Frage priorisieren
-  - 996.1 bis MJ2000 (robustes Doppelreihenlager, ~1% Ausfall): +0.5
-  - **Klassik-Präferenz (Patrick, 11.09.): je früher desto besser, EZ 1997-2000 zusätzlich +0.5; der 996.2 ist ihm tendenziell zu modern.** Spiegel/Bügel-Facelift-Optik zählt: pre-Facelift bevorzugt.
-  - 996.2 ohne IMS-Beleg: -0.5
-  - "Kupplung/Simmerring neu" = High-Signal (Getriebe war draußen, EINE Rechnung klärt IMS): +0.5 + Pflichtfrage
-- Volle Historie mit Rechnungen +1.5, großer Service frisch +1, privat +0.5
-- Hart disqualifizierend NUR: ungeklärter Unfall, nicht beschaffbare Historie, Motorschaden-Indizien, Betrugsverdacht
-- **Betrugs-Heuristik**: Preis >20% unter Markt + privat + Fernabwicklung/Spedition + wenige Fotos → Score-Deckel 4, Hinweis "Rückwärts-Bildersuche, keine Anzahlung". Link-lebt ≠ Inserat-echt.
-- **Gesamtpreis** je Kandidat ausweisen: Kaufpreis + Überführung (NL/BE ~300-600 €) + 2.500 € IMS-Reserve falls unbelegt. Über 30k → klar "über Budget" markieren. Zielzone: 7/10-Autos ohne IMS-Beleg bei 26-27k abschließen.
+**Budget-Strategie (Patricks Entscheidung):** Sparen bis Winter, parallel Glückstreffer jagen. Fahrbereite G-Targa kosten real 35-45k. Darum: **Sofort-Alert bei ehrlich wirkenden Fahrzeugen bis 32k** (Glückstreffer-Zone), **Beobachtung bis 45k** mit Preis-Drop-Alerts fürs Winterfenster Nov-Feb (5-15% Saisonabschlag). Scan läuft dauerhaft alle 10 Minuten.
+
+## Scoring Klassiker (1-10)
+- **ROST ist beim Luftgekühlten das, was IMS beim 996 war**: Wagenheberaufnahmen, Schweller, Kotflügel-Kanten, Batteriekasten, Targa-Fensterrahmen, Windschutzscheibenrahmen. Schweißarbeiten = K.O. (Patrick schraubt nur Kleinigkeiten selbst). "Rostfrei" ohne Fotos der Unterseite = Frage, nicht Fakt.
+- Positiv: Matching Numbers +1, deutsche Auslieferung/Historie +1, Wertgutachten aktuell +0.5, lange Vorbesitz-Dauer +0.5, Targa +0.5 (Patricks Wunsch), belegter Motorzustand (Kompression) +0.5, trockener Sonnenstaaten-US-Import +0.5
+- Negativ: km unklar/999999 = Projektverdacht -2, "Restaurierungsbasis/Projekt" = raus (außer explizit fahrbereit), Tacho in Meilen ohne Beleg -0.5, SC-Kettenspanner nicht auf Carrera-Spanner umgerüstet = Frage + 1k Reserve
+- **Betrugs-Heuristik verschärft**: Klassiker sind Fake-Magnet. Preis >25% unter Markt (2.4S unter 60k, F-Targa unter 35k, SC-Targa unter 30k, 3.2 Carrera unter 35k) → Score-Deckel 3, erst Rückwärts-Bildersuche und Anruf. "911 Junior" (Kinderauto), Porsche-Diesel-Traktoren und Replikas rausfiltern.
+- **Gesamtpreis**: Kaufpreis + Überführung + bei US-Import ggf. Umrüstung/TÜV-Abnahme (500-1.500 €) + 2-3k Puffer erste Wartungsrunde. Marktreferenzen: 911 SC Targa fahrbereit 35-45k, Carrera 3.2 Targa 40-55k, F-Modell Targa 45k+, 964 45k+, 912 30-45k.
 
 ## Mail-Politik (gegen Alert-Fatigue)
-Sofort-Mail NUR bei: Score ≥7, ODER (privat + Historie + ≤27k), ODER (Gesamtpreis ≤30k inkl. Reserven). Betreff: `[ALERT 8/10] 996.2 Schalter 28.5k NL privat 166tkm` (ALERT-Prefix ab 8). Score 5-6: nur sammeln für Sonntags-Digest, KEINE Mail. Nichts Neues über der Schwelle und keine fällige Funnel-Aktion → **komplett still**.
+Sofort-Mail NUR bei: Score ≥7, ODER ehrlich wirkender Klassiker ≤32k (Glückstreffer-Zone), ODER Preis-Drop eines Watchlist-Autos um ≥2k bzw. unter 35k. Betreff: `[ALERT 8/10] 911 SC Targa 31.5k 1981 privat DE` (ALERT-Prefix ab 8). Score 5-6: nur sammeln für Sonntags-Digest, KEINE Mail. Nichts Neues über der Schwelle und keine fällige Funnel-Aktion → **komplett still**.
 
 Mail-Aufbau für 60-Sekunden-Reaktion, Reihenfolge fix:
 1. Offene Funnel-Aktionen (wo ist Nachfassen fällig)

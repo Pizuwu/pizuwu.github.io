@@ -9,38 +9,41 @@ import path from 'node:path';
 
 const REPO = path.dirname(path.dirname(new URL(import.meta.url).pathname));
 const CYCLE = parseInt(process.env.CYCLE || '0', 10);
-const MAX_EUR = 33000;
+const MAX_EUR = 45000; // Beobachtungsgrenze Winterfenster
+const ALERT_EUR = 32000; // Glueckstreffer-Zone fuer Sofort-Alert
 
 // Tippfehler-Rotation fuer kleinanzeigen (exakte Suche, 1 Abruf pro Stunde):
 // jeder Stunden-Slot nimmt die naechste Query, Tippfehler-Inserate haben weniger Konkurrenz
 const KA_QUERIES = [
-  'preis::33000/porsche-996', 'preis::33000/porshe', 'preis::33000/porche',
-  'preis::33000/posche', 'preis::33000/carera', 'preis::33000/porsch',
-  'preis::33000/porsche-911-carrera', 'preis::33000/carrerra',
+  'preis::45000/porsche-targa', 'preis::45000/porsche-911-sc', 'preis::45000/porsche-g-modell',
+  'preis::45000/porsche-oldtimer', 'preis::45000/porsche-964', 'preis::45000/porsche-912',
+  'preis::45000/porshe', 'preis::45000/porche', 'preis::45000/carera', 'preis::45000/porsche-911-targa',
 ];
 const kaSlot = Math.floor(CYCLE / 6) % KA_QUERIES.length;
 
 const SOURCES = [
   { key: 'as24-de', everyN: 1, type: 'as24', base: 'https://www.autoscout24.de',
-    url: 'https://www.autoscout24.de/lst/porsche/911?atype=C&priceto=33000&fregfrom=1997&fregto=2005&cy=D&damaged_listing=exclude&sort=age&desc=1' },
+    url: 'https://www.autoscout24.de/lst/porsche/911?atype=C&priceto=45000&fregto=1994&cy=D&sort=age&desc=1' },
   { key: 'as24-at', everyN: 1, type: 'as24', base: 'https://www.autoscout24.at',
-    url: 'https://www.autoscout24.at/lst/porsche/911?atype=C&priceto=33000&fregfrom=1997&fregto=2005&sort=age&desc=1' },
+    url: 'https://www.autoscout24.at/lst/porsche/911?atype=C&priceto=45000&fregto=1994&sort=age&desc=1' },
+  { key: 'as24-912', everyN: 2, type: 'as24', base: 'https://www.autoscout24.de',
+    url: 'https://www.autoscout24.de/lst/porsche/912?atype=C&priceto=45000&cy=D%2CA%2CNL%2CB%2CF%2CI&sort=age&desc=1' },
   { key: 'as24-nb', everyN: 1, type: 'as24', base: 'https://www.autoscout24.de',
-    url: 'https://www.autoscout24.de/lst/porsche/911?atype=C&priceto=33000&fregfrom=1997&fregto=2005&cy=NL%2CB%2CF%2CI%2CL&sort=age&desc=1' },
+    url: 'https://www.autoscout24.de/lst/porsche/911?atype=C&priceto=45000&fregto=1994&cy=NL%2CB%2CF%2CI%2CL&sort=age&desc=1' },
   { key: 'willhaben', everyN: 1, type: 'wh', base: 'https://www.willhaben.at/iad/',
-    url: 'https://www.willhaben.at/iad/gebrauchtwagen/auto/gebrauchtwagenboerse?CAR_MODEL%2FMAKE=Porsche&PRICE_TO=33000&YEAR_MODEL_FROM=1997&YEAR_MODEL_TO=2005' },
+    url: 'https://www.willhaben.at/iad/gebrauchtwagen/auto/gebrauchtwagenboerse?CAR_MODEL%2FMAKE=Porsche&PRICE_TO=45000&YEAR_MODEL_TO=1994' },
   { key: '12gw', everyN: 1, type: 'gw', base: 'https://www.12gebrauchtwagen.de',
-    url: 'https://www.12gebrauchtwagen.de/auto/porsche/996' },
+    url: 'https://www.12gebrauchtwagen.de/auto/porsche/911' },
   { key: 'marktplaats', everyN: 2, type: 'mp', base: 'https://www.marktplaats.nl',
-    url: 'https://www.marktplaats.nl/q/porsche+996/' },
+    url: 'https://www.marktplaats.nl/q/porsche+targa/' },
   { key: '2dehands', everyN: 2, type: 'mp', base: 'https://www.2dehands.be',
-    url: 'https://www.2dehands.be/q/porsche+996/' },
+    url: 'https://www.2dehands.be/q/porsche+targa/' },
   // kleinanzeigen nur jeden 6. Zyklus (~stuendlich), sonst IP-Sperre; Query rotiert (inkl. Tippfehler)
   { key: 'kleinanzeigen', everyN: 6, type: 'ka', base: 'https://www.kleinanzeigen.de',
     url: 'https://www.kleinanzeigen.de/s-autos/' + KA_QUERIES[kaSlot] + '/k0c216' },
 ];
-const NICHT_911 = /cayenne|macan|panamera|boxster|cayman|taycan|924|944|928|968/i;
-const IST_911 = /996|911|porshe|porche|posche|porsch\b|carera|carrerra/i;
+const NICHT_911 = /cayenne|macan|panamera|boxster|cayman|taycan|914|924|944|928|968|996|997|991|992|993|carrera gt/i;
+const IST_911 = /911|912|964|targa|oldtimer|g.?modell|\bsc\b|porshe|porche|posche|porsch\b|carera|carrerra/i;
 
 function fetch(url) {
   try {
@@ -50,7 +53,7 @@ function fetch(url) {
 }
 const norm = s => (s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
 const fuzzy = l => norm(l.title).slice(0, 25) + '|' + Math.round(l.price_eur / 100) + '|' + Math.round((l.km || 0) / 2000);
-const yearOk = ez => { const m = /(\d{4})/.exec(ez || ''); return !m || (+m[1] >= 1997 && +m[1] <= 2005); };
+const yearOk = ez => { const m = /(19\d{2})/.exec(ez || ''); return !m || (+m[1] >= 1960 && +m[1] <= 1994); };
 
 function nextData(html) {
   const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
@@ -98,12 +101,12 @@ function parseGw(html) {
     const title = /Porsche[^<>"]{0,80}/.exec(ctx.replace(/\s+/g, ' '));
     const p = price ? parseInt(price[1].replace(/\./g, ''), 10) : null;
     if (!p || p < 8000 || p > MAX_EUR) continue;
-    out.push({ title: (title ? title[0] : 'Porsche 996').trim(), price_eur: p,
+    out.push({ title: (title ? title[0] : 'Porsche 911').trim(), price_eur: p,
       km: km ? parseInt(km[1].replace(/\./g, ''), 10) : null, ez: ez ? ez[1] : '',
       location: '', country: 'DE', seller: '',
       url: 'https://www.12gebrauchtwagen.de/c/partner?offer_id=' + m[1], src: '12gw' });
   }
-  return out.filter(l => yearOk(l.ez));
+  return out.filter(l => yearOk(l.ez) && !NICHT_911.test(l.title));
 }
 function parseKa(html) {
   if (/IP-Bereich/i.test(html || '')) return null; // gesperrt, kein Fehler
@@ -120,7 +123,7 @@ function parseKa(html) {
     const loc = /aditem-main--top--left[^>]*>\s*([^<]+)/.exec(a);
     const p = price ? parseInt(price[1].replace(/\./g, ''), 10) : null;
     if (!p || p < 8000 || p > MAX_EUR) continue;
-    out.push({ title: title ? title[1].trim() : 'Porsche 996', price_eur: p,
+    out.push({ title: title ? title[1].trim() : 'Porsche 911', price_eur: p,
       km: km ? parseInt(km[1].replace(/\./g, ''), 10) : null, ez: ez ? ez[1] : '',
       location: loc ? loc[1].trim() : '', country: 'DE', seller: '',
       url: 'https://www.kleinanzeigen.de' + href[1], src: 'kleinanzeigen' });
@@ -192,6 +195,7 @@ fs.writeFileSync(pendingFile, JSON.stringify(pending, null, 1));
 const problems = health.filter(h => /FAIL|PARSE|RATELIMIT/.test(h) && !/kleinanzeigen:RATELIMIT/.test(h));
 if (problems.length >= 3) console.log('SCAN-PROBLEM: ' + problems.join(' '));
 for (const l of fresh) {
-  console.log(`NEU [${l.price_eur}€|${l.km || '?'}km|EZ ${l.ez || '?'}|${l.location || l.country}|${l.src}] ${l.title.slice(0, 60)} ${l.url}`);
+  const tag = l.price_eur <= ALERT_EUR ? 'GLUECKSTREFFER' : 'NEU';
+  console.log(`${tag} [${l.price_eur}€|${l.km || '?'}km|EZ ${l.ez || '?'}|${l.location || l.country}|${l.src}] ${l.title.slice(0, 60)} ${l.url}`);
 }
 if (process.env.VERBOSE) console.error('health: ' + health.join(' ') + ' | neu: ' + fresh.length);
