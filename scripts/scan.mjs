@@ -48,7 +48,7 @@ const SOURCES = [
   { key: 'kleinanzeigen', everyN: 12, type: 'ka', base: 'https://www.kleinanzeigen.de',
     url: 'https://www.kleinanzeigen.de/s-autos/' + KA_QUERIES[kaSlot] + '/k0c216' },
 ];
-const NICHT_911 = /cayenne|macan|panamera|boxster|cayman|taycan|914|924|944|928|968|996|997|991|992|993|carrera gt|junior|traktor|diesel/i;
+const NICHT_911 = /cayenn?e|macann?|panamera?|boxster|cayman|taycan|914|924|944|928|968|996|997|991|992|993|carrera gt|junior|traktor|diesel/i;
 // Karosserien, Projekte, Teile: fliegen komplett raus (Patrick will NUR fahrbereite Autos)
 const PROJEKT = /frame|carrosserie|body.?(chassis|shell)|karosserie\b|rolling|schlacht|ersatzteil|onderdel|teiletr|restauratie|restaurations?basis|restoration|te restaureren|gerestaureerd worden|projec?t\b|projekt|basis\b|ohne motor|zonder motor|no engine|motorschaden|unfall|accident|gereviseerd worden|barn find|scheunenfund/i;
 const IST_911 = /911|912|964|targa|oldtimer|g.?modell|\bsc\b|porshe|porche|posche|porsch\b|carera|carrerra/i;
