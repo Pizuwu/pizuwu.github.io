@@ -1,4 +1,4 @@
-# Master-Liste Kandidaten (Stand 11.09.2026, nach Audit)
+# Master-Liste Kandidaten (Stand 12.09.2026)
 
 ## Fixe Kriterien (vollständig, von Patrick bestätigt)
 
@@ -37,7 +37,7 @@
 
 ## Private Inserate
 
-Keine bestätigten privaten Inserate mit Pool. Tägliche Prüfung über Suchmaschinen-Index inkl. Tippfehler-Varianten.
+Keine bestätigten privaten Inserate mit Pool. 12.09.: ein unverifiziertes Leboncoin-Inserat (3214015882) an Patrick zur Prüfung gemailt. Tägliche Prüfung über Suchmaschinen-Index inkl. Tippfehler-Varianten.
 
 ## Aussortiert / Historie
 
