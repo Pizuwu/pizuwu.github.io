@@ -9,6 +9,7 @@
 5. NUR freistehend am Land (Alleinlage oder lockere Bebauung). Raus: Dorfkerne, Rue/Place/Avenue-Lagen, direkte Straßennähe (Patricks Ausschluss vom 11.09.).
 6. Zwei Ebenen bevorzugt, ebenerdig ok.
 7. 16 Gemeinden: Beaumes-de-Venise, Aubignan, Vacqueyras, Lafare, La Roque-Alric, Suzette, Sarrians, Gigondas, Sablet, Séguret, Caromb, Le Barroux, Saint-Hippolyte-le-Graveyron, Loriol-du-Comtat, Bédoin, Crillon-le-Brave.
+8a. Quellen (Fredy-Ergänzung 13.09.): ADEME-DPE (Pre-Market), Notar-API immobilier.notaires.fr (makler-frei, Direktlink), Bienici-API als Status-Check und für Makler-Ausnahmen, WebSearch für Leboncoin/PAP/Entreparticuliers/ParuVendu inkl. Tippfehler-Varianten. Fredy selbst unterstützt keine französischen Portale, nur das Prinzip wurde übernommen.
 8. Kontaktweg ist Aufnahme-Kriterium: Adress-Check (Airbnb/Gîte, Firmenregister recherche-entreprises.api.gouv.fr, Pages Jaunes) bei jedem Kandidaten. Ohne Spur nur Beobachten.
 9. Personennamen stehen NIE in dieser Datei (öffentliches Repo), nur privat in der Mail.
 10. Recherche läuft täglich (ca. 9 Uhr Sommerzeit), Mail aber NUR bei Neuem: neuer Kandidat, neues Privatinserat, Statusänderung oder umgesetzte Anweisung (Patricks Ansage 13.09.). Dann komplette sortierte Liste, Neues zuerst mit NEU. Leere Läufe nur als Vermerk hier in der Datei. Inserate nur als Direktlink mit Preis, Pre-Market mit Google-Maps-Link.
