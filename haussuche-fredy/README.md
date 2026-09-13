@@ -25,18 +25,22 @@ In der Web-UI unter "Jobs" einen neuen Job anlegen, z.B. "Haus Oberursel" und "H
 **Oberursel (Taunus):**
 
 - ImmoScout24: `https://www.immobilienscout24.de/Suche/de/hessen/hochtaunuskreis/oberursel-taunus/haus-kaufen`
-- Immowelt: `https://www.immowelt.de/liste/oberursel-taunus/haeuser/kaufen`
-- Kleinanzeigen: `https://www.kleinanzeigen.de/s-haus-kaufen/oberursel/k0c208`
+- Immowelt (verifiziert): `https://www.immowelt.de/suche/kaufen/haus/hessen/oberursel-61440/ad08de2579`
+- Kleinanzeigen: auf kleinanzeigen.de Kategorie "Häuser zum Kauf" mit Ort Oberursel suchen und die Ergebnis-URL kopieren
 - Immobilien.de: auf immobilien.de nach "Haus kaufen Oberursel" suchen und die Ergebnis-URL kopieren
 
 **Bad Homburg vor der Höhe:**
 
 - ImmoScout24: `https://www.immobilienscout24.de/Suche/de/hessen/hochtaunuskreis/bad-homburg-vor-der-hoehe/haus-kaufen`
-- Immowelt: `https://www.immowelt.de/liste/bad-homburg-vor-der-hoehe/haeuser/kaufen`
-- Kleinanzeigen: `https://www.kleinanzeigen.de/s-haus-kaufen/bad-homburg/k0c208`
+- Immowelt (verifiziert): `https://www.immowelt.de/suche/kaufen/haus/hessen/bad-homburg-vor-der-hohe-61348/ad08de2572`
+- Kleinanzeigen: auf kleinanzeigen.de Kategorie "Häuser zum Kauf" mit Ort Bad Homburg suchen und die Ergebnis-URL kopieren
 - Immobilien.de: auf immobilien.de nach "Haus kaufen Bad Homburg" suchen und die Ergebnis-URL kopieren
 
-Für **Haus mieten** einfach in den URLs `haus-kaufen` durch `haus-mieten` bzw. `kaufen` durch `mieten` ersetzen (Kleinanzeigen: Kategorie `c205` statt `c208`).
+Für **Haus mieten** (Immowelt-URLs ebenfalls verifiziert):
+
+- Oberursel: `https://www.immowelt.de/suche/mieten/haus/hessen/oberursel-61440/ad08de2579`
+- Bad Homburg: `https://www.immowelt.de/suche/mieten/haus/hessen/bad-homburg-vor-der-hohe-61348/ad08de2572`
+- ImmoScout24: in den URLs oben `haus-kaufen` durch `haus-mieten` ersetzen
 
 Tipp: Am sichersten ist es, die Suche einmal selbst im Browser mit deinen Filtern (Preis, Fläche, Zimmer, Umkreis) durchzuführen und die URL aus der Adresszeile in fredy einzufügen. Fredy übernimmt alle Filter aus der URL.
 
