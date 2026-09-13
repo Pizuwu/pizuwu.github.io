@@ -11,7 +11,7 @@
 7. 16 Gemeinden: Beaumes-de-Venise, Aubignan, Vacqueyras, Lafare, La Roque-Alric, Suzette, Sarrians, Gigondas, Sablet, Séguret, Caromb, Le Barroux, Saint-Hippolyte-le-Graveyron, Loriol-du-Comtat, Bédoin, Crillon-le-Brave.
 8. Kontaktweg ist Aufnahme-Kriterium: Adress-Check (Airbnb/Gîte, Firmenregister recherche-entreprises.api.gouv.fr, Pages Jaunes) bei jedem Kandidaten. Ohne Spur nur Beobachten.
 9. Personennamen stehen NIE in dieser Datei (öffentliches Repo), nur privat in der Mail.
-10. Tägliche Mail um ca. 9 Uhr (Sommerzeit; im Winter 8 Uhr, systembedingt) mit ALLEN Häusern, sortiert: Alarm, Verhandlung, Favoriten, aktiv, beobachten, private Inserate, Makler-Ausnahme. Neues mit NEU, Erledigtes raus mit Vermerk. Inserate nur als Direktlink mit Preis, Pre-Market mit Google-Maps-Link.
+10. Recherche läuft täglich (ca. 9 Uhr Sommerzeit), Mail aber NUR bei Neuem: neuer Kandidat, neues Privatinserat, Statusänderung oder umgesetzte Anweisung (Patricks Ansage 13.09.). Dann komplette sortierte Liste, Neues zuerst mit NEU. Leere Läufe nur als Vermerk hier in der Datei. Inserate nur als Direktlink mit Preis, Pre-Market mit Google-Maps-Link.
 11. Entscheidungen trifft Patrick per Mail-Antwort oder Chat. Keine Kontaktaufnahme ohne sein Go, keine automatisierte Personensuche, keine Bot-Schutz-Umgehung.
 
 ## Verhandlung läuft
