@@ -30,10 +30,16 @@ const SOURCES = [
     url: 'https://www.autoscout24.de/lst/porsche/912?atype=C&priceto=45000&cy=D%2CA%2CNL%2CB%2CF%2CI&sort=age&desc=1' },
   { key: 'as24-nb', everyN: 1, type: 'as24', base: 'https://www.autoscout24.de',
     url: 'https://www.autoscout24.de/lst/porsche/911?atype=C&priceto=45000&fregto=1994&cy=NL%2CB%2CF%2CI%2CL&sort=age&desc=1' },
+  { key: 'as24-at2', everyN: 2, type: 'as24', base: 'https://www.autoscout24.at',
+    url: 'https://www.autoscout24.at/lst/porsche/911?atype=C&priceto=45000&fregto=1994&page=2' },
+  { key: 'as24-nb2', everyN: 2, type: 'as24', base: 'https://www.autoscout24.de',
+    url: 'https://www.autoscout24.de/lst/porsche/911?atype=C&priceto=45000&fregto=1994&cy=NL%2CB%2CF%2CI%2CL&page=2' },
   { key: 'willhaben', everyN: 1, type: 'wh', base: 'https://www.willhaben.at/iad/',
-    url: 'https://www.willhaben.at/iad/gebrauchtwagen/auto/gebrauchtwagenboerse?CAR_MODEL%2FMAKE=Porsche&PRICE_TO=45000&YEAR_MODEL_TO=1994' },
+    url: 'https://www.willhaben.at/iad/gebrauchtwagen/auto/gebrauchtwagenboerse?keyword=Porsche%20911&PRICE_TO=45000&YEAR_MODEL_TO=1994' },
   { key: '12gw', everyN: 1, type: 'gw', base: 'https://www.12gebrauchtwagen.de',
-    url: 'https://www.12gebrauchtwagen.de/auto/porsche/911' },
+    url: 'https://www.12gebrauchtwagen.de/auto/porsche/911er' },
+  { key: '12gw-2', everyN: 2, type: 'gw', base: 'https://www.12gebrauchtwagen.de',
+    url: 'https://www.12gebrauchtwagen.de/auto/porsche/911er?page=2' },
   { key: 'ct-g-modell', everyN: 2, type: 'ct', base: 'https://www.classic-trader.com',
     url: 'https://www.classic-trader.com/de/automobile/suche/porsche/911/g-modell?sort=price_asc' },
   { key: 'ct-urmodell', everyN: 2, type: 'ct', base: 'https://www.classic-trader.com',
@@ -50,7 +56,7 @@ const SOURCES = [
 ];
 const NICHT_911 = /^vw\b|^volkswagen|\bt1\b|kaefer|käfer|cayenn?e|macann?|panamera?|boxster|cayman|taycan|914|924|944|928|968|996|997|991|992|993|carrera gt|junior|traktor|diesel/i;
 // Karosserien, Projekte, Teile: fliegen komplett raus (Patrick will NUR fahrbereite Autos)
-const PROJEKT = /frame|carrosserie|body.?(chassis|shell)|karosserie\b|rolling|schlacht|ersatzteil|onderdel|teiletr|restauratie|restaurations?basis|restaur[a-z]*objekt|restoration|te restaureren|gerestaureerd worden|projec?t\b|projekt|basis\b|r(ue|ü)cksitz|sitze aus|teile aus|aus porsche|ohne motor|zonder motor|no engine|motorschaden|unfall|accident|gereviseerd worden|barn find|scheunenfund/i;
+const PROJEKT = /frame|carrosserie|body.?(chassis|shell)|karosserie\b|rolling|schlacht|ersatzteil|onderdel|teiletr|restauratie|restaurations?basis|restaur[a-z]*objekt|restoration|te restaureren|gerestaureerd worden|projec?t\b|projekt|basis\b|r(ue|ü)cksitz|sitze aus|teile aus|aus porsche|ohne motor|zonder motor|no engine|motorschaden|unfall|accident|gereviseerd worden|opknapper|barn find|scheunenfund/i;
 const IST_911 = /911|912|964|targa|oldtimer|g.?modell|\bsc\b|porshe|porche|posche|porsch\b|carera|carrerra/i;
 
 function fetch(url) {
