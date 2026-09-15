@@ -66,7 +66,34 @@
     "SC-Kettenspanner auf Carrera-Spanner umgeruestet?",
     "Matching Numbers, Scheckheft, Rechnungen, TUEV-Berichte"
    ],
-   "warnung": "Keine Anzahlung per Auslandsueberweisung, Krypto oder Gutscheincode. Nicht erstattungsfaehige Anzahlung ablehnen. Besichtigung nur mit Sachkundigem oder Gebrauchtwagenpruefung."
+   "warnung": "Keine Anzahlung per Auslandsueberweisung, Krypto oder Gutscheincode. Nicht erstattungsfaehige Anzahlung ablehnen. Besichtigung nur mit Sachkundigem oder Gebrauchtwagenpruefung.",
+   "haendler_pruefung": {
+    "datum": "2026-09-15",
+    "ergebnis": "KEIN Betrug. Identitaet real und mehrfach belegt.",
+    "belegt": [
+     "Impressum vollstaendig: Michael Kern, Wormser Landstr. 34, 67551 Worms + Weinheimerstr. 36, 69509 Moerlenbach",
+     "USt-IdNr DE359311734 laut EU-VIES gueltig (direkt abgefragt, valid:true)",
+     "Registrierter Haendler bei classic-trader: 'Jugendtraeume - Inh. Michael Kern in 67551 Worms' (Seite 104677, HTTP 200)",
+     "Haendlerkonto mit Bewertungsseite auf mobile.de vorhanden (Seite selbst 403, Bewertung nicht lesbar)",
+     "Telefonnummer 015155547041 auf Website und im Inserat identisch",
+     "Instagram jugendtraume_oldtimer_handel wie im Inserat angegeben"
+    ],
+    "schwaechen": [
+     "KEINE Datenschutzerklaerung, KEINE AGB, KEINE Widerrufsbelehrung auf der gesamten Website",
+     "Freemail Jugendtraum@web.de statt Domain-Adresse",
+     "Kein Ladengeschaeft, keine Oeffnungszeiten, zwei Adressen in zwei Bundeslaendern",
+     "Fahrzeugbestand nur ueber Kleinanzeigen, Instagram und WhatsApp-Status",
+     "Geschaeftsmodell erklaertermassen Ankauf in jedem Zustand inkl. nicht fahrbereit und Scheunenfund"
+    ],
+    "risiko": "Nicht Betrug, sondern Gewaehrleistungsausschluss. Struktur passt exakt zur Restaurierungsobjekt-Klausel im Inserat.",
+    "regeln_fuer_patrick": [
+     "Keine Anzahlung vor Besichtigung",
+     "PayPal Freunde & Familie ablehnen, bietet null Schutz",
+     "Kaufvertragstext VOR dem Termin anfordern",
+     "Vor Ort pruefen: steht Michael Kern in der Zulassungsbescheinigung Teil II? Falls 'Verkauf im Kundenauftrag' bzw. Agenturgeschaeft: zweiter Weg, die Haendlerhaftung zu umgehen",
+     "Restaurierungsobjekt-Klausel streichen lassen oder Preis muss den Verzicht abbilden"
+    ]
+   }
   }
  ]
 }
