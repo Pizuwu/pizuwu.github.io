@@ -57,6 +57,7 @@ const SOURCES = [
 const NICHT_911 = /^vw\b|^volkswagen|\bt1\b|kaefer|käfer|cayenn?e|macann?|panamera?|boxster|cayman|taycan|914|924|944|928|968|996|997|991|992|993|carrera gt|junior|traktor|diesel/i;
 // Karosserien, Projekte, Teile: fliegen komplett raus (Patrick will NUR fahrbereite Autos)
 const PROJEKT = /frame|carrosserie|body.?(chassis|shell)|karosserie\b|rolling|schlacht|ersatzteil|onderdel|teiletr|restauratie|restaurations?basis|restaur[a-z]*objekt|restaurationsabbruch|restoration|te restaureren|gerestaureerd worden|projec?t\b|projekt|basis\b|r(ue|ü)cksitz|sitze aus|teile aus|aus porsche|ohne motor|zonder motor|no engine|motorschaden|unfall|accident|gereviseerd worden|opknapper|barn find|scheunenfund/i;
+const MODERN = /gt[23]\b|turbo ?s\b|carrera ?[24]s\b|\bgts\b|\bpdk\b|keramik|sport ?chrono|schalensitze|\blift\b|speedster|\bdakar\b|\brs\b/i;
 const IST_911 = /911|912|964|targa|oldtimer|g.?modell|\bsc\b|porshe|porche|posche|porsch\b|carera|carrerra/i;
 
 function fetch(url) {
@@ -120,7 +121,8 @@ function parseGw(html) {
       location: '', country: 'DE', seller: '',
       url: 'https://www.12gebrauchtwagen.de/c/partner?offer_id=' + m[1], src: '12gw' });
   }
-  return out.filter(l => yearOk(l.ez) && !NICHT_911.test(l.title));
+  // 12gw-Titel sind unbrauchbar (oft nur "Porsche"), darum EZ zwingend erforderlich
+  return out.filter(l => l.ez && yearOk(l.ez) && !NICHT_911.test(l.title) && !MODERN.test(l.title));
 }
 function parseKa(html) {
   if (/IP-Bereich/i.test(html || '')) return null; // gesperrt, kein Fehler
@@ -219,6 +221,7 @@ for (const s of SOURCES) {
 const fresh = [];
 for (const l of found) {
   if (PROJEKT.test(l.title || '')) continue;
+  if (MODERN.test(l.title || '')) continue; // moderne 911-Derivate (GT3, Turbo S, ...)
   if (NICHT_911.test(l.title || '') && !/911|912|964|targa/i.test(l.title || '')) continue; // zentrale Modell-Sperre (996/993/944 etc.)
   if (/996|993|997|991|992/.test(l.title || '')) continue; // wassergekuehlt/zu modern: raus
   if (l.km >= 900000) continue; // km unbekannt/999999 = Projektverdacht, raus

@@ -37,6 +37,9 @@ Bei JEDEM Wake zusätzlich: Gmail durchsuchen (`search_threads`) nach neuen Aler
 
 **Geblockt für Direkt-Scraping (auch per Chromium/Proxy nicht erreichbar, NICHT erneut versuchen; Abdeckung über Gmail-Alerts s.o.):** mobile.de direkt, eBay, otomoto.pl, lacentrale.fr, autouncle, bilbasen.dk, gaspedaal.nl, elferspot, classicdriver, zwischengas, elfertreff (403/Connection-Reset auch via Chromium; Egress-Relay kappt Browser-Tunnel). ferdineo.com EXISTIERT NICHT (kein DNS) - war eine Falschangabe aus einer Websuche, PFF-Fahrzeugmarkt ist nur nach Login sichtbar.
 
+## Kleinanzeigen-Sperre NIEMALS nachdruecken (gelernt 15.09.)
+Ein 403 auf einer kleinanzeigen-Detailseite wird durch Wiederholungsversuche NICHT besser, sondern zieht die Sperre auf die Suche mit hoch (am 15.09. genau so passiert: nach 5 Detail-Retries war auch die Suchseite 403). Regel: **Pro Lauf genau EIN kleinanzeigen-Abruf. Bei 403 sofort aufhoeren, kein Retry, kein anderer User-Agent.** Inserat mit dem Vermerk "Beschreibung nicht pruefbar" ablegen und im naechsten Lauf tiefenpruefen.
+
 ## Eiserne Regel: Nur Verifiziertes in die Mail
 Jedes Inserat in der Mail MUSS im selben Lauf verifiziert sein:
 1. `curl -sS -o /tmp/v.html -w "%{http_code}|%{url_effective}" -L <url>`
