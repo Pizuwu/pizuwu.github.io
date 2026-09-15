@@ -15,10 +15,17 @@ const ALERT_EUR = 32000; // Glueckstreffer-Zone fuer Sofort-Alert
 // Tippfehler-Rotation fuer kleinanzeigen (exakte Suche, 1 Abruf pro Stunde):
 // jeder Stunden-Slot nimmt die naechste Query, Tippfehler-Inserate haben weniger Konkurrenz
 const KA_QUERIES = [
+  // korrekt geschrieben, die volumenstarken Suchen
   'preis::45000/porsche-targa', 'preis::45000/porsche-911-sc', 'preis::45000/porsche-g-modell',
   'preis::45000/porsche-oldtimer', 'preis::45000/porsche-964', 'preis::45000/porsche-912',
-  'preis::45000/porshe', 'preis::45000/porche', 'preis::45000/carera', 'preis::45000/porsche-911-targa',
+  'preis::45000/porsche-911-targa', 'preis::45000/porsche-elfer', 'preis::45000/porsche-911er',
+  'preis::45000/porsche-carrera-3-2', 'preis::45000/porsche-911-luftgekuehlt',
+  // Vertipper: diese Inserate haben kaum Konkurrenz, weil sie in keiner Standardsuche auftauchen
+  'preis::45000/porshe', 'preis::45000/porche', 'preis::45000/posche', 'preis::45000/porsh',
+  'preis::45000/porsche-911-taga', 'preis::45000/porsche-tagra', 'preis::45000/carera',
+  'preis::45000/carrerra', 'preis::45000/porsche-911-carera', 'preis::45000/porsce',
 ];
+
 const kaSlot = Math.floor(CYCLE / 12) % KA_QUERIES.length;
 
 const SOURCES = [
@@ -34,6 +41,26 @@ const SOURCES = [
     url: 'https://www.autoscout24.at/lst/porsche/911?atype=C&priceto=45000&fregto=1994&page=2' },
   { key: 'as24-nb2', everyN: 2, type: 'as24', base: 'https://www.autoscout24.de',
     url: 'https://www.autoscout24.de/lst/porsche/911?atype=C&priceto=45000&fregto=1994&cy=NL%2CB%2CF%2CI%2CL&page=2' },
+  // Marke ohne Modell: faengt falsch einsortierte Wagen ("Porsche Sonstige", Modell leer gelassen).
+  // strict=true, weil hier auch 944/928/Traktoren drin sind -> Titel MUSS 911/912/964/Targa zeigen.
+  { key: 'as24-alle-de', everyN: 1, type: 'as24', strict: true, base: 'https://www.autoscout24.de',
+    url: 'https://www.autoscout24.de/lst/porsche?atype=C&priceto=45000&fregto=1994&cy=D&sort=age&desc=1' },
+  { key: 'as24-alle-at', everyN: 2, type: 'as24', strict: true, base: 'https://www.autoscout24.at',
+    url: 'https://www.autoscout24.at/lst/porsche?atype=C&priceto=45000&fregto=1994&sort=age&desc=1' },
+  { key: 'as24-alle-nb', everyN: 2, type: 'as24', strict: true, base: 'https://www.autoscout24.de',
+    url: 'https://www.autoscout24.de/lst/porsche?atype=C&priceto=45000&fregto=1994&cy=NL%2CB%2CF%2CI%2CL&sort=age&desc=1' },
+  // mehr Seiten der Kernsuche
+  { key: 'as24-de2', everyN: 2, type: 'as24', base: 'https://www.autoscout24.de',
+    url: 'https://www.autoscout24.de/lst/porsche/911?atype=C&priceto=45000&fregto=1994&cy=D&page=2' },
+  { key: 'as24-de3', everyN: 3, type: 'as24', base: 'https://www.autoscout24.de',
+    url: 'https://www.autoscout24.de/lst/porsche/911?atype=C&priceto=45000&fregto=1994&cy=D&page=3' },
+  // weitere Laender (neu getestet 15.09., liefern eigenes nationales Inventar)
+  { key: 'as24-lu', everyN: 3, type: 'as24', base: 'https://www.autoscout24.lu',
+    url: 'https://www.autoscout24.lu/lst/porsche/911?atype=C&priceto=45000&fregto=1994&sort=age&desc=1' },
+  { key: 'as24-pl', everyN: 3, type: 'as24', base: 'https://www.autoscout24.pl',
+    url: 'https://www.autoscout24.pl/lst/porsche/911?atype=C&priceto=45000&fregto=1994&sort=age&desc=1' },
+  { key: 'ct-964', everyN: 3, type: 'ct', base: 'https://www.classic-trader.com',
+    url: 'https://www.classic-trader.com/de/automobile/suche/porsche/964?sort=price_asc' },
   { key: 'willhaben', everyN: 1, type: 'wh', base: 'https://www.willhaben.at/iad/',
     url: 'https://www.willhaben.at/iad/gebrauchtwagen/auto/gebrauchtwagenboerse?keyword=Porsche%20911&PRICE_TO=45000&YEAR_MODEL_TO=1994' },
   { key: '12gw', everyN: 1, type: 'gw', base: 'https://www.12gebrauchtwagen.de',
@@ -50,6 +77,18 @@ const SOURCES = [
     url: 'https://www.marktplaats.nl/q/porsche+targa/' },
   { key: '2dehands', everyN: 2, type: 'mp', base: 'https://www.2dehands.be',
     url: 'https://www.2dehands.be/q/porsche+targa/' },
+  { key: 'marktplaats-2', everyN: 3, type: 'mp', base: 'https://www.marktplaats.nl',
+    url: 'https://www.marktplaats.nl/q/porsche+911+oldtimer/' },
+  { key: '2dehands-2', everyN: 3, type: 'mp', base: 'https://www.2dehands.be',
+    url: 'https://www.2dehands.be/q/porsche+911+oldtimer/' },
+  // Catawiki-Auktionen: laufen ueber marktplaats/2dehands als Spiegel. Eigener Kanal,
+  // den Patrick auf kleinanzeigen nie sieht, und dort landen Autos regelmaessig unter Schaetzwert.
+  { key: 'mp-auktion', everyN: 2, type: 'mp', base: 'https://www.marktplaats.nl',
+    url: 'https://www.marktplaats.nl/q/porsche+targa+oldtimer/' },
+  { key: 'mp-auktion-2', everyN: 3, type: 'mp', base: 'https://www.marktplaats.nl',
+    url: 'https://www.marktplaats.nl/q/porsche+911+targa/' },
+  { key: '2dh-auktion', everyN: 3, type: 'mp', base: 'https://www.2dehands.be',
+    url: 'https://www.2dehands.be/q/porsche+911+targa/' },
   // kleinanzeigen nur jeden 12. Zyklus (~stuendlich bei 5-Min-Takt), sonst IP-Sperre; Query rotiert
   { key: 'kleinanzeigen', everyN: 12, type: 'ka', base: 'https://www.kleinanzeigen.de',
     url: 'https://www.kleinanzeigen.de/s-autos/' + KA_QUERIES[kaSlot] + '/k0c216' },
@@ -60,6 +99,26 @@ const PROJEKT = /frame|carrosserie|body.?(chassis|shell)|karosserie\b|rolling|sc
 const MODERN = /gt[23]\b|turbo ?s\b|carrera ?[24]s\b|\bgts\b|\bpdk\b|keramik|sport ?chrono|schalensitze|\blift\b|speedster|\bdakar\b|\brs\b/i;
 const IST_911 = /911|912|964|targa|oldtimer|g.?modell|\bsc\b|porshe|porche|posche|porsch\b|carera|carrerra/i;
 
+import { execFile } from 'node:child_process';
+// Parallel-Abruf: bei 20+ Quellen ist serielles curl zu langsam fuer den 5-Minuten-Takt
+function fetchAsync(url) {
+  return new Promise(res => {
+    execFile('curl', ['-sS', '-L', '--max-time', '25', '--compressed', '-o', '-', '-w', '', url],
+      { maxBuffer: 32 * 1024 * 1024, encoding: 'utf8' }, (err, out) => res(err ? null : out));
+  });
+}
+function resolveUrl(url) {
+  return new Promise(res => {
+    execFile('curl', ['-sS', '-L', '-o', '/dev/null', '--max-time', '20', '-w', '%{url_effective}', url],
+      { encoding: 'utf8' }, (err, out) => res(err ? null : (out || '').trim()));
+  });
+}
+async function fetchAll(list, concurrency = 6, urlOnly = false) {
+  const results = new Map(); let i = 0;
+  const worker = async () => { while (i < list.length) { const s = list[i++]; results.set(s.key, urlOnly ? await resolveUrl(s.url) : await fetchAsync(s.url)); } };
+  await Promise.all(Array.from({ length: Math.min(concurrency, list.length) }, worker));
+  return results;
+}
 function fetch(url) {
   try {
     return execFileSync('curl', ['-sS', '-L', '--max-time', '25', '--compressed',
@@ -68,7 +127,7 @@ function fetch(url) {
 }
 const norm = s => (s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
 const fuzzy = l => norm(l.title).slice(0, 25) + '|' + Math.round(l.price_eur / 100) + '|' + Math.round((l.km || 0) / 2000);
-const yearOk = ez => { const m = /(19\d{2})/.exec(ez || ''); return !m || (+m[1] >= 1960 && +m[1] <= 1994); };
+const yearOk = ez => { const m = /((?:19|20)\d{2})/.exec(ez || ''); return !m || (+m[1] >= 1960 && +m[1] <= 1994); };
 
 function nextData(html) {
   const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
@@ -121,8 +180,10 @@ function parseGw(html) {
       location: '', country: 'DE', seller: '',
       url: 'https://www.12gebrauchtwagen.de/c/partner?offer_id=' + m[1], src: '12gw' });
   }
-  // 12gw-Titel sind unbrauchbar (oft nur "Porsche"), darum EZ zwingend erforderlich
-  return out.filter(l => l.ez && yearOk(l.ez) && !NICHT_911.test(l.title) && !MODERN.test(l.title));
+  // 12gw-Titel sind unbrauchbar (oft nur "Porsche"). Wer ein EZ mitliefert, wird hier
+  // schon gefiltert; alle anderen bekommen _resolve und werden ueber den Ziel-Link geprueft.
+  return out.filter(l => yearOk(l.ez) && !NICHT_911.test(l.title) && !MODERN.test(l.title))
+    .map(l => (l.ez ? l : { ...l, _resolve: true }));
 }
 function parseKa(html) {
   if (/IP-Bereich/i.test(html || '')) return null; // gesperrt, kein Fehler
@@ -178,8 +239,10 @@ function parseMp(html, base) {
       km: parseInt(at.mileage || '', 10) || null, ez: String(at.constructionYear || ''),
       location: l.location?.cityName || '', country: base.includes('2dehands') ? 'BE' : 'NL',
       seller: l.sellerInformation?.sellerName || '',
-      url: l.vipUrl ? base + l.vipUrl : '', src: base.includes('2dehands') ? '2dehands' : 'marktplaats',
+      url: l.vipUrl ? base + l.vipUrl : '', src: /catawiki/i.test(l.sellerInformation?.sellerName || '')
+        ? 'catawiki-auktion' : (base.includes('2dehands') ? '2dehands' : 'marktplaats'),
       bieden: l.priceInfo?.priceType === 'MIN_BID',
+      auktion: /catawiki/i.test(l.sellerInformation?.sellerName || ''),
     };
   }).filter(l => l.url && IST_911.test(l.title) && !NICHT_911.test(l.title)
     && /\/v\/auto-s\//.test(l.url) // nur Fahrzeug-Kategorie, keine Teile
@@ -200,9 +263,10 @@ for (const k of notified.keys) known.add(k);
 
 const health = [];
 let found = [];
-for (const s of SOURCES) {
-  if (CYCLE % s.everyN !== 0) continue;
-  const html = fetch(s.url);
+const due = SOURCES.filter(s => CYCLE % s.everyN === 0);
+const htmls = await fetchAll(due);
+for (const s of due) {
+  const html = htmls.get(s.key);
   if (!html) { health.push(s.key + ':FAIL'); continue; }
   let ls;
   try {
@@ -215,15 +279,40 @@ for (const s of SOURCES) {
   } catch (e) { health.push(s.key + ':PARSE'); continue; }
   if (ls === null) { health.push(s.key + ':RATELIMIT'); continue; }
   health.push(s.key + ':' + ls.length);
+  if (s.strict) for (const l of ls) l._strict = true;
   found = found.concat(ls);
 }
 
+// 12gebrauchtwagen verlinkt nur per offer_id. Erst die Ziel-URL verraet das Modell
+// (Slug enthaelt z.B. "porsche-911-turbo-s-cabriolet"), darum hier aufloesen und danach filtern.
+const toResolve = found.filter(l => l._resolve);
+if (toResolve.length) {
+  const finals = await fetchAll(toResolve.map(l => ({ key: l.url, url: l.url })), 4, true);
+  for (const l of toResolve) {
+    const fin = finals.get(l.url);
+    if (!fin) { l._drop = true; continue; }
+    l.url = fin;
+    const slug = decodeURIComponent(fin).replace(/[-_/]/g, ' ');
+    if (!IST_911.test(slug) || NICHT_911.test(slug) || MODERN.test(slug)) { l._drop = true; continue; }
+    const nm = /angebote\/([a-z0-9-]+?)(?:-benzin|-diesel|-cat_)/.exec(fin);
+    if (nm) l.title = nm[1].replace(/-/g, ' ');
+  }
+}
+found = found.filter(l => !l._drop);
+
 const fresh = [];
 for (const l of found) {
+  if (l._strict && !IST_911.test(l.title || '')) continue; // Marke-ohne-Modell-Quelle: nur echte Elfer/912/964
   if (PROJEKT.test(l.title || '')) continue;
   if (MODERN.test(l.title || '')) continue; // moderne 911-Derivate (GT3, Turbo S, ...)
-  if (NICHT_911.test(l.title || '') && !/911|912|964|targa/i.test(l.title || '')) continue; // zentrale Modell-Sperre (996/993/944 etc.)
+  // Modell-Sperre ist absolut: "944 S2 Targa" und "914 Targa" sind KEINE Elfer.
+  // Frueher hebelte das Wort "Targa" die Sperre aus, dadurch kamen 924/944/914 durch.
+  if (NICHT_911.test(l.title || '')) continue;
   if (/996|993|997|991|992/.test(l.title || '')) continue; // wassergekuehlt/zu modern: raus
+  // Baujahr aus dem Titel ziehen (marktplaats & Co. liefern oft kein EZ-Feld):
+  // alles ab 1995 ist wassergekuehlt oder 993 und damit ausserhalb des Suchprofils
+  const ty = /\b(19[5-9]\d|20[0-2]\d)\b/.exec(l.title || '');
+  if (ty && +ty[1] > 1994) continue;
   if (l.km >= 900000) continue; // km unbekannt/999999 = Projektverdacht, raus
   const k1 = norm(l.url).slice(-40), k2 = fuzzy(l);
   if (known.has(k1) || known.has(k2)) continue;
@@ -239,7 +328,12 @@ fs.writeFileSync(pendingFile, JSON.stringify(pending, null, 1));
 const problems = health.filter(h => /FAIL|PARSE|RATELIMIT/.test(h) && !/kleinanzeigen:RATELIMIT/.test(h));
 if (problems.length >= 3) console.log('SCAN-PROBLEM: ' + problems.join(' '));
 for (const l of fresh) {
-  const tag = l.price_eur <= ALERT_EUR ? 'GLUECKSTREFFER' : 'NEU';
+  // Koederpreis-Heuristik: ein fahrbereiter luftgekuehlter Elfer unter 18k existiert nicht.
+  // Beispiel 15.09.: "911 Carrera 1994" fuer 8.499 EUR war in Wahrheit ein 993 (Markt 70-100k).
+  const koeder = !l.auktion && l.price_eur < 18000;
+  const tag = koeder ? 'KOEDER-VERDACHT'
+    : l.auktion ? 'AUKTION'
+    : (l.price_eur <= ALERT_EUR ? 'GLUECKSTREFFER' : 'NEU');
   console.log(`${tag} [${l.price_eur}€|${l.km || '?'}km|EZ ${l.ez || '?'}|${l.location || l.country}|${l.src}] ${l.title.slice(0, 60)} ${l.url}`);
 }
 if (process.env.VERBOSE) console.error('health: ' + health.join(' ') + ' | neu: ' + fresh.length);
