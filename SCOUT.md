@@ -1,15 +1,33 @@
-# 911-Scout Prozedur (996 bis 30k)
+# 911-Scout Prozedur (luftgekuehlte Klassiker)
 
-Kanonische Anleitung für den stündlichen Alert-Lauf. Empfänger: patrickgrosspoetzl@gmail.com.
+Kanonische Anleitung fuer den stuendlichen Alert-Lauf. Empfaenger: patrickgrosspoetzl@gmail.com.
 
-**WICHTIG: Scoring, Mail-Schwellen (Mail nur ab Score ≥7 bzw. Sonderregeln!), Funnel-Pflege und Betrugs-Heuristik stehen in REGELN.md und haben Vorrang vor allem, was hier oder im Trigger-Prompt steht. Preisfilter jetzt bis 33.000 € (31.5-33k = Verhandlungsziel). Zulassungsland ist Deutschland (keine NoVA, NL-Arbitrage spielbar). Die Routine ist Backstop- und Analyse-Layer; Erstalarm machen Patricks native Portal-Suchagenten.**
+**WICHTIG: Scoring, Mail-Politik, Funnel-Pflege und Betrugs-Heuristik stehen in REGELN.md und haben Vorrang vor allem, was hier oder im Trigger-Prompt steht. Zulassungsland ist Deutschland (keine NoVA, NL-Arbitrage spielbar). Die Routine ist Backstop- und Analyse-Layer; Erstalarm machen Patricks native Portal-Suchagenten.**
+
+**Das Suchprofil hat am 11.09. gewechselt: NICHT mehr 996, sondern luftgekuehlte Klassiker. Wenn ein Trigger-Prompt noch von "996 bis 31.500 EUR" spricht, ist er veraltet - dieses Dokument und REGELN.md gelten.**
 
 ## Suchprofil
-- Porsche 911, Generation 996 (EZ 1997-2005), alle Karosserien (Coupé/Targa/Cabrio), Getriebe egal
-- Preis: bis 30.000 € hart; 30.000-31.500 € nur erwähnen wenn verhandelbar wirkend
-- Länder: DE, AT + Nachbarländer (NL, BE, FR, IT, LU, DK, PL, CZ), NICHT CH
-- Zustand vor Laufleistung; Muss-Kriterien: IMS-Lager ersetzt/geprüft, großer Service frisch
-- Keine Kaufgesuche, Teile, Modellautos, Schlachtfahrzeuge
+- Porsche 911 F-Modell (bis 1973), G-Modell (1974-1989), 964 (1989-1994), 912. Targa bevorzugt, Coupe/Cabrio ok.
+- Es zaehlt die Optik, nicht Baujahr oder Laufleistung. Luftgekuehlt ist Pflicht, 993 und alles ab 1995 ist raus.
+- Preis: Sofort-Alert bis 32.000 EUR (Glueckstreffer-Zone), Beobachtung bis 45.000 EUR fuers Winterfenster Nov-Feb.
+- Laender: DE, AT + Nachbarlaender (NL, BE, FR, IT, LU, DK, PL, CZ), NICHT CH.
+- Fahrbereit ist Pflicht und muss belegt sein. Schweissarbeiten sind K.O., Patrick macht nur Kleinigkeiten selbst.
+- Rost ist das zentrale Risiko: Wagenheberaufnahmen, Schweller, Batteriekasten, Targa-Fensterrahmen, Scheibenrahmen.
+- Keine Kaufgesuche, Teile, Modellautos, Karosserien, Schlachtfahrzeuge, Restaurationsobjekte.
+- US-Reimporte ok mit Pruefung (Title, Meilen/km, Sonnenstaaten-Historie).
+
+## Auktionen (neu 15.09., eigener Kanal)
+Catawiki versteigert woechentlich Klassiker und spiegelt die Lose auf marktplaats.nl und 2dehands.be,
+wo der Scanner drankommt (catawiki.com selbst blockt). Diese Autos sieht Patrick auf kleinanzeigen nie.
+Regeln dafuer: Der angezeigte Betrag ist das **aktuelle Gebot, kein Festpreis** und steigt bis zum Zuschlag.
+Immer **9 % Kaeuferschutz + 3 EUR** aufschlagen, dazu Transport und deutsche Zulassung. Der genannte
+"Geschatte waarde" ist eine Verkaeuferschaetzung und oft zu hoch, immer gegen den echten Markt pruefen.
+Ein Gebot ist bindend, deshalb nie ohne Unterbodenfotos oder Besichtigung empfehlen.
+
+## Marktreferenzen (Stand 15.09., selbst erhoben)
+- Guenstigster G-Modell-Targa bei Haendlern auf classic-trader: **54.000 EUR**. Alles darunter ist Privatmarkt.
+- Fahrbereiter 911 SC Targa privat: 35-45k. Carrera 3.2 Targa: 40-55k. F-Modell Targa: 45k+. 964: 45k+. 912: 30-45k.
+- Ein luftgekuehlter Elfer unter 18k existiert als fahrbereites Auto nicht. Solche Preise sind Koeder oder Karosserien.
 
 ## Quellen (Stand 2026-09-11)
 
