@@ -16,6 +16,19 @@ Kanonische Anleitung fuer den stuendlichen Alert-Lauf. Empfaenger: patrickgrossp
 - Keine Kaufgesuche, Teile, Modellautos, Karosserien, Schlachtfahrzeuge, Restaurationsobjekte.
 - US-Reimporte ok mit Pruefung (Title, Meilen/km, Sonnenstaaten-Historie).
 
+## Betriebsart: der stuendliche Lauf IST der Scan (geaendert 15.09.)
+Ein dauerhafter Hintergrundscanner funktioniert in dieser Umgebung NICHT. Der Prozess wurde am
+15.09. zweimal beendet, einmal binnen einer Stunde, weil der Container zwischen den Turns
+eingesammelt wird. Ein 5-Minuten-Takt ist hier also nicht lieferbar, und so zu tun als liefe er
+ist eine Luege gegenueber Patrick.
+
+Stattdessen: **jeder stuendliche Trigger ruft `node scripts/scan.mjs` einmal direkt auf.** Ohne
+CYCLE-Variable zaehlt das Skript selbst in `data/scan-state.json` hoch, dadurch rotieren die
+`everyN`-Quellen und die Tippfehler-Suchen auch dann sauber weiter, wenn jeder Lauf ein eigener
+Prozess ist. `everyN: 2` heisst damit alle zwei Stunden, `everyN: 3` alle drei.
+Kleinanzeigen laeuft jetzt bei `everyN: 1`, also genau ein Abruf pro Stunde, und nimmt pro Lauf
+die naechste der 21 Tippfehler-Varianten.
+
 ## Auktionen (neu 15.09., eigener Kanal)
 Catawiki versteigert woechentlich Klassiker und spiegelt die Lose auf marktplaats.nl und 2dehands.be,
 wo der Scanner drankommt (catawiki.com selbst blockt). Diese Autos sieht Patrick auf kleinanzeigen nie.

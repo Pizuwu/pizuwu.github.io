@@ -8,7 +8,20 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const REPO = path.dirname(path.dirname(new URL(import.meta.url).pathname));
-const CYCLE = parseInt(process.env.CYCLE || '0', 10);
+// Laufzaehler: Hintergrundprozesse ueberleben in dieser Umgebung den Turn-Wechsel nicht
+// (am 15.09. zweimal gestorben, einmal binnen einer Stunde). Der Zaehler steht deshalb
+// auf der Platte statt in einer Schleifenvariable, damit die Quellen- und Tippfehler-
+// Rotation auch dann weiterlaeuft, wenn jeder Lauf ein eigener Prozess ist.
+const stateFile = path.join(REPO, 'data', 'scan-state.json');
+let runNo;
+if (process.env.CYCLE) {
+  runNo = parseInt(process.env.CYCLE, 10);
+} else {
+  let st = {}; try { st = JSON.parse(fs.readFileSync(stateFile, 'utf8')); } catch {}
+  runNo = (st.run || 0) + 1;
+  try { fs.writeFileSync(stateFile, JSON.stringify({ run: runNo, last: new Date().toISOString() }, null, 1)); } catch {}
+}
+const CYCLE = runNo;
 const MAX_EUR = 45000; // Beobachtungsgrenze Winterfenster
 const ALERT_EUR = 32000; // Glueckstreffer-Zone fuer Sofort-Alert
 
@@ -26,7 +39,7 @@ const KA_QUERIES = [
   'preis::45000/carrerra', 'preis::45000/porsche-911-carera', 'preis::45000/porsce',
 ];
 
-const kaSlot = Math.floor(CYCLE / 12) % KA_QUERIES.length;
+const kaSlot = CYCLE % KA_QUERIES.length; // jeder Lauf nimmt die naechste Variante
 
 const SOURCES = [
   { key: 'as24-de', everyN: 1, type: 'as24', base: 'https://www.autoscout24.de',
@@ -89,8 +102,8 @@ const SOURCES = [
     url: 'https://www.marktplaats.nl/q/porsche+911+targa/' },
   { key: '2dh-auktion', everyN: 3, type: 'mp', base: 'https://www.2dehands.be',
     url: 'https://www.2dehands.be/q/porsche+911+targa/' },
-  // kleinanzeigen nur jeden 12. Zyklus (~stuendlich bei 5-Min-Takt), sonst IP-Sperre; Query rotiert
-  { key: 'kleinanzeigen', everyN: 12, type: 'ka', base: 'https://www.kleinanzeigen.de',
+  // kleinanzeigen: GENAU EIN Abruf pro Lauf (= stuendlich). Bei 403 nicht nachdruecken.
+  { key: 'kleinanzeigen', everyN: 1, type: 'ka', base: 'https://www.kleinanzeigen.de',
     url: 'https://www.kleinanzeigen.de/s-autos/' + KA_QUERIES[kaSlot] + '/k0c216' },
 ];
 const NICHT_911 = /^vw\b|^volkswagen|\bt1\b|kaefer|käfer|cayenn?e|macann?|panamera?|boxster|cayman|taycan|914|924|944|928|968|996|997|991|992|993|carrera gt|junior|traktor|diesel/i;
