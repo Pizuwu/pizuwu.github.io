@@ -140,6 +140,14 @@ function fetch(url) {
 }
 const norm = s => (s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
 const fuzzy = l => norm(l.title).slice(0, 25) + '|' + Math.round(l.price_eur / 100) + '|' + Math.round((l.km || 0) / 2000);
+// erkennt 123456, 1234567, 654321, 111111, 222222 ... als Fantasieangabe
+function platzhalterKm(km) {
+  const d = String(km);
+  if (d.length < 5) return false;
+  if (/^(\d)\1+$/.test(d)) return true;                       // 111111
+  const up = '123456789'.repeat(2), down = '987654321'.repeat(2);
+  return up.includes(d) || down.includes(d);                    // 123456 / 654321
+}
 const yearOk = ez => { const m = /((?:19|20)\d{2})/.exec(ez || ''); return !m || (+m[1] >= 1960 && +m[1] <= 1994); };
 
 function nextData(html) {
@@ -327,6 +335,10 @@ for (const l of found) {
   const ty = /\b(19[5-9]\d|20[0-2]\d)\b/.exec(l.title || '');
   if (ty && +ty[1] > 1994) continue;
   if (l.km >= 900000) continue; // km unbekannt/999999 = Projektverdacht, raus
+  // Platzhalter-Kilometerstaende: 123456, 111111, 654321 usw. Wer den Tacho nicht angibt,
+  // hat meist kein fahrbereites Auto. Gefunden am 15.09. an einem zerlegten 1972er
+  // Oelklappen-Modell fuer 33k, dessen erstes Foto ein fremdes Auto zeigte.
+  if (l.km && platzhalterKm(l.km)) { l._platzhalter = true; }
   const k1 = norm(l.url).slice(-40), k2 = fuzzy(l);
   if (known.has(k1) || known.has(k2)) continue;
   known.add(k1); known.add(k2);
@@ -344,7 +356,8 @@ for (const l of fresh) {
   // Koederpreis-Heuristik: ein fahrbereiter luftgekuehlter Elfer unter 18k existiert nicht.
   // Beispiel 15.09.: "911 Carrera 1994" fuer 8.499 EUR war in Wahrheit ein 993 (Markt 70-100k).
   const koeder = !l.auktion && l.price_eur < 18000;
-  const tag = koeder ? 'KOEDER-VERDACHT'
+  const tag = l._platzhalter ? 'PLATZHALTER-KM'
+    : koeder ? 'KOEDER-VERDACHT'
     : l.auktion ? 'AUKTION'
     : (l.price_eur <= ALERT_EUR ? 'GLUECKSTREFFER' : 'NEU');
   console.log(`${tag} [${l.price_eur}€|${l.km || '?'}km|EZ ${l.ez || '?'}|${l.location || l.country}|${l.src}] ${l.title.slice(0, 60)} ${l.url}`);
