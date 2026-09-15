@@ -29,11 +29,21 @@
 - **N4: 192 Allée Saint-Roch, Beaumes-de-Venise.** 131 m², DPE C (13.02.), Bj. 1977, Pool bestätigt, Ortsrand an den Weinbergen. Direkter Nachbar im Register auffindbar.
 - **N5: 515 Chemin des Vergers aux Baux, Bédoin.** 124 m², DPE C (09.02.), Bj. 1997, grüne Villenlage. STATUS 15.09.: sehr wahrscheinlich seit 11.09. inseriert (Maklerobjekt, 124 m², DPE C, Bj. 1999, 1.345 m² Grund, 490.000 €, Unschärfekreis liegt 479 m um die Adresse). Damit kein Pre-Market mehr, Konkurrenz ab jetzt vorhanden.
 
+## Neu aus dem Herbst-2025-Sweep (15.09., Pool im Luftbild bestätigt)
+
+- **S1: 180 Chemin de la Garrigue Sud, Loriol-du-Comtat.** 116 m², DPE B (25.10.2025), großer rechteckiger Pool klar dem Haus zugeordnet, Landlage mit Olivenhain und Feldern ringsum. Beste Lage der drei. Kontaktweg schwach (nur Nachbarn im Register).
+- **S2: 398 Chemin de Roquefiguier, Beaumes-de-Venise.** 127,5 m², DPE C (11.12.2025), Pool direkt am Haus, Hanglage über Weinbergen. Kontaktweg vorhanden (SCI an derselben Straße).
+- **S3: 954 Route des Héritiers, Bédoin.** 171 m², DPE C (20.11.2025), Alleinlage zwischen Olivenhainen, Pool zuordenbar. Größe an der Obergrenze. Kontaktweg über Nachbarn vorhanden.
+
+Einschränkung: Diese Ausweise sind 9 bis 11 Monate alt, das Verkaufssignal ist also schwächer als bei frischen und einzelne Objekte können bereits verkauft sein.
+
 ## Beobachten (Kriterien teilweise offen)
 
 - **W1: 7 Chemin du Grame, Gigondas.** 133 m², DPE E (28.01.), Alleinlage in den Reben, Pool-Zuordnung unklar (Nachbarschaft bekannter Weingüter).
 - **W2: 19 Chemin de l'Apparant, Séguret.** 116 m², DPE C (16.01.), Hanglage am Dorfrand, kleiner Pool, Lage halb dorfnah.
 - **W3: 601 Chemin de Ratonelle, Aubignan.** 130 m², DPE B (05.01.), Weinbergrand, Pool-Zuordnung zu bestätigen.
+- **S4: 524 Chemin d'Enclarette, Bédoin.** 117,8 m², DPE A (07.11.2025), lockere Villenlage am Ortsrand, Pool-Zuordnung unklar.
+- **S5: 332 Chemin des Barillons, Aubignan.** 101,8 m², DPE C (22.12.2025), Villenviertel, direkt an der Straße, deshalb nur Beobachten.
 - **P13: 484e Route Chante Gu, Sarrians.** 173 m², DPE B (10.08.), Weingut mit Gîtes, vermutlich über Budget, nur relevant bei Einzelgebäude-Verkauf.
 
 ## Makler-Ausnahmen (perfekte Treffer, Regel 1, Stand 15.09.)
@@ -50,7 +60,7 @@ Keine bestätigten privaten Inserate mit Pool. 12.09.: ein unverifiziertes Lebon
 ## Erkenntnisse zur Datenlage (15.09.)
 
 - Die ADEME-Datenbank ist am 15.09. nur bis zum 07.09. gefüllt, also rund 8 Tage Rückstand. Leere Tagesläufe bedeuten daher meist Datenrückstand, nicht fehlende Häuser.
-- Der 12-Monats-Sweep deckt jetzt auch Herbst 2025 ab: 78 bisher ungescannte Adressen im Größenraster, davon 41 in Landlage. Pool-Prüfung per Luftbild läuft.
+- Der 12-Monats-Sweep deckt jetzt auch Herbst 2025 ab: 78 bisher ungescannte Adressen im Größenraster, davon 41 in Landlage. Pool-Prüfung abgeschlossen: 41 Landlagen geprüft, 9 mit Pool-Verdacht, davon 3 bestätigte Kandidaten (S1 bis S3), 2 zum Beobachten (S4, S5), 4 aussortiert (Gewerbelage an der Procession in Aubignan, Neubausiedlung Ancienne Route d'Orange, Dorfkern Chemin de Ronde in Bédoin, 175 m² an der Route de Bédarrides in Sarrians zu groß).
 
 ## Aussortiert / Historie
 
