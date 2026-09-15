@@ -98,6 +98,12 @@ const SOURCES = [
     url: 'https://www.marktplaats.nl/q/porsche+911+targa/' },
   { key: '2dh-auktion', everyN: 3, type: 'mp', base: 'https://www.2dehands.be',
     url: 'https://www.2dehands.be/q/porsche+911+targa/' },
+  // Route 66 Auctions (Waalwijk, NL): woechentliche Online-Auktionen, dauerhaft 200+ Fahrzeuge,
+  // eigene Kategorie "Air-cooled". Gebote starten bei 1.000 EUR, es gibt aber immer einen
+  // Mindestpreis. Die Lose sind WooCommerce-Produkte und ueber die offene wp-json-Schnittstelle
+  // abfragbar. Preise stehen dort nicht drin, die holt die Tiefenpruefung von der Detailseite.
+  { key: 'route66', everyN: 1, type: 'r66', base: 'https://www.route66auctions.com',
+    url: 'https://www.route66auctions.com/wp-json/wp/v2/product?product_cat=26&per_page=60&_fields=link,title,product_cat' },
   // kleinanzeigen: GENAU EIN Abruf pro Lauf (= stuendlich). Bei 403 nicht nachdruecken.
   { key: 'kleinanzeigen', everyN: 1, type: 'ka', base: 'https://www.kleinanzeigen.de',
     url: 'https://www.kleinanzeigen.de/s-autos/' + KA_QUERIES[kaSlot] + '/k0c216' },
@@ -106,7 +112,9 @@ const NICHT_911 = /^vw\b|^volkswagen|\bt1\b|kaefer|käfer|cayenn?e|macann?|panam
 // Karosserien, Projekte, Teile: fliegen komplett raus (Patrick will NUR fahrbereite Autos)
 const PROJEKT = /frame|carrosserie|body.?(chassis|shell)|karosserie\b|rolling|schlacht|ersatzteil|onderdel|teiletr|restauratie|restaurations?basis|restaur[a-z]*objekt|restaurationsabbruch|restoration|te restaureren|gerestaureerd worden|projec?t\b|projekt|basis\b|r(ue|ü)cksitz|sitze aus|teile aus|aus porsche|ohne motor|zonder motor|no engine|motorschaden|unfall|accident|gereviseerd worden|opknapper|barn find|scheunenfund/i;
 const MODERN = /gt[23]\b|turbo ?s\b|carrera ?[24]s\b|\bgts\b|\bpdk\b|keramik|sport ?chrono|schalensitze|\blift\b|speedster|\bdakar\b|\brs\b/i;
-const IST_911 = /911|912|964|targa|oldtimer|g.?modell|\bsc\b|porshe|porche|posche|porsch\b|carera|carrerra/i;
+// Modellnummern duerfen nicht in Jahreszahlen treffen: "1964" enthaelt "964",
+// dadurch galt am 15.09. ein Autobianchi von 1964 als Elfer. Gleiches gilt fuer 1911/1912.
+const IST_911 = /(?<!\d)(?:911|912|964)(?!\d)|targa|oldtimer|g.?modell|\bsc\b|porshe|porche|posche|porsch\b|carera|carrerra/i;
 
 import { execFile } from 'node:child_process';
 // Parallel-Abruf: bei 20+ Quellen ist serielles curl zu langsam fuer den 5-Minuten-Takt
@@ -214,6 +222,25 @@ function parseGw(html) {
   return out.filter(l => yearOk(l.ez) && !NICHT_911.test(l.title) && !MODERN.test(l.title))
     .map(l => (l.ez ? l : { ...l, _resolve: true }));
 }
+function parseR66(json) {
+  let arr; try { arr = JSON.parse(json); } catch { return []; }
+  if (!Array.isArray(arr)) return [];
+  const out = [];
+  for (const it of arr) {
+    // Kategorie 20 = "Sold". Die Suche liefert auch beendete Auktionen mit,
+    // am 15.09. war ein 911 S Targa 1976 darunter, der laengst verkauft war.
+    if ((it.product_cat || []).includes(20)) continue;
+    const title = (it.title?.rendered || '').replace(/&#8217;/g, "'").replace(/&amp;/g, '&').trim();
+    const yr = /\|\s*(\d{4})\s*$/.exec(title);
+    if (!yr || +yr[1] < 1960 || +yr[1] > 1994) continue;      // nur luftgekuehlte Baujahre
+    if (!IST_911.test(title) || NICHT_911.test(title) || MODERN.test(title)) continue;
+    out.push({
+      title, price_eur: 0, km: null, ez: yr[1], location: 'Waalwijk', country: 'NL',
+      seller: 'Route 66 Auctions', url: it.link || '', src: 'route66', auktion: true,
+    });
+  }
+  return out.filter(l => l.url);
+}
 function parseKa(html) {
   if (/IP-Bereich/i.test(html || '')) return null; // gesperrt, kein Fehler
   const out = [];
@@ -304,6 +331,7 @@ for (const s of due) {
        : s.type === 'gw' ? parseGw(html)
        : s.type === 'mp' ? parseMp(html, s.base)
        : s.type === 'ct' ? parseCt(html)
+       : s.type === 'r66' ? parseR66(html)
        : parseKa(html);
   } catch (e) { health.push(s.key + ':PARSE'); continue; }
   if (ls === null) { health.push(s.key + ':RATELIMIT'); continue; }
@@ -342,7 +370,8 @@ for (const l of found) {
   // alles ab 1995 ist wassergekuehlt oder 993 und damit ausserhalb des Suchprofils
   const ty = /\b(19[5-9]\d|20[0-2]\d)\b/.exec(l.title || '');
   if (ty && +ty[1] > 1994) continue;
-  if (l.km >= 900000) continue; // km unbekannt/999999 = Projektverdacht, raus
+  if (l.src === 'route66') { /* Preis steht erst auf der Detailseite, Filter greift dort */ }
+  else if (l.km >= 900000) continue; // km unbekannt/999999 = Projektverdacht, raus
   // Platzhalter-Kilometerstaende: 123456, 111111, 654321 usw. Wer den Tacho nicht angibt,
   // hat meist kein fahrbereites Auto. Gefunden am 15.09. an einem zerlegten 1972er
   // Oelklappen-Modell fuer 33k, dessen erstes Foto ein fremdes Auto zeigte.
