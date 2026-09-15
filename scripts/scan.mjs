@@ -68,12 +68,8 @@ const SOURCES = [
   { key: 'as24-de3', everyN: 3, type: 'as24', base: 'https://www.autoscout24.de',
     url: 'https://www.autoscout24.de/lst/porsche/911?atype=C&priceto=45000&fregto=1994&cy=D&page=3' },
   // weitere Laender (neu getestet 15.09., liefern eigenes nationales Inventar)
-  { key: 'as24-lu', everyN: 3, type: 'as24', base: 'https://www.autoscout24.lu',
-    url: 'https://www.autoscout24.lu/lst/porsche/911?atype=C&priceto=45000&fregto=1994&sort=age&desc=1' },
-  { key: 'as24-pl', everyN: 3, type: 'as24', base: 'https://www.autoscout24.pl',
-    url: 'https://www.autoscout24.pl/lst/porsche/911?atype=C&priceto=45000&fregto=1994&sort=age&desc=1' },
   { key: 'ct-964', everyN: 3, type: 'ct', base: 'https://www.classic-trader.com',
-    url: 'https://www.classic-trader.com/de/automobile/suche/porsche/964?sort=price_asc' },
+    url: 'https://www.classic-trader.com/de/automobile/suche/porsche/911/964?sort=price_asc' },
   { key: 'willhaben', everyN: 1, type: 'wh', base: 'https://www.willhaben.at/iad/',
     url: 'https://www.willhaben.at/iad/gebrauchtwagen/auto/gebrauchtwagenboerse?keyword=Porsche%20911&PRICE_TO=45000&YEAR_MODEL_TO=1994' },
   { key: '12gw', everyN: 1, type: 'gw', base: 'https://www.12gebrauchtwagen.de',
@@ -114,10 +110,22 @@ const IST_911 = /911|912|964|targa|oldtimer|g.?modell|\bsc\b|porshe|porche|posch
 
 import { execFile } from 'node:child_process';
 // Parallel-Abruf: bei 20+ Quellen ist serielles curl zu langsam fuer den 5-Minuten-Takt
+// Status mit ausgeben: eine 404/410-Fehlerseite hat einen Body und wurde frueher
+// als gueltiges Ergebnis geparst (am 15.09. lieferte ein toter classic-trader-Pfad
+// per 410 eine Liste voller 924 und Cayenne).
 function fetchAsync(url) {
   return new Promise(res => {
-    execFile('curl', ['-sS', '-L', '--max-time', '25', '--compressed', '-o', '-', '-w', '', url],
-      { maxBuffer: 32 * 1024 * 1024, encoding: 'utf8' }, (err, out) => res(err ? null : out));
+    execFile('curl', ['-sS', '-L', '--max-time', '25', '--compressed', '-o', '-', '-w', '\n@@HTTP@@%{http_code}', url],
+      { maxBuffer: 32 * 1024 * 1024, encoding: 'utf8' }, (err, out) => {
+        if (err || !out) return res(null);
+        const i = out.lastIndexOf('\n@@HTTP@@');
+        if (i < 0) return res(out);
+        const code = parseInt(out.slice(i + 9), 10);
+        const body = out.slice(0, i);
+        // kleinanzeigen 403 braucht den Body, damit die Sperre als RATELIMIT erkannt wird
+        if (code >= 400 && !/kleinanzeigen/.test(url)) return res(null);
+        res(body);
+      });
   });
 }
 function resolveUrl(url) {
