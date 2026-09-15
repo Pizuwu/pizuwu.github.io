@@ -1634,7 +1634,14 @@
    "first_seen": "2026-09-15",
    "url": "https://www.route66auctions.com/product/porsche-911-targa-1975-p0073-2/",
    "verdict": "live geprueft HTTP 200, Losseite komplett gelesen - BESICHTIGEN, DANN BIETEN",
-   "hinweis": "AUKTION endet 29.09.2026 20:04 (Europe/Amsterdam). Stand 15.09.: 4 Gebote, Mindestpreis NICHT erreicht, Sofortkauf 49.950 EUR. 2.7 Sechszylinder, 5-Gang Handschaltung, rot, schwarze Fuchsfelgen, Turbo-Heckspoiler, schwarz mit roter Paspel. 'This vehicle drives, brakes and shifts.' Zustand durchgehend 3/5 = Good (Skala: hoeher ist besser, 4 = Very Good). Belgische Zulassung. RISIKO: 2.7er 1974-77 hat Magnesium-Kurbelgehaeuse, ausgerissene Zylinderkopfstehbolzen sind die teure Schwachstelle, vor Gebot Belege erfragen, sonst 6-10k Risiko. Limitempfehlung 36.000 EUR Zuschlag, entspricht rund 41.000 EUR alles inklusive."
+   "hinweis": "AUKTION endet 29.09.2026 20:04 (Europe/Amsterdam). Stand 15.09.: 4 Gebote, Mindestpreis NICHT erreicht, Sofortkauf 49.950 EUR. 2.7 Sechszylinder, 5-Gang Handschaltung, rot, schwarze Fuchsfelgen, Turbo-Heckspoiler, schwarz mit roter Paspel. 'This vehicle drives, brakes and shifts.' Zustand durchgehend 3/5 = Good (Skala: hoeher ist besser, 4 = Very Good). Belgische Zulassung. RISIKO: 2.7er 1974-77 hat Magnesium-Kurbelgehaeuse, ausgerissene Zylinderkopfstehbolzen sind die teure Schwachstelle, vor Gebot Belege erfragen, sonst 6-10k Risiko. Limitempfehlung 36.000 EUR Zuschlag, entspricht rund 41.000 EUR alles inklusive. | Konkurrenzlage 16.09. 00:35: Dieses Los hat 4 Gebote, waehrend die beiden Cabrios desselben Auktionsendes bei 25 (964 C4 Cabrio) und 14 Geboten (Carrera 3.2 Cabrio) stehen. Der Targa ist damit das mit Abstand am wenigsten umkaempfte der drei Lose.",
+   "gebots_verlauf": [
+    {
+     "zeit": "2026-09-16T00:35Z",
+     "gebote": 4,
+     "reserve": "nicht erreicht"
+    }
+   ]
   },
   {
    "title": "911 Targa 1971, Route 66 Auctions Los p10767x",
@@ -1663,6 +1670,48 @@
    "url": "https://www.route66auctions.com/product/porsche-911-1977-p02251x/",
    "verdict": "live geprueft HTTP 200",
    "hinweis": "AUKTION, noch keine Gebote. Faehrt, bremst, schaltet. Steht in NRW mit deutscher Zulassung: kein Import, keine Vollabnahme, keine Auslandsueberfuehrung. Karosserieform noch pruefen."
+  },
+  {
+   "title": "911 S 2.2 Targa 1970, Route 66, KOMMENDES Los",
+   "price_eur": null,
+   "km": null,
+   "ez": "1970",
+   "location": "Waalwijk",
+   "country": "NL",
+   "src": "route66",
+   "score": null,
+   "first_seen": "2026-09-16",
+   "url": "https://www.route66auctions.com/product/porsche-911-1970-p10372x-1/",
+   "verdict": "noch nicht in Auktion (0 Gebote, kein Auktionsende gesetzt)",
+   "hinweis": "US-Zulassung. Beobachten, sobald die Auktion oeffnet. Bei US-Reimport Title und Meilen/km pruefen."
+  },
+  {
+   "title": "911 Carrera 3.0 1977, Route 66, KOMMENDES Los",
+   "price_eur": null,
+   "km": null,
+   "ez": "1977",
+   "location": "Waalwijk",
+   "country": "FR",
+   "src": "route66",
+   "score": null,
+   "first_seen": "2026-09-16",
+   "url": "https://www.route66auctions.com/product/porsche-911-carrera-3-0-1977-p00396x-2/",
+   "verdict": "noch nicht in Auktion",
+   "hinweis": "Franzoesische Zulassung. Karosserieform noch unklar."
+  },
+  {
+   "title": "911 Carrera 1985, Route 66, KOMMENDES Los",
+   "price_eur": null,
+   "km": null,
+   "ez": "1985",
+   "location": "Waalwijk",
+   "country": "NL",
+   "src": "route66",
+   "score": null,
+   "first_seen": "2026-09-16",
+   "url": "https://www.route66auctions.com/product/porsche-911-1985-p03300x-1/",
+   "verdict": "noch nicht in Auktion",
+   "hinweis": "Niederlaendische Zulassung. Karosserieform noch unklar."
   }
  ]
 }
