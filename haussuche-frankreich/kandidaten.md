@@ -1,4 +1,4 @@
-# Master-Liste Kandidaten (Stand 13.09.2026)
+# Master-Liste Kandidaten (Stand 15.09.2026)
 
 ## Fixe Kriterien (vollständig, von Patrick bestätigt)
 
@@ -27,7 +27,7 @@
 ## Aktive Kandidaten (alle Kriterien erfüllt, Kontaktdetails privat per Mail)
 
 - **N4: 192 Allée Saint-Roch, Beaumes-de-Venise.** 131 m², DPE C (13.02.), Bj. 1977, Pool bestätigt, Ortsrand an den Weinbergen. Direkter Nachbar im Register auffindbar.
-- **N5: 515 Chemin des Vergers aux Baux, Bédoin.** 124 m², DPE C (09.02.), Bj. 1997, grüne Villenlage, Pool sehr wahrscheinlich (Zuordnung bei Interesse bestätigen).
+- **N5: 515 Chemin des Vergers aux Baux, Bédoin.** 124 m², DPE C (09.02.), Bj. 1997, grüne Villenlage. STATUS 15.09.: sehr wahrscheinlich seit 11.09. inseriert (Maklerobjekt, 124 m², DPE C, Bj. 1999, 1.345 m² Grund, 490.000 €, Unschärfekreis liegt 479 m um die Adresse). Damit kein Pre-Market mehr, Konkurrenz ab jetzt vorhanden.
 
 ## Beobachten (Kriterien teilweise offen)
 
@@ -36,9 +36,21 @@
 - **W3: 601 Chemin de Ratonelle, Aubignan.** 130 m², DPE B (05.01.), Weinbergrand, Pool-Zuordnung zu bestätigen.
 - **P13: 484e Route Chante Gu, Sarrians.** 173 m², DPE B (10.08.), Weingut mit Gîtes, vermutlich über Budget, nur relevant bei Einzelgebäude-Verkauf.
 
+## Makler-Ausnahmen (perfekte Treffer, Regel 1, Stand 15.09.)
+
+- Bédoin, 115 m², 2.572 m² umzäuntes Grundstück mit Eichen, beheizter Pool, Boulodrome, 4 SZ, Bj. 1975, DPE D, in voller Landlage, 340.000 €. Bester Preis-Leistungs-Treffer bisher. bienici.com/annonce/netty-company51600xbi-house-2008
+- Loriol-du-Comtat, 116 m² ebenerdig, 2.826 m² Grund (noch bebaubar), Pool, Landlage, Bj. 1982, DPE B, 435.000 €. bienici.com/annonce/immo-facile-61066895
+- Bédoin "Villa des Pins", 100,7 m², 2.000 m² Naturgrundstück, Pool, 442.000 €. bienici.com/annonce/citya-1-283-TMAI147936
+- Bédoin, 100 m² ebenerdig in der Pinienzone, 1.583 m², Pool, 447.000 €. bienici.com/annonce/netty-company51600xbi-house-35838
+
 ## Private Inserate
 
-Keine bestätigten privaten Inserate mit Pool. 12.09.: ein unverifiziertes Leboncoin-Inserat (3214015882) an Patrick zur Prüfung gemailt. Tägliche Prüfung über Suchmaschinen-Index inkl. Tippfehler-Varianten. 13.09.: keine neuen Signale; Makler-Objekt Caromb 262 m² 649k geprüft und verworfen (Größe, Budget, Dorflage).
+Keine bestätigten privaten Inserate mit Pool. 12.09.: ein unverifiziertes Leboncoin-Inserat (3214015882) an Patrick zur Prüfung gemailt. Tägliche Prüfung über Suchmaschinen-Index inkl. Tippfehler-Varianten. 13.09.: keine neuen Signale; Makler-Objekt Caromb 262 m² 649k verworfen (Größe, Budget, Dorflage). 15.09.: Bienici-API mit allen 16 Gemeinden abgefragt, 100 Treffer im Raster 95 bis 180 m² und bis 520k, davon KEIN einziges Privatinserat (Bienici ist reines Maklerportal). Notar-API: derzeit kein passendes Objekt in den 16 Gemeinden.
+
+## Erkenntnisse zur Datenlage (15.09.)
+
+- Die ADEME-Datenbank ist am 15.09. nur bis zum 07.09. gefüllt, also rund 8 Tage Rückstand. Leere Tagesläufe bedeuten daher meist Datenrückstand, nicht fehlende Häuser.
+- Der 12-Monats-Sweep deckt jetzt auch Herbst 2025 ab: 78 bisher ungescannte Adressen im Größenraster, davon 41 in Landlage. Pool-Prüfung per Luftbild läuft.
 
 ## Aussortiert / Historie
 
