@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T19:40:30Z",
+ "updated_at": "2026-09-16T20:21:15Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -9887,7 +9887,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-911-997-2-facelift-ab-2008-coup-oder-cabrio/3505945406-216-7618",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-16",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-09-16",
+     "p": 35000
+    }
+   ],
    "title": "suche porsche 911 997 2 facelift ab 2008 coup oder cabrio",
    "last_seen": "2026-09-16",
    "vin": null,
@@ -10388,6 +10393,52 @@
    "km": 51000,
    "ps": 75,
    "hashes": []
+  },
+  "dd90360228ea": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-s2-targa/3406493601-216-1638",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-16",
+   "prices": [
+    {
+     "d": "2026-09-16",
+     "p": 19800
+    }
+   ],
+   "title": "porsche 944 s2 targa",
+   "last_seen": "2026-09-16",
+   "vin": null,
+   "ez": "01/1991",
+   "km": 180000,
+   "ps": null
+  },
+  "e2f5c4af9932": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-roadster/3514845928-216-25908",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-16",
+   "prices": [
+    {
+     "d": "2026-09-16",
+     "p": 29900
+    }
+   ],
+   "title": "porsche 911 carrera roadster",
+   "last_seen": "2026-09-16",
+   "vin": null,
+   "ez": "07/2000",
+   "km": 51881,
+   "ps": null
+  },
+  "0b9abc51be04": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-targa/3494152818-216-1851",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-16",
+   "prices": [],
+   "title": "porsche 911 targa",
+   "last_seen": "2026-09-16",
+   "vin": null,
+   "ez": "07/1974",
+   "km": 3500,
+   "ps": null
   }
  }
 }
