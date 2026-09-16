@@ -25,6 +25,7 @@ const PORTALE = [
 const IST = /(?<!\d)(?:911|912|964)(?!\d)|targa|g.?modell|\bsc\b|carrera/i;
 const NICHT = /cayenn?e|macan|panamera|boxster|cayman|taycan|914|924|944|928|968|993|996|997|991|992|turbo ?s\b|gt[23]\b/i;
 const out = { fetched_at: new Date().toISOString(), runner: process.env.GITHUB_RUN_ID || 'lokal', portale: [], listings: [] };
+const seenAll = new Set(); // dieselbe Anzeige taucht in mehreren Filtern auf (Targa UND G-Modell)
 fs.mkdirSync(path.join(REPO, 'data', 'portale-raw'), { recursive: true });
 for (const p of PORTALE) {
   let code = 0, body = '';
@@ -39,13 +40,14 @@ for (const p of PORTALE) {
     const re = /href="(https:\/\/www\.elferspot\.com\/de\/fahrzeug\/[^"]+)" class="content-teaser[^>]*>([\s\S]*?)<\/a>/g;
     for (const m of body.matchAll(re)) {
       const url = m[1]; if (seen.has(url)) continue; seen.add(url);
+      if (seenAll.has(url)) continue; seenAll.add(url);
       const land = /alt="([A-Z]{2})" class="flag/.exec(m[2])?.[1] || '';
       const yr = /\/>\s*(\d{4})\s*<\/div>/.exec(m[2])?.[1] || (/-(\d{4})-\d+\/?$/.exec(url)?.[1] || '');
       const title = (/<h3>([^<]+)<\/h3>/.exec(m[2])?.[1] || '').trim();
       const img = /data-src="([^"?]+)/.exec(m[2])?.[1] || '';
       if (!IST.test(title + ' ' + url) || NICHT.test(title)) continue;
       if (yr && (+yr < 1960 || +yr > 1994)) continue;
-      out.listings.push({ src: 'elferspot', url, title: title + (yr ? ' (' + yr + ')' : ''), price_eur: null, ez: yr, km: null, country: land, image: img, snippet: '' });
+      out.listings.push({ src: 'elferspot', url, title: title + (yr ? ' (' + yr + ')' : ''), price_eur: null, ez: yr, km: null, country: land, image: img, snippet: '', filter: p.name.replace('elferspot-', '') });
       n++;
     }
     out.portale.push({ name: p.name, code, size: body.length, links: seen.size, treffer: n });
