@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T12:29:45Z",
+ "updated_at": "2026-09-16T12:30:45Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -135,7 +135,34 @@
    "vin": null,
    "ez": "11/1971",
    "km": 69502,
-   "ps": null
+   "ps": null,
+   "hashes": [
+    {
+     "url": "https://static.kleinanzeigen.de/static/img/features-payment/feature-desc-rb-gallery.859ot4atbyjj.png",
+     "d": "c058594d4d185919",
+     "p": "eb2e95956262949d"
+    },
+    {
+     "url": "https://static.kleinanzeigen.de/static/img/features-payment/feature-desc-rb-topad.46xg57wzlu29.png",
+     "d": "c1581d1d1b591919",
+     "p": "fb5e85a5e0624a2d"
+    },
+    {
+     "url": "https://static.kleinanzeigen.de/static/img/features-payment/feature-desc-rb-highlight.128h04vlo60oq.png",
+     "d": "c0591959191b5919",
+     "p": "b38ecc31c0ce7173"
+    },
+    {
+     "url": "https://static.kleinanzeigen.de/static/img/features-payment/feature-desc-rb-bumpup.15uik0vc72rvl.png",
+     "d": "c05c19171757191d",
+     "p": "ed1b93c46473d22c"
+    },
+    {
+     "url": "https://static.kleinanzeigen.de/static/img/features-payment/feature-desc-rb-radius.1jsxyqq9fn1b9.png",
+     "d": "807059591d195919",
+     "p": "bb0e8c71c4ce6372"
+    }
+   ]
   },
   "01158e7d92ed": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-s2-targa-dt-fahrzg-motor-revidiert-turbo-sitze/3512734415-216-1302",
@@ -1903,6 +1930,40 @@
    "vin": null,
    "ez": "07/2000",
    "km": 147000,
+   "ps": null
+  },
+  "49c9bf3c1185": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911s-targa/3498767643-216-7082",
+   "src": "intake",
+   "first_seen": "2026-09-16",
+   "prices": [
+    {
+     "d": "2026-09-16",
+     "p": 42000
+    }
+   ],
+   "title": "Porsche 911S Targa in Bayern - Türkheim | Porsche 911 Urmodell Gebrauchtwagen kaufen | kleinanzeigen.de",
+   "last_seen": "2026-09-16",
+   "vin": null,
+   "ez": "07/1987",
+   "km": 180000,
+   "ps": 165
+  },
+  "335827b1ae3f": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-targa-3-0/3505892042-223-3298",
+   "src": "intake",
+   "first_seen": "2026-09-16",
+   "prices": [
+    {
+     "d": "2026-09-16",
+     "p": 42000
+    }
+   ],
+   "title": "Porsche 911 Targa 3,0 in Niedersachsen - Cuxhaven | Ersatz- &amp; Reparaturteile kaufen | kleinanzeigen.de",
+   "last_seen": "2026-09-16",
+   "vin": null,
+   "ez": null,
+   "km": 1000,
    "ps": null
   }
  }
