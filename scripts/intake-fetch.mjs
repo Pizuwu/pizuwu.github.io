@@ -29,6 +29,12 @@ let code = 0, body = '', final = url;
     const i = raw.lastIndexOf('\n@@HTTP@@'); const tail = raw.slice(i + 9).split('@@');
     code = parseInt(tail[0], 10); final = tail[1] || url; body = raw.slice(0, i);
   } catch (e) { code = 0; }
+  // Kickdown (Nuxt) und andere SPAs liefern Titel, Preis und Beschreibung nur im JSON-Block
+  // (window.__NUXT__, __NEXT_DATA__, ld+json). Diese Bloecke werden als Klartext angehaengt.
+  const jsonBlocks = [...body.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g)].map(m => m[1])
+    .filter(j => /__NUXT__|__NEXT_DATA__|application\/ld\+json|"description"|"price"/.test(j) || /ld\+json/.test(j))
+    .map(j => j.replace(/\\u([0-9a-f]{4})/gi, (_, h) => String.fromCharCode(parseInt(h, 16))).replace(/\\n/g, '\n').replace(/\\\//g, '/').replace(/\\"/g, '"'))
+    .join('\n').slice(0, 60000);
   const text = body.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<style[\s\S]*?<\/style>/g, ' ')
     .replace(/<(br|p|li|h\d|tr|div)[^>]*>/gi, '\n').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim();
@@ -44,7 +50,7 @@ let code = 0, body = '', final = url;
     // "captcha" allein reicht nicht: elferspot und AutoScout24 haben reCAPTCHA im Kontaktformular
     // jeder normalen Seite. Gesperrt = Sperrtext UND fast kein Inhalt.
     blocked: code !== 200 || (/IP-Bereich|access denied|are you a human|bot detection/i.test(body) && text.length < 5000), title: (/<title[^>]*>([^<]*)<\/title>/i.exec(body) || [])[1] || '',
-    text: text.slice(0, 40000), images: [...new Set(imgs)].slice(0, 60) };
+    text: text.slice(0, 40000) + (jsonBlocks ? '\n\nJSONDATEN:\n' + jsonBlocks : ''), images: [...new Set(imgs)].slice(0, 60) };
   fs.mkdirSync(path.join(REPO, 'data', 'intake'), { recursive: true });
   fs.writeFileSync(path.join(REPO, 'data', 'intake', id + '.json'), JSON.stringify(rec, null, 1));
   console.log(`intake ${id}: http=${code} text=${text.length} bilder=${rec.images.length}${rec.blocked ? ' GESPERRT' : ''}`);
