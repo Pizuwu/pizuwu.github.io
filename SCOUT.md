@@ -45,6 +45,21 @@ Ergebnisse als Dateien auf den Arbeits-Branch, der stuendliche Lauf macht `git p
    `git pull`, Datei lesen, Tiefenpruefung wie gewohnt, Antwort im Chat.
 3. **Portal-Probe** (Input `probe=true`): `scripts/portal-probe.mjs` testet alle bisher gesperrten
    Portale und Auktionshaeuser vom Runner aus, Ergebnis in `data/portal-probe.json`.
+4. **Gesperrte Portale lesen** (laeuft in jedem Neu-Finder-Lauf): `scripts/portale-fetch.mjs` holt
+   elferspot (Suche targa/911/912), pff und troostwijk, schreibt `data/portale-live.json`
+   (listings mit src/url/title/price_eur/ez/km/snippet) und HTML-Ausschnitte nach `data/portale-raw/`.
+   Parser dort nachschaerfen, wenn Treffer fehlen.
+
+**Probe-Ergebnis 16.09. (zwei Laeufe):**
+- Runner erreicht: kleinanzeigen, elferspot (`/de/?s=targa`, 200, 71 Links), pff (Startseite 200),
+  otomoto, sauto, autobid, classic-trader Auktionen, troostwijk Startseite (200, ohne Marker).
+- Auch aus der Sandbox erreichbar und seit 16.09. direkt im Scanner: otomoto (PL, __NEXT_DATA__,
+  PLN/4,3) und sauto (CZ, Karten, CZK/25). Beide brauchen einen Browser-UA.
+- 403 fuer Runner UND Sandbox: mobile.de, classicdriver, zwischengas, autouncle, ebay, catawiki
+  (Catawiki-Lose kommen ueber marktplaats/2dehands-Spiegel), lacentrale, gaspedaal, dorotheum,
+  bonhams, carandclassic. classicbid liefert 200, aber Bot-Sperre. autobid ist eine Nuxt-SPA
+  (Daten nur per API, Klassiker selten) und wird nicht weiterverfolgt.
+- Tot/leer: elfertreff (keine Antwort), oldtimermarkt, vavato, osenat, aguttes.
 
 **Bild- und Datenabgleich (jeder Lauf):** `scripts/fingerprint.py` hasht bis zu 8 Bilder pro Inserat
 (dHash/pHash), zieht FIN/EZ/km/PS aus dem Text und fuehrt den Preisverlauf. `scripts/crosscheck.mjs`
@@ -84,7 +99,8 @@ Alle Abrufe per `curl -sS -L --max-time 25` (WebFetch wird von den meisten geblo
 | AutoScout24 Nachbarn | wie DE aber `cy=NL%2CB%2CF%2CI%2CL` | wie DE |
 | willhaben AT | `https://www.willhaben.at/iad/gebrauchtwagen/auto/gebrauchtwagenboerse?CAR_MODEL%2FMAKE=Porsche&PRICE_TO=31500&YEAR_MODEL_FROM=1997&YEAR_MODEL_TO=2005` | `__NEXT_DATA__`: `props.pageProps.searchResult.advertSummaryList.advertSummary[]`, attributes.attribute: PRICE/AMOUNT, MILEAGE, YEAR_MODEL, CAR_MODEL/MAKE==Porsche, SEO_URL (URL=`https://www.willhaben.at/iad/`+Wert), AUTDEALER |
 | 12gebrauchtwagen (aggregiert mobile.de!) | `https://www.12gebrauchtwagen.de/auto/porsche/996?page=1..3` | HTML-Blöcke um `c/partner?offer_id=`; finale mobile.de-URL via `curl -w "%{url_effective}"` auflösen |
-| sauto.cz | `https://www.sauto.cz/inzerce/osobni/porsche/911` | CZK, Kurs ~25.2 CZK/EUR |
+| sauto.cz | `https://www.sauto.cz/inzerce/osobni/porsche/911?vyrobeno-do=1994` | HTML-Karten `<li class="c-item `, Name `c-item__name`, `c-item__info` = Jahr, km, Preis `c-item__price` in CZK (Kurs 25). Browser-UA noetig. Im Scanner seit 16.09. |
+| otomoto.pl | `https://www.otomoto.pl/osobowe/porsche/od-1963?search[filter_float_year:to]=1994` | `__NEXT_DATA__` props.pageProps.urqlState[*].data (String-JSON) advertSearch.edges[].node: title, shortDescription, url, price.amount.value+currencyCode (PLN/4,3 oder EUR), parameters year/mileage, location.city.name, sellerLink (Haendler). Browser-UA noetig. Im Scanner seit 16.09. |
 | heycar | `https://hey.car/gebrauchtwagen/porsche/911` | NEXT_DATA/JSON-LD |
 | automobile.it | `https://www.automobile.it/porsche-911` | HTML/JSON |
 | gebrauchtwagen.de | `https://www.gebrauchtwagen.de/porsche/911` | HTML |
