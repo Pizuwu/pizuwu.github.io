@@ -359,7 +359,22 @@ let found = [];
 const due = SOURCES.filter(s => CYCLE % s.everyN === 0);
 const htmls = await fetchAll(due);
 for (const s of due) {
-  const html = htmls.get(s.key);
+  let html = htmls.get(s.key);
+  // Kleinanzeigen: bevorzugt die Datei, die der GitHub-Runner alle 30 Minuten schreibt
+  // (data/ka-live.json). Die Sandbox-IP ist dort gesperrt, der Runner nicht.
+  if (s.type === 'ka') {
+    try {
+      const live = JSON.parse(fs.readFileSync(path.join(REPO, 'data', 'ka-live.json'), 'utf8'));
+      const ageH = (Date.now() - Date.parse(live.fetched_at)) / 36e5;
+      if (ageH < 3 && live.listings.length) {
+        const ls = live.listings.map(l => ({ ...l, country: 'DE', seller: '', src: 'kleinanzeigen', ctx: l.snippet || '' }))
+          .filter(l => IST_911.test(l.title) && !NICHT_911.test(l.title) && yearOk(l.ez));
+        health.push('ka-runner:' + ls.length + '@' + ageH.toFixed(1) + 'h');
+        found = found.concat(ls);
+        continue;
+      }
+    } catch {}
+  }
   if (!html) { health.push(s.key + ':FAIL'); continue; }
   let ls;
   try {
