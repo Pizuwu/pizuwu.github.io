@@ -413,6 +413,7 @@ found = found.filter(l => !l._drop);
 const fresh = [];
 for (const l of found) {
   if (l._strict && !IST_911.test(l.title || '')) continue; // Marke-ohne-Modell-Quelle: nur echte Elfer/912/964
+  if (/\b(suche|gesucht|kaufe|ankauf)\b/i.test(l.title || '')) continue; // Kaufgesuche sind keine Angebote
   if (PROJEKT.test(l.title || '')) continue;
   if (MODERN.test(l.title || '')) continue; // moderne 911-Derivate (GT3, Turbo S, ...)
   // Modell-Sperre ist absolut: "944 S2 Targa" und "914 Targa" sind KEINE Elfer.
@@ -450,7 +451,7 @@ if (problems.length >= 3) console.log('SCAN-PROBLEM: ' + problems.join(' '));
 for (const l of fresh) {
   // Koederpreis-Heuristik: ein fahrbereiter luftgekuehlter Elfer unter 18k existiert nicht.
   // Beispiel 15.09.: "911 Carrera 1994" fuer 8.499 EUR war in Wahrheit ein 993 (Markt 70-100k).
-  const koeder = !l.auktion && l.price_eur < 18000;
+  const koeder = !l.auktion && !l.listenpreis_fehlt && l.price_eur > 0 && l.price_eur < 18000;
   const tag = l._platzhalter ? 'PLATZHALTER-KM'
     : koeder ? 'KOEDER-VERDACHT'
     : l.verhandlung ? 'VERHANDLUNG'
