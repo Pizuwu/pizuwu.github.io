@@ -33,6 +33,7 @@ function parse(html, query) {
   const out = [];
   for (const a of html.split(/<article/).slice(1)) {
     const href = /data-href="([^"]+)"/.exec(a); if (!href) continue;
+    const b = a.replace(/<[^>]+>/g, ' ');
     const id = /data-adid="(\d+)"/.exec(a);
     const title = /class="ellipsis"[^>]*>\s*([^<]+)/.exec(a);
     const price = /([\d.]{4,9})\s*€/.exec(a);
@@ -43,11 +44,14 @@ function parse(html, query) {
     const when = [null, plain.find(x => /^(Heute|Gestern),?\s*\d{2}:\d{2}$|^\d{2}\.\d{2}\.\d{4}$/.test(x)) || ''];
     const desc = /aditem-main--middle--description[^>]*>\s*([^<]+)/.exec(a);
     const p = price ? parseInt(price[1].replace(/\./g, ''), 10) : null;
-    if (!p || p < 8000 || p > MAX_EUR) continue;
+    const vb = /\bVB\b/.test(b) || /Verhandlungsbasis/i.test(b);
+    // "VB" ohne Zahl ist KEIN Grund zum Verwerfen: das sind die Verhandlungsziele.
+    if (p && (p < 8000 || p > MAX_EUR)) continue;
+    if (!p && !vb) continue;
     out.push({
       id: id ? id[1] : null, query,
       title: (title ? title[1] : href[1].replace(/^\/s-anzeige\//, '').split('/')[0].replace(/-/g, ' ')).trim(),
-      price_eur: p, km: km ? parseInt(km[1].replace(/\./g, ''), 10) : null, ez: ez ? ez[1] : '',
+      price_eur: p, vb, km: km ? parseInt(km[1].replace(/\./g, ''), 10) : null, ez: ez ? ez[1] : '',
       location: loc ? loc[1].trim() : '', posted: when ? when[1].trim() : '',
       snippet: desc ? desc[1].trim().slice(0, 300) : '',
       url: 'https://www.kleinanzeigen.de' + href[1],
