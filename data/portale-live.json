@@ -1,39 +1,53 @@
 {
- "fetched_at": "2026-09-16T12:49:03.320Z",
- "runner": "35097834686",
+ "fetched_at": "2026-09-16T12:54:05.391Z",
+ "runner": "35098306487",
  "portale": [
   {
    "name": "elferspot",
    "code": 200,
-   "size": 133548,
-   "links": 11,
-   "treffer": 1
+   "size": 34075,
+   "links": 6,
+   "treffer": 5
   },
   {
    "name": "elferspot-911",
    "code": 200,
-   "size": 135858,
+   "size": 44128,
    "links": 10,
-   "treffer": 0
+   "treffer": 10
   },
   {
    "name": "elferspot-912",
    "code": 200,
-   "size": 132727,
-   "links": 12,
-   "treffer": 2
-  },
-  {
-   "name": "pff",
-   "code": 200,
-   "size": 93461,
+   "size": 1524,
    "links": 0,
    "treffer": 0
   },
   {
+   "name": "elferspot-suchen",
+   "code": 200,
+   "size": 397958,
+   "links": 72,
+   "treffer": 22
+  },
+  {
+   "name": "pff",
+   "code": 200,
+   "size": 219143,
+   "links": 116,
+   "treffer": 8
+  },
+  {
    "name": "troostwijk",
    "code": 200,
-   "size": 595957,
+   "size": 474956,
+   "links": 0,
+   "treffer": 0
+  },
+  {
+   "name": "troostwijk-2",
+   "code": 404,
+   "size": 148594,
    "links": 0,
    "treffer": 0
   }
@@ -41,30 +55,408 @@
  "listings": [
   {
    "src": "elferspot",
-   "url": "https://www.elferspot.com/de/search/targa/",
-   "title": "targa",
+   "url": "https://www.elferspot.com/de/shop/lego-porsche-911-turbo-targa/",
+   "title": "lego porsche 911 turbo targa",
    "price_eur": null,
    "ez": "",
    "km": null,
-   "snippet": "https://www.elferspot.com/de/search/targa/\" /> {\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":[\"CollectionPage\",\"SearchResultsPage\"],\"@id\":\"https:\\/\\/www.elferspot.com\\/de\\/?s=targa\",\"url\":\"https:\\/\\/www.elferspot.com\\/de\\/?s=targa\",\"name\":\"Du hast nach targa gesucht - Elferspot\",\"isPartOf\":{"
+   "snippet": "https://www.elferspot.com/de/shop/lego-porsche-911-turbo-targa/\">LEGO® Porsche 911 Turbo Targa erschien zuerst auf Elferspot . ]]> Ein tolles Bauprojekt Wer die Marken Porsche und LEGO mag, wir dieses wunderbare Porsche 911 Bauset lieben. Entfliehe dem Alltag und stürze dich in ein spannendes Baupro"
   },
   {
    "src": "elferspot",
-   "url": "https://www.elferspot.com/de/search/912/",
-   "title": "912",
+   "url": "https://www.elferspot.com/de/shop/porsche-targa-die-gelebte-offenheit/",
+   "title": "porsche targa die gelebte offenheit",
    "price_eur": null,
-   "ez": "",
+   "ez": "1965",
    "km": null,
-   "snippet": "https://www.elferspot.com/de/search/912/\" /> <link rel=\"alternate\" type=\"application/rss+xml\" title=\"Elferspot &raquo"
+   "snippet": "https://www.elferspot.com/de/shop/porsche-targa-die-gelebte-offenheit/\">Porsche Targa – Die gelebte Offenheit erschien zuerst auf Elferspot . ]]> Porsche Targa – Das Buch zum Kult-Konzept Der Targa ist der eigensinnigste 911. Kein Coupé, kein Cabrio, sondern eine dritte Kategorie: 1965 als Antwort a"
   },
   {
    "src": "elferspot",
-   "url": "https://www.elferspot.com/de/shop/the-sculpture-porsche-911-carrera-rs-by-paul-mcline/",
-   "title": "the sculpture porsche 911 carrera rs by paul mcline",
+   "url": "https://www.elferspot.com/de/shop/60-jahre-porsche-911-targa/",
+   "title": "60 jahre porsche 911 targa",
+   "price_eur": null,
+   "ez": "1965",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/shop/60-jahre-porsche-911-targa/\">60 Jahre Porsche 911 Targa erschien zuerst auf Elferspot . ]]> Porsche 911 Targa 60 Jahre Design, Technik & Emotionen in einem Buch Der Porsche 911 Targa ist mehr als nur eine Karosserievariante – er ist Designikone, technisches Statemen"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/shop/porsche-911-die-legendaere-g-serie-1973-1989/",
+   "title": "porsche 911 die legendaere g serie 1973 1989",
+   "price_eur": null,
+   "ez": "1973",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/shop/porsche-911-die-legendaere-g-serie-1973-1989/\">Porsche 911 &#8211; Die legendäre G-Serie (1973-1989) erschien zuerst auf Elferspot . ]]> Der Beitrag Porsche 911 &#8211; Die legendäre G-Serie (1973-1989) erschien zuerst auf Elferspot . ]]> Markus Klimesch Porsche 911"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/shop/porsche-911-buch-f-modell-60-years-1965-1973/",
+   "title": "porsche 911 buch f modell 60 years 1965 1973",
+   "price_eur": null,
+   "ez": "1965",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/shop/porsche-911-buch-f-modell-60-years-1965-1973/\">Porsche 911 Buch F-Modell „60 Years“ 1965–1973 erschien zuerst auf Elferspot . ]]> Porsche 911 F-Modell „60 Years“ – Die limitierte Hommage an den Ur-Elfer Zum 60-jährigen Jubiläum der ersten Porsche-911-Generation hat "
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/shop/lego-porsche-911-turbo-targa/",
+   "title": "lego porsche 911 turbo targa",
    "price_eur": null,
    "ez": "",
    "km": null,
-   "snippet": "https://www.elferspot.com/de/shop/the-sculpture-porsche-911-carrera-rs-by-paul-mcline/\" data-shop-teaser-id=\"6007356\" data-shop-teaser-label=\"911 Sculpture\"> Porsche auf der Rennstrecke fahren &#8211; Tipps für Einsteiger Mehr<"
+   "snippet": "https://www.elferspot.com/de/shop/lego-porsche-911-turbo-targa/\">LEGO® Porsche 911 Turbo Targa erschien zuerst auf Elferspot . ]]> Ein tolles Bauprojekt Wer die Marken Porsche und LEGO mag, wir dieses wunderbare Porsche 911 Bauset lieben. Entfliehe dem Alltag und stürze dich in ein spannendes Baupro"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/shop/a-life-in-a-porsche-911/",
+   "title": "a life in a porsche 911",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/shop/a-life-in-a-porsche-911/\">A Life In A Porsche 911 erschien zuerst auf Elferspot . ]]> Der Autor François Bouet ist seit 20 Jahren Automobiljournalist und schreibt unter anderem für Hemming, Road-Story und Le Nouvel Automobiliste. Er ist auch der Gründer von www.podc"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/shop/porsche-911-die-legendaere-g-serie-1973-1989/",
+   "title": "porsche 911 die legendaere g serie 1973 1989",
+   "price_eur": null,
+   "ez": "1973",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/shop/porsche-911-die-legendaere-g-serie-1973-1989/\">Porsche 911 &#8211; Die legendäre G-Serie (1973-1989) erschien zuerst auf Elferspot . ]]> Der Beitrag Porsche 911 &#8211; Die legendäre G-Serie (1973-1989) erschien zuerst auf Elferspot . ]]> Markus Klimesch RUF EDITION"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/shop/buch-porsche-911-60-years-1963-2023-ruf-edition/",
+   "title": "buch porsche 911 60 years 1963 2023 ruf edition",
+   "price_eur": null,
+   "ez": "1963",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/shop/buch-porsche-911-60-years-1963-2023-ruf-edition/\">RUF EDITION Porsche 911 – 60 YEARS 1963 – 2023 erschien zuerst auf Elferspot . ]]> Der Beitrag RUF EDITION Porsche 911 – 60 YEARS 1963 – 2023 erschien zuerst auf Elferspot . ]]> Markus Klimesch The Porsche 911 Book &"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/shop/the-porsche-911-book-rene-staud/",
+   "title": "the porsche 911 book rene staud",
+   "price_eur": null,
+   "ez": "1963",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/shop/the-porsche-911-book-rene-staud/\">The Porsche 911 Book &#8211; René Staud erschien zuerst auf Elferspot . ]]> The Porsche 911 Book &#8211; René Staud Die Vorstellung des Porsche 901 auf der IAA 1963 markiert einen Meilenstein in der Automobilhistorie. Der Name musst"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/shop/the-next-60-years-porsche-911-design-projekt/",
+   "title": "the next 60 years porsche 911 design projekt",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/shop/the-next-60-years-porsche-911-design-projekt/\">The Next 60 Years Porsche 911 Design Projekt erschien zuerst auf Elferspot . ]]> Limitiert auf 150 Stück. The Next 60 Years Porsche 911 Design Projekt Die Herleitung der Porsche typischen Formensprache seit Gründung der"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/shop/modellauto-911-carrera-3-0-hans-mezger-limited-edition/",
+   "title": "modellauto 911 carrera 3 0 hans mezger limited edition",
+   "price_eur": null,
+   "ez": "1979",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/shop/modellauto-911-carrera-3-0-hans-mezger-limited-edition/\">Modellauto 911 Carrera 3.0 Hans Mezger &#8211; Limited Edition erschien zuerst auf Elferspot . ]]> Die Geschichte vom Porsche Motorenpapst Hans Mezger Ingenieure sind quasi die Väter (oder Mütter) eines jeden "
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/shop/porsche-911-carrera-rs-124-modell-bausatz/",
+   "title": "porsche 911 carrera rs 124 modell bausatz",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/shop/porsche-911-carrera-rs-124-modell-bausatz/\">Porsche 911 Carrera RS 1:24 Modell Bausatz erschien zuerst auf Elferspot . ]]> Der Beitrag Porsche 911 Carrera RS 1:24 Modell Bausatz erschien zuerst auf Elferspot . ]]> Markus Klimesch Book Porsche 911 x 911 https://www.e"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/shop/porsche-911-x-911/",
+   "title": "porsche 911 x 911",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/shop/porsche-911-x-911/\">Book Porsche 911 x 911 erschien zuerst auf Elferspot . ]]> Das &#8222;Porsche 911 x 911&#8220; Buch Der Porsche 911. Seit 60 Jahren ist er einfach das Maß aller Dinge unter den Supersportwagen. Inzwischen wurden über 1,1 Millionen Neunelfer produ"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/shop/911-turbo-buch-hans-mezger-limited-edition/",
+   "title": "911 turbo buch hans mezger limited edition",
+   "price_eur": null,
+   "ez": "1975",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/shop/911-turbo-buch-hans-mezger-limited-edition/\">Turbo Buch Hans Mezger Limited Edition 2020 erschien zuerst auf Elferspot . ]]> Der Porsche 911 Turbo &#8211; Das Buch in der Hans Mezger Edition Im Frühjahr 1975 rollte der erste Porsche 911 Turbo zu den Händlern in die "
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/finden/porsche-rennwagen/",
+   "title": "porsche rennwagen",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/finden/porsche-rennwagen/\" class=\"story \" onclick=\"atomSendGAEvent('storyteaser_search_racingcars')\"> Porsche Rennwagen Porsche unter 50.000 Porsche Auktionen Porsche 911 Oldtimer kaufen <div class=\"col-xs-12 col-md-8 col-lg-6 col-md-offset-2 col-lg-offse"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/finden/porsche-unter-50-000/",
+   "title": "porsche unter 50 000",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/finden/porsche-unter-50-000/\" class=\"story \" onclick=\"atomSendGAEvent('storyteaser_search_under50k')\"> Porsche unter 50.000 Porsche Auktionen Porsche 911 Oldtimer kaufen Unsere 4.000+ Fahrzeuge Porsche gebraucht kaufen? Finde hier deinen perfekten Porsche! Sortieren Neue"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/finden/porsche-auktionen/",
+   "title": "porsche auktionen",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/finden/porsche-auktionen/\" class=\"story \" onclick=\"atomSendGAEvent('storyteaser_search_auctions')\"> Porsche Auktionen Porsche 911 Oldtimer kaufen Unsere 4.000+ Fahrzeuge Porsche gebraucht kaufen? Finde hier deinen perfekten Porsche! Sortieren Neueste Baujahr &uarr; Bauja"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/finden/porsche-911-oldtimer-kaufen/",
+   "title": "porsche 911 oldtimer kaufen",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/finden/porsche-911-oldtimer-kaufen/\" class=\"story \" onclick=\"atomSendGAEvent('storyteaser_search_oldtimer')\"> Porsche 911 Oldtimer kaufen Unsere 4.000+ Fahrzeuge Porsche gebraucht kaufen? Finde hier deinen perfekten Porsche! Sortieren Neueste Baujahr &uarr; Baujahr &darr"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-s-g-modell-1976-6250647/",
+   "title": "porsche 911 s g modell 1976 6250647",
+   "price_eur": null,
+   "ez": "1976",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/fahrzeug/porsche-911-s-g-modell-1976-6250647/\" class=\"content-teaser no-lazy\"> 1976 Porsche 911 S Fahrzeug ansehen 2025 Porsche 992 GT3 RS Fahrzeug ansehen <div class=\"con"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-2-7-1974-6250536/",
+   "title": "porsche 911 carrera 2 7 1974 6250536",
+   "price_eur": null,
+   "ez": "1974",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-2-7-1974-6250536/\" class=\"content-teaser\"> 1974 Porsche 911 Carrera 2.7 Fahrzeug ansehen Die Geschichte des Porsche 356 No. 1 Shop Produkt ansehen <div class=\"content-"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-356-pre-a-carrera-speedster-1955-6250476/",
+   "title": "porsche 356 pre a carrera speedster 1955 6250476",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/fahrzeug/porsche-356-pre-a-carrera-speedster-1955-6250476/\" class=\"content-teaser\"> 1955 Porsche 356 Carrera Speedster Fahrzeug ansehen 2017 Porsche 991.2 Carrera Fahrzeug ansehen <img src=\"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-356-sc-1964-6249954/",
+   "title": "porsche 356 sc 1964 6249954",
+   "price_eur": null,
+   "ez": "1964",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/fahrzeug/porsche-356-sc-1964-6249954/\" class=\"content-teaser\"> 1964 Porsche 356 SC Fahrzeug ansehen Loop Key Ring &#8222;La vida es una Carrera&#8220; Shop Produkt ansehen <div cl"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/shop/loop-key-ring-la-vida-es-una-carrera/",
+   "title": "loop key ring la vida es una carrera",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/shop/loop-key-ring-la-vida-es-una-carrera/\" class=\"content-teaser search-product-teaser\" onclick=\"atomSendGAEvent('shop_teaser_search_clicked', 'shop_teaser', 'Loop Key Ring &#8222;La vida es una Carrera&#8220;');\"> Loop Key Ring &#8222;La vida es una Carrera&#8220; Shop"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-r-2016-6249712/",
+   "title": "porsche 911 r 2016 6249712",
+   "price_eur": null,
+   "ez": "1973",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/fahrzeug/porsche-911-r-2016-6249712/\" class=\"content-teaser\"> 2016 Porsche 911 R Fahrzeug ansehen 1973 Porsche 911 T Fahrzeug ansehen <div class=\"content-teaser-tex"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-t-us-1973-6249670/",
+   "title": "porsche 911 t us 1973 6249670",
+   "price_eur": null,
+   "ez": "1973",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/fahrzeug/porsche-911-t-us-1973-6249670/\" class=\"content-teaser\"> 1973 Porsche 911 T Fahrzeug ansehen 2024 Porsche 992.2 Carrera 4 GTS Fahrzeug ansehen <img src=\"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%20768'%3E%3C/svg%3E\" dat"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-964-carrera-2-1990-6249590/",
+   "title": "porsche 964 carrera 2 1990 6249590",
+   "price_eur": null,
+   "ez": "1990",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/fahrzeug/porsche-964-carrera-2-1990-6249590/\" class=\"content-teaser\"> 1990 Porsche 964 Carrera 2 Fahrzeug ansehen 2026 Porsche 992.2 Turbo S Fahrzeug ansehen <img src=\"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%20533'%3E%3C/svg%"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-turbo-3-0-1976-6249350/",
+   "title": "porsche 911 turbo 3 0 1976 6249350",
+   "price_eur": null,
+   "ez": "1976",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/fahrzeug/porsche-911-turbo-3-0-1976-6249350/\" class=\"content-teaser\"> 1976 Porsche 911 Turbo 3.0 Fahrzeug ansehen 1967 Porsche 912 Fahrzeug ansehen <div class=\"content-teaser-inner\""
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-1967-6249290/",
+   "title": "porsche 912 1967 6249290",
+   "price_eur": null,
+   "ez": "1967",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/fahrzeug/porsche-912-1967-6249290/\" class=\"content-teaser\"> 1967 Porsche 912 Fahrzeug ansehen 1993 Porsche 968 Club Sport Auktion Fahrzeug ansehen <img src=\"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%20512'%3E%3C/svg%3E\" data-sr"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-backdate-1982-6248584/",
+   "title": "porsche 911 backdate 1982 6248584",
+   "price_eur": null,
+   "ez": "1982",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/fahrzeug/porsche-911-backdate-1982-6248584/\" class=\"content-teaser\"> 1982 Porsche 911 Backdate Fahrzeug ansehen 1971 Porsche 911 E Fahrzeug ansehen <div class=\"content-teaser-i"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-e-1971-6248800/",
+   "title": "porsche 911 e 1971 6248800",
+   "price_eur": null,
+   "ez": "1971",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/fahrzeug/porsche-911-e-1971-6248800/\" class=\"content-teaser\"> 1971 Porsche 911 E Fahrzeug ansehen 2005 Porsche 996.2 Carrera 4S Fahrzeug ansehen 1 2 <a aria-label=\"Seite 3\" class=\"page-numbers\" href="
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/finden/scarface-porsche/",
+   "title": "scarface porsche",
+   "price_eur": null,
+   "ez": "1999",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/finden/scarface-porsche/\">Scarface Porsche 2014 Porsche (911) kaufen Porsche 911 Backdate kaufen Porsche 993 Carrera S kaufen 2001 Porsche (911) kaufen Porsche 993 Turbo gebraucht kaufen 1999 Porsche kaufen Porsche 964 Cabrio kaufen Porsche 356 kaufen Mehr Suchanfragen <"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/finden/2014-porsche-911-kaufen/",
+   "title": "2014 porsche 911 kaufen",
+   "price_eur": null,
+   "ez": "1999",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/finden/2014-porsche-911-kaufen/\">2014 Porsche (911) kaufen Porsche 911 Backdate kaufen Porsche 993 Carrera S kaufen 2001 Porsche (911) kaufen Porsche 993 Turbo gebraucht kaufen 1999 Porsche kaufen Porsche 964 Cabrio kaufen Porsche 356 kaufen Mehr Suchanfragen <img src=\"d"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/finden/porsche-911-backdate-kaufen/",
+   "title": "porsche 911 backdate kaufen",
+   "price_eur": null,
+   "ez": "1999",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/finden/porsche-911-backdate-kaufen/\">Porsche 911 Backdate kaufen Porsche 993 Carrera S kaufen 2001 Porsche (911) kaufen Porsche 993 Turbo gebraucht kaufen 1999 Porsche kaufen Porsche 964 Cabrio kaufen Porsche 356 kaufen Mehr Suchanfragen <img src=\"data:image/svg+xml,%3Cs"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/finden/2001-porsche-911-kaufen/",
+   "title": "2001 porsche 911 kaufen",
+   "price_eur": null,
+   "ez": "1999",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/finden/2001-porsche-911-kaufen/\">2001 Porsche (911) kaufen Porsche 993 Turbo gebraucht kaufen 1999 Porsche kaufen Porsche 964 Cabrio kaufen Porsche 356 kaufen Mehr Suchanfragen jQuery(function() { var teaser = jQuery('#shop-teaser-6aaa8f2551715'), teaserId = teaser.attr("
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/finden/1999-porsche-kaufen/",
+   "title": "1999 porsche kaufen",
+   "price_eur": null,
+   "ez": "1999",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/finden/1999-porsche-kaufen/\">1999 Porsche kaufen Porsche 964 Cabrio kaufen Porsche 356 kaufen Mehr Suchanfragen jQuery(function() { var teaser = jQuery('#shop-teaser-6aaa8f2551715'), teaserId = teaser.attr('data-shop-teaser-id') || '', teaserLabel = teaser.attr('data-sho"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/finden/porsche-964-cabrio-kaufen/",
+   "title": "porsche 964 cabrio kaufen",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.elferspot.com/de/finden/porsche-964-cabrio-kaufen/\">Porsche 964 Cabrio kaufen Porsche 356 kaufen Mehr Suchanfragen <"
+  },
+  {
+   "src": "pff",
+   "url": "https://www.pff.de/board/272-porsche-911/",
+   "title": "272 porsche 911",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.pff.de/board/272-porsche-911/\" title=\"Zum Porsche 911 Forum - Tipps, Diskussionen & Hilfe\">911 TAYCAN BOXSTER CAYMAN MACAN CAYENNE PANAMERA TRANSAXLE Weitere Modelle → Alle als gelesen markieren <button type=\"button\""
+  },
+  {
+   "src": "pff",
+   "url": "https://www.pff.de/board/431-gewinnaktionen/",
+   "title": "431 gewinnaktionen",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.pff.de/board/431-gewinnaktionen/\" class=\"wbbBoardNode__subBoardLink\"> Gewinnaktionen Porsche Modelle Porsche 911 0"
+  },
+  {
+   "src": "pff",
+   "url": "https://www.pff.de/board/144-porsche-964/",
+   "title": "144 porsche 964",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.pff.de/board/144-porsche-964/\" class=\"wbbBoardNode__subBoardLink\"> Porsche 964 Porsche 911 G-Modell Porsche 911 F <div class=\"wbbBoardNode__unreadIcon\" hi"
+  },
+  {
+   "src": "pff",
+   "url": "https://www.pff.de/board/143-porsche-911-g-modell/",
+   "title": "143 porsche 911 g modell",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.pff.de/board/143-porsche-911-g-modell/\" class=\"wbbBoardNode__subBoardLink\"> Porsche 911 G-Modell Porsche 911 F Porsche Taycan 0"
+  },
+  {
+   "src": "pff",
+   "url": "https://www.pff.de/board/142-porsche-911-f/",
+   "title": "142 porsche 911 f",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.pff.de/board/142-porsche-911-f/\" class=\"wbbBoardNode__subBoardLink\"> Porsche 911 F Porsche Taycan 0 93k 21M <dl class=\"pffLas"
+  },
+  {
+   "src": "pff",
+   "url": "https://www.pff.de/board/271-porsche-356/",
+   "title": "271 porsche 356",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.pff.de/board/271-porsche-356/\" class=\"wbbBoardNode__subBoardLink\"> Porsche 356 Porsche 912 Porsche 914 <div class=\"wbbBoardNode__unreadIcon\" hidden"
+  },
+  {
+   "src": "pff",
+   "url": "https://www.pff.de/board/33-porsche-912/",
+   "title": "33 porsche 912",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.pff.de/board/33-porsche-912/\" class=\"wbbBoardNode__subBoardLink\"> Porsche 912 Porsche 914 Allgemein zu Porsche 0"
+  },
+  {
+   "src": "pff",
+   "url": "https://www.pff.de/board/357-fahrrad-e-bike/",
+   "title": "357 fahrrad e bike",
+   "price_eur": null,
+   "ez": "",
+   "km": null,
+   "snippet": "https://www.pff.de/board/357-fahrrad-e-bike/\" class=\"wbbBoardNode__link\">Fahrrad & E-Bike 0 4,7k 682k Letzte Beiträge Kette rechts - Der Bike-Fred im PFF 911-73-RS 14. September 2026 um 21:18 <a"
   }
  ]
 }
