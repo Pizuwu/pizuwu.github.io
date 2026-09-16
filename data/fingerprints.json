@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T14:47:01Z",
+ "updated_at": "2026-09-16T14:49:21Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -10035,6 +10035,65 @@
      "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a4/a401018c-5308-4b0c-b614-b31e7f9410c1?rule=$_59.AUTO",
      "d": "e3e586132387261e",
      "p": "eccc464d593dc147"
+    }
+   ]
+  },
+  "8271620399bc": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/3469781076",
+   "src": "intake",
+   "first_seen": "2026-09-16",
+   "prices": [
+    {
+     "d": "2026-09-16",
+     "p": 25900
+    }
+   ],
+   "title": "Porsche Turbo Targa in Saarland - Quierschied | Porsche 944 Gebrauchtwagen kaufen | kleinanzeigen.de",
+   "last_seen": "2026-09-16",
+   "vin": null,
+   "ez": "04/1986",
+   "km": 194200,
+   "ps": 220,
+   "hashes": [
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/58/58d53c84-aa2a-454e-9851-72632d5a24df?rule=$_59.JPG",
+     "d": "e3b262c0e156262e",
+     "p": "8ccb3c2a6267636e"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/58/58d53c84-aa2a-454e-9851-72632d5a24df?rule=$_59.AUTO",
+     "d": "e3b262d0f156262e",
+     "p": "8ccb3c2a6267636e"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5c/5caea184-72a6-446b-a1cb-bd073a6fad74?rule=$_59.JPG",
+     "d": "2e2860703096ce6e",
+     "p": "9c5f67389c670d06"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5c/5caea184-72a6-446b-a1cb-bd073a6fad74?rule=$_59.AUTO",
+     "d": "2c2860703096ce6e",
+     "p": "9c5f67389c670d06"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2e0d0fc1-0062-4ab9-a307-48e88d284784?rule=$_59.JPG",
+     "d": "b076e6e6c64e5e3a",
+     "p": "a4cc1b73e09bc333"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2e0d0fc1-0062-4ab9-a307-48e88d284784?rule=$_59.AUTO",
+     "d": "b076e6e6c64e5e3a",
+     "p": "a4cc1b73e09bc333"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/eb/eb717a89-e6ad-4d17-b52a-e71be8ce01f9?rule=$_59.JPG",
+     "d": "0038b0d433179fbf",
+     "p": "bdd2822f8e807d59"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/eb/eb717a89-e6ad-4d17-b52a-e71be8ce01f9?rule=$_59.AUTO",
+     "d": "0038b0d433179fbf",
+     "p": "bdd2822f8e807d59"
     }
    ]
   }
