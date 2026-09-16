@@ -1,5 +1,103 @@
 {
- "checked_at": "2026-09-16T13:06:31.096Z",
- "items": 321,
- "groups": []
+ "checked_at": "2026-09-16T13:10:57.366Z",
+ "items": 344,
+ "groups": [
+  {
+   "reasons": [
+    "2 identische Bilder"
+   ],
+   "listings": [
+    {
+     "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911s-targa/3498767643-216-7082",
+     "src": "intake",
+     "title": "Porsche 911S Targa in Bayern - Türkheim | Porsche 911 Urmodell Gebrauchtwagen kaufen | kleinanzeigen.de",
+     "first_seen": "2026-09-16",
+     "last_seen": "2026-09-16",
+     "prices": [
+      {
+       "d": "2026-09-16",
+       "p": 42000
+      }
+     ],
+     "vin": null,
+     "ez": "07/1987",
+     "km": 180000
+    },
+    {
+     "url": "https://www.autoscout24.de/angebote/porsche-911-s-benzin-cat_ma57gr100070ge282va284tr480682-b25599f8-bab6-430a-b3da-11c6c183a920",
+     "src": "intake",
+     "title": "Porsche für € 42.000",
+     "first_seen": "2026-09-16",
+     "last_seen": "2026-09-16",
+     "prices": [],
+     "vin": null,
+     "ez": "03/1977",
+     "km": 180000
+    }
+   ]
+  },
+  {
+   "reasons": [
+    "10 identische Bilder"
+   ],
+   "listings": [
+    {
+     "url": "https://www.kleinanzeigen.de/s-anzeige/3084844564",
+     "src": "intake",
+     "title": "Porsche 911 2.4 T Targa in Wuppertal - Vohwinkel | Porsche 911 Gebrauchtwagen kaufen | kleinanzeigen.de",
+     "first_seen": "2026-09-16",
+     "last_seen": "2026-09-16",
+     "prices": [
+      {
+       "d": "2026-09-16",
+       "p": 49900
+      }
+     ],
+     "vin": null,
+     "ez": "07/1970",
+     "km": 137894
+    },
+    {
+     "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-t-1972-2319078/",
+     "src": "intake",
+     "title": "Porsche 911 T 1972 - elferspot.com - Marktplatz für Porsche Sportwagen",
+     "first_seen": "2026-09-16",
+     "last_seen": "2026-09-16",
+     "prices": [],
+     "vin": null,
+     "ez": null,
+     "km": 137984
+    }
+   ]
+  },
+  {
+   "reasons": [
+    "3 identische Bilder"
+   ],
+   "listings": [
+    {
+     "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-t-1970-6213970/",
+     "src": "intake",
+     "title": "Porsche 911 T 1970 - elferspot.com - Marktplatz für Porsche Sportwagen",
+     "first_seen": "2026-09-16",
+     "last_seen": "2026-09-16",
+     "prices": [],
+     "vin": null,
+     "ez": null,
+     "km": 142000
+    },
+    {
+     "url": "https://www.autoscout24.de/angebote/porsche-911-f-modell-targa-deutsch-tuev-neu-historie-benzin-schwarz-cat_ma57gr100070-bbb3400d-4809-46e8-bb55-31f8514a38d5",
+     "src": "intake",
+     "title": "Porsche 911 Cabrio in Schwarz gebraucht in Hamburg für € 44.911",
+     "first_seen": "2026-09-16",
+     "last_seen": "2026-09-16",
+     "prices": [],
+     "vin": null,
+     "ez": "10/1970",
+     "km": 142000
+    }
+   ]
+  }
+ ]
 }
