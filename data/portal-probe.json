@@ -1,0 +1,214 @@
+{
+ "probed_at": "2026-09-16T12:28:15.535Z",
+ "runner": "35095875555",
+ "results": [
+  {
+   "name": "mobile.de",
+   "url": "https://suchen.mobile.de/fahrzeuge/search.html?isSearchRequest=true&makeModelVariant1.makeId=20100&makeModelVariant1.modelId=13&maxPrice=58000&maxFirstRegistrationDate=1994-12-31",
+   "code": 403,
+   "size": 7684,
+   "marker_hits": 0,
+   "blocked": true
+  },
+  {
+   "name": "elferspot",
+   "url": "https://www.elferspot.com/de/suche/?q=targa",
+   "code": 404,
+   "size": 115762,
+   "marker_hits": 9,
+   "blocked": false
+  },
+  {
+   "name": "classicdriver",
+   "url": "https://www.classicdriver.com/de/cars?make=porsche&model=911&price_max=58000",
+   "code": 403,
+   "size": 5914,
+   "marker_hits": 0,
+   "blocked": true
+  },
+  {
+   "name": "zwischengas",
+   "url": "https://www.zwischengas.com/de/markt/auto/porsche/911",
+   "code": 403,
+   "size": 5783,
+   "marker_hits": 0,
+   "blocked": true
+  },
+  {
+   "name": "elfertreff",
+   "url": "https://www.elfertreff.de/marktplatz",
+   "code": 0,
+   "size": 0,
+   "marker_hits": 0,
+   "blocked": false
+  },
+  {
+   "name": "pff",
+   "url": "https://www.pff.de/fahrzeugmarkt",
+   "code": 404,
+   "size": 188,
+   "marker_hits": 0,
+   "blocked": false
+  },
+  {
+   "name": "autouncle",
+   "url": "https://www.autouncle.de/de/gebrauchtwagen/porsche/911?price_max=58000&year_max=1994",
+   "code": 403,
+   "size": 5976,
+   "marker_hits": 0,
+   "blocked": true
+  },
+  {
+   "name": "ebay",
+   "url": "https://www.ebay.de/sch/i.html?_nkw=porsche+911+targa&_sacat=9801&_udhi=58000",
+   "code": 403,
+   "size": 1831,
+   "marker_hits": 0,
+   "blocked": false
+  },
+  {
+   "name": "catawiki",
+   "url": "https://www.catawiki.com/de/c/423-oldtimer?q=porsche%20911",
+   "code": 403,
+   "size": 404,
+   "marker_hits": 0,
+   "blocked": true
+  },
+  {
+   "name": "kleinanzeigen",
+   "url": "https://www.kleinanzeigen.de/s-autos/preis::58000/porsche-targa/k0c216",
+   "code": 200,
+   "size": 811991,
+   "marker_hits": 25,
+   "blocked": false
+  },
+  {
+   "name": "lacentrale",
+   "url": "https://www.lacentrale.fr/listing?makesModelsCommercialNames=PORSCHE%3A911&priceMax=58000",
+   "code": 403,
+   "size": 776,
+   "marker_hits": 0,
+   "blocked": true
+  },
+  {
+   "name": "gaspedaal",
+   "url": "https://www.gaspedaal.nl/porsche/911?pmax=58000",
+   "code": 403,
+   "size": 452,
+   "marker_hits": 0,
+   "blocked": true
+  },
+  {
+   "name": "otomoto",
+   "url": "https://www.otomoto.pl/osobowe/porsche/911?search%5Bfilter_float_price%3Ato%5D=58000",
+   "code": 200,
+   "size": 1206720,
+   "marker_hits": 3,
+   "blocked": false
+  },
+  {
+   "name": "bilbasen",
+   "url": "https://www.bilbasen.dk/brugt/bil/porsche/911",
+   "code": 202,
+   "size": 0,
+   "marker_hits": 0,
+   "blocked": false
+  },
+  {
+   "name": "sauto",
+   "url": "https://www.sauto.cz/inzerce/osobni/porsche/911",
+   "code": 200,
+   "size": 487708,
+   "marker_hits": 20,
+   "blocked": false
+  },
+  {
+   "name": "oldtimermarkt",
+   "url": "https://www.oldtimermarkt.de/",
+   "code": 0,
+   "size": 0,
+   "marker_hits": 0,
+   "blocked": false
+  },
+  {
+   "name": "troostwijk",
+   "url": "https://www.troostwijkauctions.com/de/l/oldtimer?q=porsche",
+   "code": 404,
+   "size": 148594,
+   "marker_hits": 0,
+   "blocked": false
+  },
+  {
+   "name": "vavato",
+   "url": "https://vavato.com/de/c/fahrzeuge?q=porsche",
+   "code": 404,
+   "size": 137452,
+   "marker_hits": 0,
+   "blocked": false
+  },
+  {
+   "name": "dorotheum",
+   "url": "https://www.dorotheum.com/de/k/oldtimer/",
+   "code": 403,
+   "size": 5487,
+   "marker_hits": 0,
+   "blocked": true
+  },
+  {
+   "name": "osenat",
+   "url": "https://www.osenat.com/fr/ventes/automobiles",
+   "code": 404,
+   "size": 1790,
+   "marker_hits": 0,
+   "blocked": false
+  },
+  {
+   "name": "aguttes",
+   "url": "https://www.aguttes.com/departement/automobiles-de-collection",
+   "code": 404,
+   "size": 4951,
+   "marker_hits": 0,
+   "blocked": false
+  },
+  {
+   "name": "bonhams",
+   "url": "https://cars.bonhams.com/search/?q=porsche%20911",
+   "code": 403,
+   "size": 5750,
+   "marker_hits": 0,
+   "blocked": true
+  },
+  {
+   "name": "classicbid",
+   "url": "https://www.classicbid.de/",
+   "code": 200,
+   "size": 72276,
+   "marker_hits": 0,
+   "blocked": true
+  },
+  {
+   "name": "autobid",
+   "url": "https://autobid.de/de/",
+   "code": 200,
+   "size": 539652,
+   "marker_hits": 297,
+   "blocked": false
+  },
+  {
+   "name": "carandclassic",
+   "url": "https://www.carandclassic.com/search?q=porsche%20911%20targa",
+   "code": 403,
+   "size": 5794,
+   "marker_hits": 0,
+   "blocked": true
+  },
+  {
+   "name": "classiccarsforsale",
+   "url": "https://www.classic-trader.com/de/auktionen",
+   "code": 200,
+   "size": 4759002,
+   "marker_hits": 4,
+   "blocked": false
+  }
+ ]
+}
