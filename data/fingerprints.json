@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T16:38:13Z",
+ "updated_at": "2026-09-16T17:13:52Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -5842,7 +5842,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-und-964-restomod-highend-projekte-zur-uebernahme/3467571016-216-2604",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-16",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-09-16",
+     "p": 34790
+    }
+   ],
    "title": "porsche 911 und 964 restomod highend projekte zur uebernahme",
    "last_seen": "2026-09-16",
    "vin": null,
@@ -10303,6 +10308,23 @@
      "p": "a170c2879f92acbd"
     }
    ]
+  },
+  "86fbe80b86a5": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-carrera-4s-ohne-motor-/3514705941-216-7482",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-16",
+   "prices": [
+    {
+     "d": "2026-09-16",
+     "p": 12750
+    }
+   ],
+   "title": "porsche 996 carrera 4s ohne motor",
+   "last_seen": "2026-09-16",
+   "vin": null,
+   "ez": "12/2000",
+   "km": 198000,
+   "ps": null
   }
  }
 }
