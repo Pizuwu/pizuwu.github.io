@@ -3532,7 +3532,7 @@
    "location": "",
    "score": 3,
    "verdict": "Kickdown - BEOBACHTEN (noch ohne Daten, bald online)",
-   "hinweis": "Detailseite noch leer, beim naechsten Lauf erneut holen."
+   "hinweis": "Zweiter Abruf 16:37 ebenfalls leer (bald online). Erst wieder pruefen, wenn kickdown-alle das Los mit Schaetzung listet."
   },
   {
    "src": "kickdown",
@@ -3547,6 +3547,20 @@
    "score": 1,
    "verdict": "Kickdown - RAUS (Schaetzung 67-75k, Automatik)",
    "hinweis": ""
+  },
+  {
+   "src": "kleinanzeigen",
+   "country": "DE",
+   "first_seen": "2026-09-16",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/3514617794",
+   "title": "964 C2 Cabrio 1992 Automatik hellblau, Kuenzell privat, VB 58.000 (im Text), 184 tkm",
+   "price_eur": 58000,
+   "km": 184230,
+   "ez": "06/1992",
+   "location": "36093 Kuenzell",
+   "score": 1,
+   "verdict": "Runner-Intake - RAUS (58.000, Automatik, Cabrio)",
+   "hinweis": "Inserat zeigt VB ohne Zahl, Preis steht nur im Text."
   }
  ]
 }
