@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T16:36:24Z",
+ "updated_at": "2026-09-16T16:38:13Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -10189,7 +10189,7 @@
    "vin": null,
    "ez": null,
    "km": 199869,
-   "ps": 601,
+   "ps": 325,
    "hashes": []
   },
   "b18e6bd129e0": {
@@ -10244,6 +10244,65 @@
    "ez": "06/1992",
    "km": 184230,
    "ps": null
+  },
+  "c50797cba822": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/3514617794",
+   "src": "intake",
+   "first_seen": "2026-09-16",
+   "prices": [
+    {
+     "d": "2026-09-16",
+     "p": 20740
+    }
+   ],
+   "title": "Porsche 911 Cabrio c2  964 in Hessen - Künzell | Porsche 964 Gebrauchtwagen kaufen | kleinanzeigen.de",
+   "last_seen": "2026-09-16",
+   "vin": null,
+   "ez": "06/1992",
+   "km": 184230,
+   "ps": 250,
+   "hashes": [
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3d/3dd83d8e-cbd0-4269-8e8d-e5f1b6b3e4b8?rule=$_59.JPG",
+     "d": "9298d8d0d8f87033",
+     "p": "d3f32c8468ce5e49"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3d/3dd83d8e-cbd0-4269-8e8d-e5f1b6b3e4b8?rule=$_59.AUTO",
+     "d": "9098d8d0d8f87033",
+     "p": "d3f32c8468ce5e49"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/67/6728da83-7bd4-4b5f-9cd8-93331dc207e4?rule=$_59.JPG",
+     "d": "6750f87e1f130303",
+     "p": "bdd44a6a2e9495b2"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/67/6728da83-7bd4-4b5f-9cd8-93331dc207e4?rule=$_59.AUTO",
+     "d": "6750f87e1f130303",
+     "p": "bdd44a6a2e9495b2"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/141e0f72-6384-4456-b94a-338e6518cd51?rule=$_59.JPG",
+     "d": "9c9298ac131521a4",
+     "p": "f090852ef6d6133b"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/141e0f72-6384-4456-b94a-338e6518cd51?rule=$_59.AUTO",
+     "d": "9c9298ac13152124",
+     "p": "f090852ef6d6133b"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/29/29089aa2-c145-483a-842c-1a2ebb954d60?rule=$_59.JPG",
+     "d": "4786871d3247cdc3",
+     "p": "a170c2879f92acbd"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/29/29089aa2-c145-483a-842c-1a2ebb954d60?rule=$_59.AUTO",
+     "d": "4786871d3247cdc3",
+     "p": "a170c2879f92acbd"
+    }
+   ]
   }
  }
 }
