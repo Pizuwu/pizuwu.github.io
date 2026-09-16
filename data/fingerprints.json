@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T20:21:15Z",
+ "updated_at": "2026-09-16T20:34:14Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -10439,6 +10439,83 @@
    "ez": "07/1974",
    "km": 3500,
    "ps": null
+  },
+  "37a8019938c8": {
+   "url": "https://www.kickdown.com/de/postings/d73561472408-1979-porsche-911-in-70186-stuttgart",
+   "src": "intake",
+   "first_seen": "2026-09-16",
+   "prices": [
+    {
+     "d": "2026-09-16",
+     "p": 108000
+    }
+   ],
+   "title": "Porsche 911",
+   "last_seen": "2026-09-16",
+   "vin": null,
+   "ez": null,
+   "km": 48500,
+   "ps": 325,
+   "hashes": []
+  },
+  "f7b70448414d": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/3494152818",
+   "src": "intake",
+   "first_seen": "2026-09-16",
+   "prices": [
+    {
+     "d": "2026-09-16",
+     "p": 68500
+    }
+   ],
+   "title": "Porsche 911 Targa in Nordrhein-Westfalen - Bocholt | Porsche 911 Urmodell Gebrauchtwagen kaufen | kleinanzeigen.de",
+   "last_seen": "2026-09-16",
+   "vin": null,
+   "ez": "07/1977",
+   "km": 3500,
+   "ps": 200,
+   "hashes": [
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/df/df4497c6-ef96-4405-a53a-fc534894f2de?rule=$_59.JPG",
+     "d": "00b193b9b199c9e5",
+     "p": "d8c82794de737960"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/df/df4497c6-ef96-4405-a53a-fc534894f2de?rule=$_59.AUTO",
+     "d": "00b193b9b199c9e5",
+     "p": "d8c82794de737960"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7eaf6c68-b646-4e14-b30e-50eceb9951c1?rule=$_59.JPG",
+     "d": "daf0f0c88366b461",
+     "p": "84991fa1e2f1e7d0"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7eaf6c68-b646-4e14-b30e-50eceb9951c1?rule=$_59.AUTO",
+     "d": "daf0f0c88366b461",
+     "p": "84991fa1e2f1e7d0"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8b/8bc85a6b-aa12-42b6-911a-cc4097a66c1c?rule=$_59.JPG",
+     "d": "fc9b1972398be03f",
+     "p": "bb1b04c41e477b5a"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8b/8bc85a6b-aa12-42b6-911a-cc4097a66c1c?rule=$_59.AUTO",
+     "d": "fc9b1972398be03f",
+     "p": "bb1b04c41e477b5a"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/60/6085f689-33df-4790-8204-2793c9edaae7?rule=$_59.JPG",
+     "d": "03070d6d6b3b172f",
+     "p": "af42f409d772906b"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/60/6085f689-33df-4790-8204-2793c9edaae7?rule=$_59.AUTO",
+     "d": "03070d6d6b3b172f",
+     "p": "af42f409d772906b"
+    }
+   ]
   }
  }
 }
