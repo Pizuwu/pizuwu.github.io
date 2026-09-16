@@ -1,4 +1,4 @@
-# Master-Liste Kandidaten (Stand 15.09.2026)
+# Master-Liste Kandidaten (Stand 16.09.2026)
 
 ## Fixe Kriterien (vollständig, von Patrick bestätigt)
 
@@ -55,7 +55,7 @@ Einschränkung: Diese Ausweise sind 9 bis 11 Monate alt, das Verkaufssignal ist 
 
 ## Private Inserate
 
-Keine bestätigten privaten Inserate mit Pool. 12.09.: ein unverifiziertes Leboncoin-Inserat (3214015882) an Patrick zur Prüfung gemailt. Tägliche Prüfung über Suchmaschinen-Index inkl. Tippfehler-Varianten. 13.09.: keine neuen Signale; Makler-Objekt Caromb 262 m² 649k verworfen (Größe, Budget, Dorflage). 15.09.: Bienici-API mit allen 16 Gemeinden abgefragt, 100 Treffer im Raster 95 bis 180 m² und bis 520k, davon KEIN einziges Privatinserat (Bienici ist reines Maklerportal). Notar-API: derzeit kein passendes Objekt in den 16 Gemeinden.
+Keine bestätigten privaten Inserate mit Pool. 12.09.: ein unverifiziertes Leboncoin-Inserat (3214015882) an Patrick zur Prüfung gemailt. Tägliche Prüfung über Suchmaschinen-Index inkl. Tippfehler-Varianten. 13.09.: keine neuen Signale; Makler-Objekt Caromb 262 m² 649k verworfen (Größe, Budget, Dorflage). 15.09.: Bienici-API mit allen 16 Gemeinden abgefragt, 100 Treffer im Raster 95 bis 180 m² und bis 520k, davon KEIN einziges Privatinserat (Bienici ist reines Maklerportal). Notar-API: derzeit kein passendes Objekt in den 16 Gemeinden. 16.09.: stiller Lauf ohne Neues. ADEME weiterhin nur bis 07.09. gefuellt (9 Tage Rueckstand), Notar 0 Treffer in den Gemeinden, Bienici 0 neue Inserate seit gestern, alle 5 beobachteten Inserate weiter online, keine Privatinserate. Keine Mail nach Regel 10.
 
 ## Erkenntnisse zur Datenlage (15.09.)
 
