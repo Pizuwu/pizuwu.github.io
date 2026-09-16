@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T14:49:21Z",
+ "updated_at": "2026-09-16T15:36:11Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -3140,7 +3140,7 @@
    "last_seen": "2026-09-16",
    "vin": null,
    "ez": "07/1973",
-   "km": 71118,
+   "km": 1973,
    "ps": null
   },
   "cd8964adb0cf": {
@@ -10096,6 +10096,23 @@
      "p": "bdd2822f8e807d59"
     }
    ]
+  },
+  "bd1841fea9c1": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944s-targa-1-hd-top-zustand-2-82000-km/3439810650-216-2915",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-16",
+   "prices": [
+    {
+     "d": "2026-09-16",
+     "p": 29990
+    }
+   ],
+   "title": "porsche 944s targa 1 hd top zustand 2 82000 km",
+   "last_seen": "2026-09-16",
+   "vin": null,
+   "ez": "04/1988",
+   "km": 82000,
+   "ps": null
   }
  }
 }
