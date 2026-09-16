@@ -45,10 +45,17 @@ Ergebnisse als Dateien auf den Arbeits-Branch, der stuendliche Lauf macht `git p
    `git pull`, Datei lesen, Tiefenpruefung wie gewohnt, Antwort im Chat.
 3. **Portal-Probe** (Input `probe=true`): `scripts/portal-probe.mjs` testet alle bisher gesperrten
    Portale und Auktionshaeuser vom Runner aus, Ergebnis in `data/portal-probe.json`.
-4. **Gesperrte Portale lesen** (laeuft in jedem Neu-Finder-Lauf): `scripts/portale-fetch.mjs` holt
-   elferspot (Suche targa/911/912), pff und troostwijk, schreibt `data/portale-live.json`
-   (listings mit src/url/title/price_eur/ez/km/snippet) und HTML-Ausschnitte nach `data/portale-raw/`.
-   Parser dort nachschaerfen, wenn Treffer fehlen.
+4. **elferspot lesen** (laeuft in jedem Neu-Finder-Lauf): `scripts/portale-fetch.mjs` ruft die Boerse
+   `/de/suchen/` per GET-Filter ab (body[]=targa, model[]=911-sc usw., price_to=60000). Treffer sind
+   Teaser (Link /de/fahrzeug/<slug>-<id>/, Flagge = Land, Baujahr, Titel), OHNE Preis: den liefert
+   erst die Detailseite ueber den Analyse-Eingang. Ergebnis `data/portale-live.json`, HTML-Ausschnitte
+   in `data/portale-raw/`. Die Suchseite `?s=` und die RSS-Feeds liefern nur Shop-Artikel, nicht die Boerse.
+   pff hat keinen oeffentlichen Marktplatz (nur Modell-Foren), troostwijk rendert Lose per JS: beide raus.
+
+**Kleinanzeigen-Falle (gelernt 16.09.):** der Preisfilter `preis::58000` blendet Inserate OHNE Preis
+("VB") komplett aus. Genau die sind die Verhandlungsziele (Bad Homburg 2,4 E Targa, Friedrichshafen
+T 2.2 Targa, Bocholt, Stephansposching 2.7, Goeppingen und Immenstaad SC Targa, Dannenberg Weissach).
+ka-fetch laeuft die Kernsuchen deshalb zusaetzlich ohne Preisfilter (Seite 1 und 2, Queries `vb:...`).
 
 **Probe-Ergebnis 16.09. (zwei Laeufe):**
 - Runner erreicht: kleinanzeigen, elferspot (`/de/?s=targa`, 200, 71 Links), pff (Startseite 200),
