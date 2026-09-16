@@ -29,7 +29,11 @@ for (const f of files) {
   const tel = g(/(\+?\d[\d \/-]{8,}\d)/, '');
   const di = t.indexOf('Beschreibung'); const de = t.indexOf('Rechtliche Angaben', di);
   const desc = di >= 0 ? t.slice(di + 12, de > di ? de : di + 3000).replace(/\n{2,}/g, '\n').trim() : '(keine Beschreibung gefunden)';
-  const known = seen.listings.find(l => l.url && r.url.includes(l.url.split('?')[0].split('/').pop().split('-')[0]));
+  // Abgleich nur ueber die Anzeigen-ID (kleinanzeigen: 9-10 Ziffern) oder den vollen Pfad,
+  // sonst trifft ein kurzes Pfadstueck auf alles
+  const rid = /\/(\d{9,})(?:-|\/|$)/.exec(r.url)?.[1];
+  const rpath = (r.final_url || r.url).split('?')[0].replace(/\/$/, '');
+  const known = seen.listings.find(l => l.url && ((rid && l.url.includes(rid)) || l.url.split('?')[0].replace(/\/$/, '') === rpath));
   const grp = cc.groups.find(gr => gr.listings.some(l => l.url === r.url));
   console.log('\n' + '='.repeat(100));
   console.log(`${r.title.replace(/ \| Kleinanzeigen.*$/, '')}   [http ${r.http}${r.blocked ? ' GESPERRT' : ''}, ${r.images.length} Bilder]`);

@@ -32,7 +32,13 @@ let code = 0, body = '', final = url;
   const text = body.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<style[\s\S]*?<\/style>/g, ' ')
     .replace(/<(br|p|li|h\d|tr|div)[^>]*>/gi, '\n').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim();
-  const imgs = [...body.matchAll(/(?:src|data-imgsrc|data-src)="(https?:\/\/[^"]+\.(?:jpe?g|webp|png)[^"]*)"/gi)].map(m => m[1]);
+  // Bilder: Attribute UND JSON-Bloecke (kleinanzeigen, marktplaats liefern die Galerie als
+  // JSON mit escapten Slashes; die CDN-URLs von kleinanzeigen tragen die Endung nur im Query)
+  const unesc = body.replace(/\\\//g, '/');
+  const imgs = [...unesc.matchAll(/https?:\/\/[^"'\s<>\\]+/g)].map(m => m[0])
+    .filter(u => /img\.kleinanzeigen\.de\/api\/v1\/prod-ads\/images|images\.marktplaats\.com|\.(jpe?g|webp|png)(\?|$)/i.test(u))
+    .filter(u => !/logo|icon|sprite|avatar|placeholder|flag|badge|\/static\/|banner|1x1|pixel/i.test(u))
+    .map(u => u.replace(/\?rule=\$_\d+\.JPG$/, '?rule=$_59.JPG'));
   const id = crypto.createHash('sha1').update(url).digest('hex').slice(0, 10);
   const rec = { id, url, final_url: final, fetched_at: new Date().toISOString(), http: code,
     blocked: /IP-Bereich|access denied|captcha/i.test(body), title: (/<title[^>]*>([^<]*)<\/title>/i.exec(body) || [])[1] || '',
