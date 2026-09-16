@@ -17,6 +17,26 @@ Patrick will den klassischen luftgekühlten Look (Bild: G-Modell Targa weinrot, 
 - **Betrugs-Heuristik verschärft**: Klassiker sind Fake-Magnet. Preis >25% unter Markt (2.4S unter 60k, F-Targa unter 35k, SC-Targa unter 30k, 3.2 Carrera unter 35k) → Score-Deckel 3, erst Rückwärts-Bildersuche und Anruf. "911 Junior" (Kinderauto), Porsche-Diesel-Traktoren und Replikas rausfiltern.
 - **Gesamtpreis**: Kaufpreis + Überführung + bei US-Import ggf. Umrüstung/TÜV-Abnahme (500-1.500 €) + 2-3k Puffer erste Wartungsrunde. Marktreferenzen: 911 SC Targa fahrbereit 35-45k, Carrera 3.2 Targa 40-55k, F-Modell Targa 45k+, 964 45k+, 912 30-45k.
 
+## GEMESSENE MARKTUNTERGRENZEN (15./16.09., selbst erhoben, nicht geschaetzt)
+Auf classic-trader, nach Preis aufsteigend sortiert, beginnen die HAENDLERpreise bei:
+- **G-Modell (911 SC / Carrera 3.2): 54.000 EUR**
+- **964: 59.900 EUR**
+- **912: 52.900 EUR**
+
+Das ist die wichtigste strategische Erkenntnis der Suche: **Mit 45.000 EUR Obergrenze
+ist Patrick im Haendlermarkt praktisch nicht existent.** Jedes Auto, das er kaufen kann,
+kommt aus dem Privatmarkt, aus einer Auktion oder von einem Haendler, der die
+Gewaehrleistung ausschliesst (Restaurierungsobjekt-Klausel, Verkauf nur an
+Gewerbetreibende, Agenturgeschaeft im Kundenauftrag). Alle drei Umgehungswege sind am
+15.09. real aufgetreten. Daraus folgt:
+1. Privatverkaeufer mit langer Besitzdauer und durchgehendem TUEV sind die beste Quelle,
+   nicht Haendlerinserate. Beispiel: SC Targa Muenchen 39.500 EUR, 11 Jahre eine Hand.
+2. Auktionen sind der zweite Weg unter den Haendlermarkt (Route 66, Catawiki).
+3. Bei jedem Haendlerangebot unter 50k zuerst nach der Gewaehrleistungsklausel suchen,
+   BEVOR der Zustand bewertet wird. Der niedrige Preis ist dort meistens der Preis fuer
+   den Haftungsverzicht.
+4. Die alte Angabe "912: 30-45k" war zu niedrig und ist damit korrigiert.
+
 ## FAKTEN-VERIFIKATIONSPROTOKOLL (bindend, nach zwei Vorfällen)
 Vorfall 1: toter Inserats-Link aus Suchmaschinen-Snippet. Vorfall 2: nicht existierende Domain ferdineo.com aus einer Websuche-Zusammenfassung als Anlaufstelle empfohlen. Regel: **JEDE URL, Domain oder Tatsachenbehauptung, die Patrick erreicht (Mail, Chat, Deck), muss im selben Lauf direkt verifiziert sein**: Domain per DNS/Abruf, Links per curl (Status <400; kleinanzeigen-Ratelimit-403 gilt als ok wenn das Inserat aus frischem Live-Abruf stammt), Fakten gegen die Originalseite. WebSearch-/KI-Zusammenfassungen sind NIE eine Quelle, nur ein Hinweis zum Selbstprüfen. Vor JEDER Mail: alle enthaltenen URLs durchtesten.
 
