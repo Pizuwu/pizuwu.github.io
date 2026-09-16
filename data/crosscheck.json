@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-09-16T13:10:57.366Z",
- "items": 344,
+ "checked_at": "2026-09-16T13:40:29.621Z",
+ "items": 388,
  "groups": [
   {
    "reasons": [
@@ -96,6 +96,40 @@
      "vin": null,
      "ez": "10/1970",
      "km": 142000
+    }
+   ]
+  },
+  {
+   "reasons": [
+    "4 identische Bilder"
+   ],
+   "listings": [
+    {
+     "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1983-5904790/",
+     "src": "intake",
+     "title": "Porsche 911 SC (US) 1981 - elferspot.com - Marktplatz für Porsche Sportwagen",
+     "first_seen": "2026-09-16",
+     "last_seen": "2026-09-16",
+     "prices": [],
+     "vin": null,
+     "ez": null,
+     "km": 22118
+    },
+    {
+     "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-us-1987-6079234/",
+     "src": "intake",
+     "title": "Porsche 911 Carrera 3.2 (US) 1987 - elferspot.com - Marktplatz für Porsche Sportwagen",
+     "first_seen": "2026-09-16",
+     "last_seen": "2026-09-16",
+     "prices": [
+      {
+       "d": "2026-09-16",
+       "p": 14000
+      }
+     ],
+     "vin": null,
+     "ez": null,
+     "km": 144468
     }
    ]
   }
