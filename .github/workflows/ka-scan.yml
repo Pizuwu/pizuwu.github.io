@@ -27,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
+          ref: ${{ github.event_name == 'schedule' && 'claude/porsche-911-targa-finder-rkqc9w' || github.ref_name }}
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
@@ -49,5 +49,6 @@ jobs:
           git add data/ka-live.json data/portal-probe.json data/intake 2>/dev/null || true
           if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
           git commit -m "runner: $(date -u +'%Y-%m-%d %H:%M UTC') ${{ github.event.inputs.url != '' && 'intake' || (github.event.inputs.probe == 'true' && 'probe' || 'ka-live') }}"
-          git pull --rebase origin "${{ github.ref_name }}"
-          git push origin HEAD:"${{ github.ref_name }}"
+          TARGET="${{ github.event_name == 'schedule' && 'claude/porsche-911-targa-finder-rkqc9w' || github.ref_name }}"
+          git pull --rebase origin "$TARGET"
+          git push origin HEAD:"$TARGET"
