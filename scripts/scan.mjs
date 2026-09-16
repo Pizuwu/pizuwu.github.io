@@ -147,9 +147,12 @@ import { execFile } from 'node:child_process';
 // Status mit ausgeben: eine 404/410-Fehlerseite hat einen Body und wurde frueher
 // als gueltiges Ergebnis geparst (am 15.09. lieferte ein toter classic-trader-Pfad
 // per 410 eine Liste voller 924 und Cayenne).
+const BROWSER_UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
+// otomoto und sauto antworten dem curl-Standard-UA mit Fehler, brauchen einen Browser-UA
 function fetchAsync(url) {
+  const ua = /otomoto\.pl|sauto\.cz/.test(url) ? ['-A', BROWSER_UA, '-H', 'Accept-Language: de-DE,de;q=0.9'] : [];
   return new Promise(res => {
-    execFile('curl', ['-sS', '-L', '--max-time', '25', '--compressed', '-o', '-', '-w', '\n@@HTTP@@%{http_code}', url],
+    execFile('curl', ['-sS', '-L', '--max-time', '25', '--compressed', ...ua, '-o', '-', '-w', '\n@@HTTP@@%{http_code}', url],
       { maxBuffer: 32 * 1024 * 1024, encoding: 'utf8' }, (err, out) => {
         if (err || !out) return res(null);
         const i = out.lastIndexOf('\n@@HTTP@@');
