@@ -426,7 +426,7 @@ for (const s of due) {
       const ageH = (Date.now() - Date.parse(live.fetched_at)) / 36e5;
       if (ageH < 3 && live.listings.length) {
         const ls = live.listings.map(l => ({ ...l, price_eur: l.price_eur || 0, listenpreis_fehlt: !l.price_eur, verhandlung: !!l.vb, country: 'DE', seller: '', src: 'kleinanzeigen', ctx: (l.snippet || '') + (l.vb ? ' VB' : '') }))
-          .filter(l => IST_911.test(l.title) && !NICHT_911.test(l.title) && yearOk(l.ez));
+          .filter(l => IST_911.test(l.title) && !NICHT_911.test(l.title) && yearOk(l.ez) && l.price_eur <= MAX_EUR);
         health.push('ka-runner:' + ls.length + '@' + ageH.toFixed(1) + 'h');
         found = found.concat(ls);
         continue;
