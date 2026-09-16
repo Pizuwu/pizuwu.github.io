@@ -7,8 +7,18 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 const REPO = path.dirname(path.dirname(new URL(import.meta.url).pathname));
-const urls = (process.env.INTAKE_URL || '').split(/[\s,]+/).map(u => u.trim()).filter(u => /^https?:\/\//.test(u));
-if (!urls.length) { console.log('INTAKE_URL leer, nichts zu tun'); process.exit(0); }
+let urls = (process.env.INTAKE_URL || '').split(/[\s,]+/).map(u => u.trim()).filter(u => /^https?:\/\//.test(u));
+// Ohne expliziten Link: alle neuen Kandidaten des Scanners (alle Quellen) automatisch holen,
+// damit fingerprint.py Bilder von AutoScout24, Kickdown, Route 66 und Kleinanzeigen hashen kann.
+if (!urls.length && process.env.INTAKE_FROM_PENDING === '1') {
+  try {
+    const pend = JSON.parse(fs.readFileSync(path.join(REPO, 'data', 'pending-candidates.json'), 'utf8'));
+    const done = new Set(fs.existsSync(path.join(REPO, 'data', 'intake')) ? fs.readdirSync(path.join(REPO, 'data', 'intake')).map(f => f.replace('.json', '')) : []);
+    urls = (pend.candidates || []).map(c => c.url).filter(u => u && !done.has(crypto.createHash('sha1').update(u).digest('hex').slice(0, 10))).slice(-25);
+    console.log('pending-candidates: ' + urls.length + ' neue Detailseiten');
+  } catch (e) { urls = []; }
+}
+if (!urls.length) { console.log('nichts zu holen'); process.exit(0); }
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
 for (const url of urls) {
 let code = 0, body = '', final = url;

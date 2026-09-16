@@ -42,6 +42,11 @@ jobs:
         env:
           INTAKE_URL: ${{ github.event.inputs.url }}
         run: node scripts/intake-fetch.mjs
+      - name: Neue Kandidaten aller Quellen holen (fuer den Bildabgleich)
+        if: ${{ github.event.inputs.url == '' }}
+        env:
+          INTAKE_FROM_PENDING: '1'
+        run: node scripts/intake-fetch.mjs
       - name: Bild- und Datenabgleich
         run: |
           pip install -q pillow imagehash
