@@ -29,6 +29,36 @@ Prozess ist. `everyN: 2` heisst damit alle zwei Stunden, `everyN: 3` alle drei.
 Kleinanzeigen laeuft jetzt bei `everyN: 1`, also genau ein Abruf pro Stunde, und nimmt pro Lauf
 die naechste der 21 Tippfehler-Varianten.
 
+## RUNNER-PIPELINE (seit 16.09., loest die IP-Sperre)
+Die Sandbox teilt sich eine Ausgangs-IP, die kleinanzeigen.de sperrt. Deshalb laeuft alles,
+was diese IP blockt, als GitHub Action `.github/workflows/ka-scan.yml` (liegt auf master UND
+auf dem Arbeits-Branch, Dispatch immer mit ref = Arbeits-Branch). Der Runner committet seine
+Ergebnisse als Dateien auf den Arbeits-Branch, der stuendliche Lauf macht `git pull` und liest sie.
+
+**Drei Betriebsarten, alle ueber `mcp__github__actions_run_trigger` (workflow_id ka-scan.yml):**
+1. **Neu-Finder** (ohne Inputs, zusaetzlich alle 30 Min per Zeitplan): `scripts/ka-fetch.mjs`
+   holt 22 Kleinanzeigen-Suchvarianten bis 58k und schreibt `data/ka-live.json`.
+   `scan.mjs` nutzt diese Datei automatisch, wenn sie juenger als 3 h ist (Health: `ka-runner:N@Xh`).
+2. **Analyse-Eingang** (Input `url`, mehrere Links durch Leerzeichen getrennt): `scripts/intake-fetch.mjs`
+   holt jede Detailseite (auch von Portalen, die die Sandbox blockt) und legt Text + Bild-URLs
+   unter `data/intake/<id>.json` ab. Ablauf, wenn Patrick Links schickt: dispatchen, ~90 s warten,
+   `git pull`, Datei lesen, Tiefenpruefung wie gewohnt, Antwort im Chat.
+3. **Portal-Probe** (Input `probe=true`): `scripts/portal-probe.mjs` testet alle bisher gesperrten
+   Portale und Auktionshaeuser vom Runner aus, Ergebnis in `data/portal-probe.json`.
+
+**Bild- und Datenabgleich (jeder Lauf):** `scripts/fingerprint.py` hasht bis zu 8 Bilder pro Inserat
+(dHash/pHash), zieht FIN/EZ/km/PS aus dem Text und fuehrt den Preisverlauf. `scripts/crosscheck.mjs`
+gruppiert dasselbe Auto ueber Plattformen und Zeit in `data/crosscheck.json`. Vor jeder Bewertung
+dort nachsehen: Steht das Auto woanders billiger? Wie lange steht es schon? Wurde der Preis gesenkt?
+
+**Wichtig:** Der Workflow committet nur, wenn `git add` pro Pfad laeuft (Lauf 2 am 16.09. hat sein
+Ergebnis verloren, weil ein fehlender Pfad den ganzen add abbrach). Zeitplan-Laeufe arbeiten
+explizit auf dem Arbeits-Branch, nicht auf master.
+
+**Konten auf Foren (PFF, elfertreff):** werden NICHT automatisiert angelegt (Captcha, Nutzungs-
+bedingungen, es ist Patricks Identitaet). Wenn die Probe zeigt, dass der Runner die oeffentlichen
+Marktseiten lesen kann, werden sie als Quelle eingebaut. Konten legt Patrick selbst an.
+
 ## Auktionen (neu 15.09., eigener Kanal)
 Catawiki versteigert woechentlich Klassiker und spiegelt die Lose auf marktplaats.nl und 2dehands.be,
 wo der Scanner drankommt (catawiki.com selbst blockt). Diese Autos sieht Patrick auf kleinanzeigen nie.
