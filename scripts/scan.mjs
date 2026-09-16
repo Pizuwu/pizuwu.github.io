@@ -103,7 +103,12 @@ const SOURCES = [
   // Mindestpreis. Die Lose sind WooCommerce-Produkte und ueber die offene wp-json-Schnittstelle
   // abfragbar. Preise stehen dort nicht drin, die holt die Tiefenpruefung von der Detailseite.
   { key: 'route66', everyN: 1, type: 'r66', base: 'https://www.route66auctions.com',
-    url: 'https://www.route66auctions.com/wp-json/wp/v2/product?product_cat=26&per_page=60&_fields=link,title,product_cat' },
+    url: 'https://www.route66auctions.com/wp-json/wp/v2/product?product_cat=26&per_page=100&page=1&_fields=link,title,product_cat' },
+  // Zweite Seite ist Pflicht: die Kategorie hat rund 125 Eintraege. Mit nur einem
+  // Abruf sah ich am 16.09. ein wanderndes 60er-Fenster, dadurch verschwanden
+  // Fahrzeuge unbemerkt aus der Liste, statt als verkauft erkannt zu werden.
+  { key: 'route66-2', everyN: 1, type: 'r66', base: 'https://www.route66auctions.com',
+    url: 'https://www.route66auctions.com/wp-json/wp/v2/product?product_cat=26&per_page=100&page=2&_fields=link,title,product_cat' },
   // kleinanzeigen: GENAU EIN Abruf pro Lauf (= stuendlich). Bei 403 nicht nachdruecken.
   { key: 'kleinanzeigen', everyN: 1, type: 'ka', base: 'https://www.kleinanzeigen.de',
     url: 'https://www.kleinanzeigen.de/s-autos/' + KA_QUERIES[kaSlot] + '/k0c216' },
