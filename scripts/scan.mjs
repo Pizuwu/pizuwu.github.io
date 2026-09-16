@@ -119,6 +119,17 @@ const SOURCES = [
     url: 'https://www.kickdown.com/de/auctions/aftersale?search=porsche' },
   { key: 'kickdown-alle', everyN: 2, type: 'kd', base: 'https://www.kickdown.com',
     url: 'https://www.kickdown.com/de/auctions/all?search=porsche' },
+  // otomoto (PL): __NEXT_DATA__ mit advertSearch. Polnische Haendler (z.B. Lidzbark) listen
+  // mehrere SC/Carrera Targas in EUR bei 48-52k, oft Reimporte. PLN wird mit 4,3 umgerechnet.
+  { key: 'otomoto', everyN: 1, type: 'oto', base: 'https://www.otomoto.pl',
+    url: 'https://www.otomoto.pl/osobowe/porsche/od-1963?search%5Bfilter_float_year%3Ato%5D=1994&search%5Bfilter_float_price%3Ato%5D=250000' },
+  { key: 'otomoto-911', everyN: 2, type: 'oto', base: 'https://www.otomoto.pl',
+    url: 'https://www.otomoto.pl/osobowe/porsche/911/od-1963?search%5Bfilter_float_year%3Ato%5D=1994' },
+  // sauto (CZ): serverseitig gerenderte Karten, CZK mit 25,0 umgerechnet.
+  { key: 'sauto', everyN: 1, type: 'sa', base: 'https://www.sauto.cz',
+    url: 'https://www.sauto.cz/inzerce/osobni/porsche/911?vyrobeno-do=1994' },
+  { key: 'sauto-912', everyN: 3, type: 'sa', base: 'https://www.sauto.cz',
+    url: 'https://www.sauto.cz/inzerce/osobni/porsche?vyrobeno-do=1994&vyrobeno-od=1963' },
   // kleinanzeigen: GENAU EIN Abruf pro Lauf (= stuendlich). Bei 403 nicht nachdruecken.
   { key: 'kleinanzeigen', everyN: 1, type: 'ka', base: 'https://www.kleinanzeigen.de',
     url: 'https://www.kleinanzeigen.de/s-autos/' + KA_QUERIES[kaSlot] + '/k0c216' },
@@ -342,6 +353,50 @@ function parseMp(html, base) {
     && l.price_eur >= 8000 && l.price_eur <= MAX_EUR && yearOk(l.ez));
 }
 
+const KURS = { PLN: 1 / 4.3, CZK: 1 / 25.0, EUR: 1 };
+function parseOto(html) {
+  const j = nextData(html); if (!j) return [];
+  const out = [];
+  for (const v of Object.values(j?.props?.pageProps?.urqlState || {})) {
+    let d = v?.data; if (typeof d === 'string') { try { d = JSON.parse(d); } catch { continue; } }
+    for (const e of (d?.advertSearch?.edges || [])) {
+      const n = e.node || {}; const par = {}; (n.parameters || []).forEach(p => par[p.key] = p.displayValue);
+      const cur = n.price?.amount?.currencyCode || 'PLN';
+      const price = Math.round(parseFloat(n.price?.amount?.value || '0') * (KURS[cur] || 0));
+      const title = ((n.title || '') + ' ' + (n.shortDescription || '')).replace(/\s+/g, ' ').trim();
+      out.push({
+        title, price_eur: price, km: parseInt(String(par.mileage || '').replace(/\D/g, ''), 10) || null,
+        ez: String(par.year || ''), location: n.location?.city?.name || '', country: 'PL',
+        seller: n.sellerLink?.name ? 'Haendler ' + n.sellerLink.name : 'privat', url: n.url || '', src: 'otomoto',
+        ctx: 'Waehrung ' + cur + (n.sellerLink?.name ? ', Haendler' : ', privat'),
+      });
+    }
+  }
+  return out.filter(l => l.url && IST_911.test(l.title) && !NICHT_911.test(l.title) && !MODERN.test(l.title)
+    && l.price_eur >= 8000 && l.price_eur <= MAX_EUR && yearOk(l.ez));
+}
+function parseSa(html) {
+  const out = [];
+  for (const it of (html || '').split(/<li class="c-item /).slice(1)) {
+    const href = /href="(https:\/\/www\.sauto\.cz\/osobni\/detail\/[^"]+)"/.exec(it); if (!href) continue;
+    const name = /c-item__name" data-dot="link">([\s\S]*?)<\/span><\/span>/.exec(it);
+    const title = (name ? name[1] : '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    const info = /c-item__info">([^<]*)/.exec(it);
+    const yr = /(\d{4})/.exec(info ? info[1] : ''); const km = /([\d\s]{3,9})\s*km/.exec(info ? info[1] : '');
+    const pr = /c-item__price"[^>]*>([^<]*)/.exec(it);
+    const czk = parseInt((pr ? pr[1] : '').replace(/\D/g, ''), 10) || 0;
+    const price = /€|EUR/.test(pr ? pr[1] : '') ? czk : Math.round(czk * KURS.CZK);
+    const loc = /c-item__locality">([^<]*)/.exec(it); const sel = /c-item__seller">([^<]*)/.exec(it);
+    out.push({
+      title, price_eur: price, km: km ? parseInt(km[1].replace(/\D/g, ''), 10) : null, ez: yr ? yr[1] : '',
+      location: loc ? loc[1].trim() : '', country: 'CZ', seller: sel ? sel[1].trim() : '',
+      url: href[1], src: 'sauto', ctx: 'Preis ' + (pr ? pr[1].trim() : '?'),
+    });
+  }
+  return out.filter(l => IST_911.test(l.title) && !NICHT_911.test(l.title) && !MODERN.test(l.title)
+    && l.price_eur >= 8000 && l.price_eur <= MAX_EUR && yearOk(l.ez));
+}
+
 // bekannte Inserate laden
 const seenFile = path.join(REPO, 'data/seen-listings.json');
 const notifiedFile = path.join(REPO, 'data/monitor-notified.json');
@@ -385,6 +440,8 @@ for (const s of due) {
        : s.type === 'ct' ? parseCt(html)
        : s.type === 'r66' ? parseR66(html)
        : s.type === 'kd' ? parseKd(html, s.key)
+       : s.type === 'oto' ? parseOto(html)
+       : s.type === 'sa' ? parseSa(html)
        : parseKa(html);
   } catch (e) { health.push(s.key + ':PARSE'); continue; }
   if (ls === null) { health.push(s.key + ':RATELIMIT'); continue; }
