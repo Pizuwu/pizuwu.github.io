@@ -8,7 +8,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const REPO = path.dirname(path.dirname(new URL(import.meta.url).pathname));
-const MAX_EUR = 58000;
+const MAX_EUR = 48000;
 const QUERIES = [
   'porsche-targa', 'porsche-911-targa', 'porsche-911-sc', 'porsche-g-modell', 'porsche-oldtimer',
   'porsche-964', 'porsche-912', 'porsche-elfer', 'porsche-911er', 'porsche-carrera-3-2',

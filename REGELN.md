@@ -1,3 +1,6 @@
+## ZIELPREIS-REGEL (Patrick, 16.09., ersetzt alle aelteren Grenzen)
+Nur Fahrzeuge, die sich realistisch auf **unter 40.000 EUR** druecken lassen: Inserat bis 42.000 ohne Bedingung, 42.000 bis 48.000 nur mit Verhandlungssignal (VB, Preis gesenkt, lange online, Auktion ohne Zuschlag, Sammlungsaufloesung, Verkauf im Auftrag), ueber 48.000 raus. Verhandlungsziel immer unter 40.000 vor TUEV/H. Funnel-Eintraege ueber 48.000 sind nur noch Beobachtung auf Preissenkung.
+
 # 911-Scout Regelwerk (Scoring, Mail-Politik, Funnel)
 
 Einzige Wahrheitsquelle neben SCOUT.md (Prozedur/Quellen). Stand: 2026-09-11. Zulassungsland: **Deutschland** (entschieden), daher keine NoVA; NL/BE-Import kostet nur ~300-600 € Überführung, NL-Arbitrage ist voll spielbar.

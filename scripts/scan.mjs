@@ -22,8 +22,8 @@ if (process.env.CYCLE) {
   try { fs.writeFileSync(stateFile, JSON.stringify({ run: runNo, last: new Date().toISOString() }, null, 1)); } catch {}
 }
 const CYCLE = runNo;
-const MAX_EUR = 58000; // Obergrenze fuer Verhandlungskandidaten (Patricks Cut liegt bei 45k)
-const BAND_EUR = 45000; // bis hier normal, darueber nur mit Verhandlungssignal (VB, Aftersale, Preisvorschlag)
+const MAX_EUR = 48000; // Obergrenze fuer Verhandlungskandidaten (seit 16.09.: nur Autos, die realistisch unter 40k gehen)
+const BAND_EUR = 42000; // bis hier normal, darueber nur mit Verhandlungssignal (VB, Aftersale, Preissenkung, lange online)
 const VERHANDLUNG = /\bVB\b|verhandlungsbasis|verhandelbar|preisvorschlag|angebot|aftersale|ohne zuschlag|schnell|kurzfristig|muss weg|preis gesenkt|reduziert/i;
 const ALERT_EUR = 32000; // Glueckstreffer-Zone fuer Sofort-Alert
 
