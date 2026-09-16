@@ -22,7 +22,9 @@ if (process.env.CYCLE) {
   try { fs.writeFileSync(stateFile, JSON.stringify({ run: runNo, last: new Date().toISOString() }, null, 1)); } catch {}
 }
 const CYCLE = runNo;
-const MAX_EUR = 45000; // Beobachtungsgrenze Winterfenster
+const MAX_EUR = 58000; // Obergrenze fuer Verhandlungskandidaten (Patricks Cut liegt bei 45k)
+const BAND_EUR = 45000; // bis hier normal, darueber nur mit Verhandlungssignal (VB, Aftersale, Preisvorschlag)
+const VERHANDLUNG = /\bVB\b|verhandlungsbasis|verhandelbar|preisvorschlag|angebot|aftersale|ohne zuschlag|schnell|kurzfristig|muss weg|preis gesenkt|reduziert/i;
 const ALERT_EUR = 32000; // Glueckstreffer-Zone fuer Sofort-Alert
 
 // Tippfehler-Rotation fuer kleinanzeigen (exakte Suche, 1 Abruf pro Stunde):
@@ -109,6 +111,14 @@ const SOURCES = [
   // Fahrzeuge unbemerkt aus der Liste, statt als verkauft erkannt zu werden.
   { key: 'route66-2', everyN: 1, type: 'r66', base: 'https://www.route66auctions.com',
     url: 'https://www.route66auctions.com/wp-json/wp/v2/product?product_cat=26&per_page=100&page=2&_fields=link,title,product_cat' },
+  // Kickdown (Hamburg): Auktionsplattform fuer Klassiker, serverseitig gerendert.
+  // "aftersale" = Auktion ohne Zuschlag beendet, Preisvorschlag moeglich. Das ist der
+  // Pool motivierter Verkaeufer (Beispiel 16.09.: Thomas/Hildesheim, Schaetzung 62k,
+  // 0 Gebote, direkt bei 50k, Patrick bei 45k). Preise stehen nur auf der Detailseite.
+  { key: 'kickdown-aftersale', everyN: 1, type: 'kd', base: 'https://www.kickdown.com',
+    url: 'https://www.kickdown.com/de/auctions/aftersale?search=porsche' },
+  { key: 'kickdown-alle', everyN: 2, type: 'kd', base: 'https://www.kickdown.com',
+    url: 'https://www.kickdown.com/de/auctions/all?search=porsche' },
   // kleinanzeigen: GENAU EIN Abruf pro Lauf (= stuendlich). Bei 403 nicht nachdruecken.
   { key: 'kleinanzeigen', everyN: 1, type: 'ka', base: 'https://www.kleinanzeigen.de',
     url: 'https://www.kleinanzeigen.de/s-autos/' + KA_QUERIES[kaSlot] + '/k0c216' },
@@ -246,6 +256,28 @@ function parseR66(json) {
   }
   return out.filter(l => l.url);
 }
+function parseKd(html, srcKey) {
+  const out = []; const seen = new Set();
+  const re = /href="(\/de\/postings\/[a-z0-9-]+)"[^>]*>\s*<div class="tw-contents"><h3[^>]*>([^<]+)<\/h3>/g;
+  let m;
+  while ((m = re.exec(html))) {
+    if (seen.has(m[1])) continue; seen.add(m[1]);
+    const title = m[2].replace(/&amp;/g, '&').trim();
+    const yr = /\((\d{4})\)\s*$/.exec(title);
+    if (!yr || +yr[1] < 1960 || +yr[1] > 1994) continue;
+    if (!IST_911.test(title) || NICHT_911.test(title) || MODERN.test(title)) continue;
+    const ctx = html.slice(m.index, m.index + 2500).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+    const km = /([\d.]{4,9})\s*(km|mi|Meilen)/i.exec(ctx);
+    const ort = /in-de-(\d{5})-([a-z-]+)/.exec(m[1]);
+    out.push({
+      title, price_eur: 0, km: km ? parseInt(km[1].replace(/\./g, ''), 10) * (/mi|Meilen/i.test(km[2]) ? 1.609 : 1) | 0 : null,
+      ez: yr[1], location: ort ? ort[1] + ' ' + ort[2].replace(/-/g, ' ') : '', country: 'DE',
+      seller: 'Kickdown', url: 'https://www.kickdown.com' + m[1], src: srcKey, auktion: true,
+      listenpreis_fehlt: true, verhandlung: /aftersale/.test(srcKey),
+    });
+  }
+  return out;
+}
 function parseKa(html) {
   if (/IP-Bereich/i.test(html || '')) return null; // gesperrt, kein Fehler
   const out = [];
@@ -337,6 +369,7 @@ for (const s of due) {
        : s.type === 'mp' ? parseMp(html, s.base)
        : s.type === 'ct' ? parseCt(html)
        : s.type === 'r66' ? parseR66(html)
+       : s.type === 'kd' ? parseKd(html, s.key)
        : parseKa(html);
   } catch (e) { health.push(s.key + ':PARSE'); continue; }
   if (ls === null) { health.push(s.key + ':RATELIMIT'); continue; }
@@ -375,8 +408,13 @@ for (const l of found) {
   // alles ab 1995 ist wassergekuehlt oder 993 und damit ausserhalb des Suchprofils
   const ty = /\b(19[5-9]\d|20[0-2]\d)\b/.exec(l.title || '');
   if (ty && +ty[1] > 1994) continue;
-  if (l.src === 'route66') { /* Preis steht erst auf der Detailseite, Filter greift dort */ }
-  else if (l.km >= 900000) continue; // km unbekannt/999999 = Projektverdacht, raus
+  // Auktionsquellen ohne Listenpreis (Route 66, Kickdown): Preisfilter greift erst bei der Tiefenpruefung
+  if (l.src === 'route66') l.listenpreis_fehlt = true;
+  if (!l.listenpreis_fehlt) {
+    if (l.km >= 900000) continue; // km unbekannt/999999 = Projektverdacht, raus
+    // 45-58k nur, wenn ein Verhandlungssignal da ist. Sonst ist es ein Haendlerpreis ausser Reichweite.
+    if (l.price_eur > BAND_EUR && !VERHANDLUNG.test((l.title || '') + ' ' + (l.ctx || ''))) continue;
+  }
   // Platzhalter-Kilometerstaende: 123456, 111111, 654321 usw. Wer den Tacho nicht angibt,
   // hat meist kein fahrbereites Auto. Gefunden am 15.09. an einem zerlegten 1972er
   // Oelklappen-Modell fuer 33k, dessen erstes Foto ein fremdes Auto zeigte.
@@ -400,6 +438,8 @@ for (const l of fresh) {
   const koeder = !l.auktion && l.price_eur < 18000;
   const tag = l._platzhalter ? 'PLATZHALTER-KM'
     : koeder ? 'KOEDER-VERDACHT'
+    : l.verhandlung ? 'VERHANDLUNG'
+    : (l.price_eur > BAND_EUR) ? 'VERHANDLUNG'
     : l.auktion ? 'AUKTION'
     : (l.price_eur <= ALERT_EUR ? 'GLUECKSTREFFER' : 'NEU');
   console.log(`${tag} [${l.price_eur}€|${l.km || '?'}km|EZ ${l.ez || '?'}|${l.location || l.country}|${l.src}] ${l.title.slice(0, 60)} ${l.url}`);
