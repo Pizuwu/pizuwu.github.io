@@ -73,6 +73,11 @@ ka-fetch laeuft die Kernsuchen deshalb zusaetzlich ohne Preisfilter (Seite 1 und
 gruppiert dasselbe Auto ueber Plattformen und Zeit in `data/crosscheck.json`. Vor jeder Bewertung
 dort nachsehen: Steht das Auto woanders billiger? Wie lange steht es schon? Wurde der Preis gesenkt?
 
+**Zeitplan-Realitaet (Stand 16.09. 14:35 UTC):** der cron `*/30` hat seit dem Push auf master (12:20) KEINEN
+einzigen Lauf ausgeloest (Filter event=schedule: 0 Laeufe). GitHub startet Zeitplaene verzoegert oder gar nicht.
+Deshalb dispatcht der Stundentrigger zu Beginn JEDES Laufs selbst einen Neu-Finder-Lauf und wartet auf den
+Commit, statt auf den Zeitplan zu vertrauen.
+
 **Wichtig:** Der Workflow committet nur, wenn `git add` pro Pfad laeuft (Lauf 2 am 16.09. hat sein
 Ergebnis verloren, weil ein fehlender Pfad den ganzen add abbrach). Zeitplan-Laeufe arbeiten
 explizit auf dem Arbeits-Branch, nicht auf master.
