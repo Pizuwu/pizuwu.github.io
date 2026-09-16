@@ -41,9 +41,10 @@
   {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911s-targa/3498767643-216-7082",
    "titel": "911 S Targa 1977, 42k, Türkheim, Score 8",
-   "status": "neu",
-   "datum": "2026-09-14",
-   "naechste_aktion": "PATRICK MELDET SICH (ganze Sätze + Telefonnummer, Vorlage in ALERT-Mail). Motorvideo + Unterboden-Fotos anfordern, Besichtigung vereinbaren. Ziel 38-40k."
+   "status": "reserviert_warten",
+   "datum": "2026-09-16",
+   "naechste_aktion": "Warten. Nicht erneut nachfassen vor 23.09. Falls Reservierung platzt: sofort Besichtigung.",
+   "stand": "Verkaeufer Philipp (P.N.) am 14.09.: 'leider reserviert, falls sich etwas aendert gebe ich Bescheid'. Patrick hat nach dem Preis gefragt, keine Antwort. Nachgefasst am 16.09. 12:22."
   },
   {
    "url": "https://www.marktplaats.nl/v/auto-s/oldtimers/a1530664474-porsche-911-2-4-t-targa-1973",
@@ -116,11 +117,19 @@
   {
    "url": "https://www.kickdown.com/de/postings/022767675761-1980-porsche-911-sc-3-0-targa-in-de-97421-schweinfurt",
    "titel": "911 SC 3.0 Targa 1980, Schweinfurt, Kickdown-Aftersale",
-   "status": "neu",
+   "status": "verworfen",
    "datum": "2026-09-16",
    "kontakt": "Ueber Kickdown: Preisvorschlag senden (48 Werktagsstunden bindend) oder anfrage@kickdown.com, +49 40 22898093",
    "stand": "Schaetzung 52-59k, 0 Gebote seit 03.09., Verkaeufer-Gutachten sagt 46.000.",
-   "naechste_aktion": "Patrick: Preisvorschlag 43.000 ueber Kickdown (Gesamt mit Aufgeld ~45.560) ODER direkt anfrage@kickdown.com mit Verweis auf das 46k-Gutachten. Vorher: Fragen zu Rost an Targa-Fensterrahmen und Wagenheberaufnahmen sowie Grund fuer 'km nicht nachvollziehbar' ueber den Fragenbereich stellen."
+   "naechste_aktion": "Patrick: Preisvorschlag 43.000 ueber Kickdown (Gesamt mit Aufgeld ~45.560) ODER direkt anfrage@kickdown.com mit Verweis auf das 46k-Gutachten. Vorher: Fragen zu Rost an Targa-Fensterrahmen und Wagenheberaufnahmen sowie Grund fuer 'km nicht nachvollziehbar' ueber den Fragenbereich stellen.",
+   "grund": "Farbe: Rot gefaellt Patrick nicht (16.09.)"
+  },
+  {
+   "url": "https://www.autoscout24.de/angebote/porsche-911-sc-targa-benzin-silber-cat_ma57gr100070ge282va284tr480682-9466e0d3-2e8e-4e93-85f9-96413f8ba8da",
+   "titel": "911 SC Targa 1978, privat Muenchen, 39.500",
+   "status": "verworfen",
+   "datum": "2026-09-16",
+   "grund": "Verkaeufer meldet sich nicht"
   }
  ]
 }

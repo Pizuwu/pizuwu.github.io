@@ -37,6 +37,13 @@ Gewerbetreibende, Agenturgeschaeft im Kundenauftrag). Alle drei Umgehungswege si
    den Haftungsverzicht.
 4. Die alte Angabe "912: 30-45k" war zu niedrig und ist damit korrigiert.
 
+## FARBE (gelernt 16.09., aus Patricks Rueckmeldung)
+**Knallrot (Indischrot, Guards Red, "Rot") gefaellt Patrick NICHT.** Der Schweinfurter SC Targa
+(Score 9, Gutachten 46k) fiel allein deshalb raus. Sein Referenzbild war ein dunkles Weinrot,
+das bleibt ok. Weiss, Elfenbein, Platindiamant, Schwarz, Silber, Gruen sind unproblematisch.
+Regel: Farbe "Rot"/"Indischrot"/"Guards Red" = Score -2 und im Chat explizit nennen, KEIN Alert
+mehr ohne Hinweis auf die Farbe. Bei Auktionen mit roter Lackierung vor dem Bieten nachfragen.
+
 ## FAKTEN-VERIFIKATIONSPROTOKOLL (bindend, nach zwei Vorfällen)
 Vorfall 1: toter Inserats-Link aus Suchmaschinen-Snippet. Vorfall 2: nicht existierende Domain ferdineo.com aus einer Websuche-Zusammenfassung als Anlaufstelle empfohlen. Regel: **JEDE URL, Domain oder Tatsachenbehauptung, die Patrick erreicht (Mail, Chat, Deck), muss im selben Lauf direkt verifiziert sein**: Domain per DNS/Abruf, Links per curl (Status <400; kleinanzeigen-Ratelimit-403 gilt als ok wenn das Inserat aus frischem Live-Abruf stammt), Fakten gegen die Originalseite. WebSearch-/KI-Zusammenfassungen sind NIE eine Quelle, nur ein Hinweis zum Selbstprüfen. Vor JEDER Mail: alle enthaltenen URLs durchtesten.
 
