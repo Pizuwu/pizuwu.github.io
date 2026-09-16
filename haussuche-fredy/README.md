@@ -4,6 +4,8 @@ Setup für [fredy](https://github.com/orangecoding/fredy), den selbst gehosteten
 
 ## Start
 
+Für den Dauerbetrieb auf einem Hetzner-Server mit Coolify: siehe [COOLIFY.md](./COOLIFY.md). Nur lokal zum Ausprobieren geht es so weiter.
+
 Voraussetzung: Docker ist installiert.
 
 ```bash
