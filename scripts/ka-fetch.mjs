@@ -38,8 +38,9 @@ function parse(html, query) {
     const price = /([\d.]{4,9})\s*€/.exec(a);
     const km = /([\d.]{3,8})\s*km/.exec(a);
     const ez = /EZ\s*(\d{2}\/\d{4})/.exec(a);
-    const loc = /aditem-main--top--left[^>]*>\s*([^<]+)/.exec(a);
-    const when = /aditem-main--top--right[^>]*>\s*([^<]+)/.exec(a);
+    const plain = a.replace(/<[^>]+>/g, '\n').replace(/&nbsp;/g, ' ').split('\n').map(x => x.trim()).filter(Boolean);
+    const loc = [null, plain.find(x => /^\d{5}\s+\S/.test(x)) || ''];
+    const when = [null, plain.find(x => /^(Heute|Gestern),?\s*\d{2}:\d{2}$|^\d{2}\.\d{2}\.\d{4}$/.test(x)) || ''];
     const desc = /aditem-main--middle--description[^>]*>\s*([^<]+)/.exec(a);
     const p = price ? parseInt(price[1].replace(/\./g, ''), 10) : null;
     if (!p || p < 8000 || p > MAX_EUR) continue;
