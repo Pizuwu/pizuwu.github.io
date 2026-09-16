@@ -66,13 +66,20 @@ const seen = new Set();
 const PAGED = ['porsche-targa', 'porsche-911-targa', 'porsche-911', 'porsche-oldtimer', 'porsche-carrera-3-2', 'porsche-g-modell'];
 const JOBS = [];
 for (const q of QUERIES) { JOBS.push([q, 1]); if (PAGED.includes(q)) { JOBS.push([q, 2]); JOBS.push([q, 3]); } }
-for (const [q, page] of JOBS) {
-  const url = page === 1 ? `https://www.kleinanzeigen.de/s-autos/preis::${MAX_EUR}/${q}/k0c216`
-                         : `https://www.kleinanzeigen.de/s-autos/preis::${MAX_EUR}/seite:${page}/${q}/k0c216`;
+// Der Preisfilter preis::58000 blendet Inserate OHNE Preis ("VB") komplett aus. Genau die sind
+// die Verhandlungsziele (16.09.: Bad Homburg 2,4 E Targa, Friedrichshafen T 2.2 Targa, Bocholt,
+// Stephansposching 2.7, Dannenberg Weissach, alle nur "VB"). Darum die Kernsuchen zusaetzlich
+// ohne Preisfilter, Seite 1 und 2; Inserate mit Preis ueber MAX_EUR fliegen im Parser raus.
+const UNPRICED = ['porsche-targa', 'porsche-911-targa', 'porsche-911', 'porsche-g-modell', 'porsche-912', 'porsche-964'];
+for (const q of UNPRICED) { JOBS.push([q, 1, true]); JOBS.push([q, 2, true]); }
+for (const [q, page, ohnePreis] of JOBS) {
+  const pre = ohnePreis ? '' : `preis::${MAX_EUR}/`;
+  const url = page === 1 ? `https://www.kleinanzeigen.de/s-autos/${pre}${q}/k0c216`
+                         : `https://www.kleinanzeigen.de/s-autos/${pre}seite:${page}/${q}/k0c216`;
   const { code, body } = fetch(url);
   const blocked = /IP-Bereich/i.test(body);
   const ls = (code === 200 && !blocked) ? parse(body, q) : [];
-  result.queries.push({ q: page === 1 ? q : q + '#' + page, code, blocked, count: ls.length });
+  result.queries.push({ q: (ohnePreis ? 'vb:' : '') + (page === 1 ? q : q + '#' + page), code, blocked, count: ls.length });
   for (const l of ls) { if (seen.has(l.url)) continue; seen.add(l.url); result.listings.push(l); }
   await sleep(2500);
 }
