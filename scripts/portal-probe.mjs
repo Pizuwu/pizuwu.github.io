@@ -23,6 +23,17 @@ const PORTALE = [
   ['bilbasen', 'https://www.bilbasen.dk/brugt/bil/porsche/911', /bilbasen\.dk\/brugt\/bil\/porsche\/911\//i],
   ['sauto', 'https://www.sauto.cz/inzerce/osobni/porsche/911', /sauto\.cz\/osobni\/detail/i],
   ['oldtimermarkt', 'https://www.oldtimermarkt.de/', /oldtimer/i],
+  // Auktionshaeuser: Ziel ist der Einlieferer-Kontakt nach erfolgloser Auktion, nicht das Bieten
+  ['troostwijk', 'https://www.troostwijkauctions.com/de/l/oldtimer?q=porsche', /troostwijkauctions\.com\/de\/(a|l)\//i],
+  ['vavato', 'https://vavato.com/de/c/fahrzeuge?q=porsche', /vavato\.com\/de\/(a|l)\//i],
+  ['dorotheum', 'https://www.dorotheum.com/de/k/oldtimer/', /dorotheum\.com\/de\/l\//i],
+  ['osenat', 'https://www.osenat.com/fr/ventes/automobiles', /osenat\.com\/fr\/(lot|vente)/i],
+  ['aguttes', 'https://www.aguttes.com/departement/automobiles-de-collection', /aguttes\.com\/(lot|vente)/i],
+  ['bonhams', 'https://cars.bonhams.com/search/?q=porsche%20911', /bonhams\.com\/auction/i],
+  ['classicbid', 'https://www.classicbid.de/', /classicbid\.de\/(lot|auktion|fahrzeug)/i],
+  ['autobid', 'https://autobid.de/de/', /autobid\.de/i],
+  ['carandclassic', 'https://www.carandclassic.com/search?q=porsche%20911%20targa', /carandclassic\.com\/car\//i],
+  ['classiccarsforsale', 'https://www.classic-trader.com/de/auktionen', /classic-trader\.com\/de\/auktion/i],
 ];
 const out = { probed_at: new Date().toISOString(), runner: process.env.GITHUB_RUN_ID || 'lokal', results: [] };
 for (const [name, url, marker] of PORTALE) {
