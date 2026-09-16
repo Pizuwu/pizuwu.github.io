@@ -41,7 +41,9 @@ let code = 0, body = '', final = url;
     .map(u => u.replace(/\?rule=\$_\d+\.JPG$/, '?rule=$_59.JPG'));
   const id = crypto.createHash('sha1').update(url).digest('hex').slice(0, 10);
   const rec = { id, url, final_url: final, fetched_at: new Date().toISOString(), http: code,
-    blocked: /IP-Bereich|access denied|captcha/i.test(body), title: (/<title[^>]*>([^<]*)<\/title>/i.exec(body) || [])[1] || '',
+    // "captcha" allein reicht nicht: elferspot und AutoScout24 haben reCAPTCHA im Kontaktformular
+    // jeder normalen Seite. Gesperrt = Sperrtext UND fast kein Inhalt.
+    blocked: code !== 200 || (/IP-Bereich|access denied|are you a human|bot detection/i.test(body) && text.length < 5000), title: (/<title[^>]*>([^<]*)<\/title>/i.exec(body) || [])[1] || '',
     text: text.slice(0, 40000), images: [...new Set(imgs)].slice(0, 60) };
   fs.mkdirSync(path.join(REPO, 'data', 'intake'), { recursive: true });
   fs.writeFileSync(path.join(REPO, 'data', 'intake', id + '.json'), JSON.stringify(rec, null, 1));
