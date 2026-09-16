@@ -367,7 +367,7 @@ for (const s of due) {
       const live = JSON.parse(fs.readFileSync(path.join(REPO, 'data', 'ka-live.json'), 'utf8'));
       const ageH = (Date.now() - Date.parse(live.fetched_at)) / 36e5;
       if (ageH < 3 && live.listings.length) {
-        const ls = live.listings.map(l => ({ ...l, country: 'DE', seller: '', src: 'kleinanzeigen', ctx: l.snippet || '' }))
+        const ls = live.listings.map(l => ({ ...l, price_eur: l.price_eur || 0, listenpreis_fehlt: !l.price_eur, verhandlung: !!l.vb, country: 'DE', seller: '', src: 'kleinanzeigen', ctx: (l.snippet || '') + (l.vb ? ' VB' : '') }))
           .filter(l => IST_911.test(l.title) && !NICHT_911.test(l.title) && yearOk(l.ez));
         health.push('ka-runner:' + ls.length + '@' + ageH.toFixed(1) + 'h');
         found = found.concat(ls);

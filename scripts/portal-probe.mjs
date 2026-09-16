@@ -34,6 +34,17 @@ const PORTALE = [
   ['autobid', 'https://autobid.de/de/', /autobid\.de/i],
   ['carandclassic', 'https://www.carandclassic.com/search?q=porsche%20911%20targa', /carandclassic\.com\/car\//i],
   ['classiccarsforsale', 'https://www.classic-trader.com/de/auktionen', /classic-trader\.com\/de\/auktion/i],
+  // Zweitversuche mit anderen Pfaden (erster Lauf: 404 mit Inhalt = Seite erreichbar, Pfad falsch)
+  ['elferspot-2', 'https://www.elferspot.com/de/', /elferspot\.com\/de\/[a-z0-9-]+\/[a-z0-9-]+\//i],
+  ['elferspot-3', 'https://www.elferspot.com/de/porsche/911-g-modell/', /elferspot\.com\/de\/[a-z0-9-]+\/[a-z0-9-]+\//i],
+  ['elferspot-4', 'https://www.elferspot.com/de/?s=targa', /elferspot\.com\/de\/[a-z0-9-]+\/[a-z0-9-]+\//i],
+  ['troostwijk-2', 'https://www.troostwijkauctions.com/de/c/oldtimer', /troostwijkauctions\.com\/de\/[al]\//i],
+  ['troostwijk-3', 'https://www.troostwijkauctions.com/de/', /troostwijkauctions\.com\/de\/[al]\//i],
+  ['vavato-2', 'https://vavato.com/de', /vavato\.com\/de\/[al]\//i],
+  ['pff-2', 'https://www.pff.de/', /fahrzeugmarkt|marktplatz|inserat/i],
+  ['pff-3', 'https://www.pff.de/marktplatz/', /fahrzeug|inserat/i],
+  ['elfertreff-2', 'https://elfertreff.de/', /marktplatz|inserat/i],
+  ['classicbid-2', 'https://www.classicbid.de/fahrzeuge/', /classicbid\.de\/(lot|auktion|fahrzeug)/i],
 ];
 const out = { probed_at: new Date().toISOString(), runner: process.env.GITHUB_RUN_ID || 'lokal', results: [] };
 for (const [name, url, marker] of PORTALE) {
