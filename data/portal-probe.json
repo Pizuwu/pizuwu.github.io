@@ -1,6 +1,6 @@
 {
- "probed_at": "2026-09-16T12:28:15.535Z",
- "runner": "35095875555",
+ "probed_at": "2026-09-16T12:40:41.261Z",
+ "runner": "35097200060",
  "results": [
   {
    "name": "mobile.de",
@@ -77,10 +77,10 @@
   {
    "name": "kleinanzeigen",
    "url": "https://www.kleinanzeigen.de/s-autos/preis::58000/porsche-targa/k0c216",
-   "code": 200,
-   "size": 811991,
-   "marker_hits": 25,
-   "blocked": false
+   "code": 403,
+   "size": 767,
+   "marker_hits": 0,
+   "blocked": true
   },
   {
    "name": "lacentrale",
@@ -102,7 +102,7 @@
    "name": "otomoto",
    "url": "https://www.otomoto.pl/osobowe/porsche/911?search%5Bfilter_float_price%3Ato%5D=58000",
    "code": 200,
-   "size": 1206720,
+   "size": 1206874,
    "marker_hits": 3,
    "blocked": false
   },
@@ -118,7 +118,7 @@
    "name": "sauto",
    "url": "https://www.sauto.cz/inzerce/osobni/porsche/911",
    "code": 200,
-   "size": 487708,
+   "size": 487625,
    "marker_hits": 20,
    "blocked": false
   },
@@ -190,7 +190,7 @@
    "name": "autobid",
    "url": "https://autobid.de/de/",
    "code": 200,
-   "size": 539652,
+   "size": 539732,
    "marker_hits": 297,
    "blocked": false
   },
@@ -206,9 +206,89 @@
    "name": "classiccarsforsale",
    "url": "https://www.classic-trader.com/de/auktionen",
    "code": 200,
-   "size": 4759002,
+   "size": 4759014,
    "marker_hits": 4,
    "blocked": false
+  },
+  {
+   "name": "elferspot-2",
+   "url": "https://www.elferspot.com/de/",
+   "code": 200,
+   "size": 160882,
+   "marker_hits": 71,
+   "blocked": false
+  },
+  {
+   "name": "elferspot-3",
+   "url": "https://www.elferspot.com/de/porsche/911-g-modell/",
+   "code": 404,
+   "size": 115762,
+   "marker_hits": 19,
+   "blocked": false
+  },
+  {
+   "name": "elferspot-4",
+   "url": "https://www.elferspot.com/de/?s=targa",
+   "code": 200,
+   "size": 133464,
+   "marker_hits": 46,
+   "blocked": false
+  },
+  {
+   "name": "troostwijk-2",
+   "url": "https://www.troostwijkauctions.com/de/c/oldtimer",
+   "code": 404,
+   "size": 148594,
+   "marker_hits": 0,
+   "blocked": false
+  },
+  {
+   "name": "troostwijk-3",
+   "url": "https://www.troostwijkauctions.com/de/",
+   "code": 200,
+   "size": 595957,
+   "marker_hits": 0,
+   "blocked": false
+  },
+  {
+   "name": "vavato-2",
+   "url": "https://vavato.com/de",
+   "code": 404,
+   "size": 137452,
+   "marker_hits": 0,
+   "blocked": false
+  },
+  {
+   "name": "pff-2",
+   "url": "https://www.pff.de/",
+   "code": 200,
+   "size": 93394,
+   "marker_hits": 3,
+   "blocked": false
+  },
+  {
+   "name": "pff-3",
+   "url": "https://www.pff.de/marktplatz/",
+   "code": 404,
+   "size": 188,
+   "marker_hits": 0,
+   "blocked": false
+  },
+  {
+   "name": "elfertreff-2",
+   "url": "https://elfertreff.de/",
+   "code": 0,
+   "size": 0,
+   "marker_hits": 0,
+   "blocked": false
+  },
+  {
+   "name": "classicbid-2",
+   "url": "https://www.classicbid.de/fahrzeuge/",
+   "code": 404,
+   "size": 39321,
+   "marker_hits": 0,
+   "blocked": true
   }
  ]
 }
