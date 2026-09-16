@@ -37,6 +37,9 @@ jobs:
       - name: Portale testen
         if: ${{ github.event.inputs.probe == 'true' }}
         run: node scripts/portal-probe.mjs
+      - name: Gesperrte Portale abrufen (elferspot, pff, troostwijk)
+        if: ${{ github.event.inputs.url == '' }}
+        run: node scripts/portale-fetch.mjs
       - name: Einzelnes Inserat holen
         if: ${{ github.event.inputs.url != '' }}
         env:
@@ -57,7 +60,7 @@ jobs:
           git config user.name "ka-scan-bot"
           git config user.email "ka-scan-bot@users.noreply.github.com"
           # Jeden Pfad einzeln: ein fehlender Pfad darf die anderen nicht blockieren
-          for p in data/ka-live.json data/portal-probe.json data/intake data/fingerprints.json data/crosscheck.json; do
+          for p in data/ka-live.json data/portal-probe.json data/portale-live.json data/portale-raw data/intake data/fingerprints.json data/crosscheck.json; do
             [ -e "$p" ] && git add "$p"
           done
           if git diff --cached --quiet; then echo "keine Aenderung"; exit 0; fi
