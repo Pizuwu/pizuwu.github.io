@@ -37,7 +37,7 @@ let code = 0, body = '', final = url;
   const unesc = body.replace(/\\\//g, '/');
   const imgs = [...unesc.matchAll(/https?:\/\/[^"'\s<>\\]+/g)].map(m => m[0])
     .filter(u => /img\.kleinanzeigen\.de\/api\/v1\/prod-ads\/images|images\.marktplaats\.com|\.(jpe?g|webp|png)(\?|$)/i.test(u))
-    .filter(u => !/logo|icon|sprite|avatar|placeholder|flag|badge|\/static\/|banner|1x1|pixel/i.test(u))
+    .filter(u => !/logo|icon|sprite|avatar|placeholder|flag|badge|\/static\/|static\.kleinanzeigen|prod-user\/images|banner|1x1|pixel|\/themes\/|wp-content\/themes/i.test(u))
     .map(u => u.replace(/\?rule=\$_\d+\.JPG$/, '?rule=$_59.JPG'));
   const id = crypto.createHash('sha1').update(url).digest('hex').slice(0, 10);
   const rec = { id, url, final_url: final, fetched_at: new Date().toISOString(), http: code,
