@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T15:35:52Z",
+ "updated_at": "2026-09-17T15:37:12Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -6113,6 +6113,14 @@
     {
      "d": "2026-09-17",
      "p": 42912
+    },
+    {
+     "d": "2026-09-17",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-17",
+     "p": 42912
     }
    ],
    "title": "porsche 912 bj 1968 tuev neu 09 28",
@@ -11290,7 +11298,49 @@
    "vin": null,
    "ez": "07/1990",
    "km": 171866,
-   "ps": null
+   "ps": null,
+   "hashes": [
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/02/02c8a6f7-90e7-40ad-8a9d-bba89760569d?rule=$_59.JPG",
+     "d": "0a2b4c4c49e9e6af",
+     "p": "f6fbacd0b2848383"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/02/02c8a6f7-90e7-40ad-8a9d-bba89760569d?rule=$_59.AUTO",
+     "d": "0a2b4c4c49e9e6af",
+     "p": "f6fbacd0b2848383"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f3/f397ef7c-b085-45ff-b347-14be39b07730?rule=$_59.JPG",
+     "d": "332b25271d35171f",
+     "p": "be4b81d8c145ca77"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f3/f397ef7c-b085-45ff-b347-14be39b07730?rule=$_59.AUTO",
+     "d": "332b25271d35171f",
+     "p": "be4b81d8c145ca77"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2eaac2ac-69a6-445c-81a0-d98983e4ab18?rule=$_59.JPG",
+     "d": "e68c4dd38d2b4c6a",
+     "p": "e764c560c18dbf86"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2e/2eaac2ac-69a6-445c-81a0-d98983e4ab18?rule=$_59.AUTO",
+     "d": "e68c6dd38d2b4c6a",
+     "p": "e764c560c18dbf86"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/45/45fbdff1-e115-4c31-aee5-839396651c92?rule=$_59.JPG",
+     "d": "c44c6d775b574f5b",
+     "p": "afd6c3e749804e1a"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/45/45fbdff1-e115-4c31-aee5-839396651c92?rule=$_59.AUTO",
+     "d": "c44c6d775b574f5b",
+     "p": "afd6c3e749804e1a"
+    }
+   ]
   },
   "56eac05662de": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/reserviert-fuer-hr-loewe-porsche-911-karosse-swb-mit-sd-bj-1968/3463769523-216-4921",
