@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T15:37:12Z",
+ "updated_at": "2026-09-17T16:36:07Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -6121,6 +6121,14 @@
     {
      "d": "2026-09-17",
      "p": 42912
+    },
+    {
+     "d": "2026-09-17",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-17",
+     "p": 42912
     }
    ],
    "title": "porsche 912 bj 1968 tuev neu 09 28",
@@ -11357,6 +11365,40 @@
    "vin": null,
    "ez": "05/1968",
    "km": 99999,
+   "ps": null
+  },
+  "655a44bd97d6": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera-cabriolet-hardtop-raffleder-navi/3438092957-216-2062",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-17",
+   "prices": [
+    {
+     "d": "2026-09-17",
+     "p": 29911
+    }
+   ],
+   "title": "porsche 911 996 carrera cabriolet hardtop raffleder navi",
+   "last_seen": "2026-09-17",
+   "vin": null,
+   "ez": "08/2000",
+   "km": 73360,
+   "ps": null
+  },
+  "e134a59cf239": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-g-model-930-speedster/3506576882-216-16311",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-17",
+   "prices": [
+    {
+     "d": "2026-09-17",
+     "p": 29999
+    }
+   ],
+   "title": "porsche g model 930 speedster",
+   "last_seen": "2026-09-17",
+   "vin": null,
+   "ez": "06/1988",
+   "km": null,
    "ps": null
   }
  }
