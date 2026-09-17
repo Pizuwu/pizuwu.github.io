@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T11:38:06Z",
+ "updated_at": "2026-09-17T11:40:19Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -6053,6 +6053,14 @@
     {
      "d": "2026-09-16",
      "p": 42912
+    },
+    {
+     "d": "2026-09-17",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-17",
+     "p": 42912
     }
    ],
    "title": "porsche 912 bj 1968 tuev neu 09 28",
@@ -6060,7 +6068,49 @@
    "vin": null,
    "ez": "02/1968",
    "km": 99999,
-   "ps": null
+   "ps": null,
+   "hashes": [
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ba/baa73f67-5e2e-4b9c-82f0-5e099b4cd692?rule=$_59.JPG",
+     "d": "0f4f0c6c123e6c7f",
+     "p": "f763a3790812f8e1"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ba/baa73f67-5e2e-4b9c-82f0-5e099b4cd692?rule=$_59.AUTO",
+     "d": "0f4f0c6c123e6c7f",
+     "p": "f763a3790812f8e1"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c8/c88a1a12-1ead-4563-b99f-1c60eeb1d82e?rule=$_59.JPG",
+     "d": "cc8c4f05975bcb3e",
+     "p": "a2f695503a2bb7a1"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c8/c88a1a12-1ead-4563-b99f-1c60eeb1d82e?rule=$_59.AUTO",
+     "d": "cc8c4f05975bcb3e",
+     "p": "a2f695513a2bb5a1"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ac/acc52337-dc54-483e-8359-70b1527b0768?rule=$_59.JPG",
+     "d": "04866667938fcf16",
+     "p": "e5f454e22aa7f418"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ac/acc52337-dc54-483e-8359-70b1527b0768?rule=$_59.AUTO",
+     "d": "04866667938fcf16",
+     "p": "e5f454e22aa7f418"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/35/35202290-6cc3-4344-a3c9-daa7dc245ce0?rule=$_59.JPG",
+     "d": "9b21417121391728",
+     "p": "da6a217998a1c3e7"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/35/35202290-6cc3-4344-a3c9-daa7dc245ce0?rule=$_59.AUTO",
+     "d": "9b21417121391728",
+     "p": "da6a217998a1c3e7"
+    }
+   ]
   },
   "cb7d2c6d19a2": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-912-e-oder-912-oder-911-sc-oder-911-2-7-targa5/3491044536-216-1944",
