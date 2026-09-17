@@ -143,3 +143,11 @@ Jedes Inserat in der Mail MUSS im selben Lauf verifiziert sein:
 3. Neue Kandidaten verifizieren (Regel oben), bewerten: Preis-Einschätzung (gesunder 996-Markt 30-45k; unter 25k meist >180tkm/Wartungsstau; Tiptronic 2-4k billiger; Cabrio < Coupé), Red Flags (IMS unklar, keine Historie, Baujahr 97-99 Motorrisiko, Import), Score 0-10
 4. **Nur wenn neue verifizierte Inserate existieren**: HTML-Mail via Gmail an patrickgrosspoetzl@gmail.com, Betreff `🚨 911-Alert: N neue 996 (HH:MM)`. Pro Inserat: Titel, Preis, km, EZ, Ort, Land, Quelle, Verifikations-Badge, funktionierender Link, 💡 Einschätzung, ⚠️ Red Flags. Für Top-Treffer (Score ≥7) kopierfertiges Anschreiben (Fragen: Historie/Scheckheft, IMS mit Beleg, RMS-Ölfeuchte, letzter großer Service, unfallfrei, Besichtigung/PPI erlaubt; Gruß "Patrick"). Keine neuen Treffer = KEINE Mail, still bleiben.
 5. Neue Inserate in `data/seen-listings.json` eintragen (`first_seen`, `verified`-Feld), committen, `git push -u origin claude/porsche-911-targa-finder-rkqc9w`. Keine PRs.
+
+## Foren-Check 17.09. (Sandbox, Browser-UA)
+- pff.de: Modell-Boards oeffentlich (142 F-Modell, 143 G-Modell, 144 964, 33 912), aber praktisch keine Verkaufsthreads (Seiten 1-5 gescannt: nur ein 911G Cabrio 1987 mit eBay-Link, Teile). Fahrzeugmarkt = Marketplace-Plugin, nur nach Login sichtbar (wcf/search type com.viecode.marketplace.entry liefert Login-Seite). Nur mit Patricks eigenem Konto nutzbar, manuell.
+- elfertreff.de: Connection reset (unveraendert), 911-forum.de: Proxy 502.
+- rennlist, pelicanparts: 403 (Cloudflare). motor-talk: Porsche-Board b26 hat keinen Marktplatz-Unterbereich.
+- kleinanzeigen.oldtimer-markt.de: Porsche Autos = 72-83 Anzeigen (Kategorie Autos_64325, Marke FK_MAN=303), Liste wird per JS geladen, ohne Browser nur Kategorie-Boxen. Folgeaufgabe: Runner mit Playwright/Chromium fuer diese Liste (ubuntu-runner hat Chromium ueber npx playwright).
+- ddk-online.com, early911s.de, pcarmarket.com erreichbar, aber ohne relevante Angebote / US.
+Fazit: Foren liefern oeffentlich keine Inserate. Abdeckung ueber Patricks Login (pff Fahrzeugmarkt, elfertreff Marktplatz) + Gmail-Antworten auf seine Gesuche.
