@@ -73,3 +73,6 @@ Jedes Portal in eigenem try/catch. Ausfall loggen, Lauf fortsetzen. 2 Fails in F
 
 ## Entscheidungspunkt 31.10.2026
 Wenn bis dahin kein überzeugender Klassiker unter 32k gekauft oder mindestens besichtigt: gezielt fürs Winterfenster Nov-Feb sparen (Ziel 38-45k) und dort mit Saisonabschlag 5-15% auf die Watchlist-Autos gehen. Nicht mit demselben Filter in den Frühjahrsmarkt 2027 laufen, dann ziehen die Preise wieder an.
+
+## PREISREFERENZ (17.09.)
+911 S Targa 1977 Platindiamant, matching numbers, 40 Jahre eine Hand, Tuerkheim, Kleinanzeigen 42.000: verkauft fuer 37.000 aus Privathand. Ein sauberer G-Targa mit Historie ist realistisch fuer 36-38k zu haben, wenn man schnell ist. Regel bestaetigt: Ziel unter 40k ist kein Wunschdenken. Konsequenz: bei Privatanzeigen bis 42k sofort Besichtigungstermin vorschlagen statt erst nach Preis fragen.
