@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-09-17T12:23:20.286Z",
+ "checked_at": "2026-09-17T12:35:22.946Z",
  "items": 473,
  "groups": [
   {
@@ -67,6 +67,45 @@
      "vin": null,
      "ez": null,
      "km": 137984
+    }
+   ]
+  },
+  {
+   "reasons": [
+    "16 identische Bilder"
+   ],
+   "listings": [
+    {
+     "url": "https://www.kleinanzeigen.de/s-anzeige/3501315474",
+     "src": "intake",
+     "title": "Porsche 911 SC Targa 3.0 in Nordrhein-Westfalen - Eschweiler | Porsche 911 Urmodell Gebrauchtwagen kaufen | kleinanzeigen.de",
+     "first_seen": "2026-09-16",
+     "last_seen": "2026-09-17",
+     "prices": [
+      {
+       "d": "2026-09-16",
+       "p": 25000
+      }
+     ],
+     "vin": null,
+     "ez": "08/1995",
+     "km": 265000
+    },
+    {
+     "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-sc-targa-3-0-liebhaber-top/3515256748-216-1908",
+     "src": "kleinanzeigen",
+     "title": "porsche 911 sc targa 3 0 liebhaber top",
+     "first_seen": "2026-09-17",
+     "last_seen": "2026-09-17",
+     "prices": [
+      {
+       "d": "2026-09-17",
+       "p": 53000
+      }
+     ],
+     "vin": null,
+     "ez": "07/1982",
+     "km": 265000
     }
    ]
   },

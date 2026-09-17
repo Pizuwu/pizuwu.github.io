@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T12:23:19Z",
+ "updated_at": "2026-09-17T12:35:22Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -6073,6 +6073,14 @@
     {
      "d": "2026-09-17",
      "p": 42912
+    },
+    {
+     "d": "2026-09-17",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-17",
+     "p": 42912
     }
    ],
    "title": "porsche 912 bj 1968 tuev neu 09 28",
@@ -11091,19 +11099,108 @@
    "vin": null,
    "ez": "01/1989",
    "km": 140000,
-   "ps": null
+   "ps": null,
+   "hashes": [
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7e6c476b-59ef-4c4e-89e4-d6fd5e1fa136?rule=$_59.JPG",
+     "d": "ccc4c45133c51f0c",
+     "p": "e141b56edd39c234"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7e6c476b-59ef-4c4e-89e4-d6fd5e1fa136?rule=$_59.AUTO",
+     "d": "ccc4c45133c51f0c",
+     "p": "e141b56edd39c234"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/46/46695033-7e9c-4f24-be15-8a950a6e738f?rule=$_59.JPG",
+     "d": "68b0cb4c38338786",
+     "p": "fb13c43c97632b05"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/46/46695033-7e9c-4f24-be15-8a950a6e738f?rule=$_59.AUTO",
+     "d": "68b0cb4c38338786",
+     "p": "fb13c43c97632b05"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7e6c476b-59ef-4c4e-89e4-d6fd5e1fa136?rule=$_57.AUTO",
+     "d": "ccc4c45133c51f0c",
+     "p": "e141b56edd39c234"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7e6c476b-59ef-4c4e-89e4-d6fd5e1fa136?rule=$_1.AUTO",
+     "d": "ccc4c45133c51f0c",
+     "p": "e141b56edd39c234"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/46/46695033-7e9c-4f24-be15-8a950a6e738f?rule=$_57.AUTO",
+     "d": "68b0cb4c38338786",
+     "p": "fb13c43c97632b05"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/46/46695033-7e9c-4f24-be15-8a950a6e738f?rule=$_1.AUTO",
+     "d": "68b0cb4c38338786",
+     "p": "fb13c43c97632b05"
+    }
+   ]
   },
   "5cd00c2c5e3a": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-sc-targa-3-0-liebhaber-top/3515256748-216-1908",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-17",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-09-17",
+     "p": 53000
+    }
+   ],
    "title": "porsche 911 sc targa 3 0 liebhaber top",
    "last_seen": "2026-09-17",
    "vin": null,
    "ez": "07/1982",
    "km": 265000,
-   "ps": null
+   "ps": null,
+   "hashes": [
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e5/e57d3cd3-eb48-4560-a84d-d24b141b9766?rule=$_59.JPG",
+     "d": "0fcba3832c3c7f39",
+     "p": "aa69eb3756889cd0"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e5/e57d3cd3-eb48-4560-a84d-d24b141b9766?rule=$_59.AUTO",
+     "d": "0fcba3832c3c7f39",
+     "p": "aa69eb3756889cd0"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/71/712dc4db-ef55-48a0-ad5b-76a767065122?rule=$_59.JPG",
+     "d": "3424eea376161e88",
+     "p": "bcdcd67c89234643"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/71/712dc4db-ef55-48a0-ad5b-76a767065122?rule=$_59.AUTO",
+     "d": "3424eea376161e88",
+     "p": "bcdcd67c89234643"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/20/20fbe4e3-05ed-4f62-a5dd-50411ec2f6c1?rule=$_59.JPG",
+     "d": "d19bd7a3270e1c38",
+     "p": "a989d13f4f16160f"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/20/20fbe4e3-05ed-4f62-a5dd-50411ec2f6c1?rule=$_59.AUTO",
+     "d": "d19bd7a3270e1c38",
+     "p": "a989d13f4f16160f"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d2/d2d3636d-c1dc-402c-a820-815ba1bc2e21?rule=$_59.JPG",
+     "d": "c3332501278583cf",
+     "p": "ecdca10187c39e2f"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d2/d2d3636d-c1dc-402c-a820-815ba1bc2e21?rule=$_59.AUTO",
+     "d": "c3332501278583cf",
+     "p": "ecdca10187c39e2f"
+    }
+   ]
   }
  }
 }
