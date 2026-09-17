@@ -3953,6 +3953,48 @@
    "score": 0,
    "verdict": "Runner-Intake - RAUS, BETRUGSVERDACHT (Auto im Ausland, Lieferung angeboten, Preis ein Drittel vom Markt, 6 Bilder)",
    "hinweis": "Klassisches Vorkasse-Muster. Nicht kontaktieren."
+  },
+  {
+   "src": "as24-at",
+   "country": "IT",
+   "first_seen": "2026-09-17",
+   "url": "https://www.autoscout24.at/angebote/porsche-911-3-0-sc-super-carrera-benzin-gelb-cat_ma57mo1950-ba8b660d-0182-4509-b2aa-e81c1288d109",
+   "title": "911 SC 3.0 1980 gelb, 132.950 km, 189 PS, 915-Getriebe, privat Mailand, 34.990, 17 Bilder, Karosserie nicht genannt (vermutlich Coupe)",
+   "price_eur": 34990,
+   "km": 132950,
+   "ez": "02/1980",
+   "location": "20153 Milano (IT)",
+   "score": 5,
+   "verdict": "as24 - ZWEITE REIHE (unter 40k, aber Italien, Beschreibung ohne Zustand, keine Historie, Coupe wahrscheinlich). Patrick fragen, ob Italien-Import in Frage kommt.",
+   "hinweis": "EU-Auto: Import ohne Zoll, in DE Vollabnahme §21 + H-Gutachten ca. 1.500. Italienische SC oft Rost am Boden, Besichtigung Pflicht."
+  },
+  {
+   "src": "kickdown",
+   "country": "DE",
+   "first_seen": "2026-09-17",
+   "url": "https://www.kickdown.com/de/postings/baa52353b332-1975-porsche-911s-2-7-coupe-in-de-87600-kaufbeuren",
+   "title": "911S 2.7 Coupe 1975 schwarz, 189 tkm, Motor revidiert, Kaufbeuren, Kickdown bald online, Preis 60.000",
+   "price_eur": 60000,
+   "km": 189267,
+   "ez": "1975",
+   "location": "87600 Kaufbeuren",
+   "score": 0,
+   "verdict": "Kickdown - RAUS (bekannt aus Kleinanzeigen 60k, Coupe, ueber Budget)",
+   "hinweis": ""
+  },
+  {
+   "src": "kickdown",
+   "country": "DE",
+   "first_seen": "2026-09-17",
+   "url": "https://www.kickdown.com/de/postings/3ef2f189aa0c-1967-porsche-911-2-0t-in-10589-berlin",
+   "title": "911 2.0 T SWB 1967 rot, Berlin, Kickdown bald online",
+   "price_eur": 0,
+   "km": 99999,
+   "ez": "1967",
+   "location": "10589 Berlin",
+   "score": 0,
+   "verdict": "Kickdown - RAUS (knallrot, SWB-Urmodell Preisklasse 100k+)",
+   "hinweis": ""
   }
  ]
 }
