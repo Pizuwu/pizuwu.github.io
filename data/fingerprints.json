@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T18:36:59Z",
+ "updated_at": "2026-09-17T19:36:22Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -745,7 +745,7 @@
    "last_seen": "2026-09-17",
    "vin": null,
    "ez": "01/2012",
-   "km": 70000,
+   "km": 85000,
    "ps": null
   },
   "a5ffa78965e8": {
@@ -6153,6 +6153,14 @@
     {
      "d": "2026-09-17",
      "p": 42912
+    },
+    {
+     "d": "2026-09-17",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-17",
+     "p": 42912
     }
    ],
    "title": "porsche 912 bj 1968 tuev neu 09 28",
@@ -11452,6 +11460,40 @@
    "vin": null,
    "ez": "04/2013",
    "km": 95600,
+   "ps": null
+  },
+  "7c3d369c048d": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-top-h-zulassung-tuev-neu-garagenwagen-/3509361414-216-5324",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-17",
+   "prices": [
+    {
+     "d": "2026-09-17",
+     "p": 21900
+    }
+   ],
+   "title": "porsche 944 top h zulassung tuev neu garagenwagen",
+   "last_seen": "2026-09-17",
+   "vin": null,
+   "ez": "06/1984",
+   "km": 142000,
+   "ps": null
+  },
+  "ca7f6fa24b11": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porches-macan-turbo/3515656549-216-5589",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-17",
+   "prices": [
+    {
+     "d": "2026-09-17",
+     "p": 26500
+    }
+   ],
+   "title": "porches macan turbo",
+   "last_seen": "2026-09-17",
+   "vin": null,
+   "ez": "02/2015",
+   "km": 156000,
    "ps": null
   }
  }
