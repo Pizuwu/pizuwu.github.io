@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T09:36:52Z",
+ "updated_at": "2026-09-17T09:38:41Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -10865,6 +10865,30 @@
    "ez": "12/2001",
    "km": 188000,
    "ps": null
+  },
+  "a0a4f34e234d": {
+   "url": "https://www.kickdown.com/de/postings/8ecbf04f3b9b-1984-porsche-911-carrera-3-2-cabriolet-in-de-49434-neuenkirchen-voerden",
+   "src": "intake",
+   "first_seen": "2026-09-17",
+   "prices": [
+    {
+     "d": "2026-09-17",
+     "p": 78000
+    }
+   ],
+   "title": "Porsche 911 Carrera 3.2 Cabriolet",
+   "last_seen": "2026-09-17",
+   "vin": null,
+   "ez": null,
+   "km": 154000,
+   "ps": 231,
+   "hashes": [
+    {
+     "url": "https://img.youtube.com/vi/MToR8tFlcmo/maxresdefault.jpg",
+     "d": "91cb4e26c7361c46",
+     "p": "e160d278c8b4fc2f"
+    }
+   ]
   }
  }
 }
