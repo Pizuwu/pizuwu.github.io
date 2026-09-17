@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T17:13:39Z",
+ "updated_at": "2026-09-17T18:36:59Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -1737,6 +1737,10 @@
     {
      "d": "2026-09-16",
      "p": 28900
+    },
+    {
+     "d": "2026-09-17",
+     "p": 27900
     }
    ],
    "title": "porsche 996 carrera clubsport kaefig kwv3",
@@ -6068,6 +6072,14 @@
    "prices": [
     {
      "d": "2026-09-16",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-17",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-17",
      "p": 42912
     },
     {
@@ -11411,6 +11423,35 @@
    "vin": null,
    "ez": "06/1988",
    "km": null,
+   "ps": null
+  },
+  "f3b32ce8f957": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/oldtimer-porsche-boxster/3515608697-216-3423",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-17",
+   "prices": [
+    {
+     "d": "2026-09-17",
+     "p": 11500
+    }
+   ],
+   "title": "oldtimer porsche boxster",
+   "last_seen": "2026-09-17",
+   "vin": null,
+   "ez": "03/1997",
+   "km": 168000,
+   "ps": null
+  },
+  "a58a124f60f8": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-991-cabriolet/3515627534-216-9423",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-17",
+   "prices": [],
+   "title": "porsche 911 carrera 991 cabriolet",
+   "last_seen": "2026-09-17",
+   "vin": null,
+   "ez": "04/2013",
+   "km": 95600,
    "ps": null
   }
  }
