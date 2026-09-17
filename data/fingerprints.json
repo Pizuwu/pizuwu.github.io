@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T10:36:36Z",
+ "updated_at": "2026-09-17T11:38:06Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -10287,7 +10287,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-cabrio-c2-964/3514617794-216-4619",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-16",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-09-17",
+     "p": 41490
+    }
+   ],
    "title": "porsche 911 cabrio c2 964",
    "last_seen": "2026-09-17",
    "vin": null,
@@ -10956,6 +10961,57 @@
    "vin": null,
    "ez": "03/2002",
    "km": 146000,
+   "ps": null
+  },
+  "d8d478200e94": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/wir-verkaufen-porsche-944-serie-1-bj-83/3515200603-216-7561",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-17",
+   "prices": [
+    {
+     "d": "2026-09-17",
+     "p": 22580
+    }
+   ],
+   "title": "wir verkaufen porsche 944 serie 1 bj 83",
+   "last_seen": "2026-09-17",
+   "vin": null,
+   "ez": "10/1983",
+   "km": 178000,
+   "ps": null
+  },
+  "44ec34338a4a": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-912-356-jaguar-xk-triumpf-tr-radkappen-bild-/3496773965-216-5478",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-17",
+   "prices": [
+    {
+     "d": "2026-09-17",
+     "p": 9999
+    }
+   ],
+   "title": "porsche 911 912 356 jaguar xk triumpf tr radkappen bild",
+   "last_seen": "2026-09-17",
+   "vin": null,
+   "ez": "01/1911",
+   "km": 101500,
+   "ps": null
+  },
+  "cc668028b705": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-2-carrera-xenon-hardtop-996-aero-paket-klimaautomatik/3515204427-216-18924",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-17",
+   "prices": [
+    {
+     "d": "2026-09-17",
+     "p": 27490
+    }
+   ],
+   "title": "porsche 996 2 carrera xenon hardtop 996 aero paket klimaautomatik",
+   "last_seen": "2026-09-17",
+   "vin": null,
+   "ez": "07/2000",
+   "km": 176000,
    "ps": null
   }
  }
