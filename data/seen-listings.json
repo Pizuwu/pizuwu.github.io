@@ -3701,6 +3701,34 @@
    "score": 2,
    "verdict": "Runner-Intake - RAUS (rot, Coupe, US-Import ohne Matching Number)",
    "hinweis": "Preis im Band 42-48k mit VB, aber Farbe Rot = Ausschluss"
+  },
+  {
+   "src": "kleinanzeigen",
+   "country": "DE",
+   "first_seen": "2026-09-17",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-sc-targa-3-0-liebhaber-top/3515256748-216-1908",
+   "title": "SC Targa 1982 Minerva Blue Blue-Plate, Eschweiler, NEU EINGESTELLT 17.09. mit 53.000 VB (vorher 3501315474 mit 54.800 VB), 265 tkm, 16 identische Bilder",
+   "price_eur": 53000,
+   "km": 265000,
+   "ez": "07/1982",
+   "location": "52249 Eschweiler",
+   "score": 4,
+   "verdict": "Runner-Intake - Dasselbe Auto wie 3501315474, Preis 54.800 -> 53.000 VB. Ueber 48.000: nur beobachten auf Preissenkung.",
+   "hinweis": "Verkaeufer stellt neu ein und senkt leicht: Verhandlungsdruck vorhanden, 265 tkm US-Import. Unter 40k unrealistisch, solange er bei 53k steht."
+  },
+  {
+   "src": "kleinanzeigen",
+   "country": "DE",
+   "first_seen": "2026-09-17",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/1989-1994-porsche-964-carrera-2-4/3515254401-216-7194",
+   "title": "GESUCH: 964 C2/C4 Slate Grau, Aichach, 9.999 Richtpreis",
+   "price_eur": 9999,
+   "km": 130000,
+   "ez": "01/1989",
+   "location": "86551 Aichach",
+   "score": 0,
+   "verdict": "Runner-Intake - RAUS (Kaufgesuch, kein Angebot)",
+   "hinweis": ""
   }
  ]
 }
