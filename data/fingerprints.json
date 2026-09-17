@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T11:40:19Z",
+ "updated_at": "2026-09-17T12:23:19Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -2450,6 +2450,10 @@
     {
      "d": "2026-09-16",
      "p": 22900
+    },
+    {
+     "d": "2026-09-17",
+     "p": 9999
     }
    ],
    "title": "porsche 964 diverse ersatzteile sonderpreis bis 20 09 399",
@@ -6052,6 +6056,14 @@
    "prices": [
     {
      "d": "2026-09-16",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-17",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-17",
      "p": 42912
     },
     {
@@ -11062,6 +11074,35 @@
    "vin": null,
    "ez": "07/2000",
    "km": 176000,
+   "ps": null
+  },
+  "aa15c58dc8d9": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/1989-1994-porsche-964-carrera-2-4/3515254401-216-7194",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-17",
+   "prices": [
+    {
+     "d": "2026-09-17",
+     "p": 9999
+    }
+   ],
+   "title": "1989 1994 porsche 964 carrera 2 4",
+   "last_seen": "2026-09-17",
+   "vin": null,
+   "ez": "01/1989",
+   "km": 140000,
+   "ps": null
+  },
+  "5cd00c2c5e3a": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-sc-targa-3-0-liebhaber-top/3515256748-216-1908",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-17",
+   "prices": [],
+   "title": "porsche 911 sc targa 3 0 liebhaber top",
+   "last_seen": "2026-09-17",
+   "vin": null,
+   "ez": "07/1982",
+   "km": 265000,
    "ps": null
   }
  }
