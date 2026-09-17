@@ -1,4 +1,4 @@
-# Master-Liste Kandidaten (Stand 16.09.2026)
+# Master-Liste Kandidaten (Stand 17.09.2026)
 
 ## Fixe Kriterien (vollständig, von Patrick bestätigt)
 
@@ -44,6 +44,7 @@ Einschränkung: Diese Ausweise sind 9 bis 11 Monate alt, das Verkaufssignal ist 
 - **W3: 601 Chemin de Ratonelle, Aubignan.** 130 m², DPE B (05.01.), Weinbergrand, Pool-Zuordnung zu bestätigen.
 - **S4: 524 Chemin d'Enclarette, Bédoin.** 117,8 m², DPE A (07.11.2025), lockere Villenlage am Ortsrand, Pool-Zuordnung unklar.
 - **S5: 332 Chemin des Barillons, Aubignan.** 101,8 m², DPE C (22.12.2025), Villenviertel, direkt an der Straße, deshalb nur Beobachten.
+- **W4: 162 Chemin des Crans, Bédoin.** 127,5 m², DPE B (11.09.2026, frisch), lockeres Waldvillenviertel. Neben dem Haus eine längliche grüne Fläche, die ein abgedeckter oder algiger Pool sein kann, im Luftbild kein klares Wasser. Liegt zudem direkt an der Straße. Nur Beobachten, bei Interesse Streetview prüfen.
 - **P13: 484e Route Chante Gu, Sarrians.** 173 m², DPE B (10.08.), Weingut mit Gîtes, vermutlich über Budget, nur relevant bei Einzelgebäude-Verkauf.
 
 ## Makler-Ausnahmen (perfekte Treffer, Regel 1, Stand 15.09.)
@@ -55,7 +56,7 @@ Einschränkung: Diese Ausweise sind 9 bis 11 Monate alt, das Verkaufssignal ist 
 
 ## Private Inserate
 
-Keine bestätigten privaten Inserate mit Pool. 12.09.: ein unverifiziertes Leboncoin-Inserat (3214015882) an Patrick zur Prüfung gemailt. Tägliche Prüfung über Suchmaschinen-Index inkl. Tippfehler-Varianten. 13.09.: keine neuen Signale; Makler-Objekt Caromb 262 m² 649k verworfen (Größe, Budget, Dorflage). 15.09.: Bienici-API mit allen 16 Gemeinden abgefragt, 100 Treffer im Raster 95 bis 180 m² und bis 520k, davon KEIN einziges Privatinserat (Bienici ist reines Maklerportal). Notar-API: derzeit kein passendes Objekt in den 16 Gemeinden. 16.09.: stiller Lauf ohne Neues. ADEME weiterhin nur bis 07.09. gefuellt (9 Tage Rueckstand), Notar 0 Treffer in den Gemeinden, Bienici 0 neue Inserate seit gestern, alle 5 beobachteten Inserate weiter online, keine Privatinserate. Keine Mail nach Regel 10.
+Keine bestätigten privaten Inserate mit Pool. 12.09.: ein unverifiziertes Leboncoin-Inserat (3214015882) an Patrick zur Prüfung gemailt. Tägliche Prüfung über Suchmaschinen-Index inkl. Tippfehler-Varianten. 13.09.: keine neuen Signale; Makler-Objekt Caromb 262 m² 649k verworfen (Größe, Budget, Dorflage). 15.09.: Bienici-API mit allen 16 Gemeinden abgefragt, 100 Treffer im Raster 95 bis 180 m² und bis 520k, davon KEIN einziges Privatinserat (Bienici ist reines Maklerportal). Notar-API: derzeit kein passendes Objekt in den 16 Gemeinden. 16.09.: stiller Lauf ohne Neues. ADEME weiterhin nur bis 07.09. gefuellt (9 Tage Rueckstand), Notar 0 Treffer in den Gemeinden, Bienici 0 neue Inserate seit gestern, alle 5 beobachteten Inserate weiter online, keine Privatinserate. Keine Mail nach Regel 10. 17.09.: ADEME hat den Rückstand aufgeholt (jetzt bis 14.09. gefüllt) und liefert 4 neue Ausweise im Raster. Davon 2 in Ortslage (22 Grande Rue Sablet, 137 Rue de la République Beaumes) sofort raus, 243 Chemin de la Garenne Bédoin (123 m², DPE B) ohne Pool und an der Straßengabelung raus, 162 Chemin des Crans Bédoin (127,5 m², DPE B) als W4 zum Beobachten. Bienici: 1 neues Inserat (Loriol, 97 m², nur 442 m² Grund, 355.000 €, zu klein für Landlage, keine Makler-Ausnahme), 5 Inserate verschwunden, keines aus unserer Beobachtungsliste. Alle 5 beobachteten Objekte weiter online. Notar 0 Treffer. Keine Mail.
 
 ## Erkenntnisse zur Datenlage (15.09.)
 
