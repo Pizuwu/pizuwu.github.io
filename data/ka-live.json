@@ -1,6 +1,6 @@
 {
- "fetched_at": "2026-09-17T12:20:25.051Z",
- "runner": "35220532941",
+ "fetched_at": "2026-09-17T13:33:16.658Z",
+ "runner": "35227771890",
  "queries": [
   {
    "q": "porsche-targa",
@@ -12,7 +12,7 @@
    "q": "porsche-targa#2",
    "code": 200,
    "blocked": false,
-   "count": 20
+   "count": 21
   },
   {
    "q": "porsche-targa#3",
@@ -124,15 +124,15 @@
   },
   {
    "q": "porsche-911-luftgekuehlt",
-   "code": 403,
-   "blocked": true,
-   "count": 0
+   "code": 200,
+   "blocked": false,
+   "count": 2
   },
   {
    "q": "porsche-911",
    "code": 200,
    "blocked": false,
-   "count": 24
+   "count": 25
   },
   {
    "q": "porsche-911#2",
@@ -216,7 +216,7 @@
    "q": "vb:porsche-targa#2",
    "code": 200,
    "blocked": false,
-   "count": 9
+   "count": 10
   },
   {
    "q": "vb:porsche-911-targa",
@@ -234,13 +234,13 @@
    "q": "vb:porsche-911",
    "code": 200,
    "blocked": false,
-   "count": 14
+   "count": 13
   },
   {
    "q": "vb:porsche-911#2",
    "code": 200,
    "blocked": false,
-   "count": 10
+   "count": 12
   },
   {
    "q": "vb:porsche-g-modell",
@@ -270,13 +270,13 @@
    "q": "vb:porsche-964",
    "code": 200,
    "blocked": false,
-   "count": 15
+   "count": 17
   },
   {
    "q": "vb:porsche-964#2",
    "code": 200,
    "blocked": false,
-   "count": 11
+   "count": 10
   }
  ],
  "listings": [
@@ -554,6 +554,19 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-924s-indischrot-rot-transaxle-targa-tausch-moeglich/3506996699-216-2556"
   },
   {
+   "id": "3504707900",
+   "query": "porsche-targa",
+   "title": "auto vw porsche 914 4 targa",
+   "price_eur": 24000,
+   "vb": true,
+   "km": 96612,
+   "ez": "07/1971",
+   "location": "91083 Baiersdorf",
+   "posted": "06.09.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/auto-vw-porsche-914-4-targa/3504707900-216-6276"
+  },
+  {
    "id": "3136485810",
    "query": "porsche-targa",
    "title": "porsche 911 targa oelklappe deutsches fahrzeug",
@@ -578,19 +591,6 @@
    "posted": "15.05.2025",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911f-2-2s-targa/3084814847-216-1578"
-  },
-  {
-   "id": "3504707900",
-   "query": "porsche-targa",
-   "title": "auto vw porsche 914 4 targa",
-   "price_eur": 24000,
-   "vb": true,
-   "km": 96612,
-   "ez": "07/1971",
-   "location": "91083 Baiersdorf",
-   "posted": "06.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/auto-vw-porsche-914-4-targa/3504707900-216-6276"
   },
   {
    "id": "3503894343",
@@ -1022,19 +1022,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-s1-targa/3465097372-216-8700"
   },
   {
-   "id": "3462926289",
-   "query": "porsche-targa",
-   "title": "porsche 924 targa zu verkaufen 10 924",
-   "price_eur": 10924,
-   "vb": true,
-   "km": 168821,
-   "ez": "03/1983",
-   "location": "32756 Detmold",
-   "posted": "19.07.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-924-targa-zu-verkaufen-10-924-/3462926289-216-1794"
-  },
-  {
    "id": "3457787497",
    "query": "porsche-targa",
    "title": "porsche 968 targa",
@@ -1111,6 +1098,32 @@
    "posted": "12.05.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-s2-targa/3406493601-216-1638"
+  },
+  {
+   "id": "3387801896",
+   "query": "porsche-targa",
+   "title": "porsche 924 targa",
+   "price_eur": 12000,
+   "vb": false,
+   "km": 133482,
+   "ez": "02/1985",
+   "location": "90552 Röthenbach",
+   "posted": "20.04.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-924-targa/3387801896-216-6375"
+  },
+  {
+   "id": "3373404367",
+   "query": "porsche-targa",
+   "title": "porsche 944 s2 targa coup cabrio m fahrzeugbewertung",
+   "price_eur": 14900,
+   "vb": false,
+   "km": 325000,
+   "ez": "10/1990",
+   "location": "66564 Ottweiler",
+   "posted": "05.04.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-s2-targa-coup-cabrio-m-fahrzeugbewertung-/3373404367-216-347"
   },
   {
    "id": "3497904486",
@@ -2309,19 +2322,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-911-porsche-993-porsche-964/3483013039-216-1834"
   },
   {
-   "id": "3435555066",
-   "query": "porsche-carrera-3-2",
-   "title": "porsche 911 carrera 4s",
-   "price_eur": 41490,
-   "vb": true,
-   "km": 137892,
-   "ez": "11/2002",
-   "location": "94327 Bogen Niederbay",
-   "posted": "",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-4s/3435555066-216-7336"
-  },
-  {
    "id": "3421506322",
    "query": "porsche-carrera-3-2",
    "title": "porsche 996 carrera4 cabrio motor revidiert verdeck neu techspeed",
@@ -2333,6 +2333,19 @@
    "posted": "",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-carrera4-cabrio-motor-revidiert-verdeck-neu-techspeed/3421506322-216-8870"
+  },
+  {
+   "id": "3501324432",
+   "query": "porsche-carrera-3-2",
+   "title": "traumhaft schoener porsche 996 911 carrera 3 6 automatik",
+   "price_eur": 34780,
+   "vb": true,
+   "km": 146817,
+   "ez": "10/2002",
+   "location": "66280 Sulzbach (Saar)",
+   "posted": "",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/traumhaft-schoener-porsche-996-911-carrera-3-6-automatik/3501324432-216-331"
   },
   {
    "id": "3512988983",
@@ -3102,19 +3115,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/traumauto-porsche-997-carrera-cabrio/3489382934-216-18634"
   },
   {
-   "id": "3501324432",
-   "query": "porsche-carrera-3-2",
-   "title": "traumhaft schoener porsche 996 911 carrera 3 6 automatik",
-   "price_eur": 34780,
-   "vb": true,
-   "km": 146817,
-   "ez": "10/2002",
-   "location": "66280 Sulzbach (Saar)",
-   "posted": "02.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/traumhaft-schoener-porsche-996-911-carrera-3-6-automatik/3501324432-216-331"
-  },
-  {
    "id": "3501261960",
    "query": "porsche-carrera-3-2",
    "title": "porsche 996 911 carrera 4 3 4 tiptronic pcm schiebedach",
@@ -3165,6 +3165,32 @@
    "posted": "01.06.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-991-carrera-s-unfall-ohne-motor-u-getriebe/3423412905-216-9165"
+  },
+  {
+   "id": "3491843077",
+   "query": "porsche-911-luftgekuehlt",
+   "title": "luftgekuehlter porsche 911 gesucht schrauber sucht seinen traum",
+   "price_eur": null,
+   "vb": true,
+   "km": 911,
+   "ez": "01/1990",
+   "location": "21077 Hamburg Eißendorf",
+   "posted": "22.08.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/luftgekuehlter-porsche-911-gesucht-schrauber-sucht-seinen-traum/3491843077-216-9443"
+  },
+  {
+   "id": "3435555066",
+   "query": "porsche-911",
+   "title": "porsche 911 carrera 4s",
+   "price_eur": 41490,
+   "vb": true,
+   "km": 137892,
+   "ez": "11/2002",
+   "location": "94327 Bogen Niederbay",
+   "posted": "",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-4s/3435555066-216-7336"
   },
   {
    "id": "3496132857",
@@ -3544,17 +3570,17 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-targa-4-991-ii-/3498005839-216-4565"
   },
   {
-   "id": "3291719082",
+   "id": "3515322017",
    "query": "porsche-911",
-   "title": "ankauf suche porsche 911 f g 991 992 997 996 993 964 912 turbo",
+   "title": "porsche 911 997 carrera s",
    "price_eur": null,
    "vb": true,
-   "km": 150000,
-   "ez": "01/1973",
-   "location": "69509 Mörlenbach",
-   "posted": "",
+   "km": 148000,
+   "ez": "05/2005",
+   "location": "45894 Gelsenkirchen",
+   "posted": "Heute, 15:01",
    "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-f-g-991-992-997-996-993-964-912-turbo/3291719082-216-8262"
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-997-carrera-s/3515322017-216-1001"
   },
   {
    "id": "3473307785",
@@ -3583,6 +3609,19 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-g-f-modell-911-930-964-993-996-997-turbo/3291774293-216-8262"
   },
   {
+   "id": "3291719082",
+   "query": "porsche-911",
+   "title": "ankauf suche porsche 911 f g 991 992 997 996 993 964 912 turbo",
+   "price_eur": null,
+   "vb": true,
+   "km": 150000,
+   "ez": "01/1973",
+   "location": "69509 Mörlenbach",
+   "posted": "Heute, 11:02",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-f-g-991-992-997-996-993-964-912-turbo/3291719082-216-8262"
+  },
+  {
    "id": "3467571016",
    "query": "porsche-911",
    "title": "porsche 911 und 964 restomod highend projekte zur uebernahme",
@@ -3596,17 +3635,17 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-und-964-restomod-highend-projekte-zur-uebernahme/3467571016-216-2604"
   },
   {
-   "id": "3493995117",
+   "id": "3514830374",
    "query": "porsche-911",
-   "title": "porsche 911 carrera 997",
+   "title": "fahrzeugverkauf im kundenauftrag professionelle abwicklung",
    "price_eur": null,
    "vb": true,
-   "km": 129030,
-   "ez": "04/2005",
-   "location": "53902 Bad Münstereifel",
-   "posted": "Gestern, 21:22",
+   "km": 777777,
+   "ez": "12/2004",
+   "location": "63517 Rodenbach",
+   "posted": "Gestern, 21:20",
    "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-997/3493995117-216-1619"
+   "url": "https://www.kleinanzeigen.de/s-anzeige/fahrzeugverkauf-im-kundenauftrag-professionelle-abwicklung/3514830374-216-4281"
   },
   {
    "id": "3292887236",
@@ -3656,7 +3695,7 @@
    "km": 56955,
    "ez": "06/1999",
    "location": "69509 Mörlenbach",
-   "posted": "13.09.2026",
+   "posted": "",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-911-f-g-modell-964-993-996-997-356-991-gt3/3441296553-216-8262"
   },
@@ -3778,6 +3817,19 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-912-1968-swb/3377220802-216-1396"
   },
   {
+   "id": "3515333170",
+   "query": "porsche-964",
+   "title": "porsche 964 c2 kw clubsport rh cup heigo",
+   "price_eur": null,
+   "vb": true,
+   "km": 163450,
+   "ez": "06/1993",
+   "location": "40880 Ratingen",
+   "posted": "Heute, 15:13",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-964-c2-kw-clubsport-rh-cup-heigo/3515333170-216-1778"
+  },
+  {
    "id": "3493092863",
    "query": "porsche-964",
    "title": "porsche 964 c2 cabrio schalter sportwagen oldtimer youngtimer",
@@ -3867,19 +3919,6 @@
    "posted": "04.09.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-jubi-964-wtl/3503312590-216-6936"
-  },
-  {
-   "id": "3502614236",
-   "query": "porsche-964",
-   "title": "porsche 911 964 wtl turbolook 3 6l c4",
-   "price_eur": null,
-   "vb": true,
-   "km": 4900,
-   "ez": "05/1990",
-   "location": "36272 Niederaula",
-   "posted": "03.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-964-wtl-turbolook-3-6l-c4/3502614236-216-4632"
   }
  ]
 }
