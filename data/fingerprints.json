@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T14:36:16Z",
+ "updated_at": "2026-09-17T15:35:52Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -2454,6 +2454,10 @@
     {
      "d": "2026-09-17",
      "p": 9999
+    },
+    {
+     "d": "2026-09-17",
+     "p": 19890
     }
    ],
    "title": "porsche 964 diverse ersatzteile sonderpreis bis 20 09 399",
@@ -4478,6 +4482,10 @@
     {
      "d": "2026-09-16",
      "p": 28500
+    },
+    {
+     "d": "2026-09-17",
+     "p": 28000
     }
    ],
    "title": "porsche 911 996 cabrio facelift 2003 schwarz schwarz",
@@ -6056,6 +6064,14 @@
    "prices": [
     {
      "d": "2026-09-16",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-17",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-17",
      "p": 42912
     },
     {
@@ -11257,6 +11273,40 @@
    "vin": null,
    "ez": "06/1993",
    "km": 163450,
+   "ps": null
+  },
+  "50f2d8da1404": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-964-carrera-2-cabrio/3515421061-216-4311",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-17",
+   "prices": [
+    {
+     "d": "2026-09-17",
+     "p": 19890
+    }
+   ],
+   "title": "porsche 964 carrera 2 cabrio",
+   "last_seen": "2026-09-17",
+   "vin": null,
+   "ez": "07/1990",
+   "km": 171866,
+   "ps": null
+  },
+  "56eac05662de": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/reserviert-fuer-hr-loewe-porsche-911-karosse-swb-mit-sd-bj-1968/3463769523-216-4921",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-17",
+   "prices": [
+    {
+     "d": "2026-09-17",
+     "p": 18500
+    }
+   ],
+   "title": "reserviert fuer hr loewe porsche 911 karosse swb mit sd bj 1968",
+   "last_seen": "2026-09-17",
+   "vin": null,
+   "ez": "05/1968",
+   "km": 99999,
    "ps": null
   }
  }
