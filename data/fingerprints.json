@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-18T14:38:16Z",
+ "updated_at": "2026-09-18T15:31:16Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -2172,6 +2172,10 @@
     {
      "d": "2026-09-18",
      "p": 34780
+    },
+    {
+     "d": "2026-09-18",
+     "p": 34890
     }
    ],
    "title": "karosse porsche 911t 2 2 1968 brandschaden gegen gebot",
@@ -5947,7 +5951,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-997/3493995117-216-1619",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-16",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-09-18",
+     "p": 34780
+    }
+   ],
    "title": "porsche 911 carrera 997",
    "last_seen": "2026-09-18",
    "vin": null,
@@ -6229,6 +6238,14 @@
     },
     {
      "d": "2026-09-17",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-18",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-18",
      "p": 42912
     },
     {
@@ -11900,6 +11917,30 @@
    "vin": null,
    "ez": "04/2000",
    "km": 209372,
+   "ps": null
+  },
+  "14be3b1130a8": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-911-carrera-neue-kupplung-tuv-04-27/3516304739-216-9415",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-18",
+   "prices": [],
+   "title": "porsche 996 911 carrera neue kupplung tuv 04 27",
+   "last_seen": "2026-09-18",
+   "vin": null,
+   "ez": "04/2000",
+   "km": 124800,
+   "ps": null
+  },
+  "61df1cfb1321": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-911-old-youngtimer-g-964-993-996-997/3516311730-216-8657",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-18",
+   "prices": [],
+   "title": "suche porsche 911 old youngtimer g 964 993 996 997",
+   "last_seen": "2026-09-18",
+   "vin": null,
+   "ez": "01/1999",
+   "km": 100000,
    "ps": null
   }
  }
