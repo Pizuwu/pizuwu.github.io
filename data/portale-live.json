@@ -1,6 +1,6 @@
 {
- "fetched_at": "2026-09-18T12:36:28.480Z",
- "runner": "35345347672",
+ "fetched_at": "2026-09-18T13:36:21.893Z",
+ "runner": "35350949666",
  "portale": [
   {
    "name": "elferspot-targa",
@@ -12,21 +12,21 @@
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 405134,
+   "size": 405117,
    "links": 41,
-   "treffer": 30
+   "treffer": 31
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 368146,
+   "size": 368103,
    "links": 13,
    "treffer": 10
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 356292,
+   "size": 356312,
    "links": 4,
    "treffer": 4
   }
@@ -235,6 +235,18 @@
    "image": "https://cdn.elferspot.com/wp-content/uploads/2023/02/01/IMG_3115-3-scaled.jpeg",
    "snippet": "",
    "filter": "targa"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-1980-6255936/",
+   "title": "Porsche 911 SC (1980)",
+   "price_eur": null,
+   "ez": "1980",
+   "km": null,
+   "country": "FI",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/09/18/1dsc03062-scaled.jpg",
+   "snippet": "",
+   "filter": "g"
   },
   {
    "src": "elferspot",
