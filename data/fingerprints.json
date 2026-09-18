@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-18T18:36:41Z",
+ "updated_at": "2026-09-18T19:36:22Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -2235,6 +2235,10 @@
     {
      "d": "2026-09-16",
      "p": 30500
+    },
+    {
+     "d": "2026-09-18",
+     "p": 29500
     }
    ],
    "title": "porsche carera 996 top zustand schiebedach",
@@ -5906,7 +5910,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-f-g-991-992-997-996-993-964-912-turbo/3291719082-216-8262",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-16",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-09-18",
+     "p": 41490
+    }
+   ],
    "title": "ankauf suche porsche 911 f g 991 992 997 996 993 964 912 turbo",
    "last_seen": "2026-09-18",
    "vin": null,
@@ -6250,6 +6259,14 @@
     },
     {
      "d": "2026-09-17",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-18",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-18",
      "p": 42912
     },
     {
@@ -9790,6 +9807,10 @@
     {
      "d": "2026-09-16",
      "p": 19900
+    },
+    {
+     "d": "2026-09-18",
+     "p": 19500
     }
    ],
    "title": "porsche 914 4 2 0 targa sonnengelb rostfrei aus 1974",
@@ -12049,6 +12070,40 @@
    "vin": null,
    "ez": "01/2008",
    "km": 2008,
+   "ps": null
+  },
+  "3f1fe4ac4306": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-911-carrera-4-tiptronic-8-gepflegt-nuernberg/3516503512-216-18754",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-18",
+   "prices": [
+    {
+     "d": "2026-09-18",
+     "p": 29500
+    }
+   ],
+   "title": "porsche 996 911 carrera 4 tiptronic 8 gepflegt nuernberg",
+   "last_seen": "2026-09-18",
+   "vin": null,
+   "ez": "09/2001",
+   "km": 112000,
+   "ps": null
+  },
+  "04d12a42bd62": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-924-carrera-gt/3516499324-216-9643",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-18",
+   "prices": [
+    {
+     "d": "2026-09-18",
+     "p": 8990
+    }
+   ],
+   "title": "porsche 924 carrera gt",
+   "last_seen": "2026-09-18",
+   "vin": null,
+   "ez": "05/1977",
+   "km": 75000,
    "ps": null
   }
  }
