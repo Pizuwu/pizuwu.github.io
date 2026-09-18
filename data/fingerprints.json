@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-18T07:36:22Z",
+ "updated_at": "2026-09-18T08:36:41Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -2462,6 +2462,10 @@
     {
      "d": "2026-09-17",
      "p": 19890
+    },
+    {
+     "d": "2026-09-18",
+     "p": 9999
     }
    ],
    "title": "porsche 964 diverse ersatzteile sonderpreis bis 20 09 399",
@@ -6192,6 +6196,14 @@
     },
     {
      "d": "2026-09-17",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-18",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-18",
      "p": 42912
     },
     {
@@ -10725,7 +10737,7 @@
    "first_seen": "2026-09-16",
    "prices": [],
    "title": "porsche 911 targa",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "vin": null,
    "ez": "07/1974",
    "km": 3500,
@@ -11433,12 +11445,12 @@
      "p": 19890
     }
    ],
-   "title": "porsche 964 carrera 2 cabrio",
+   "title": "Porsche 964 Carrera 2 Cabrio in West - Sindlingen | Porsche 911 Urmodell Gebrauchtwagen kaufen | kleinanzeigen.de",
    "last_seen": "2026-09-18",
    "vin": null,
-   "ez": "07/1990",
+   "ez": "12/1990",
    "km": 171866,
-   "ps": null,
+   "ps": 250,
    "hashes": [
     {
      "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/02/02c8a6f7-90e7-40ad-8a9d-bba89760569d?rule=$_59.JPG",
@@ -11645,6 +11657,23 @@
    "vin": null,
    "ez": "05/1968",
    "km": 99999,
+   "ps": null
+  },
+  "5ec08cd2ce6f": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-targa-944-top-klassiker-/3217914915-216-2468",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-18",
+   "prices": [
+    {
+     "d": "2026-09-18",
+     "p": 17900
+    }
+   ],
+   "title": "porsche targa 944 top klassiker",
+   "last_seen": "2026-09-18",
+   "vin": null,
+   "ez": "10/1982",
+   "km": 143143,
    "ps": null
   }
  }
