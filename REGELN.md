@@ -76,3 +76,6 @@ Wenn bis dahin kein überzeugender Klassiker unter 32k gekauft oder mindestens b
 
 ## PREISREFERENZ (17.09.)
 911 S Targa 1977 Platindiamant, matching numbers, 40 Jahre eine Hand, Tuerkheim, Kleinanzeigen 42.000: verkauft fuer 37.000 aus Privathand. Ein sauberer G-Targa mit Historie ist realistisch fuer 36-38k zu haben, wenn man schnell ist. Regel bestaetigt: Ziel unter 40k ist kein Wunschdenken. Konsequenz: bei Privatanzeigen bis 42k sofort Besichtigungstermin vorschlagen statt erst nach Preis fragen.
+
+## STANDORT PATRICK (18.09.)
+Patrick kommt aus Oesterreich und wuerde ein Auto evtl. dort zulassen. Folgen: willhaben und AutoScout24 AT sind Kernquellen, keine Import-Abzuege fuer AT-Autos, Zulassung AT (Typenschein, Paragraph 57a Pickerl, historisches Kfz moeglich). Deutsche Autos: Ausfuhr nach AT ohne Zoll, NoVA-Befreiung fuer Oldtimer ueber 30 Jahre pruefen, Einzelgenehmigung Landesregierung.
