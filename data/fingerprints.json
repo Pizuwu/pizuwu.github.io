@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-18T20:36:51Z",
+ "updated_at": "2026-09-18T21:24:49Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -5939,7 +5939,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-g-f-modell-911-930-964-993-996-997-turbo/3291774293-216-8262",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-16",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-09-18",
+     "p": 34890
+    }
+   ],
    "title": "ankauf suche porsche g f modell 911 930 964 993 996 997 turbo",
    "last_seen": "2026-09-18",
    "vin": null,
@@ -6259,6 +6264,14 @@
     },
     {
      "d": "2026-09-17",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-18",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-18",
      "p": 42912
     },
     {
@@ -12128,6 +12141,35 @@
    "vin": null,
    "ez": "09/2008",
    "km": 49999,
+   "ps": null
+  },
+  "0421b48c01e1": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-t-2-2l-f-modell-targa-restaurationsabbruch/3516574451-216-1756",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-18",
+   "prices": [
+    {
+     "d": "2026-09-18",
+     "p": 22999
+    }
+   ],
+   "title": "porsche 911 t 2 2l f modell targa restaurationsabbruch",
+   "last_seen": "2026-09-18",
+   "vin": null,
+   "ez": "05/1971",
+   "km": 99999,
+   "ps": null
+  },
+  "5e0d6156d37b": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/e30-m3-hartge-hs38-24-wertanl-evtl-tausch-inz-porsche911z8m4m5m6/3516573232-216-9416",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-18",
+   "prices": [],
+   "title": "e30 m3 hartge hs38 24 wertanl evtl tausch inz porsche911z8m4m5m6",
+   "last_seen": "2026-09-18",
+   "vin": null,
+   "ez": "09/1992",
+   "km": 68000,
    "ps": null
   }
  }
