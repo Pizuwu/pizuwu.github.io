@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-18T14:34:31Z",
+ "updated_at": "2026-09-18T14:38:16Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -1580,6 +1580,10 @@
     {
      "d": "2026-09-16",
      "p": 32000
+    },
+    {
+     "d": "2026-09-18",
+     "p": 31000
     }
    ],
    "title": "porsche 911 996 carrera 2 cabrio 3 4l schaltgetriebe",
@@ -6225,6 +6229,14 @@
     },
     {
      "d": "2026-09-17",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-18",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-18",
      "p": 42912
     },
     {
@@ -11509,7 +11521,7 @@
    "title": "porsche 911 997 carrera s",
    "last_seen": "2026-09-18",
    "vin": null,
-   "ez": "05/2005",
+   "ez": "07/2005",
    "km": 148000,
    "ps": null
   },
@@ -11872,6 +11884,23 @@
      "p": "81e1bc4e529e6bb1"
     }
    ]
+  },
+  "c3c78958f130": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-caprio-schwarze-felgen/3516262869-216-4523",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-18",
+   "prices": [
+    {
+     "d": "2026-09-18",
+     "p": 19000
+    }
+   ],
+   "title": "porsche 911 996 caprio schwarze felgen",
+   "last_seen": "2026-09-18",
+   "vin": null,
+   "ez": "04/2000",
+   "km": 209372,
+   "ps": null
   }
  }
 }
