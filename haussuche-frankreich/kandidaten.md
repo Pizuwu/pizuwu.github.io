@@ -1,5 +1,12 @@
 # Master-Liste Kandidaten (Stand 19.09.2026)
 
+## GESTOPPT am 19.09.2026
+
+Patrick hat die Haussuche gestoppt. Die tägliche Routine (trig_01KiSztEBBYAnAiTx3n5g2yy) ist deaktiviert, nicht geloescht, und kann jederzeit wieder eingeschaltet werden. Es laufen keine Scans und keine Mails mehr. Alle Daten, Kriterien und Kandidaten bleiben hier erhalten.
+
+Offen geblieben: Preisantwort von Claudius zu P1, Kontaktaufnahme zu F1 und F2, sowie das staerkste Einzelangebot der Suche, ein Haus in Bedoin mit 115 m2 auf 2.572 m2 Grund mit beheiztem Pool fuer 340.000 Euro (bienici.com/annonce/netty-company51600xbi-house-2008).
+
+
 ## Fixe Kriterien (vollständig, von Patrick bestätigt)
 
 1. NUR Privatverkauf. Makler nur als markierte Ausnahme bei perfekten Treffern am Mailende.
