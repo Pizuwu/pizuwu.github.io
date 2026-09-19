@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-19T16:37:17Z",
+ "updated_at": "2026-09-19T17:37:03Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -6645,6 +6645,14 @@
     {
      "d": "2026-09-19",
      "p": 42912
+    },
+    {
+     "d": "2026-09-19",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-19",
+     "p": 42912
     }
    ],
    "title": "porsche 912 bj 1968 tuev neu 09 28",
@@ -12653,6 +12661,40 @@
    "vin": null,
    "ez": "06/2016",
    "km": 2016,
+   "ps": null
+  },
+  "e952ca1680f4": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-g-modell-3-2-coupe/3517394422-216-6599",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-19",
+   "prices": [
+    {
+     "d": "2026-09-19",
+     "p": 39999
+    }
+   ],
+   "title": "porsche 911 g modell 3 2 coupe",
+   "last_seen": "2026-09-19",
+   "vin": null,
+   "ez": "07/1986",
+   "km": 161251,
+   "ps": null
+  },
+  "a1911a0999a8": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-cabrio/3516851777-216-399",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-19",
+   "prices": [
+    {
+     "d": "2026-09-19",
+     "p": 35900
+    }
+   ],
+   "title": "porsche 911 carrera cabrio",
+   "last_seen": "2026-09-19",
+   "vin": null,
+   "ez": "05/2001",
+   "km": 34500,
    "ps": null
   }
  }
