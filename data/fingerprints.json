@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-19T02:37:38Z",
+ "updated_at": "2026-09-19T02:39:21Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -6497,6 +6497,14 @@
     {
      "d": "2026-09-19",
      "p": 42912
+    },
+    {
+     "d": "2026-09-19",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-19",
+     "p": 42912
     }
    ],
    "title": "porsche 912 bj 1968 tuev neu 09 28",
@@ -11929,13 +11937,60 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-964-carrera-c2-1993-cabrio-oldtimer-h-kennzeichen/3515965913-216-1670",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-18",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-09-19",
+     "p": 49000
+    }
+   ],
    "title": "porsche 911 964 carrera c2 1993 cabrio oldtimer h kennzeichen",
    "last_seen": "2026-09-19",
    "vin": null,
    "ez": "01/1993",
    "km": 155121,
-   "ps": null
+   "ps": null,
+   "hashes": [
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/07/075c7281-9570-4b31-8e72-156252bcc8b2?rule=$_59.JPG",
+     "d": "f3cafcd393034ef1",
+     "p": "e38d9468c83578de"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/07/075c7281-9570-4b31-8e72-156252bcc8b2?rule=$_59.AUTO",
+     "d": "f3cafcd393034ef1",
+     "p": "e38d9468c83578de"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/56/56fabe00-63de-4b42-959a-569bbf16a377?rule=$_59.JPG",
+     "d": "68f8f0f1321e3ca1",
+     "p": "dc4a927e4633e1cc"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/56/56fabe00-63de-4b42-959a-569bbf16a377?rule=$_59.AUTO",
+     "d": "68f8f0f1321e3ca1",
+     "p": "dc4a927e4633e1cc"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/eb/eb1a2577-2cb7-4dfa-ac7e-5d7af35bdd94?rule=$_59.JPG",
+     "d": "8384fcff642e0e87",
+     "p": "a6c9e17e48319e47"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/eb/eb1a2577-2cb7-4dfa-ac7e-5d7af35bdd94?rule=$_59.AUTO",
+     "d": "8384fcff642e0e87",
+     "p": "a6c9e17e48319e47"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3b/3bc49dc1-dfdb-47f6-9fee-e81f4c44ec88?rule=$_59.JPG",
+     "d": "4965b232b8c1c738",
+     "p": "ec9dc76219f44315"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3b/3bc49dc1-dfdb-47f6-9fee-e81f4c44ec88?rule=$_59.AUTO",
+     "d": "4965b232b8c1c738",
+     "p": "ec9dc76219f44315"
+    }
+   ]
   },
   "e9564c62b9d0": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-carrera-cabrio-/3516095437-216-2147",
