@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-19T17:37:03Z",
+ "updated_at": "2026-09-19T17:38:25Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -6653,6 +6653,14 @@
     {
      "d": "2026-09-19",
      "p": 42912
+    },
+    {
+     "d": "2026-09-19",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-19",
+     "p": 42912
     }
    ],
    "title": "porsche 912 bj 1968 tuev neu 09 28",
@@ -12678,7 +12686,49 @@
    "vin": null,
    "ez": "07/1986",
    "km": 161251,
-   "ps": null
+   "ps": null,
+   "hashes": [
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c0/c0112e64-d9ab-40b0-abdb-1841f1387d30?rule=$_59.JPG",
+     "d": "b123ca5c1b1bf726",
+     "p": "a9dc84ea56807b76"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c0/c0112e64-d9ab-40b0-abdb-1841f1387d30?rule=$_59.AUTO",
+     "d": "b123ca5c1b1bf726",
+     "p": "a9dc84ea56807b76"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/57dd27f3-97d5-443d-b8c8-4512ae7102e3?rule=$_59.JPG",
+     "d": "0b24da3d450f0a64",
+     "p": "fec0c17e16912b47"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/57dd27f3-97d5-443d-b8c8-4512ae7102e3?rule=$_59.AUTO",
+     "d": "0b24da3d450f0a64",
+     "p": "fec0c17e16912b47"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/43/43a27742-f1de-4bc5-85ef-69b53a7662d6?rule=$_59.JPG",
+     "d": "1d12ca1b333e1820",
+     "p": "b9cbc63c2a52664d"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/43/43a27742-f1de-4bc5-85ef-69b53a7662d6?rule=$_59.AUTO",
+     "d": "1d12ca1b333e1820",
+     "p": "b9cbc63c2a52664d"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/77/77dda07b-72ae-4b72-a2a9-582eb4ce2aee?rule=$_59.JPG",
+     "d": "5303f02ce6d2612e",
+     "p": "8d7a6a0d355ac16e"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/77/77dda07b-72ae-4b72-a2a9-582eb4ce2aee?rule=$_59.AUTO",
+     "d": "5303f02ce6d2612e",
+     "p": "8d7a6a0d355ac16e"
+    }
+   ]
   },
   "a1911a0999a8": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-cabrio/3516851777-216-399",
