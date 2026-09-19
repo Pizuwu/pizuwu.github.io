@@ -4339,6 +4339,66 @@
       "seen": "2026-09-19T14:40Z",
       "verdict": "RAUS",
       "reason": "US-Händler Miami, 50.000 USD ohne Fracht, Zoll 10 % und EUSt 20 % in AT, Landung deutlich über 55.000, Coupé statt Targa, über Zielpreisregel"
+    },
+    {
+      "seen": "2026-09-19T15:40Z",
+      "source": "autoscout24-de",
+      "id": "as24-d353e45c",
+      "url": "https://www.autoscout24.de/angebote/porsche-911-g-modell-3-0-targa-benzin-cat_ma57gr100070ge282va284tr480682-d353e45c-df58-4993-a485-55d447a1cf9d",
+      "title": "911 SC 3.0 Targa 1982 knallrot, Lion Automobile Nufringen",
+      "price_eur": 33000,
+      "verdict": "RAUS",
+      "reason": "BETRUGSVERDACHT: Händler Lion Automobile (Emre Aslan Kfz-Handel) hat sonst nur Neuwagen-Hybride, drei Klassiker weit unter Markt, keine Beschreibung, keine Farbe, Kontakt nur per E-Mail, Studiofotos in Showroom-Qualität bei 243.308 km. Zusätzlich knallrot (Score -2). Nicht anschreiben, nichts überweisen."
+    },
+    {
+      "seen": "2026-09-19T15:40Z",
+      "source": "autoscout24-de",
+      "id": "as24-805d7f98",
+      "url": "https://www.autoscout24.de/angebote/porsche-911-964-carrera-2-benzin-cat_ma57gr100070ge283va266tr480682-805d7f98-c19f-4969-b0f0-03beeac0d253",
+      "title": "964 Carrera 2 Coupé 1991 184 tkm, Lion Automobile Nufringen",
+      "price_eur": 30000,
+      "verdict": "RAUS",
+      "reason": "BETRUGSVERDACHT, gleicher Anbieter wie Lion Targa, 964 C2 zu 30.000 ist halber Marktpreis, Kontakt nur per E-Mail"
+    },
+    {
+      "seen": "2026-09-19T15:40Z",
+      "source": "autoscout24-de",
+      "id": "as24-d083f97b",
+      "url": "https://www.autoscout24.de/angebote/porsche-911-911-carrera-2-benzin-cat_ma57gr100070ge283va265tr480682-d083f97b-a77f-425f-85ea-7f63cff68663",
+      "title": "911 Carrera 2 (964) Doppelinserat Lion Automobile Nufringen",
+      "price_eur": 30000,
+      "verdict": "RAUS",
+      "reason": "Doppelinserat des 964 C2, BETRUGSVERDACHT wie oben"
+    },
+    {
+      "seen": "2026-09-19T15:40Z",
+      "source": "autoscout24-de",
+      "id": "as24-b29dab07",
+      "url": "https://www.autoscout24.de/angebote/porsche-911-911-carrera-cabriolet-benzin-silber-cat_ma57gr100070ge282va265tr480682-b29dab07-daad-49b9-9cb7-554732e820c8",
+      "title": "911 Carrera 3.2 Cabriolet 1984 silber, privat Wetter (Ruhr)",
+      "price_eur": 39000,
+      "verdict": "ZWEITE_REIHE",
+      "reason": "Cabrio statt Targa, US-Import 2013 mit reparierten Frontschaden, 160 tkm, Wertgutachten 52.000 laut Verkäufer. Preis im Band, nur falls Targa-Suche leerläuft."
+    },
+    {
+      "seen": "2026-09-19T15:40Z",
+      "source": "autoscout24-de",
+      "id": "as24-7255921d",
+      "url": "https://www.autoscout24.de/angebote/porsche-911-2-4-s-benzin-silber-cat_ma57gr100070-7255921d-62e6-4415-a85a-8m06c23d62a2",
+      "title": "911 2.4 S Coupé 1973 leere Unfallkarosse, Bielefeld",
+      "price_eur": 19000,
+      "verdict": "RAUS",
+      "reason": "Leere, durchgerostete Totalschaden-Karosse, kein Fahrzeug"
+    },
+    {
+      "seen": "2026-09-19T15:40Z",
+      "source": "autoscout24-de",
+      "id": "as24-959e005e",
+      "url": "https://www.autoscout24.de/angebote/porsche-911-sc-3-2-cabrio-garagenwagen-wertgutachten-benzin-schwarz-cat_ma57gr100070ge282va284tr480682-959e005e-262f-43e5-a82d-b48e355bfa28",
+      "title": "911 SC 3.0 Cabrio 1978 schwarz 85 tkm, Autoforum Niederrhein Kempen",
+      "price_eur": 45000,
+      "verdict": "ZWEITE_REIHE",
+      "reason": "Händler, Cabrio (1978 gab es kein Werks-Cabrio, also Umbau oder späteres Fahrzeug, Titel widersprüchlich SC 3.2), 45.000 ohne Verhandlungssignal"
     }
   ]
 }
