@@ -4419,6 +4419,46 @@
       "seen": "2026-09-19T17:55Z",
       "verdict": "RAUS",
       "reason": "Restaurationsbasis, restaurierungsbedürftig, US-Import (Carfax, EU-Scheinwerfer nur beigelegt), rot (Score -2), Händler FM-Classic mit Differenzbesteuerung, Coupé. Kein fahrbereites Auto im Sinne des Profils."
+    },
+    {
+      "id": "ka-3435690202",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911/3435690202-216-1022",
+      "source": "kleinanzeigen",
+      "title": "911 Carrera 996 1999 Witten 30.900 VB",
+      "price_eur": 30900,
+      "seen": "2026-09-20T14:45Z",
+      "verdict": "RAUS",
+      "reason": "996, nicht im Suchprofil"
+    },
+    {
+      "id": "ka-3518233748",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-schalter/3518233748-216-9344",
+      "source": "kleinanzeigen",
+      "title": "911 Carrera 997 2006 Ulm",
+      "price_eur": null,
+      "seen": "2026-09-20T14:45Z",
+      "verdict": "RAUS",
+      "reason": "997, nicht im Suchprofil"
+    },
+    {
+      "id": "ka-3510617356",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-356/3510617356-216-8374",
+      "source": "kleinanzeigen",
+      "title": "356 1963 Öhringen 46.900",
+      "price_eur": 46900,
+      "seen": "2026-09-20T14:45Z",
+      "verdict": "RAUS",
+      "reason": "356, kein 911/912, über 42k ohne Signal"
+    },
+    {
+      "id": "ka-3513786863",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-3-2-sc-g-modell-targa-964-993/3513786863-216-8292",
+      "source": "kleinanzeigen",
+      "title": "911 Carrera 3.2 Targa 1984 RUF-Optik St. Märgen 65.000 VB",
+      "price_eur": 65000,
+      "seen": "2026-09-20T14:50Z",
+      "verdict": "RAUS",
+      "reason": "65.000 VB, RUF-Umbau mit GFK, über 48k, Tauschangebot; Tiefenprüfung 20.09."
     }
   ]
 }
