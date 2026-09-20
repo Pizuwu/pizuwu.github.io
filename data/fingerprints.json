@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T14:36:38Z",
+ "updated_at": "2026-09-20T14:38:27Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -6858,6 +6858,14 @@
     {
      "d": "2026-09-20",
      "p": 42912
+    },
+    {
+     "d": "2026-09-20",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-20",
+     "p": 42912
     }
    ],
    "title": "porsche 912 bj 1968 tuev neu 09 28",
@@ -10815,13 +10823,60 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-3-2-sc-g-modell-targa-964-993/3513786863-216-8292",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-16",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-09-20",
+     "p": 65000
+    }
+   ],
    "title": "porsche 911 carrera 3 2 sc g modell targa 964 993",
    "last_seen": "2026-09-20",
    "vin": null,
    "ez": "09/1984",
    "km": 82000,
-   "ps": null
+   "ps": null,
+   "hashes": [
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/32/328e0fae-cad1-4a38-ac47-be88cd2d74f2?rule=$_59.JPG",
+     "d": "f2799767c61f1965",
+     "p": "a40f9bb1858df1c5"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/32/328e0fae-cad1-4a38-ac47-be88cd2d74f2?rule=$_59.AUTO",
+     "d": "f2799767c61f1965",
+     "p": "a40fdbb1858df1c1"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ff/ffef1b5e-144c-4b2e-a4a1-6ecc4e3684c8?rule=$_59.JPG",
+     "d": "1ec7e5e40b1ff44f",
+     "p": "ac84d0fb73543e26"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ff/ffef1b5e-144c-4b2e-a4a1-6ecc4e3684c8?rule=$_59.AUTO",
+     "d": "1ec7e5e40b1ff44f",
+     "p": "ac84d0fb73543e26"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/30/3084b7b7-ce1b-4f29-b333-51e4aa448d6e?rule=$_59.JPG",
+     "d": "1207ab0a960739cb",
+     "p": "e9729ee1b1960731"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/30/3084b7b7-ce1b-4f29-b333-51e4aa448d6e?rule=$_59.AUTO",
+     "d": "1207ab0a960739cb",
+     "p": "e9729ee1b1960731"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/79/79bfa6cf-a528-498d-8801-aa4fcc3e41a7?rule=$_59.JPG",
+     "d": "3795a6961e0e1c3c",
+     "p": "b40a0e2a6cbdcedc"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/79/79bfa6cf-a528-498d-8801-aa4fcc3e41a7?rule=$_59.AUTO",
+     "d": "3795a6961e0e1c3c",
+     "p": "b40a0e2a6cbdcedc"
+    }
+   ]
   },
   "533bbdc33f3a": {
    "url": "https://www.kickdown.com/de/postings/47e6de68d159-1989-porsche-911-3-2-in-de-71254-ditzingen",
