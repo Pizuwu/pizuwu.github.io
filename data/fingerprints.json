@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T22:36:38Z",
+ "updated_at": "2026-09-20T22:38:02Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -586,6 +586,14 @@
    "prices": [
     {
      "d": "2026-09-16",
+     "p": 49500
+    },
+    {
+     "d": "2026-09-20",
+     "p": 44500
+    },
+    {
+     "d": "2026-09-20",
      "p": 49500
     },
     {
@@ -2291,6 +2299,14 @@
    "prices": [
     {
      "d": "2026-09-16",
+     "p": 42000
+    },
+    {
+     "d": "2026-09-20",
+     "p": 38500
+    },
+    {
+     "d": "2026-09-20",
      "p": 42000
     },
     {
@@ -6802,6 +6818,14 @@
     },
     {
      "d": "2026-09-19",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-20",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-20",
      "p": 42912
     },
     {
@@ -13434,7 +13458,49 @@
    "vin": null,
    "ez": "07/1965",
    "km": 99999,
-   "ps": null
+   "ps": null,
+   "hashes": [
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f7/f735b387-37b2-40cd-b743-9c83d08b8427?rule=$_59.JPG",
+     "d": "c7efb3d86c44c19c",
+     "p": "c639a0f693c978b4"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f7/f735b387-37b2-40cd-b743-9c83d08b8427?rule=$_59.AUTO",
+     "d": "c7efb3d86c44c19c",
+     "p": "c639a0f693c978b4"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ac/ac964bc0-f3d3-4624-a888-8242a99a1d7c?rule=$_59.JPG",
+     "d": "5b5ef3943c313718",
+     "p": "bb9133bad128ca1e"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ac/ac964bc0-f3d3-4624-a888-8242a99a1d7c?rule=$_59.AUTO",
+     "d": "5b5ef3943c313718",
+     "p": "bb9133bad128ca1e"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/76/769d592a-9e35-42b5-b3b0-8141995552bd?rule=$_59.JPG",
+     "d": "7e4c7a68437331ac",
+     "p": "bf37362dc45c29c0"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/76/769d592a-9e35-42b5-b3b0-8141995552bd?rule=$_59.AUTO",
+     "d": "7e4c7a68437331ac",
+     "p": "bf37362dc45c29c0"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/ee9d942e-c639-438a-8cd6-f2eabb82556e?rule=$_59.JPG",
+     "d": "d94a4d397d57b3e9",
+     "p": "8b53490b927837af"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/ee9d942e-c639-438a-8cd6-f2eabb82556e?rule=$_59.AUTO",
+     "d": "d94a4d397d57b3e9",
+     "p": "8b53490b927837af"
+    }
+   ]
   }
  }
 }
