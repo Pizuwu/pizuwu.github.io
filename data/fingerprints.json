@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T10:37:03Z",
+ "updated_at": "2026-09-20T11:37:32Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -4974,6 +4974,10 @@
     {
      "d": "2026-09-16",
      "p": 22944
+    },
+    {
+     "d": "2026-09-20",
+     "p": 22500
     }
    ],
    "title": "porsche 944 s2 coup bj 1989",
@@ -6732,6 +6736,14 @@
     },
     {
      "d": "2026-09-19",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-20",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-20",
      "p": 42912
     },
     {
@@ -12957,6 +12969,52 @@
    "vin": null,
    "ez": "12/2006",
    "km": 151500,
+   "ps": null
+  },
+  "3c5639cd57d8": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-turbo-cabrio/3518063755-216-27022",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-20",
+   "prices": [
+    {
+     "d": "2026-09-20",
+     "p": 29900
+    }
+   ],
+   "title": "porsche 911 turbo cabrio",
+   "last_seen": "2026-09-20",
+   "vin": null,
+   "ez": "05/2004",
+   "km": 230000,
+   "ps": null
+  },
+  "8b3b82134970": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera-4-coupe-autom-/3518035528-216-1642",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-20",
+   "prices": [
+    {
+     "d": "2026-09-20",
+     "p": 26900
+    }
+   ],
+   "title": "porsche 911 996 carrera 4 coupe autom",
+   "last_seen": "2026-09-20",
+   "vin": null,
+   "ez": "07/1999",
+   "km": 10000,
+   "ps": null
+  },
+  "9526e7460637": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/karosse-porsche-911t-2-0-1968-brandschaden-gegen-gebot/3512828811-216-25037",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-20",
+   "prices": [],
+   "title": "karosse porsche 911t 2 0 1968 brandschaden gegen gebot",
+   "last_seen": "2026-09-20",
+   "vin": null,
+   "ez": "10/1968",
+   "km": 68000,
    "ps": null
   }
  }
