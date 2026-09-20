@@ -1,6 +1,6 @@
 {
- "fetched_at": "2026-09-20T03:33:59.408Z",
- "runner": "35486898209",
+ "fetched_at": "2026-09-20T04:34:08.252Z",
+ "runner": "35489459579",
  "queries": [
   {
    "q": "porsche-targa",
@@ -132,7 +132,7 @@
    "q": "porsche-911",
    "code": 200,
    "blocked": false,
-   "count": 25
+   "count": 26
   },
   {
    "q": "porsche-911#2",
@@ -234,7 +234,7 @@
    "q": "vb:porsche-911",
    "code": 200,
    "blocked": false,
-   "count": 16
+   "count": 15
   },
   {
    "q": "vb:porsche-911#2",
@@ -2296,19 +2296,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera/3486442792-216-3116"
   },
   {
-   "id": "3501324432",
-   "query": "porsche-carrera-3-2",
-   "title": "traumhaft schoener porsche 996 911 carrera 3 6 automatik",
-   "price_eur": 34780,
-   "vb": true,
-   "km": 146817,
-   "ez": "10/2002",
-   "location": "66280 Sulzbach (Saar)",
-   "posted": "",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/traumhaft-schoener-porsche-996-911-carrera-3-6-automatik/3501324432-216-331"
-  },
-  {
    "id": "3435555066",
    "query": "porsche-carrera-3-2",
    "title": "porsche 911 carrera 4s",
@@ -2320,6 +2307,19 @@
    "posted": "",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-4s/3435555066-216-7336"
+  },
+  {
+   "id": "3421506322",
+   "query": "porsche-carrera-3-2",
+   "title": "porsche 996 carrera4 cabrio motor revidiert verdeck neu techspeed",
+   "price_eur": 44900,
+   "vb": true,
+   "km": 94000,
+   "ez": "03/2002",
+   "location": "73066 Uhingen",
+   "posted": "",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-carrera4-cabrio-motor-revidiert-verdeck-neu-techspeed/3421506322-216-8870"
   },
   {
    "id": "3451953465",
@@ -2621,30 +2621,17 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-carrera-clubsport-kaefig-kwv3/3514333875-216-8941"
   },
   {
-   "id": "3421506322",
+   "id": "3501324432",
    "query": "porsche-carrera-3-2",
-   "title": "porsche 996 carrera4 cabrio motor revidiert verdeck neu techspeed",
-   "price_eur": 44900,
+   "title": "traumhaft schoener porsche 996 911 carrera 3 6 automatik",
+   "price_eur": 34780,
    "vb": true,
-   "km": 94000,
-   "ez": "03/2002",
-   "location": "73066 Uhingen",
+   "km": 146817,
+   "ez": "10/2002",
+   "location": "66280 Sulzbach (Saar)",
    "posted": "",
    "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-carrera4-cabrio-motor-revidiert-verdeck-neu-techspeed/3421506322-216-8870"
-  },
-  {
-   "id": "3499435291",
-   "query": "porsche-carrera-3-2",
-   "title": "porsche 911 996 carrera 4 cabrio bose facelift",
-   "price_eur": 34890,
-   "vb": false,
-   "km": 63268,
-   "ez": "07/2002",
-   "location": "18573 Samtens",
-   "posted": "",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera-4-cabrio-bose-facelift/3499435291-216-129"
+   "url": "https://www.kleinanzeigen.de/s-anzeige/traumhaft-schoener-porsche-996-911-carrera-3-6-automatik/3501324432-216-331"
   },
   {
    "id": "3429675380",
@@ -3219,6 +3206,19 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/luftgekuehlter-porsche-911-gesucht-schrauber-sucht-seinen-traum/3491843077-216-9443"
   },
   {
+   "id": "3499435291",
+   "query": "porsche-911",
+   "title": "porsche 911 996 carrera 4 cabrio bose facelift",
+   "price_eur": 34890,
+   "vb": false,
+   "km": 63268,
+   "ez": "07/2002",
+   "location": "18573 Samtens",
+   "posted": "",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera-4-cabrio-bose-facelift/3499435291-216-129"
+  },
+  {
    "id": "3517154979",
    "query": "porsche-911",
    "title": "porsche 996 carrera 911 cabriolet",
@@ -3461,7 +3461,7 @@
    "km": 251000,
    "ez": "09/2026",
    "location": "67551 Worms",
-   "posted": "Gestern, 06:10",
+   "posted": "Heute, 06:10",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porche-panamera/3514944478-216-5197"
   },
