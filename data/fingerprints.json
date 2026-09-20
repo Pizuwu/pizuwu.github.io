@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T18:36:46Z",
+ "updated_at": "2026-09-20T19:14:37Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -5025,6 +5025,10 @@
     {
      "d": "2026-09-16",
      "p": 41490
+    },
+    {
+     "d": "2026-09-20",
+     "p": 40990
     }
    ],
    "title": "porsche 911 carrera 4s",
@@ -6762,6 +6766,14 @@
     },
     {
      "d": "2026-09-19",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-20",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-20",
      "p": 42912
     },
     {
@@ -13278,6 +13290,23 @@
    "vin": null,
    "ez": "12/2006",
    "km": 79380,
+   "ps": null
+  },
+  "bc36aacf7b4f": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-928-s/3518822026-216-9643",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-20",
+   "prices": [
+    {
+     "d": "2026-09-20",
+     "p": 15000
+    }
+   ],
+   "title": "porsche 928 s",
+   "last_seen": "2026-09-20",
+   "vin": null,
+   "ez": "10/1984",
+   "km": 257423,
    "ps": null
   }
  }
