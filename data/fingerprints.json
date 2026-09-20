@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T19:36:26Z",
+ "updated_at": "2026-09-20T20:36:21Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -587,14 +587,18 @@
     {
      "d": "2026-09-16",
      "p": 49500
+    },
+    {
+     "d": "2026-09-20",
+     "p": 44500
     }
    ],
-   "title": "Porsche 911 SC Targa 3.0 Deutsches Auto G Modell in Saarland - Quierschied | Porsche 911 Urmodell Gebrauchtwagen kaufen | kleinanzeigen.de",
+   "title": "porsche 911 sc targa 3 0 deutsches auto g modell",
    "last_seen": "2026-09-20",
    "vin": null,
-   "ez": "07/1974",
+   "ez": "06/1981",
    "km": 303000,
-   "ps": 204,
+   "ps": null,
    "hashes": [
     {
      "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/82/827c25c3-fc79-4f7d-ae5f-58c9bf2e3738?rule=$_59.JPG",
@@ -3233,7 +3237,7 @@
    "last_seen": "2026-09-20",
    "vin": null,
    "ez": "07/1973",
-   "km": 1973,
+   "km": 210500,
    "ps": null
   },
   "cd8964adb0cf": {
@@ -5831,6 +5835,10 @@
     {
      "d": "2026-09-16",
      "p": 29500
+    },
+    {
+     "d": "2026-09-20",
+     "p": 27500
     }
    ],
    "title": "porsche 996 carrera 4",
@@ -6766,6 +6774,14 @@
     },
     {
      "d": "2026-09-19",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-20",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-20",
      "p": 42912
     },
     {
@@ -13332,6 +13348,23 @@
    "vin": null,
    "ez": "01/1990",
    "km": 132000,
+   "ps": null
+  },
+  "d6e2e6ad03b3": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/tausch-bmw-m3-e90-gegen-e92-f80-911-porsche/3518037243-216-7581",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-20",
+   "prices": [
+    {
+     "d": "2026-09-20",
+     "p": 40990
+    }
+   ],
+   "title": "tausch bmw m3 e90 gegen e92 f80 911 porsche",
+   "last_seen": "2026-09-20",
+   "vin": null,
+   "ez": "09/2008",
+   "km": 180000,
    "ps": null
   }
  }
