@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T21:45:35Z",
+ "updated_at": "2026-09-20T22:36:38Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -586,6 +586,14 @@
    "prices": [
     {
      "d": "2026-09-16",
+     "p": 49500
+    },
+    {
+     "d": "2026-09-20",
+     "p": 44500
+    },
+    {
+     "d": "2026-09-20",
      "p": 49500
     },
     {
@@ -2284,6 +2292,10 @@
     {
      "d": "2026-09-16",
      "p": 42000
+    },
+    {
+     "d": "2026-09-20",
+     "p": 38500
     }
    ],
    "title": "porsche 911s targa",
@@ -6790,6 +6802,14 @@
     },
     {
      "d": "2026-09-19",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-20",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-20",
      "p": 42912
     },
     {
@@ -13397,6 +13417,23 @@
    "vin": null,
    "ez": "09/2008",
    "km": 180000,
+   "ps": null
+  },
+  "249fb1e665a0": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-912-coup-1965-swb-matching-numbers-/3518918226-216-8088",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-20",
+   "prices": [
+    {
+     "d": "2026-09-20",
+     "p": 18000
+    }
+   ],
+   "title": "porsche 912 coup 1965 swb matching numbers",
+   "last_seen": "2026-09-20",
+   "vin": null,
+   "ez": "07/1965",
+   "km": 99999,
    "ps": null
   }
  }
