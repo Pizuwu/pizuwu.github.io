@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-21T15:36:39Z",
+ "updated_at": "2026-09-21T20:06:44Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -638,6 +638,14 @@
     },
     {
      "d": "2026-09-20",
+     "p": 44500
+    },
+    {
+     "d": "2026-09-21",
+     "p": 49500
+    },
+    {
+     "d": "2026-09-21",
      "p": 44500
     },
     {
@@ -2507,6 +2515,14 @@
     },
     {
      "d": "2026-09-20",
+     "p": 38500
+    },
+    {
+     "d": "2026-09-21",
+     "p": 42000
+    },
+    {
+     "d": "2026-09-21",
      "p": 38500
     },
     {
@@ -7419,6 +7435,14 @@
     },
     {
      "d": "2026-09-20",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-21",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-21",
      "p": 42912
     },
     {
@@ -14291,6 +14315,35 @@
    "vin": null,
    "ez": "03/1998",
    "km": 199999,
+   "ps": null
+  },
+  "2d573baf653b": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera-4-cabriolet-carrera-rust-free/3519538579-216-3520",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-21",
+   "prices": [
+    {
+     "d": "2026-09-21",
+     "p": 17000
+    }
+   ],
+   "title": "porsche 911 996 carrera 4 cabriolet carrera rust free",
+   "last_seen": "2026-09-21",
+   "vin": null,
+   "ez": "12/2000",
+   "km": 293000,
+   "ps": null
+  },
+  "2dbc45e324ef": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-997-2-carrera-4-gts-coup-pdk-saga-navi-leder/3519568284-216-6457",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-21",
+   "prices": [],
+   "title": "porsche 911 997 2 carrera 4 gts coup pdk saga navi leder",
+   "last_seen": "2026-09-21",
+   "vin": null,
+   "ez": "09/2011",
+   "km": 98500,
    "ps": null
   }
  }
