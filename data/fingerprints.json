@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-21T12:36:37Z",
+ "updated_at": "2026-09-21T12:38:07Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -638,6 +638,14 @@
     },
     {
      "d": "2026-09-20",
+     "p": 44500
+    },
+    {
+     "d": "2026-09-21",
+     "p": 49500
+    },
+    {
+     "d": "2026-09-21",
      "p": 44500
     },
     {
@@ -2467,6 +2475,14 @@
     },
     {
      "d": "2026-09-20",
+     "p": 38500
+    },
+    {
+     "d": "2026-09-21",
+     "p": 42000
+    },
+    {
+     "d": "2026-09-21",
      "p": 38500
     },
     {
@@ -7335,6 +7351,14 @@
     },
     {
      "d": "2026-09-20",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-21",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-21",
      "p": 42912
     },
     {
@@ -14057,7 +14081,49 @@
    "vin": null,
    "ez": "03/1975",
    "km": 150000,
-   "ps": null
+   "ps": null,
+   "hashes": [
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2a/2a221eb4-839d-4a2e-8917-34830b007198?rule=$_59.JPG",
+     "d": "99808185360e0f59",
+     "p": "f05893359aa32d8f"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2a/2a221eb4-839d-4a2e-8917-34830b007198?rule=$_59.AUTO",
+     "d": "99808185360e0f59",
+     "p": "f05893359aa32d8f"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2a/2a221eb4-839d-4a2e-8917-34830b007198?rule=$_57.AUTO",
+     "d": "99808185360e0f59",
+     "p": "f05893359aa32d8f"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2a/2a221eb4-839d-4a2e-8917-34830b007198?rule=$_1.AUTO",
+     "d": "99808185360e0f59",
+     "p": "f05893359aa32d8f"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/76/767626b3-ac15-4042-8738-7f326d5fdfae?rule=$_59.AUTO",
+     "d": "6229a2f3132f0e8c",
+     "p": "eec7d77a092585a0"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/76/767626b3-ac15-4042-8738-7f326d5fdfae?rule=$_2.AUTO",
+     "d": "6229a2f3132f0e8c",
+     "p": "eec7d77a092585a0"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/76/767626b3-ac15-4042-8738-7f326d5fdfae?rule=$_35.AUTO",
+     "d": "6229a2f3132f0e8c",
+     "p": "eec7d77a092585a0"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8d/8d206d04-fcaa-4d71-b782-683f790df900?rule=$_59.AUTO",
+     "d": "6c2c662c6833269c",
+     "p": "b7b7351b922c4961"
+    }
+   ]
   },
   "ba0415a17157": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-boxster-2-5-aus-sammlung-2027-oldtimer/3519288929-216-2969",
