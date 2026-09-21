@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-21T06:36:40Z",
+ "updated_at": "2026-09-21T07:36:45Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -638,6 +638,14 @@
     },
     {
      "d": "2026-09-20",
+     "p": 44500
+    },
+    {
+     "d": "2026-09-21",
+     "p": 49500
+    },
+    {
+     "d": "2026-09-21",
      "p": 44500
     },
     {
@@ -2407,6 +2415,14 @@
     },
     {
      "d": "2026-09-20",
+     "p": 38500
+    },
+    {
+     "d": "2026-09-21",
+     "p": 42000
+    },
+    {
+     "d": "2026-09-21",
      "p": 38500
     },
     {
@@ -7210,6 +7226,14 @@
     },
     {
      "d": "2026-09-20",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-21",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-21",
      "p": 42912
     },
     {
@@ -13578,7 +13602,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-coupe-996-c4/3518585161-216-13535",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-20",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-09-21",
+     "p": 40990
+    }
+   ],
    "title": "porsche 911 coupe 996 c4",
    "last_seen": "2026-09-21",
    "vin": null,
@@ -13774,6 +13803,18 @@
    "vin": null,
    "ez": "02/2000",
    "km": 48500,
+   "ps": null
+  },
+  "3a85b50bae65": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-kaufe-porsche-911-912-f-g-930-964-993-996-997-991-992-/3311252194-216-6080",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-21",
+   "prices": [],
+   "title": "suche kaufe porsche 911 912 f g 930 964 993 996 997 991 992",
+   "last_seen": "2026-09-21",
+   "vin": null,
+   "ez": "07/1995",
+   "km": 123456,
    "ps": null
   }
  }
