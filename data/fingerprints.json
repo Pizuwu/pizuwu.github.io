@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-22T17:29:58Z",
+ "updated_at": "2026-09-22T20:23:02Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -814,6 +814,14 @@
     },
     {
      "d": "2026-09-21",
+     "p": 44500
+    },
+    {
+     "d": "2026-09-22",
+     "p": 49500
+    },
+    {
+     "d": "2026-09-22",
      "p": 44500
     },
     {
@@ -2751,6 +2759,14 @@
     },
     {
      "d": "2026-09-21",
+     "p": 38500
+    },
+    {
+     "d": "2026-09-22",
+     "p": 42000
+    },
+    {
+     "d": "2026-09-22",
      "p": 38500
     },
     {
@@ -7727,6 +7743,14 @@
     },
     {
      "d": "2026-09-21",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-22",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-22",
      "p": 42912
     },
     {
@@ -13507,7 +13531,7 @@
     }
    ],
    "title": "porsche 911 cabriolet",
-   "last_seen": "2026-09-21",
+   "last_seen": "2026-09-22",
    "vin": null,
    "ez": "05/2004",
    "km": 156700,
@@ -14773,6 +14797,35 @@
    "vin": null,
    "ez": "05/2000",
    "km": 150000,
+   "ps": null
+  },
+  "b03026ed643e": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-neue-kupplung/3520615455-216-13734",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-22",
+   "prices": [
+    {
+     "d": "2026-09-22",
+     "p": 31990
+    }
+   ],
+   "title": "porsche 911 996 neue kupplung",
+   "last_seen": "2026-09-22",
+   "vin": null,
+   "ez": "04/2000",
+   "km": 125000,
+   "ps": null
+  },
+  "a91fcb9c7a02": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-997/3520526889-216-7337",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-22",
+   "prices": [],
+   "title": "porsche 911 carrera 997",
+   "last_seen": "2026-09-22",
+   "vin": null,
+   "ez": "05/2005",
+   "km": 88081,
    "ps": null
   }
  }
