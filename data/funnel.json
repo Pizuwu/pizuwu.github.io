@@ -57,7 +57,34 @@
       "klarstellung_2026_09_20": "Kleinanzeigen Tuerkheim und AS24 Muenchen = dasselbe Auto, Fahrzeug steht im Raum Tuerkheim. Kleinanzeigen seit 30.08., 2483 Aufrufe, 96 Merklisten, Status Reserviert. Matching Numbers laut Philipp bestaetigt. Freihammer verstorben, Philipp faehrt mit rotem Kennzeichen, nie angemeldet. Besichtigung angefragt Do 1.10. oder Fr 2.10., Buehne dreikommazwei Landsberg.",
       "sprachnachricht_2026_09_20": "Philipp per Sprachnachricht (4:32 min): 1) nur Kurzstrecken 1-2 km mit roter Nummer, Sprit immer drauf, Tank per Endoskop innen ohne Rost geprueft, Benzinpumpe selbst neu eingebaut, Kraftstofffilter hinten neu, Oelwechsel+Oelfilter machen lassen (Beleg muss er suchen), Batterie ok, Bremsen 'vor einigen Jahren' gemacht. 2) Nicht im Brief, Kaufvertrag zwischen ihm und dem Erben (Sohn Hans-Thomas Freihammer), 'mein Fahrzeug'. 3) Oelkuehler: nicht geschaut, weiss nicht ob einer drin ist, will checken. 4) Lackierung 1998: unbekannt, Rost oder Parkschaden, keine Schadensinfo in Unterlagen. Besichtigung: fahrbereit, nur wenige Meter bei Schwiegereltern, Fahrt nach Landsberg 'zu heiss', Auto braucht erst Service, Zuendzeitpunkt einstellen, K-Jetronic Injektorreiniger. Buehne schwierig, bietet eigenen Wagenheber zum Aufbocken an. KEIN Termin genannt (Do 1.10./Fr 2.10. unbeantwortet).",
       "preis_drop_2026_09_20": "22:33 UTC: AS24-Inserat b25599f8 zeigt jetzt 38.500 statt 42.000 (Scanner as24-at). Philipps Angebot 37.000 an Patrick liegt damit nur 1.500 unter dem oeffentlichen Preis. Verhandlungsziel 33-35k bleibt, Argument: oeffentlich schon gesenkt, 3 Wochen kein Abschluss.",
-      "sprachnachricht_2026_09_21": "Philipp 09:32 (2:49 min): beruflich stark eingebunden, der geplatzte Kaeufer hat ihn zurueckgeworfen. Option 1 (Quaeck-Buehne) 'zu viel Aufwand', Option 2 (Kauf unter Vorbehalt) 'keine Option, ich will das erledigt haben'. Angebot: Patrick kommt vorbei, kann sich so viel Zeit nehmen wie er will, auf Herz und Nieren pruefen, jemanden mitbringen, dann Preis mit Restrisiko nennen. Preis oeffentlich gesenkt (38.500), 'Richtung Schmerzgrenze', sieht 'Puffer drin'. Will heute Abend 18-20 Uhr telefonieren."
+      "sprachnachricht_2026_09_21": "Philipp 09:32 (2:49 min): beruflich stark eingebunden, der geplatzte Kaeufer hat ihn zurueckgeworfen. Option 1 (Quaeck-Buehne) 'zu viel Aufwand', Option 2 (Kauf unter Vorbehalt) 'keine Option, ich will das erledigt haben'. Angebot: Patrick kommt vorbei, kann sich so viel Zeit nehmen wie er will, auf Herz und Nieren pruefen, jemanden mitbringen, dann Preis mit Restrisiko nennen. Preis oeffentlich gesenkt (38.500), 'Richtung Schmerzgrenze', sieht 'Puffer drin'. Will heute Abend 18-20 Uhr telefonieren.",
+      "motor_tonanalyse_2026_09_22": {
+        "quelle": "Video Verkaeufer 20.09.2026, 25 s Standgas, WhatsApp-Kompression 64 kbit/s, Cutoff 11,6 kHz",
+        "drehzahl": "995/min, ueber 25 s stabil, kein Saegen",
+        "freispruch": [
+          "kein toter Zylinder (Ordnung 1/6 = 0,45 im Auspuffton)",
+          "keine nicht-ordnungsfesten Peaks: Geblaese-, LiMa-Lager und Riemen unauffaellig",
+          "Geblaese-Schaufelton 232 Hz auf Soll, Rad dreht mit",
+          "kein Rauch am Endrohr sichtbar"
+        ],
+        "befund_a": "Bank-Asymmetrie: Ordnung 3 = 2,21 x Zuendfrequenz, zeitstabil. Ohne Referenzaufnahme nicht bewertbar, Auspuffgeometrie erzeugt das auch beim gesunden Motor. Klaerung per CO-Messung beider Baenke.",
+        "befund_b": "Ein Ereignis pro Arbeitsspiel im Band 7-11 kHz, 1,48 x Zuendfrequenz, Split-Half r=0,95, kein Codec-Artefakt (Bandkorrelation r=0,07), Winkelbreite rund 160 Grad. Passt zu Leck an einem Zylinder: Kruemmerdichtung (400 EUR) ODER gezogener Kopfstehbolzen (9.000 EUR). Aus dem Video NICHT unterscheidbar.",
+        "limitierung": "kein Kaltstart, kein Gasstoss, keine Last im Video. YouTube-Referenzvergleich aus Sandbox gesperrt, Abgleich gegen Foren-/Literatursignaturen.",
+        "forderung_verkaeufer": [
+          "Video mit Kaltstart ab Sekunde null",
+          "drei Gasstoesse auf 3000/min mit Kamera aufs Endrohr",
+          "Nahaufnahme Mikro an Zylinderfuessen links und rechts getrennt",
+          "Fotos der Zylinder-Kopf-Uebergaenge beider Baenke"
+        ],
+        "vor_ort_pflicht": [
+          "Druckverlusttest alle 6 Zylinder (loest Befund B auf)",
+          "CO-Messung beider Baenke plus Systemdruck K-Jetronic",
+          "Oeldruck warm im Leerlauf",
+          "Motor muss bei Ankunft KALT sein"
+        ],
+        "preiswirkung": "kein neuer Mangel einpreisbar und keine Entlastung. Macht den Druckverlusttest zur Bedingung. Deutlicher Verlust am Zylinderfuss = Abbruchgrund.",
+        "bericht": "Motorzustand_911S_Targa_Tonanalyse.pdf, 6 Seiten"
+      }
     },
     {
       "url": "https://www.marktplaats.nl/v/auto-s/oldtimers/a1530664474-porsche-911-2-4-t-targa-1973",
