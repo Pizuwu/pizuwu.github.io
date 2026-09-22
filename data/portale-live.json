@@ -1,34 +1,34 @@
 {
- "fetched_at": "2026-09-22T07:06:17.321Z",
- "runner": "35697717143",
+ "fetched_at": "2026-09-22T12:45:34.332Z",
+ "runner": "35728865613",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 400514,
+   "size": 400556,
    "links": 41,
    "treffer": 16
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 405371,
+   "size": 405344,
    "links": 41,
    "treffer": 31
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 368566,
-   "links": 13,
-   "treffer": 11
+   "size": 367514,
+   "links": 12,
+   "treffer": 10
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 356713,
-   "links": 4,
-   "treffer": 4
+   "size": 355571,
+   "links": 3,
+   "treffer": 3
   }
  ],
  "listings": [
@@ -634,18 +634,6 @@
   },
   {
    "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-1967-6129951/",
-   "title": "Porsche 912 (1967)",
-   "price_eur": null,
-   "ez": "1967",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/07/13/porsche-on-elferspot27-17.jpeg",
-   "snippet": "",
-   "filter": "f"
-  },
-  {
-   "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-1969-6197307/",
    "title": "Porsche 912 (1969)",
    "price_eur": null,
@@ -749,18 +737,6 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/08/24/porsche-for-sale-on-elferspot_1-8.jpeg",
-   "snippet": "",
-   "filter": "964"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-964-carrera-2-1990-6109302/",
-   "title": "Porsche 964 Carrera 2 (1990)",
-   "price_eur": null,
-   "ez": "1990",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/07/03/imgi_6_80f7df08-0cd9-483e-b775-e7116833af4d.jpeg",
    "snippet": "",
    "filter": "964"
   },
