@@ -1,37 +1,49 @@
 {
- "fetched_at": "2026-09-23T12:41:46.632Z",
- "runner": "35861843919",
+ "fetched_at": "2026-09-23T17:38:20.856Z",
+ "runner": "35896674585",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 399663,
-   "links": 40,
-   "treffer": 16
+   "size": 400402,
+   "links": 41,
+   "treffer": 17
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 405535,
+   "size": 405251,
    "links": 41,
-   "treffer": 31
+   "treffer": 30
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 367612,
+   "size": 367446,
    "links": 12,
    "treffer": 10
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 355639,
+   "size": 355594,
    "links": 3,
    "treffer": 3
   }
  ],
  "listings": [
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-g-modell-1973-6266393/",
+   "title": "Porsche 911 (1973)",
+   "price_eur": null,
+   "ez": "1973",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/09/23/img_20260724_111330-1-scaled.jpg",
+   "snippet": "",
+   "filter": "targa"
+  },
   {
    "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-0-1977-6235916/",
@@ -581,18 +593,6 @@
    "km": null,
    "country": "FR",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/04/24/38.2.7l-3-scaled.jpg",
-   "snippet": "",
-   "filter": "g"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-us-1986-5886990/",
-   "title": "Porsche 911 Carrera 3.2 (1986)",
-   "price_eur": null,
-   "ez": "1986",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/04/07/911-cabrio-1.jpeg",
    "snippet": "",
    "filter": "g"
   },
