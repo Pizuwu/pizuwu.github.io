@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-23T17:39:01Z",
+ "updated_at": "2026-09-23T20:55:20Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -862,6 +862,14 @@
     },
     {
      "d": "2026-09-22",
+     "p": 44500
+    },
+    {
+     "d": "2026-09-23",
+     "p": 49500
+    },
+    {
+     "d": "2026-09-23",
      "p": 44500
     },
     {
@@ -2888,6 +2896,14 @@
     {
      "d": "2026-09-23",
      "p": 38500
+    },
+    {
+     "d": "2026-09-23",
+     "p": 42000
+    },
+    {
+     "d": "2026-09-23",
+     "p": 38500
     }
    ],
    "title": "porsche 911s targa",
@@ -3866,7 +3882,7 @@
    "last_seen": "2026-09-23",
    "vin": null,
    "ez": "07/1973",
-   "km": 1973,
+   "km": 167000,
    "ps": null
   },
   "cd8964adb0cf": {
@@ -7887,6 +7903,14 @@
     },
     {
      "d": "2026-09-22",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-23",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-23",
      "p": 42912
     },
     {
@@ -13413,7 +13437,7 @@
     }
    ],
    "title": "porsche targa 944 top klassiker",
-   "last_seen": "2026-09-20",
+   "last_seen": "2026-09-23",
    "vin": null,
    "ez": "10/1982",
    "km": 143143,
@@ -14340,10 +14364,14 @@
     {
      "d": "2026-09-20",
      "p": 40990
+    },
+    {
+     "d": "2026-09-23",
+     "p": 34770
     }
    ],
    "title": "tausch bmw m3 e90 gegen e92 f80 911 porsche",
-   "last_seen": "2026-09-20",
+   "last_seen": "2026-09-23",
    "vin": null,
    "ez": "09/2008",
    "km": 180000,
@@ -15115,6 +15143,100 @@
    "vin": null,
    "ez": "07/1993",
    "km": 116930,
+   "ps": null
+  },
+  "3cb77872b9cb": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-targa-indischrot-h-kennzeichen-unfallschaden/3521403683-216-3904",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-23",
+   "prices": [
+    {
+     "d": "2026-09-23",
+     "p": 9000
+    }
+   ],
+   "title": "porsche 944 targa indischrot h kennzeichen unfallschaden",
+   "last_seen": "2026-09-23",
+   "vin": null,
+   "ez": "07/1985",
+   "km": 93000,
+   "ps": null
+  },
+  "bad5bb8a0cdd": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-carrera-automatik-/3521398281-216-4682",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-23",
+   "prices": [
+    {
+     "d": "2026-09-23",
+     "p": 29500
+    }
+   ],
+   "title": "porsche carrera automatik",
+   "last_seen": "2026-09-23",
+   "vin": null,
+   "ez": "07/1994",
+   "km": 55000,
+   "ps": null
+  },
+  "d41c176d3fce": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-sc-targa/3521424335-216-4399",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-23",
+   "prices": [],
+   "title": "porsche 911 sc targa",
+   "last_seen": "2026-09-23",
+   "vin": null,
+   "ez": "04/1978",
+   "km": 190000,
+   "ps": null
+  },
+  "9211bae9bd92": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/wunderschoener-911-carrera-s-cabrio-modell-991-/3521500130-216-3384",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-23",
+   "prices": [],
+   "title": "wunderschoener 911 carrera s cabrio modell 991",
+   "last_seen": "2026-09-23",
+   "vin": null,
+   "ez": "10/2012",
+   "km": 68500,
+   "ps": null
+  },
+  "c99377c84eb3": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-993-carrera-2-c00/3521454043-216-4287",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-23",
+   "prices": [],
+   "title": "porsche 911 993 carrera 2 c00",
+   "last_seen": "2026-09-23",
+   "vin": null,
+   "ez": "02/1995",
+   "km": 132162,
+   "ps": null
+  },
+  "fad1f408c4a3": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-4-gts-cabriolet/3521396437-216-4522",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-23",
+   "prices": [],
+   "title": "porsche 911 carrera 4 gts cabriolet",
+   "last_seen": "2026-09-23",
+   "vin": null,
+   "ez": "06/2023",
+   "km": 25151,
+   "ps": null
+  },
+  "8dc07aa764fa": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-991-2-turbo-s-coup-580ps-pccb-34tkm-approved/3521395254-216-8714",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-23",
+   "prices": [],
+   "title": "porsche 911 991 2 turbo s coup 580ps pccb 34tkm approved",
+   "last_seen": "2026-09-23",
+   "vin": null,
+   "ez": "06/2017",
+   "km": 34000,
    "ps": null
   }
  }
