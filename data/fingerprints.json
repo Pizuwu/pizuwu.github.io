@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-24T17:42:15Z",
+ "updated_at": "2026-09-24T20:59:54Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -910,6 +910,14 @@
     },
     {
      "d": "2026-09-23",
+     "p": 44500
+    },
+    {
+     "d": "2026-09-24",
+     "p": 49500
+    },
+    {
+     "d": "2026-09-24",
      "p": 44500
     },
     {
@@ -2967,6 +2975,14 @@
     },
     {
      "d": "2026-09-23",
+     "p": 38500
+    },
+    {
+     "d": "2026-09-24",
+     "p": 42000
+    },
+    {
+     "d": "2026-09-24",
      "p": 38500
     },
     {
@@ -8088,6 +8104,14 @@
     {
      "d": "2026-09-24",
      "p": 42912
+    },
+    {
+     "d": "2026-09-24",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-24",
+     "p": 42912
     }
    ],
    "title": "porsche 912 bj 1968 tuev neu 09 28",
@@ -11714,7 +11738,7 @@
     }
    ],
    "title": "suche porsche 911 porsche 993 porsche 964",
-   "last_seen": "2026-09-22",
+   "last_seen": "2026-09-24",
    "vin": null,
    "ez": "08/1980",
    "km": null,
@@ -13675,7 +13699,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-cabrio-991-1/3516091417-216-2573",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-18",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-09-24",
+     "p": 34890
+    }
+   ],
    "title": "porsche 911 carrera cabrio 991 1",
    "last_seen": "2026-09-24",
    "vin": null,
@@ -14270,6 +14299,10 @@
     {
      "d": "2026-09-24",
      "p": 19800
+    },
+    {
+     "d": "2026-09-24",
+     "p": 19500
     }
    ],
    "title": "porsche 944 2 5 targa 1 serie h kennzeichen",
@@ -15543,6 +15576,100 @@
    "vin": null,
    "ez": "03/1999",
    "km": 80000,
+   "ps": null
+  },
+  "27d4e8b0c520": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/911-sc-gegen-btc-zu-tauschen/3522238465-216-1028",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-24",
+   "prices": [],
+   "title": "911 sc gegen btc zu tauschen",
+   "last_seen": "2026-09-24",
+   "vin": null,
+   "ez": "07/1981",
+   "km": 229000,
+   "ps": null
+  },
+  "ac53e7f0d6d4": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-964/3522244747-216-2549",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-24",
+   "prices": [],
+   "title": "porsche 911 964",
+   "last_seen": "2026-09-24",
+   "vin": null,
+   "ez": "01/1991",
+   "km": 150000,
+   "ps": null
+  },
+  "6791b1a6a45b": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-964-carrera/3522242784-216-2549",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-24",
+   "prices": [],
+   "title": "porsche 911 964 carrera",
+   "last_seen": "2026-09-24",
+   "vin": null,
+   "ez": "04/1990",
+   "km": 150000,
+   "ps": null
+  },
+  "dba863ff2042": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera-cabrio-schalter-80tkm-2-hand-/3522076081-216-8191",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-24",
+   "prices": [
+    {
+     "d": "2026-09-24",
+     "p": 29996
+    }
+   ],
+   "title": "porsche 911 996 carrera cabrio schalter 80tkm 2 hand",
+   "last_seen": "2026-09-24",
+   "vin": null,
+   "ez": "03/1999",
+   "km": 80000,
+   "ps": null
+  },
+  "b8894ff0819e": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-997-1-turbo-cabrio/3522309795-216-4488",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-24",
+   "prices": [
+    {
+     "d": "2026-09-24",
+     "p": 39000
+    }
+   ],
+   "title": "porsche 911 997 1 turbo cabrio",
+   "last_seen": "2026-09-24",
+   "vin": null,
+   "ez": "01/2008",
+   "km": 22000,
+   "ps": null
+  },
+  "3dbc3f619761": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-4s/3522332511-216-1379",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-24",
+   "prices": [],
+   "title": "porsche 911 996 4s",
+   "last_seen": "2026-09-24",
+   "vin": null,
+   "ez": "05/2004",
+   "km": 184500,
+   "ps": null
+  },
+  "c4c9588a2f9b": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-coup-2-4/3522262181-216-9353",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-24",
+   "prices": [],
+   "title": "porsche 911 coup 2 4",
+   "last_seen": "2026-09-24",
+   "vin": null,
+   "ez": "09/1971",
+   "km": 4400,
    "ps": null
   }
  }
