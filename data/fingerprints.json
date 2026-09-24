@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-24T20:59:54Z",
+ "updated_at": "2026-09-24T23:46:59Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -910,6 +910,14 @@
     },
     {
      "d": "2026-09-23",
+     "p": 44500
+    },
+    {
+     "d": "2026-09-24",
+     "p": 49500
+    },
+    {
+     "d": "2026-09-24",
      "p": 44500
     },
     {
@@ -2975,6 +2983,14 @@
     },
     {
      "d": "2026-09-23",
+     "p": 38500
+    },
+    {
+     "d": "2026-09-24",
+     "p": 42000
+    },
+    {
+     "d": "2026-09-24",
      "p": 38500
     },
     {
@@ -6666,6 +6682,10 @@
     {
      "d": "2026-09-16",
      "p": 37996
+    },
+    {
+     "d": "2026-09-24",
+     "p": 34999
     }
    ],
    "title": "porsche 996 carrera coup traumzustand liebhaber",
@@ -6902,7 +6922,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/suche-ankauf-porsche-911-996-997-991-turbo-gt3-gt2-rs/3383105304-216-8262",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-16",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-09-24",
+     "p": 34750
+    }
+   ],
    "title": "suche ankauf porsche 911 996 997 991 turbo gt3 gt2 rs",
    "last_seen": "2026-09-24",
    "vin": null,
@@ -8071,6 +8096,14 @@
     },
     {
      "d": "2026-09-23",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-24",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-24",
      "p": 42912
     },
     {
@@ -13703,6 +13736,10 @@
     {
      "d": "2026-09-24",
      "p": 34890
+    },
+    {
+     "d": "2026-09-24",
+     "p": 34750
     }
    ],
    "title": "porsche 911 carrera cabrio 991 1",
@@ -15670,6 +15707,35 @@
    "vin": null,
    "ez": "09/1971",
    "km": 4400,
+   "ps": null
+  },
+  "d414d64b5cff": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/winterpreis-vw-kaefer-cabrio-914er-4-zylinder-porsche-boxermotor/3517613795-216-6443",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-24",
+   "prices": [
+    {
+     "d": "2026-09-24",
+     "p": 12900
+    }
+   ],
+   "title": "winterpreis vw kaefer cabrio 914er 4 zylinder porsche boxermotor",
+   "last_seen": "2026-09-24",
+   "vin": null,
+   "ez": "09/1975",
+   "km": 75000,
+   "ps": null
+  },
+  "f20044fe9248": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-4s-cabrio/3522332511-216-1379",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-24",
+   "prices": [],
+   "title": "porsche 911 996 4s cabrio",
+   "last_seen": "2026-09-24",
+   "vin": null,
+   "ez": "05/2004",
+   "km": 184500,
    "ps": null
   }
  }
