@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-09-25T02:37:12.718Z",
- "runner": "36086828719",
+ "fetched_at": "2026-09-25T08:23:25.741Z",
+ "runner": "36112419766",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 400609,
-   "links": 41,
-   "treffer": 17
+   "size": 399715,
+   "links": 40,
+   "treffer": 16
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 405456,
+   "size": 405521,
    "links": 41,
-   "treffer": 30
+   "treffer": 31
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 368786,
+   "size": 368794,
    "links": 13,
    "treffer": 11
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 355850,
+   "size": 355828,
    "links": 3,
    "treffer": 3
   }
@@ -101,18 +101,6 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/08/16/img_3772-scaled.jpeg",
-   "snippet": "",
-   "filter": "targa"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-s-g-modell-1975-6185467/",
-   "title": "Porsche 911 S (1975)",
-   "price_eur": null,
-   "ez": "1975",
-   "km": null,
-   "country": "NL",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/08/26/dsc00708-scaled.jpg",
    "snippet": "",
    "filter": "targa"
   },
@@ -593,6 +581,18 @@
    "km": null,
    "country": "NL",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/04/15/dsc04025-scaled.jpg",
+   "snippet": "",
+   "filter": "g"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-g-modell-1977-5891172/",
+   "title": "Porsche 911 (1977)",
+   "price_eur": null,
+   "ez": "1977",
+   "km": null,
+   "country": "FR",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/04/24/38.2.7l-3-scaled.jpg",
    "snippet": "",
    "filter": "g"
   },
