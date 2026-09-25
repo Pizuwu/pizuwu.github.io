@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-25T18:23:21Z",
+ "updated_at": "2026-09-25T21:46:30Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -958,6 +958,14 @@
     },
     {
      "d": "2026-09-24",
+     "p": 44500
+    },
+    {
+     "d": "2026-09-25",
+     "p": 49500
+    },
+    {
+     "d": "2026-09-25",
      "p": 44500
     },
     {
@@ -3063,6 +3071,14 @@
     },
     {
      "d": "2026-09-24",
+     "p": 38500
+    },
+    {
+     "d": "2026-09-25",
+     "p": 42000
+    },
+    {
+     "d": "2026-09-25",
      "p": 38500
     },
     {
@@ -8208,6 +8224,14 @@
     },
     {
      "d": "2026-09-24",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-25",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-25",
      "p": 42912
     },
     {
@@ -16078,6 +16102,40 @@
    "vin": null,
    "ez": "02/1982",
    "km": 133000,
+   "ps": null
+  },
+  "300089016e10": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/oldtimer-porsche-trecker/3523182805-216-1023",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-25",
+   "prices": [
+    {
+     "d": "2026-09-25",
+     "p": 13900
+    }
+   ],
+   "title": "oldtimer porsche trecker",
+   "last_seen": "2026-09-25",
+   "vin": null,
+   "ez": "01/1959",
+   "km": 10000,
+   "ps": null
+  },
+  "6673d2064863": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-millennium-360-911-c00-handschalter-2-hd/3523138500-216-6213",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-25",
+   "prices": [
+    {
+     "d": "2026-09-25",
+     "p": 29996
+    }
+   ],
+   "title": "porsche 911 996 millennium 360 911 c00 handschalter 2 hd",
+   "last_seen": "2026-09-25",
+   "vin": null,
+   "ez": "10/1999",
+   "km": 267000,
    "ps": null
   }
  }
