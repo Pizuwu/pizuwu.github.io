@@ -53,6 +53,27 @@ let code = 0, body = '', final = url;
     text: text.slice(0, 40000) + (jsonBlocks ? '\n\nJSONDATEN:\n' + jsonBlocks : ''), images: [...new Set(imgs)].slice(0, 60) };
   fs.mkdirSync(path.join(REPO, 'data', 'intake'), { recursive: true });
   fs.writeFileSync(path.join(REPO, 'data', 'intake', id + '.json'), JSON.stringify(rec, null, 1));
+  // Bilder lokal ablegen (nur im Einzel-Intake, damit Patrick sie im Sandbox-Repo sehen kann)
+  if (process.env.INTAKE_URL || process.env.INTAKE_SAVE_IMAGES === '1') {
+    const { execFileSync } = await import('node:child_process');
+    const dir = path.join(REPO, 'data', 'intake', 'img', id);
+    fs.mkdirSync(dir, { recursive: true });
+    const seenBase = new Set(); const uniq = [];
+    for (const u of rec.images) {
+      const base = u.replace(/\?rule=.*$/, '');
+      if (seenBase.has(base)) continue; seenBase.add(base);
+      uniq.push(u.includes('?rule=') ? base + '?rule=$_59.JPG' : u);
+    }
+    let n = 0;
+    for (const u of uniq.slice(0, 30)) {
+      const out = path.join(dir, String(n + 1).padStart(2, '0') + '.jpg');
+      try {
+        execFileSync('curl', ['-sL', '--max-time', '25', '-A', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36', '-o', out, u], { stdio: 'ignore' });
+        if (fs.existsSync(out) && fs.statSync(out).size > 2000) n++; else if (fs.existsSync(out)) fs.unlinkSync(out);
+      } catch (e) { if (fs.existsSync(out)) fs.unlinkSync(out); }
+    }
+    console.log(`intake ${id}: ${n} bilder gespeichert in data/intake/img/${id}`);
+  }
   console.log(`intake ${id}: http=${code} text=${text.length} bilder=${rec.images.length}${rec.blocked ? ' GESPERRT' : ''}`);
   
   await new Promise(r => setTimeout(r, 2000));
