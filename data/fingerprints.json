@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-27T07:24:05Z",
+ "updated_at": "2026-09-27T12:35:15Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -1054,6 +1054,14 @@
     },
     {
      "d": "2026-09-26",
+     "p": 44500
+    },
+    {
+     "d": "2026-09-27",
+     "p": 49500
+    },
+    {
+     "d": "2026-09-27",
      "p": 44500
     },
     {
@@ -3243,6 +3251,14 @@
     },
     {
      "d": "2026-09-26",
+     "p": 38500
+    },
+    {
+     "d": "2026-09-27",
+     "p": 42000
+    },
+    {
+     "d": "2026-09-27",
      "p": 38500
     },
     {
@@ -8472,6 +8488,14 @@
     },
     {
      "d": "2026-09-26",
+     "p": 42912
+    },
+    {
+     "d": "2026-09-27",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-27",
      "p": 42912
     },
     {
@@ -16593,6 +16617,65 @@
    "ez": "01/1977",
    "km": 150000,
    "ps": null
+  },
+  "7d19eb1cf4e8": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-sc-targa-930-turbo-g-modell-bj-80-tuev-service-oel-n/3524651369-216-7947",
+   "src": "intake",
+   "first_seen": "2026-09-27",
+   "prices": [
+    {
+     "d": "2026-09-27",
+     "p": 45000
+    }
+   ],
+   "title": "Porsche 911 SC Targa (930 Turbo) G-Modell Bj.80 TÜV Service Öl  n in Brandenburg - Neuruppin | Porsche 911 Urmodell Gebrauchtwagen kaufen | kleinanzeigen.de",
+   "last_seen": "2026-09-27",
+   "vin": null,
+   "ez": "07/1979",
+   "km": 115000,
+   "ps": null,
+   "hashes": [
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/56/56f1f263-a2b3-41c4-94fe-09848373d61a?rule=$_59.JPG",
+     "d": "cdcc92c36341c7c7",
+     "p": "ea95d29aac219cec"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/56/56f1f263-a2b3-41c4-94fe-09848373d61a?rule=$_59.AUTO",
+     "d": "cdcc92c36341c7c7",
+     "p": "ea95d29aac219cec"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/95/9549dbdd-42ee-41d3-9a06-ce3d313302a5?rule=$_59.JPG",
+     "d": "ece436313c36a643",
+     "p": "bc9e41209b8dbd74"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/95/9549dbdd-42ee-41d3-9a06-ce3d313302a5?rule=$_59.AUTO",
+     "d": "ece436313c36a643",
+     "p": "bc9e41209b8dbd74"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d2/d216587e-44d0-4406-b999-04a42e65ff68?rule=$_59.JPG",
+     "d": "56e2430b29e943c1",
+     "p": "cbe5c598b86d0297"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d2/d216587e-44d0-4406-b999-04a42e65ff68?rule=$_59.AUTO",
+     "d": "56e2430b29e943c1",
+     "p": "cbe5c598b86d0297"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e8/e8fa0c03-56d7-4178-874c-881012a7a6a4?rule=$_59.JPG",
+     "d": "191353f96960673b",
+     "p": "cad8b8d2d298cdc6"
+    },
+    {
+     "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e8/e8fa0c03-56d7-4178-874c-881012a7a6a4?rule=$_59.AUTO",
+     "d": "191353f96960673b",
+     "p": "cad8b8d2d298cdc6"
+    }
+   ]
   }
  }
 }
