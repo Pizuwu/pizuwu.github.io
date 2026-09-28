@@ -1,6 +1,6 @@
 {
- "fetched_at": "2026-09-27T23:30:02.861Z",
- "runner": "36358884962",
+ "fetched_at": "2026-09-28T01:55:14.766Z",
+ "runner": "36367795181",
  "queries": [
   {
    "q": "porsche-targa",
@@ -234,19 +234,19 @@
    "q": "vb:porsche-911",
    "code": 200,
    "blocked": false,
-   "count": 14
+   "count": 13
   },
   {
    "q": "vb:porsche-911#2",
    "code": 200,
    "blocked": false,
-   "count": 14
+   "count": 12
   },
   {
    "q": "vb:porsche-g-modell",
    "code": 200,
    "blocked": false,
-   "count": 14
+   "count": 15
   },
   {
    "q": "vb:porsche-g-modell#2",
@@ -270,13 +270,13 @@
    "q": "vb:porsche-964",
    "code": 200,
    "blocked": false,
-   "count": 15
+   "count": 14
   },
   {
    "q": "vb:porsche-964#2",
    "code": 200,
    "blocked": false,
-   "count": 14
+   "count": 13
   }
  ],
  "listings": [
@@ -3380,7 +3380,7 @@
    "title": "porsche 911 964 neu",
    "price_eur": 34750,
    "vb": false,
-   "km": 911,
+   "km": 146817,
    "ez": "09/2026",
    "location": "42579 Heiligenhaus",
    "posted": "25.09.2026",
@@ -3739,19 +3739,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-sc-targa-3-0/3501315474-216-1908"
   },
   {
-   "id": "3524327319",
-   "query": "porsche-911",
-   "title": "porsche 911 997 2 carrera cabrio pdk",
-   "price_eur": null,
-   "vb": true,
-   "km": 142000,
-   "ez": "07/2009",
-   "location": "13125 Pankow",
-   "posted": "",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-997-2-carrera-cabrio-pdk/3524327319-216-3466"
-  },
-  {
    "id": "3343028339",
    "query": "porsche-911",
    "title": "suche porsche 911 turbo ankauf 993 964 930 996 997 991 g modell",
@@ -3817,17 +3804,17 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-911-gt3-gt2-rs-turbo-996-996-964-carrera-g/3473307785-216-5197"
   },
   {
-   "id": "3291774293",
+   "id": "3524327319",
    "query": "porsche-911",
-   "title": "ankauf suche porsche g f modell 911 930 964 993 996 997 turbo",
+   "title": "porsche 911 997 2 carrera cabrio pdk",
    "price_eur": null,
    "vb": true,
-   "km": 85238,
-   "ez": "01/1992",
-   "location": "69509 Mörlenbach",
-   "posted": "",
+   "km": 142000,
+   "ez": "07/2009",
+   "location": "13125 Pankow",
+   "posted": "Gestern, 10:44",
    "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-g-f-modell-911-930-964-993-996-997-turbo/3291774293-216-8262"
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-997-2-carrera-cabrio-pdk/3524327319-216-3466"
   },
   {
    "id": "3441296553",
@@ -3932,6 +3919,19 @@
    "posted": "Gestern, 07:50",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-strosek-924-944-928-911-930-speedster/3524176954-216-5862"
+  },
+  {
+   "id": "3291774293",
+   "query": "porsche-911",
+   "title": "ankauf suche porsche g f modell 911 930 964 993 996 997 turbo",
+   "price_eur": null,
+   "vb": true,
+   "km": 85238,
+   "ez": "01/1992",
+   "location": "69509 Mörlenbach",
+   "posted": "Gestern, 07:04",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-g-f-modell-911-930-964-993-996-997-turbo/3291774293-216-8262"
   },
   {
    "id": "3523660388",
