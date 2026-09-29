@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-29T02:10:53Z",
+ "updated_at": "2026-09-29T08:50:51Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -573,7 +573,7 @@
     }
    ],
    "title": "porsche 911s targa 2 2",
-   "last_seen": "2026-09-16",
+   "last_seen": "2026-09-29",
    "vin": null,
    "ez": "02/1970",
    "km": 111111,
@@ -1150,6 +1150,14 @@
     },
     {
      "d": "2026-09-28",
+     "p": 44500
+    },
+    {
+     "d": "2026-09-29",
+     "p": 49500
+    },
+    {
+     "d": "2026-09-29",
      "p": 44500
     },
     {
@@ -3439,6 +3447,14 @@
     },
     {
      "d": "2026-09-28",
+     "p": 38500
+    },
+    {
+     "d": "2026-09-29",
+     "p": 42000
+    },
+    {
+     "d": "2026-09-29",
      "p": 38500
     },
     {
@@ -8774,6 +8790,14 @@
     {
      "d": "2026-09-29",
      "p": 42912
+    },
+    {
+     "d": "2026-09-29",
+     "p": 55000
+    },
+    {
+     "d": "2026-09-29",
+     "p": 42912
     }
    ],
    "title": "porsche 912 bj 1968 tuev neu 09 28",
@@ -13898,12 +13922,12 @@
      "p": 9999
     }
    ],
-   "title": "1989 1994 porsche 964 carrera 2 4",
+   "title": "1989 - 1994 Porsche 964 Carrera 2/4 in Bayern - Aichach | Porsche 964 Gebrauchtwagen kaufen | kleinanzeigen.de",
    "last_seen": "2026-09-29",
    "vin": null,
-   "ez": "01/1989",
-   "km": 140000,
-   "ps": null,
+   "ez": "09/2010",
+   "km": 130000,
+   "ps": 165,
    "hashes": [
     {
      "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7e6c476b-59ef-4c4e-89e4-d6fd5e1fa136?rule=$_59.JPG",
@@ -17396,6 +17420,30 @@
    "vin": null,
    "ez": "09/2025",
    "km": 3500,
+   "ps": null
+  },
+  "2caf6a8e637a": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-964-993-cup-renngeschichte-rsr-clubsport-gt2-/3519601554-216-8051",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-29",
+   "prices": [],
+   "title": "suche porsche 964 993 cup renngeschichte rsr clubsport gt2",
+   "last_seen": "2026-09-29",
+   "vin": null,
+   "ez": "05/1990",
+   "km": 96400,
+   "ps": null
+  },
+  "904f2edcbcb5": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-1989-1994-porsche-964-carrera-2-4/3515254401-216-7194",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-09-29",
+   "prices": [],
+   "title": "suche 1989 1994 porsche 964 carrera 2 4",
+   "last_seen": "2026-09-29",
+   "vin": null,
+   "ez": "01/1989",
+   "km": 140000,
    "ps": null
   }
  }
