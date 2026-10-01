@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-10-01T06:16:53.233Z",
- "runner": "36823711915",
+ "fetched_at": "2026-10-01T13:40:06.628Z",
+ "runner": "36870067163",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 401537,
+   "size": 401462,
    "links": 41,
    "treffer": 17
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 406143,
+   "size": 406245,
    "links": 41,
    "treffer": 29
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 369254,
-   "links": 13,
-   "treffer": 12
+   "size": 370489,
+   "links": 14,
+   "treffer": 13
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 356367,
+   "size": 356412,
    "links": 3,
    "treffer": 3
   }
@@ -235,6 +235,18 @@
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/01/11/911-modified-kaufen-porsche-6.jpeg",
    "snippet": "",
    "filter": "targa"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-1985-6283180/",
+   "title": "Porsche 911 Carrera 3.2 (1985)",
+   "price_eur": null,
+   "ez": "1985",
+   "km": null,
+   "country": "NL",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/01/dsc02266.jpg",
+   "snippet": "",
+   "filter": "g"
   },
   {
    "src": "elferspot",
@@ -574,18 +586,6 @@
   },
   {
    "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1983-5904790/",
-   "title": "Porsche 911 SC (1983)",
-   "price_eur": null,
-   "ez": "1983",
-   "km": null,
-   "country": "NL",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/04/15/dsc04025-scaled.jpg",
-   "snippet": "",
-   "filter": "g"
-  },
-  {
-   "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-e-1976-6267409/",
    "title": "Porsche 912 E (1976)",
    "price_eur": null,
@@ -629,6 +629,18 @@
    "km": null,
    "country": "ES",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/09/02/1.-portada-912-swb-polo-redportada_-1.-912-swb-polo-red-16-scaled.jpg",
+   "snippet": "",
+   "filter": "f"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-1965-5813937/",
+   "title": "Porsche 912 (1965)",
+   "price_eur": null,
+   "ez": "1965",
+   "km": null,
+   "country": "FR",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/02/25/gr-s-7-dana-104.jpg",
    "snippet": "",
    "filter": "f"
   },
