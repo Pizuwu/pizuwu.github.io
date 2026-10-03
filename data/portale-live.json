@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-10-03T14:07:00.577Z",
- "runner": "37128355832",
+ "fetched_at": "2026-10-03T18:06:50.342Z",
+ "runner": "37142825639",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 401064,
+   "size": 401523,
    "links": 41,
    "treffer": 18
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 405995,
+   "size": 406368,
    "links": 41,
    "treffer": 29
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 370304,
+   "size": 370396,
    "links": 14,
    "treffer": 12
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 356482,
+   "size": 356475,
    "links": 3,
    "treffer": 3
   }
@@ -257,18 +257,6 @@
    "km": null,
    "country": "NL",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/01/dsc02266.jpg",
-   "snippet": "",
-   "filter": "g"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-1982-6257785/",
-   "title": "Porsche 911 SC (1982)",
-   "price_eur": null,
-   "ez": "1982",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/09/20/20260915_120242-scaled.jpg",
    "snippet": "",
    "filter": "g"
   },
@@ -598,6 +586,30 @@
   },
   {
    "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1983-5904790/",
+   "title": "Porsche 911 SC (1983)",
+   "price_eur": null,
+   "ez": "1983",
+   "km": null,
+   "country": "NL",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/04/15/dsc04025-scaled.jpg",
+   "snippet": "",
+   "filter": "g"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-1968-6286072/",
+   "title": "Porsche 912 (1968)",
+   "price_eur": null,
+   "ez": "1968",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/03/912ernero-scaled.jpeg",
+   "snippet": "",
+   "filter": "f"
+  },
+  {
+   "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-e-1976-6267409/",
    "title": "Porsche 912 E (1976)",
    "price_eur": null,
@@ -617,18 +629,6 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/06/28/20180817_195708-scaled.jpg",
-   "snippet": "",
-   "filter": "f"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-1966-6256535/",
-   "title": "Porsche 912 (1966)",
-   "price_eur": null,
-   "ez": "1966",
-   "km": null,
-   "country": "US",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/09/18/img_8286-scaled.jpg",
    "snippet": "",
    "filter": "f"
   },
