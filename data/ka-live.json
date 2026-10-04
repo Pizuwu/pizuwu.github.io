@@ -1,18 +1,18 @@
 {
- "fetched_at": "2026-10-04T12:37:56.668Z",
- "runner": "37202765453",
+ "fetched_at": "2026-10-04T17:12:04.937Z",
+ "runner": "37219586108",
  "queries": [
   {
    "q": "porsche-targa",
    "code": 200,
    "blocked": false,
-   "count": 19
+   "count": 18
   },
   {
    "q": "porsche-targa#2",
    "code": 200,
    "blocked": false,
-   "count": 20
+   "count": 21
   },
   {
    "q": "porsche-targa#3",
@@ -66,13 +66,13 @@
    "q": "porsche-oldtimer",
    "code": 200,
    "blocked": false,
-   "count": 24
+   "count": 22
   },
   {
    "q": "porsche-oldtimer#2",
    "code": 200,
    "blocked": false,
-   "count": 24
+   "count": 25
   },
   {
    "q": "porsche-oldtimer#3",
@@ -210,7 +210,7 @@
    "q": "vb:porsche-targa",
    "code": 200,
    "blocked": false,
-   "count": 9
+   "count": 8
   },
   {
    "q": "vb:porsche-targa#2",
@@ -234,13 +234,13 @@
    "q": "vb:porsche-911",
    "code": 200,
    "blocked": false,
-   "count": 13
+   "count": 16
   },
   {
    "q": "vb:porsche-911#2",
    "code": 200,
    "blocked": false,
-   "count": 11
+   "count": 12
   },
   {
    "q": "vb:porsche-g-modell",
@@ -270,7 +270,7 @@
    "q": "vb:porsche-964",
    "code": 200,
    "blocked": false,
-   "count": 11
+   "count": 10
   },
   {
    "q": "vb:porsche-964#2",
@@ -307,6 +307,19 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-targa-klappe-raffleder-klangpaket-xenon-brd/3524660248-216-27139"
   },
   {
+   "id": "3528996544",
+   "query": "porsche-targa",
+   "title": "porsche targa 996 911 tuev scheckheft",
+   "price_eur": 27800,
+   "vb": false,
+   "km": 207000,
+   "ez": "04/2002",
+   "location": "66453 Gersheim",
+   "posted": "Heute, 15:34",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-targa-996-911-tuev-scheckheft-/3528996544-216-287"
+  },
+  {
    "id": "3523572403",
    "query": "porsche-targa",
    "title": "porsche 944 s2 targa tausch",
@@ -320,19 +333,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-s2-targa-tausch/3523572403-216-7620"
   },
   {
-   "id": "3530585864",
-   "query": "porsche-targa",
-   "title": "porsche 997 targa 4 s",
-   "price_eur": null,
-   "vb": true,
-   "km": 88600,
-   "ez": "03/2008",
-   "location": "86833 Ettringen",
-   "posted": "Heute, 08:11",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-997-targa-4-s/3530585864-216-7080"
-  },
-  {
    "id": "3530073359",
    "query": "porsche-targa",
    "title": "porsche 911 targa g modell 2 7",
@@ -344,19 +344,6 @@
    "posted": "Gestern, 15:55",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-targa-g-modell-2-7/3530073359-216-9295"
-  },
-  {
-   "id": "3528996544",
-   "query": "porsche-targa",
-   "title": "porsche targa 996 911 tuev scheckheft",
-   "price_eur": 27800,
-   "vb": false,
-   "km": 207000,
-   "ez": "04/2002",
-   "location": "66453 Gersheim",
-   "posted": "Gestern, 15:34",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-targa-996-911-tuev-scheckheft-/3528996544-216-287"
   },
   {
    "id": "3527468340",
@@ -632,6 +619,19 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-s2-targa-dt-fahrzg-motor-revidiert-turbo-sitze/3512734415-216-1302"
   },
   {
+   "id": "3512244830",
+   "query": "porsche-targa",
+   "title": "porsche 944 s2 targa turbositze scheckheft brillantschwarz",
+   "price_eur": 18944,
+   "vb": true,
+   "km": 203700,
+   "ez": "08/1990",
+   "location": "72224 Ebhausen",
+   "posted": "13.09.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-s2-targa-turbositze-scheckheft-brillantschwarz/3512244830-216-8235"
+  },
+  {
    "id": "3493588606",
    "query": "porsche-targa",
    "title": "porsche 944 targa tuev neu",
@@ -671,19 +671,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-924-s-2-5-targa-schiebedach-el-fenster-/3295153155-216-1004"
   },
   {
-   "id": "3512244830",
-   "query": "porsche-targa",
-   "title": "porsche 944 s2 targa turbositze scheckheft brillantschwarz",
-   "price_eur": 18944,
-   "vb": true,
-   "km": 203700,
-   "ez": "08/1990",
-   "location": "72224 Ebhausen",
-   "posted": "13.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-s2-targa-turbositze-scheckheft-brillantschwarz/3512244830-216-8235"
-  },
-  {
    "id": "3511802157",
    "query": "porsche-targa",
    "title": "porsche 924 targa h 944 bremse 5 loch 5 gang",
@@ -710,6 +697,19 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-targa-3-6-320-ps-schalter-heckantrieb/3511779086-216-1668"
   },
   {
+   "id": "3504253145",
+   "query": "porsche-targa",
+   "title": "porsche 911 sc targa",
+   "price_eur": 35000,
+   "vb": false,
+   "km": 220000,
+   "ez": "06/1979",
+   "location": "56564 Neuwied",
+   "posted": "11.09.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-sc-targa/3504253145-216-5412"
+  },
+  {
    "id": "3136485810",
    "query": "porsche-targa",
    "title": "porsche 911 targa oelklappe deutsches fahrzeug",
@@ -734,19 +734,6 @@
    "posted": "15.05.2025",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911f-2-2s-targa/3084814847-216-1578"
-  },
-  {
-   "id": "3504253145",
-   "query": "porsche-targa",
-   "title": "porsche 911 sc targa",
-   "price_eur": 35000,
-   "vb": false,
-   "km": 220000,
-   "ez": "06/1979",
-   "location": "56564 Neuwied",
-   "posted": "11.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-sc-targa/3504253145-216-5412"
   },
   {
    "id": "3507692503",
@@ -1087,6 +1074,19 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-s2-targa-coup-cabrio-m-fahrzeugbewertung-/3373404367-216-347"
   },
   {
+   "id": "3217914915",
+   "query": "porsche-targa",
+   "title": "porsche targa 944 top klassiker",
+   "price_eur": 17900,
+   "vb": true,
+   "km": 143143,
+   "ez": "10/1982",
+   "location": "27751 Delmenhorst",
+   "posted": "16.10.2025",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-targa-944-top-klassiker-/3217914915-216-2468"
+  },
+  {
    "id": "3497904486",
    "query": "porsche-911-sc",
    "title": "porsche 911 sc 3 0 ruf umbau restaurationsprojekt motor rev",
@@ -1347,32 +1347,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5-oldtimer/3526347911-216-4749"
   },
   {
-   "id": "3523182805",
-   "query": "porsche-oldtimer",
-   "title": "oldtimer porsche trecker",
-   "price_eur": 13500,
-   "vb": true,
-   "km": 10000,
-   "ez": "01/1959",
-   "location": "58453 Witten",
-   "posted": "25.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/oldtimer-porsche-trecker/3523182805-216-1023"
-  },
-  {
-   "id": "3521933961",
-   "query": "porsche-oldtimer",
-   "title": "suche porsche ferrari lamborghini sportwagen oldtimer youngtimer",
-   "price_eur": 20000,
-   "vb": true,
-   "km": 100000,
-   "ez": "05/1998",
-   "location": "97199 Ochsenfurt",
-   "posted": "24.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-ferrari-lamborghini-sportwagen-oldtimer-youngtimer/3521933961-216-6773"
-  },
-  {
    "id": "3503082540",
    "query": "porsche-oldtimer",
    "title": "porsche cayenne s 21zoll pccb ceramic pano burmester",
@@ -1410,6 +1384,32 @@
    "posted": "01.08.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-928s-oldtimer-h-kennzeichen/3473476394-216-4627"
+  },
+  {
+   "id": "3523182805",
+   "query": "porsche-oldtimer",
+   "title": "oldtimer porsche trecker",
+   "price_eur": 13500,
+   "vb": true,
+   "km": 10000,
+   "ez": "01/1959",
+   "location": "58453 Witten",
+   "posted": "25.09.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/oldtimer-porsche-trecker/3523182805-216-1023"
+  },
+  {
+   "id": "3521933961",
+   "query": "porsche-oldtimer",
+   "title": "suche porsche ferrari lamborghini sportwagen oldtimer youngtimer",
+   "price_eur": 20000,
+   "vb": true,
+   "km": 100000,
+   "ez": "05/1998",
+   "location": "97199 Ochsenfurt",
+   "posted": "24.09.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-ferrari-lamborghini-sportwagen-oldtimer-youngtimer/3521933961-216-6773"
   },
   {
    "id": "3502265001",
@@ -1737,19 +1737,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-928-s/3507212222-216-4291"
   },
   {
-   "id": "3506813179",
-   "query": "porsche-oldtimer",
-   "title": "porsche 928 s 5 gang sperre 40 technik komplett revidiert",
-   "price_eur": 44900,
-   "vb": false,
-   "km": 126000,
-   "ez": "03/1984",
-   "location": "74076 Heilbronn",
-   "posted": "08.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-928-s-5-gang-sperre-40-technik-komplett-revidiert/3506813179-216-9240"
-  },
-  {
    "id": "3370028084",
    "query": "porsche-oldtimer",
    "title": "porsche 944 s breitbau gcs bennemann bbs h kennzeichen",
@@ -1787,6 +1774,19 @@
    "posted": "25.03.2025",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-s2-cabrio-2x-sternrubin/3038756625-216-1578"
+  },
+  {
+   "id": "3506813179",
+   "query": "porsche-oldtimer",
+   "title": "porsche 928 s 5 gang sperre 40 technik komplett revidiert",
+   "price_eur": 44900,
+   "vb": false,
+   "km": 126000,
+   "ez": "03/1984",
+   "location": "74076 Heilbronn",
+   "posted": "08.09.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-928-s-5-gang-sperre-40-technik-komplett-revidiert/3506813179-216-9240"
   },
   {
    "id": "3506493093",
@@ -2018,7 +2018,7 @@
    "km": 96400,
    "ez": "05/1990",
    "location": "77736 Zell am Harmersbach",
-   "posted": "Gestern, 18:57",
+   "posted": "Heute, 18:57",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-964-993-cup-911-renngeschichte-rsr-clubsport-gt2/3519601554-216-8051"
   },
@@ -2296,17 +2296,17 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-carrera-4s-997-911/3527366066-216-878"
   },
   {
-   "id": "3528938283",
+   "id": "3501324432",
    "query": "porsche-carrera-3-2",
-   "title": "porsche carrera 996 cabrio automatik",
-   "price_eur": 39500,
+   "title": "traumhaft schoener porsche 996 911 carrera 3 6 automatik",
+   "price_eur": 34600,
    "vb": true,
-   "km": 89999,
-   "ez": "04/2003",
-   "location": "41460 Neuss",
+   "km": 146817,
+   "ez": "10/2002",
+   "location": "66280 Sulzbach (Saar)",
    "posted": "",
    "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-carrera-996-cabrio-automatik/3528938283-216-2110"
+   "url": "https://www.kleinanzeigen.de/s-anzeige/traumhaft-schoener-porsche-996-911-carrera-3-6-automatik/3501324432-216-331"
   },
   {
    "id": "3488718495",
@@ -2346,6 +2346,32 @@
    "posted": "28.09.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-carrera-cabriolet-hardtop-gepflegt-/3525426333-216-5444"
+  },
+  {
+   "id": "3531452446",
+   "query": "porsche-carrera-3-2",
+   "title": "porsche 911 carrera 2 8l rs recreation mit mfi 7r gehaeuse",
+   "price_eur": null,
+   "vb": true,
+   "km": 151000,
+   "ez": "02/1977",
+   "location": "72072 Tübingen",
+   "posted": "Heute, 17:50",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-2-8l-rs-recreation-mit-mfi-7r-gehaeuse/3531452446-216-9094"
+  },
+  {
+   "id": "3531440511",
+   "query": "porsche-carrera-3-2",
+   "title": "porsche 911 996 carrera",
+   "price_eur": 28800,
+   "vb": false,
+   "km": 127565,
+   "ez": "09/2004",
+   "location": "49536 Lienen",
+   "posted": "Heute, 17:42",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera/3531440511-216-2606"
   },
   {
    "id": "3499435291",
@@ -2398,6 +2424,19 @@
    "posted": "02.10.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera/3399776000-216-1638"
+  },
+  {
+   "id": "3528938283",
+   "query": "porsche-carrera-3-2",
+   "title": "porsche carrera 996 cabrio automatik",
+   "price_eur": 39500,
+   "vb": true,
+   "km": 89999,
+   "ez": "04/2003",
+   "location": "41460 Neuss",
+   "posted": "02.10.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-carrera-996-cabrio-automatik/3528938283-216-2110"
   },
   {
    "id": "3528844820",
@@ -2686,32 +2725,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera-4s-coupe/3519781341-216-718"
   },
   {
-   "id": "3519538579",
-   "query": "porsche-carrera-3-2",
-   "title": "porsche 911 996 carrera 4 cabriolet carrera rust free",
-   "price_eur": 16500,
-   "vb": false,
-   "km": 293000,
-   "ez": "12/2000",
-   "location": "10117 Mitte",
-   "posted": "21.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera-4-cabriolet-carrera-rust-free/3519538579-216-3520"
-  },
-  {
-   "id": "3516851777",
-   "query": "porsche-carrera-3-2",
-   "title": "porsche 911 carrera cabrio",
-   "price_eur": 35900,
-   "vb": true,
-   "km": 34500,
-   "ez": "05/2001",
-   "location": "66271 Kleinblittersdorf",
-   "posted": "19.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-cabrio/3516851777-216-399"
-  },
-  {
    "id": "3507482921",
    "query": "porsche-carrera-3-2",
    "title": "porsche 996 carrera cabriolet",
@@ -2749,6 +2762,32 @@
    "posted": "31.08.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-carrera-4s-carbon-xenon-porsche-gepflegt-/3499658251-216-1190"
+  },
+  {
+   "id": "3519538579",
+   "query": "porsche-carrera-3-2",
+   "title": "porsche 911 996 carrera 4 cabriolet carrera rust free",
+   "price_eur": 16500,
+   "vb": false,
+   "km": 293000,
+   "ez": "12/2000",
+   "location": "10117 Mitte",
+   "posted": "21.09.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera-4-cabriolet-carrera-rust-free/3519538579-216-3520"
+  },
+  {
+   "id": "3516851777",
+   "query": "porsche-carrera-3-2",
+   "title": "porsche 911 carrera cabrio",
+   "price_eur": 35900,
+   "vb": true,
+   "km": 34500,
+   "ez": "05/2001",
+   "location": "66271 Kleinblittersdorf",
+   "posted": "19.09.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-cabrio/3516851777-216-399"
   },
   {
    "id": "3516503512",
@@ -2829,32 +2868,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-cabrio-vollausst-unfallfrei-top-zustand/3514293338-216-543"
   },
   {
-   "id": "3514988566",
-   "query": "porsche-carrera-3-2",
-   "title": "porsche 996 carrera 4 cabriolet carrera rhd",
-   "price_eur": 22999,
-   "vb": false,
-   "km": 12000,
-   "ez": "09/2003",
-   "location": "44265 Wellinghofen",
-   "posted": "17.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-carrera-4-cabriolet-carrera-rhd/3514988566-216-21396"
-  },
-  {
-   "id": "3514916308",
-   "query": "porsche-carrera-3-2",
-   "title": "porsche 911 carrera 996 facelift 3 6 320ps tiptronic tuev neu",
-   "price_eur": 28996,
-   "vb": false,
-   "km": 104000,
-   "ez": "11/2002",
-   "location": "33824 Werther (Westfalen)",
-   "posted": "17.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-996-facelift-3-6-320ps-tiptronic-tuev-neu/3514916308-216-1595"
-  },
-  {
    "id": "3496129288",
    "query": "porsche-carrera-3-2",
    "title": "porsche 996 carrera 4s coup schalter service neu",
@@ -2892,6 +2905,32 @@
    "posted": "01.08.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-992-carrera-4s-bose-sport-chrono-led/3473242579-216-25992"
+  },
+  {
+   "id": "3514988566",
+   "query": "porsche-carrera-3-2",
+   "title": "porsche 996 carrera 4 cabriolet carrera rhd",
+   "price_eur": 22999,
+   "vb": false,
+   "km": 12000,
+   "ez": "09/2003",
+   "location": "44265 Wellinghofen",
+   "posted": "17.09.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-carrera-4-cabriolet-carrera-rhd/3514988566-216-21396"
+  },
+  {
+   "id": "3514916308",
+   "query": "porsche-carrera-3-2",
+   "title": "porsche 911 carrera 996 facelift 3 6 320ps tiptronic tuev neu",
+   "price_eur": 28996,
+   "vb": false,
+   "km": 104000,
+   "ez": "11/2002",
+   "location": "33824 Werther (Westfalen)",
+   "posted": "17.09.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-996-facelift-3-6-320ps-tiptronic-tuev-neu/3514916308-216-1595"
   },
   {
    "id": "3514596914",
@@ -2983,19 +3022,6 @@
    "posted": "11.09.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-carrera-4-cabriolet-carrera/3509230026-216-2712"
-  },
-  {
-   "id": "3508911509",
-   "query": "porsche-carrera-3-2",
-   "title": "porsche 911 997 carrera s",
-   "price_eur": 38000,
-   "vb": true,
-   "km": 252000,
-   "ez": "06/2005",
-   "location": "38126 Braunschweig",
-   "posted": "10.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-997-carrera-s/3508911509-216-2457"
   },
   {
    "id": "3460011684",
@@ -3128,19 +3154,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera-4-coupe-tiptronic-oehlins-oz/3486868795-216-6314"
   },
   {
-   "id": "3506286418",
-   "query": "porsche-carrera-3-2",
-   "title": "porsche 996 carrera cabrio 3 6 l 6 gang schalter",
-   "price_eur": 36000,
-   "vb": true,
-   "km": 105000,
-   "ez": "11/2003",
-   "location": "73312 Geislingen an der Steige",
-   "posted": "07.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-carrera-cabrio-3-6-l-6-gang-schalter/3506286418-216-8942"
-  },
-  {
    "id": "3435924033",
    "query": "porsche-carrera-3-2",
    "title": "porsche 996 carrera scheckheft",
@@ -3193,19 +3206,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/luftgekuehlter-porsche-911-gesucht-schrauber-sucht-seinen-traum/3491843077-216-9443"
   },
   {
-   "id": "3501324432",
-   "query": "porsche-911",
-   "title": "traumhaft schoener porsche 996 911 carrera 3 6 automatik",
-   "price_eur": 34600,
-   "vb": true,
-   "km": 146817,
-   "ez": "10/2002",
-   "location": "66280 Sulzbach (Saar)",
-   "posted": "",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/traumhaft-schoener-porsche-996-911-carrera-3-6-automatik/3501324432-216-331"
-  },
-  {
    "id": "3464329558",
    "query": "porsche-911",
    "title": "porsche 911 996 cabriolet schwarz schwarz",
@@ -3230,6 +3230,19 @@
    "posted": "02.10.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-boxster-boxster-einzelstueck-3-4-porsche-911-moto/3526864025-216-3931"
+  },
+  {
+   "id": "3496132857",
+   "query": "porsche-911",
+   "title": "porsche 911 carrera 996 facelift",
+   "price_eur": 26500,
+   "vb": false,
+   "km": 185000,
+   "ez": "10/2002",
+   "location": "77815 Bühl",
+   "posted": "Heute, 15:14",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-996-facelift/3496132857-216-8746"
   },
   {
    "id": "3474783491",
@@ -3258,32 +3271,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-911-996-carrera-4s-coup-/3530549540-216-2893"
   },
   {
-   "id": "3530350971",
-   "query": "porsche-911",
-   "title": "herbert wallner grosses original gemaelde porsche cabrio 2007",
-   "price_eur": 17500,
-   "vb": false,
-   "km": null,
-   "ez": "03/2026",
-   "location": "87629 Füssen",
-   "posted": "Gestern, 19:08",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/herbert-wallner-grosses-original-gemaelde-porsche-cabrio-2007-/3530350971-216-6564"
-  },
-  {
-   "id": "3496132857",
-   "query": "porsche-911",
-   "title": "porsche 911 carrera 996 facelift",
-   "price_eur": 26500,
-   "vb": false,
-   "km": 185000,
-   "ez": "10/2002",
-   "location": "77815 Bühl",
-   "posted": "Gestern, 15:14",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-996-facelift/3496132857-216-8746"
-  },
-  {
    "id": "3489408718",
    "query": "porsche-911",
    "title": "porsche 996 911 carrera 4 cabriolet seit 2008 im besitz",
@@ -3295,6 +3282,19 @@
    "posted": "20.08.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-911-carrera-4-cabriolet-seit-2008-im-besitz/3489408718-216-5075"
+  },
+  {
+   "id": "3530350971",
+   "query": "porsche-911",
+   "title": "herbert wallner grosses original gemaelde porsche cabrio 2007",
+   "price_eur": 17500,
+   "vb": false,
+   "km": null,
+   "ez": "03/2026",
+   "location": "87629 Füssen",
+   "posted": "Gestern, 19:08",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/herbert-wallner-grosses-original-gemaelde-porsche-cabrio-2007-/3530350971-216-6564"
   },
   {
    "id": "3529241379",
@@ -3427,32 +3427,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-urmodell/3526743789-216-7901"
   },
   {
-   "id": "3525674055",
-   "query": "porsche-911",
-   "title": "porsche 996 911 carrera wls cabrio mit werkssteigerung schalter",
-   "price_eur": 31000,
-   "vb": false,
-   "km": 134699,
-   "ez": "01/2000",
-   "location": "16348 Wandlitz",
-   "posted": "28.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-911-carrera-wls-cabrio-mit-werkssteigerung-schalter/3525674055-216-7891"
-  },
-  {
-   "id": "3525670314",
-   "query": "porsche-911",
-   "title": "porsche 996 911",
-   "price_eur": 29900,
-   "vb": false,
-   "km": 126500,
-   "ez": "02/1998",
-   "location": "72119 Ammerbuch",
-   "posted": "28.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-911/3525670314-216-9089"
-  },
-  {
    "id": "3410150625",
    "query": "porsche-911",
    "title": "porsche 911 carrera s cabrio",
@@ -3477,6 +3451,32 @@
    "posted": "22.04.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-cabriolet-autom-e-verdeck-leder-hard/3389477129-216-3410"
+  },
+  {
+   "id": "3525674055",
+   "query": "porsche-911",
+   "title": "porsche 996 911 carrera wls cabrio mit werkssteigerung schalter",
+   "price_eur": 31000,
+   "vb": false,
+   "km": 134699,
+   "ez": "01/2000",
+   "location": "16348 Wandlitz",
+   "posted": "28.09.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-911-carrera-wls-cabrio-mit-werkssteigerung-schalter/3525674055-216-7891"
+  },
+  {
+   "id": "3525670314",
+   "query": "porsche-911",
+   "title": "porsche 996 911",
+   "price_eur": 29900,
+   "vb": false,
+   "km": 126500,
+   "ez": "02/1998",
+   "location": "72119 Ammerbuch",
+   "posted": "28.09.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-911/3525670314-216-9089"
   },
   {
    "id": "3524297720",
@@ -3581,19 +3581,6 @@
    "posted": "24.09.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-997-1-turbo-cabrio/3522309795-216-4488"
-  },
-  {
-   "id": "3521892622",
-   "query": "porsche-911",
-   "title": "porsche 996 997 hardtop in schwarz sehr guter zustand",
-   "price_eur": null,
-   "vb": true,
-   "km": 911,
-   "ez": "01/2002",
-   "location": "30165 Nord",
-   "posted": "24.09.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-997-hardtop-in-schwarz-sehr-guter-zustand/3521892622-216-9552"
   },
   {
    "id": "3514944478",
@@ -3765,19 +3752,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-targa/3505498167-216-6136"
   },
   {
-   "id": "3473307785",
-   "query": "porsche-911",
-   "title": "ankauf suche porsche 911 gt3 gt2 rs turbo 996 996 964 carrera g",
-   "price_eur": null,
-   "vb": true,
-   "km": 99000,
-   "ez": "08/2002",
-   "location": "67551 Worms",
-   "posted": "",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-911-gt3-gt2-rs-turbo-996-996-964-carrera-g/3473307785-216-5197"
-  },
-  {
    "id": "3291774293",
    "query": "porsche-911",
    "title": "ankauf suche porsche g f modell 911 930 964 993 996 997 turbo",
@@ -3786,15 +3760,106 @@
    "km": 85238,
    "ez": "01/1992",
    "location": "69509 Mörlenbach",
-   "posted": "Heute, 12:40",
+   "posted": "",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-g-f-modell-911-930-964-993-996-997-turbo/3291774293-216-8262"
+  },
+  {
+   "id": "3531545618",
+   "query": "porsche-911",
+   "title": "porsche 356c schiebedach tausch porsche 911 993 cabrio",
+   "price_eur": null,
+   "vb": true,
+   "km": null,
+   "ez": "06/1965",
+   "location": "83088 Kiefersfelden",
+   "posted": "Heute, 18:56",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-356c-schiebedach-tausch-porsche-911-993-cabrio/3531545618-216-7584"
+  },
+  {
+   "id": "3531535123",
+   "query": "porsche-911",
+   "title": "mercedes 190sl tausche porsche 993 911 cabrio",
+   "price_eur": null,
+   "vb": true,
+   "km": 90000,
+   "ez": "12/1959",
+   "location": "83088 Kiefersfelden",
+   "posted": "Heute, 18:47",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-190sl-tausche-porsche-993-911-cabrio/3531535123-216-7584"
+  },
+  {
+   "id": "3531395562",
+   "query": "porsche-911",
+   "title": "porsche 911 carrera s coup schaltgetriebe",
+   "price_eur": null,
+   "vb": true,
+   "km": 81000,
+   "ez": "03/2013",
+   "location": "36100 Petersberg",
+   "posted": "Heute, 17:14",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-s-coup-schaltgetriebe/3531395562-216-4616"
+  },
+  {
+   "id": "3531390212",
+   "query": "porsche-911",
+   "title": "porsche 911 e 2 2l mech einspritzpumpe buerzel matching",
+   "price_eur": null,
+   "vb": true,
+   "km": 94000,
+   "ez": "02/1971",
+   "location": "57518 Betzdorf",
+   "posted": "Heute, 17:11",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-e-2-2l-mech-einspritzpumpe-buerzel-matching/3531390212-216-18545"
+  },
+  {
+   "id": "3292887236",
+   "query": "porsche-911",
+   "title": "ankauf suche porsche 911 964 993 f g modell turbo 356 sammlungen",
+   "price_eur": null,
+   "vb": true,
+   "km": 15000,
+   "ez": "01/1985",
+   "location": "69509 Mörlenbach",
+   "posted": "Heute, 16:32",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-964-993-f-g-modell-turbo-356-sammlungen/3292887236-216-8262"
+  },
+  {
+   "id": "3383105304",
+   "query": "porsche-911",
+   "title": "suche ankauf porsche 911 996 997 991 turbo gt3 gt2 rs",
+   "price_eur": null,
+   "vb": true,
+   "km": 5555,
+   "ez": "04/2003",
+   "location": "69509 Mörlenbach",
+   "posted": "Heute, 16:16",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-ankauf-porsche-911-996-997-991-turbo-gt3-gt2-rs/3383105304-216-8262"
+  },
+  {
+   "id": "3393063624",
+   "query": "porsche-911",
+   "title": "ankauf suche porsche 911 f g 991 997 996 993 964 gt3 gt2 turbo rs",
+   "price_eur": null,
+   "vb": true,
+   "km": 190000,
+   "ez": "04/1993",
+   "location": "67551 Worms",
+   "posted": "Heute, 14:48",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-f-g-991-997-996-993-964-gt3-gt2-turbo-rs/3393063624-216-5197"
   },
   {
    "id": "3343028339",
    "query": "porsche-911",
    "title": "suche porsche 911 turbo ankauf 993 964 930 996 997 991 g modell",
-   "price_eur": null,
+   "price_eur": 39950,
    "vb": true,
    "km": 8852,
    "ez": "03/1996",
@@ -3802,6 +3867,19 @@
    "posted": "Heute, 12:36",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-911-turbo-ankauf-993-964-930-996-997-991-g-modell/3343028339-216-8262"
+  },
+  {
+   "id": "3473307785",
+   "query": "porsche-911",
+   "title": "ankauf suche porsche 911 gt3 gt2 rs turbo 996 996 964 carrera g",
+   "price_eur": null,
+   "vb": true,
+   "km": 99000,
+   "ez": "08/2002",
+   "location": "67551 Worms",
+   "posted": "Heute, 08:30",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-911-gt3-gt2-rs-turbo-996-996-964-carrera-g/3473307785-216-5197"
   },
   {
    "id": "3530581322",
@@ -3869,45 +3947,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-997-cabrio-blau-metallic-gepflegter-zustand/3530450938-216-5274"
   },
   {
-   "id": "3292887236",
-   "query": "porsche-911",
-   "title": "ankauf suche porsche 911 964 993 f g modell turbo 356 sammlungen",
-   "price_eur": null,
-   "vb": true,
-   "km": 15000,
-   "ez": "01/1985",
-   "location": "69509 Mörlenbach",
-   "posted": "Gestern, 16:32",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-964-993-f-g-modell-turbo-356-sammlungen/3292887236-216-8262"
-  },
-  {
-   "id": "3383105304",
-   "query": "porsche-911",
-   "title": "suche ankauf porsche 911 996 997 991 turbo gt3 gt2 rs",
-   "price_eur": null,
-   "vb": true,
-   "km": 5555,
-   "ez": "04/2003",
-   "location": "69509 Mörlenbach",
-   "posted": "Gestern, 16:16",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-ankauf-porsche-911-996-997-991-turbo-gt3-gt2-rs/3383105304-216-8262"
-  },
-  {
-   "id": "3529900607",
-   "query": "porsche-911",
-   "title": "porsche 992 1 gt3",
-   "price_eur": null,
-   "vb": true,
-   "km": 3900,
-   "ez": "08/2022",
-   "location": "67574 Osthofen",
-   "posted": "Gestern, 13:55",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-992-1-gt3/3529900607-216-5203"
-  },
-  {
    "id": "3441296553",
    "query": "porsche-g-modell",
    "title": "ankauf suche porsche 911 f g modell 964 993 996 997 356 991 gt3",
@@ -3916,7 +3955,7 @@
    "km": 56955,
    "ez": "06/1999",
    "location": "69509 Mörlenbach",
-   "posted": "Gestern, 09:42",
+   "posted": "",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-911-f-g-modell-964-993-996-997-356-991-gt3/3441296553-216-8262"
   },
@@ -4103,32 +4142,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-912-1968-swb/3377220802-216-1396"
   },
   {
-   "id": "2989820124",
-   "query": "porsche-964",
-   "title": "ankauf suche porsche 964 993 997 991 992",
-   "price_eur": null,
-   "vb": true,
-   "km": 1000,
-   "ez": "02/2020",
-   "location": "22047 Wandsbek",
-   "posted": "",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-964-993-997-991-992/2989820124-216-26507"
-  },
-  {
-   "id": "3393063624",
-   "query": "porsche-964",
-   "title": "ankauf suche porsche 911 f g 991 997 996 993 964 gt3 gt2 turbo rs",
-   "price_eur": null,
-   "vb": true,
-   "km": 190000,
-   "ez": "04/1993",
-   "location": "67551 Worms",
-   "posted": "02.10.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-f-g-991-997-996-993-964-gt3-gt2-turbo-rs/3393063624-216-5197"
-  },
-  {
    "id": "3526338993",
    "query": "porsche-964",
    "title": "suche porsche 911 964 993 996 997",
@@ -4192,6 +4205,19 @@
    "posted": "22.09.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-964-c2-kw-clubsport-rh-cup-heigo/3520220395-216-1778"
+  },
+  {
+   "id": "2989820124",
+   "query": "porsche-964",
+   "title": "ankauf suche porsche 964 993 997 991 992",
+   "price_eur": null,
+   "vb": true,
+   "km": 1000,
+   "ez": "02/2020",
+   "location": "22047 Wandsbek",
+   "posted": "22.09.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-964-993-997-991-992/2989820124-216-26507"
   }
  ]
 }
