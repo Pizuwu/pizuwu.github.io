@@ -1,6 +1,6 @@
 {
- "fetched_at": "2026-10-06T23:09:51.842Z",
- "runner": "37544970640",
+ "fetched_at": "2026-10-07T02:32:35.961Z",
+ "runner": "37562467188",
  "queries": [
   {
    "q": "porsche-targa",
@@ -132,13 +132,13 @@
    "q": "porsche-911",
    "code": 200,
    "blocked": false,
-   "count": 24
+   "count": 25
   },
   {
    "q": "porsche-911#2",
    "code": 200,
    "blocked": false,
-   "count": 22
+   "count": 21
   },
   {
    "q": "porsche-911#3",
@@ -234,13 +234,13 @@
    "q": "vb:porsche-911",
    "code": 200,
    "blocked": false,
-   "count": 11
+   "count": 12
   },
   {
    "q": "vb:porsche-911#2",
    "code": 200,
    "blocked": false,
-   "count": 14
+   "count": 12
   },
   {
    "q": "vb:porsche-g-modell",
@@ -276,7 +276,7 @@
    "q": "vb:porsche-964#2",
    "code": 200,
    "blocked": false,
-   "count": 11
+   "count": 9
   }
  ],
  "listings": [
@@ -2192,19 +2192,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-4s-schalter/3469165699-216-1988"
   },
   {
-   "id": "3527366066",
-   "query": "porsche-carrera-3-2",
-   "title": "porsche carrera 4s 997 911",
-   "price_eur": 39950,
-   "vb": false,
-   "km": 181700,
-   "ez": "07/2008",
-   "location": "25337 Elmshorn",
-   "posted": "",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-carrera-4s-997-911/3527366066-216-878"
-  },
-  {
    "id": "3501324432",
    "query": "porsche-carrera-3-2",
    "title": "traumhaft schoener porsche 996 911 carrera 3 6 automatik",
@@ -2216,6 +2203,19 @@
    "posted": "",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/traumhaft-schoener-porsche-996-911-carrera-3-6-automatik/3501324432-216-331"
+  },
+  {
+   "id": "3527366066",
+   "query": "porsche-carrera-3-2",
+   "title": "porsche carrera 4s 997 911",
+   "price_eur": 39950,
+   "vb": false,
+   "km": 181700,
+   "ez": "07/2008",
+   "location": "25337 Elmshorn",
+   "posted": "",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-carrera-4s-997-911/3527366066-216-878"
   },
   {
    "id": "3488718495",
