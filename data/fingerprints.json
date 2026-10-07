@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-07T09:35:48Z",
+ "updated_at": "2026-10-07T17:09:11Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -1475,6 +1475,14 @@
     {
      "d": "2026-10-07",
      "p": 47500
+    },
+    {
+     "d": "2026-10-07",
+     "p": 49500
+    },
+    {
+     "d": "2026-10-07",
+     "p": 47500
     }
    ],
    "title": "porsche 911 sc targa 3 0 deutsches auto g modell",
@@ -2045,6 +2053,10 @@
     {
      "d": "2026-09-16",
      "p": 13450
+    },
+    {
+     "d": "2026-10-07",
+     "p": 12850
     }
    ],
    "title": "porsche 928s",
@@ -4111,6 +4123,14 @@
     },
     {
      "d": "2026-10-06",
+     "p": 38500
+    },
+    {
+     "d": "2026-10-07",
+     "p": 42000
+    },
+    {
+     "d": "2026-10-07",
      "p": 38500
     },
     {
@@ -7967,7 +7987,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-911-gt3-gt2-rs-turbo-996-996-964-carrera-g/3473307785-216-5197",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-16",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-10-07",
+     "p": 32500
+    }
+   ],
    "title": "ankauf suche porsche 911 gt3 gt2 rs turbo 996 996 964 carrera g",
    "last_seen": "2026-10-07",
    "vin": null,
@@ -9830,6 +9855,14 @@
     },
     {
      "d": "2026-10-06",
+     "p": 42912
+    },
+    {
+     "d": "2026-10-07",
+     "p": 55000
+    },
+    {
+     "d": "2026-10-07",
      "p": 42912
     },
     {
@@ -13477,7 +13510,7 @@
     }
    ],
    "title": "suche porsche 911 porsche 993 porsche 964",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
    "vin": null,
    "ez": "08/1980",
    "km": null,
@@ -20319,6 +20352,74 @@
    "vin": null,
    "ez": "05/2000",
    "km": 100000,
+   "ps": null
+  },
+  "91dad9228533": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944/3534051446-216-7979",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-07",
+   "prices": [
+    {
+     "d": "2026-10-07",
+     "p": 18500
+    }
+   ],
+   "title": "porsche 944",
+   "last_seen": "2026-10-07",
+   "vin": null,
+   "ez": "04/1984",
+   "km": 170000,
+   "ps": null
+  },
+  "427a67045ca4": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-im-tausch-porsche-911-964-996-997-turbo/3533845548-216-1990",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-07",
+   "prices": [
+    {
+     "d": "2026-10-07",
+     "p": 12345
+    }
+   ],
+   "title": "suche im tausch porsche 911 964 996 997 turbo",
+   "last_seen": "2026-10-07",
+   "vin": null,
+   "ez": "01/2003",
+   "km": 100000,
+   "ps": null
+  },
+  "1c1d74e2b22d": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-3-4-carrera-4-automatik-cabrio-i-hardtop-i-carbonishz/3533827660-216-3043",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-07",
+   "prices": [
+    {
+     "d": "2026-10-07",
+     "p": 29999
+    }
+   ],
+   "title": "porsche 911 3 4 carrera 4 automatik cabrio i hardtop i carbonishz",
+   "last_seen": "2026-10-07",
+   "vin": null,
+   "ez": "08/1999",
+   "km": 149104,
+   "ps": null
+  },
+  "1db7727127b8": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996/3533797488-216-3076",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-07",
+   "prices": [
+    {
+     "d": "2026-10-07",
+     "p": 20000
+    }
+   ],
+   "title": "porsche 911 996",
+   "last_seen": "2026-10-07",
+   "vin": null,
+   "ez": "03/2003",
+   "km": 279000,
    "ps": null
   }
  }
