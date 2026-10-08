@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-10-08T09:15:47.599Z",
- "runner": "37755122127",
+ "fetched_at": "2026-10-08T16:42:53.767Z",
+ "runner": "37810626483",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 401814,
+   "size": 404693,
    "links": 41,
    "treffer": 16
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 406753,
+   "size": 409527,
    "links": 41,
    "treffer": 31
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 370836,
-   "links": 14,
-   "treffer": 12
+   "size": 375737,
+   "links": 15,
+   "treffer": 13
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 356817,
+   "size": 359784,
    "links": 3,
    "treffer": 3
   }
@@ -101,6 +101,18 @@
    "km": null,
    "country": "BE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/08/31/img_2625-scaled-kopie.jpg",
+   "snippet": "",
+   "filter": "targa"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-t-1970-6213970/",
+   "title": "Porsche 911 T (1970)",
+   "price_eur": null,
+   "ez": "1970",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/08/28/porsche-on-elferspot4-2.jpeg",
    "snippet": "",
    "filter": "targa"
   },
@@ -209,18 +221,6 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/01/11/911-modified-kaufen-porsche-6.jpeg",
-   "snippet": "",
-   "filter": "targa"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-t-1972-2319078/",
-   "title": "Porsche 911 T (1972)",
-   "price_eur": null,
-   "ez": "1972",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2023/02/01/IMG_3115-3-scaled.jpeg",
    "snippet": "",
    "filter": "targa"
   },
@@ -341,18 +341,6 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/05/22/whatsapp-image-2026-05-22-at-15.02.08.jpeg",
-   "snippet": "",
-   "filter": "g"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-1981-6161861/",
-   "title": "Porsche 911 SC (1981)",
-   "price_eur": null,
-   "ez": "1981",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/08/18/911-main-option.jpg",
    "snippet": "",
    "filter": "g"
   },
@@ -598,6 +586,18 @@
   },
   {
    "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-s-g-modell-1977-5546313/",
+   "title": "Porsche 911 S (1977)",
+   "price_eur": null,
+   "ez": "1977",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/10/31/p9121317-scaled.jpg",
+   "snippet": "",
+   "filter": "g"
+  },
+  {
+   "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-1965-5813937/",
    "title": "Porsche 912 (1965)",
    "price_eur": null,
@@ -737,6 +737,18 @@
    "km": null,
    "country": "NL",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2025/06/07/dsc07520-scaled.jpg",
+   "snippet": "",
+   "filter": "f"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-t-1972-2319078/",
+   "title": "Porsche 911 T (1972)",
+   "price_eur": null,
+   "ez": "1972",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2023/02/01/IMG_3115-3-scaled.jpeg",
    "snippet": "",
    "filter": "f"
   },

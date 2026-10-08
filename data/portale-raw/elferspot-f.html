@@ -14,7 +14,89 @@
 
 	<meta property="fb:app_id" content="1310645462376344">
 
-	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<script data-no-optimize="1" data-no-minify="1" data-cfasync="false" data-borlabs-cookie-script-blocker-ignore>
+(function () {
+    var SERVICE = 'meta-pixel-for-woocommerce';
+    var STATE_COOKIE = 'wc_facebook_signals_state';
+
+    function getCookies(name) {
+        var values = [];
+        var parts = document.cookie ? document.cookie.split(';') : [];
+        for (var i = 0; i < parts.length; i++) {
+            var pos = parts[i].indexOf('=');
+            if (pos !== -1 && parts[i].slice(0, pos).trim() === name) {
+                try { values.push(decodeURIComponent(parts[i].slice(pos + 1))); } catch (e) {}
+            }
+        }
+        return values;
+    }
+
+    // Borlabs ist beim ersten Lauf noch nicht initialisiert, daher das
+    // Consent-Cookie direkt lesen ({"consents": {"<gruppe>": ["<service>", ...]}}).
+    function hasConsentFromCookie() {
+        var values = getCookies('borlabs-cookie');
+        for (var i = 0; i < values.length; i++) {
+            try {
+                var consents = JSON.parse(values[i]).consents || {};
+                for (var group in consents) {
+                    if (Object.prototype.hasOwnProperty.call(consents, group) && consents[group].indexOf(SERVICE) !== -1) {
+                        return true;
+                    }
+                }
+            } catch (e) {}
+        }
+        return false;
+    }
+
+    function hasConsent() {
+        if (window.BorlabsCookie && window.BorlabsCookie.Consents && typeof window.BorlabsCookie.Consents.hasConsent === 'function') {
+            return window.BorlabsCookie.Consents.hasConsent(SERVICE);
+        }
+        return hasConsentFromCookie();
+    }
+
+    function getState() {
+        var values = getCookies(STATE_COOKIE);
+        return values.length ? values[0] : null;
+    }
+
+    if (!hasConsentFromCookie() && getState() !== 'held') {
+        document.cookie = STATE_COOKIE + '=held;path=/;max-age=31536000;SameSite=Lax';
+    }
+
+    function sync() {
+        // signals.js kommt erst im Footer.
+        if (!window.fbwcsignal) {
+            window.addEventListener('load', function () {
+                if (window.fbwcsignal) {
+                    sync();
+                }
+            });
+            return;
+        }
+
+        var consent = hasConsent();
+        var state = getState();
+
+        if (consent && state !== 'active') {
+            // Setzt das State-Cookie sofort, die AJAX-Anfrage kann aber an einer
+            // abgelaufenen Nonce aus dem CDN-Cache scheitern - dann gepufferte
+            // Events trotzdem freigeben.
+            window.fbwcsignal.release().catch(function () {
+                if (window.FacebookSignals && window.FacebookSignals._held) {
+                    window.FacebookSignals.release().catch(function () {});
+                }
+            });
+        } else if (!consent && state !== 'held') {
+            window.fbwcsignal.hold().catch(function () {});
+        }
+    }
+
+    document.addEventListener('borlabs-cookie-after-init', sync);
+    document.addEventListener('borlabs-cookie-consent-saved', sync);
+})();
+</script>
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 <link rel="alternate" hreflang="en" href="https://www.elferspot.com/en/search/?price_to=60000&#038;model%5B0%5D=911&#038;model%5B1%5D=911-e&#038;model%5B2%5D=911-l&#038;model%5B3%5D=911-s&#038;model%5B4%5D=911-t&#038;model%5B5%5D=911-t-us&#038;model%5B6%5D=912&#038;model%5B7%5D=912-e" />
 <link rel="alternate" hreflang="de" href="https://www.elferspot.com/de/suchen/?price_to=60000&#038;model%5B0%5D=911&#038;model%5B1%5D=911-e&#038;model%5B2%5D=911-l&#038;model%5B3%5D=911-s&#038;model%5B4%5D=911-t&#038;model%5B5%5D=911-t-us&#038;model%5B6%5D=912&#038;model%5B7%5D=912-e" />
 <link rel="alternate" hreflang="nl" href="https://www.elferspot.com/nl/zoek/?price_to=60000&#038;model%5B0%5D=911&#038;model%5B1%5D=911-e&#038;model%5B2%5D=911-l&#038;model%5B3%5D=911-s&#038;model%5B4%5D=911-t&#038;model%5B5%5D=911-t-us&#038;model%5B6%5D=912&#038;model%5B7%5D=912-e" />
@@ -25,12 +107,12 @@
 <link rel="alternate" hreflang="x-default" href="https://www.elferspot.com/de/suchen/?price_to=60000&#038;model%5B0%5D=911&#038;model%5B1%5D=911-e&#038;model%5B2%5D=911-l&#038;model%5B3%5D=911-s&#038;model%5B4%5D=911-t&#038;model%5B5%5D=911-t-us&#038;model%5B6%5D=912&#038;model%5B7%5D=912-e" />
 
 	<!-- This site is optimized with the Yoast SEO Premium plugin v28.1 (Yoast SEO v28.1) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
-	<meta name="description" content="14 Ergebnisse - Suchen, finden, erleben! Porsche gebraucht kaufen? Finde hier deinen perfekten Porsche Sportwagen! Vom Porsche 356 bis zum 992." />
+	<meta name="description" content="15 Ergebnisse - Suchen, finden, erleben! Porsche gebraucht kaufen? Finde hier deinen perfekten Porsche Sportwagen! Vom Porsche 356 bis zum 992." />
 	<link rel="canonical" href="https://www.elferspot.com/de/suchen/" />
 	<meta property="og:locale" content="de_DE" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Elferspot Suchergebnis" />
-	<meta property="og:description" content="14 Ergebnisse - mit" />
+	<meta property="og:description" content="15 Ergebnisse - mit" />
 	<meta property="og:url" content="https://www.elferspot.com/de/suchen/" />
 	<meta property="og:site_name" content="Elferspot" />
 	<meta property="article:publisher" content="https://www.facebook.com/elferspot" />
@@ -110,7 +192,7 @@ var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/
 <script data-wp-strategy="defer" defer id="woocommerce-js" src="https://cdn.elferspot.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?x43862&amp;ver=10.9.4"></script>
 <script id="bootstrap-js-js" src="https://cdn.elferspot.com/wp-content/themes/elferspot/atom/js/bootstrap.min.js?x43862&amp;ver=9.1.1"></script>
 <script id="atom-scripts-head-js-extra">
-var atom_scripts_vars = {"ajaxurl":"https://www.elferspot.com/wp-admin/admin-ajax.php","theme_url":"https://www.elferspot.com/wp-content/themes/elferspot","language":"de","debug":"","loading_string":"Laden\u2026","select_string":"Ausw\u00e4hlen","saved_string":"Gespeichert","tryagain_string":"Erneut versuchen","maintenance_string":"Wartungsarbeiten: Der Server ist aktuell wegen Wartungsarbeiten nicht erreichbar. Bitte versuche es sp\u00e4ter noch einmal!","cart_url":"https://www.elferspot.com/de/warenkorb/","rest_url":"https://www.elferspot.com/de/wp-json/","lang_cookie":"wp-wpml_current_admin_language_d41d8cd98f00b204e9800998ecf8427e","rest_nonce":"miez8quahb3eiC8C","analytics_nonce":"21f5bgq0alspucgh4twzd1knb","ipinfo_tk":"d2e10ef00790a8","page_id":"10","ep_as_params":{"default_entries":[],"entries_for_911_query":[{"_source":{"post_title":"911 F-Modell (1963 - 1973)","permalink":"https://www.elferspot.com/suchen/baureihe/911-f-modell/"}},{"_source":{"post_title":"911 G-Modell (1974 - 1989)","permalink":"https://www.elferspot.com/suchen/baureihe/911-g-modell/"}},{"_source":{"post_title":"930 (1974 - 1989)","permalink":"https://www.elferspot.com/suchen/baureihe/930/"}},{"_source":{"post_title":"964 (1988 - 1994)","permalink":"https://www.elferspot.com/suchen/baureihe/964/"}},{"_source":{"post_title":"993 (1993 - 1998)","permalink":"https://www.elferspot.com/suchen/baureihe/993/"}},{"_source":{"post_title":"996 (1997 - 2006)","permalink":"https://www.elferspot.com/suchen/baureihe/996/"}},{"_source":{"post_title":"997 (2004 - 2012)","permalink":"https://www.elferspot.com/suchen/baureihe/997/"}},{"_source":{"post_title":"991 (2011 - 2019)","permalink":"https://www.elferspot.com/suchen/baureihe/991/"}},{"_source":{"post_title":"992 (2019 - 2025)","permalink":"https://www.elferspot.com/suchen/baureihe/992/"}}]},"ga_ids":["AW-827822542","G-Z9YLMZYNP0"]};
+var atom_scripts_vars = {"ajaxurl":"https://www.elferspot.com/wp-admin/admin-ajax.php","theme_url":"https://www.elferspot.com/wp-content/themes/elferspot","language":"de","debug":"","loading_string":"Laden\u2026","select_string":"Ausw\u00e4hlen","saved_string":"Gespeichert","tryagain_string":"Erneut versuchen","maintenance_string":"Wartungsarbeiten: Der Server ist aktuell wegen Wartungsarbeiten nicht erreichbar. Bitte versuche es sp\u00e4ter noch einmal!","cart_url":"https://www.elferspot.com/de/warenkorb/","rest_url":"https://www.elferspot.com/de/wp-json/","lang_cookie":"wp-wpml_current_admin_language_d41d8cd98f00b204e9800998ecf8427e","rest_nonce":"miez8quahb3eiC8C","analytics_nonce":"xlyimdsqhesb2ni0l6sgco54p","ipinfo_tk":"d2e10ef00790a8","page_id":"10","ep_as_params":{"default_entries":[],"entries_for_911_query":[{"_source":{"post_title":"911 F-Modell (1963 - 1973)","permalink":"https://www.elferspot.com/suchen/baureihe/911-f-modell/"}},{"_source":{"post_title":"911 G-Modell (1974 - 1989)","permalink":"https://www.elferspot.com/suchen/baureihe/911-g-modell/"}},{"_source":{"post_title":"930 (1974 - 1989)","permalink":"https://www.elferspot.com/suchen/baureihe/930/"}},{"_source":{"post_title":"964 (1988 - 1994)","permalink":"https://www.elferspot.com/suchen/baureihe/964/"}},{"_source":{"post_title":"993 (1993 - 1998)","permalink":"https://www.elferspot.com/suchen/baureihe/993/"}},{"_source":{"post_title":"996 (1997 - 2006)","permalink":"https://www.elferspot.com/suchen/baureihe/996/"}},{"_source":{"post_title":"997 (2004 - 2012)","permalink":"https://www.elferspot.com/suchen/baureihe/997/"}},{"_source":{"post_title":"991 (2011 - 2019)","permalink":"https://www.elferspot.com/suchen/baureihe/991/"}},{"_source":{"post_title":"992 (2019 - 2025)","permalink":"https://www.elferspot.com/suchen/baureihe/992/"}}]},"ga_ids":["AW-827822542","G-Z9YLMZYNP0"]};
 //# sourceURL=atom-scripts-head-js-extra
 </script>
 <script id="atom-scripts-head-js" src="https://cdn.elferspot.com/wp-content/themes/elferspot/atom/js/scripts_head.min.js?x43862&amp;ver=9.1.1"></script>
@@ -202,7 +284,7 @@ if('1' === '1') {
     });
 }
 </script>			<script data-borlabs-cookie-script-blocker-id='meta-pixel-for-woocommerce'  type="text/template">
-				window.__wc_fb_page_generated = 1791450955;
+				window.__wc_fb_page_generated = 1791477801;
 				!function(f,b,e,v,n,t,s){n=f.fbq=function(){n.callMethod?
 					n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 					n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
@@ -2324,7 +2406,7 @@ if('1' === '1') {
         <div class="row head">
 
             <div class="col-xs-12 col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3">
-                <p class="topline mb-xs-0">14 Fahrzeuge gefunden</p><h1>Deine Suche</h1>            </div>
+                <p class="topline mb-xs-0">15 Fahrzeuge gefunden</p><h1>Deine Suche</h1>            </div>
 
             <div class="col-xs-12 col-sm-3 extended-search-button mb-xs-0">    <form class="searchfilter">
         <label>Sortieren</label>
@@ -2479,14 +2561,14 @@ if('1' === '1') {
 	</div>
 </a>
 
-<a href="https://www.elferspot.com/de/shop/hoodie-jacke-key-on-the-left-backprint/" class="content-teaser search-product-teaser" onclick="atomSendGAEvent('shop_teaser_search_clicked', 'shop_teaser', 'Hoodie Jacke Key on the left Backprint');">
+<a href="https://www.elferspot.com/de/shop/hoodie-jacke-flat-six-flat-out/" class="content-teaser search-product-teaser" onclick="atomSendGAEvent('shop_teaser_search_clicked', 'shop_teaser', 'Hoodie Jacke Flat Six. Flat Out.');">
     <div class="content-teaser-content">
 
-		<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%20768'%3E%3C/svg%3E" data-src="https://cdn.elferspot.com/wp-content/uploads/2026/04/24/gross-key-on-the-left-hoodie-jacket-backprint.jpeg?class=ml" width="768" height="768" class="content-teaser-image lazy" alt="Hoodie Jacke Key on the left Backprint" />
+		<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%20768'%3E%3C/svg%3E" data-src="https://cdn.elferspot.com/wp-content/uploads/2025/08/29/hoodie-jacket-flat-six-flat-out-scaled.jpg?class=ml" width="768" height="768" class="content-teaser-image lazy" alt="Hoodie Jacke Flat Six. Flat Out." />
 		<div class="content-teaser-inner">
 			<div class="content-teaser-text">
 				<div class="content-teaser-atts">
-					<h3>Hoodie Jacke Key on the left Backprint</h3>
+					<h3>Hoodie Jacke Flat Six. Flat Out.</h3>
 				</div>
 			</div>
             <div class="more">Shop</div>
@@ -2495,6 +2577,31 @@ if('1' === '1') {
 		<div class="content-teaser-overlay">
 			<div class="content-teaser-overlay-inner">
 				<span>Produkt ansehen</span>
+			</div>
+		</div>
+
+	</div>
+</a>
+
+<a href="https://www.elferspot.com/de/fahrzeug/porsche-911-t-1970-6213970/" class="content-teaser">
+	<div class="content-teaser-content">
+
+		<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%20576'%3E%3C/svg%3E" data-src="https://cdn.elferspot.com/wp-content/uploads/2026/08/28/porsche-on-elferspot4-2.jpeg?class=ml" width="768" height="576" class="content-teaser-image lazy" alt="Porsche 911 T" />
+		<div class="content-teaser-inner">
+			<div class="content-teaser-text">
+				<div class="content-teaser-atts">
+					<div class="teaser-atts">
+						<img src="https://cdn.elferspot.com/wp-content/themes/elferspot/atom/img/flags/flag-de.svg" alt="DE" class="flag no-lazy" width="24" height="17" />1970&nbsp;&nbsp;|&nbsp;&nbsp;EUR 44.911					</div>
+					<h3>Porsche 911 T</h3>
+				</div>
+			</div>
+			<div class="more"></div>
+		</div>
+
+		
+		<div class="content-teaser-overlay">
+			<div class="content-teaser-overlay-inner">
+				<span>Fahrzeug ansehen</span>
 			</div>
 		</div>
 
@@ -2601,6 +2708,28 @@ if('1' === '1') {
 	</div>
 </a>
 
+<a href="https://www.elferspot.com/de/shop/t-shirt-flatsix-flatout/" class="content-teaser search-product-teaser" onclick="atomSendGAEvent('shop_teaser_search_clicked', 'shop_teaser', 'T-Shirt FLAT SIX. FLAT OUT.');">
+    <div class="content-teaser-content">
+
+		<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%20768'%3E%3C/svg%3E" data-src="https://cdn.elferspot.com/wp-content/uploads/2025/06/04/t-shirt-flat-six-flat-out.png?class=ml" width="768" height="768" class="content-teaser-image lazy" alt="T-Shirt FLAT SIX. FLAT OUT." />
+		<div class="content-teaser-inner">
+			<div class="content-teaser-text">
+				<div class="content-teaser-atts">
+					<h3>T-Shirt FLAT SIX. FLAT OUT.</h3>
+				</div>
+			</div>
+            <div class="more">Shop</div>
+		</div>
+
+		<div class="content-teaser-overlay">
+			<div class="content-teaser-overlay-inner">
+				<span>Produkt ansehen</span>
+			</div>
+		</div>
+
+	</div>
+</a>
+
 <a href="https://www.elferspot.com/de/fahrzeug/porsche-911-s-f-modell-1971-5991074/" class="content-teaser">
 	<div class="content-teaser-content">
 
@@ -2620,28 +2749,6 @@ if('1' === '1') {
 		<div class="content-teaser-overlay">
 			<div class="content-teaser-overlay-inner">
 				<span>Fahrzeug ansehen</span>
-			</div>
-		</div>
-
-	</div>
-</a>
-
-<a href="https://www.elferspot.com/de/shop/porsche-targa-die-gelebte-offenheit/" class="content-teaser search-product-teaser" onclick="atomSendGAEvent('shop_teaser_search_clicked', 'shop_teaser', 'Porsche Targa – Die gelebte Offenheit');">
-    <div class="content-teaser-content">
-
-		<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%20768'%3E%3C/svg%3E" data-src="https://cdn.elferspot.com/wp-content/uploads/2026/07/16/porsche-targa-buch-book-ramp-elferspot1.jpg?class=ml" width="768" height="768" class="content-teaser-image lazy" alt="Porsche Targa – Die gelebte Offenheit" />
-		<div class="content-teaser-inner">
-			<div class="content-teaser-text">
-				<div class="content-teaser-atts">
-					<h3>Porsche Targa – Die gelebte Offenheit</h3>
-				</div>
-			</div>
-            <div class="more">Shop</div>
-		</div>
-
-		<div class="content-teaser-overlay">
-			<div class="content-teaser-overlay-inner">
-				<span>Produkt ansehen</span>
 			</div>
 		</div>
 
@@ -2748,6 +2855,28 @@ if('1' === '1') {
 	</div>
 </a>
 
+<a href="https://www.elferspot.com/de/shop/porsche-artifacts-buch/" class="content-teaser search-product-teaser" onclick="atomSendGAEvent('shop_teaser_search_clicked', 'shop_teaser', 'Porsche Artifacts Buch');">
+    <div class="content-teaser-content">
+
+		<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%20768'%3E%3C/svg%3E" data-src="https://cdn.elferspot.com/wp-content/uploads/2023/08/24/Artifacts-Porsche-Book.jpg?class=ml" width="768" height="768" class="content-teaser-image lazy" alt="Porsche Artifacts Buch" />
+		<div class="content-teaser-inner">
+			<div class="content-teaser-text">
+				<div class="content-teaser-atts">
+					<h3>Porsche Artifacts Buch</h3>
+				</div>
+			</div>
+            <div class="more">Shop</div>
+		</div>
+
+		<div class="content-teaser-overlay">
+			<div class="content-teaser-overlay-inner">
+				<span>Produkt ansehen</span>
+			</div>
+		</div>
+
+	</div>
+</a>
+
     </div>
 
     
@@ -2778,31 +2907,31 @@ if('1' === '1') {
                 <span class="divider"></span>
             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4 suggestion-item">
-                    <a href="https://www.elferspot.com/de/finden/porsche-997-turbo-gebraucht-kaufen/">Porsche 997 Turbo gebraucht kaufen</a>
+                    <a href="https://www.elferspot.com/de/finden/porsche-991-50-jahre-jubilaeumsmodell-kaufen/">Porsche 991 &#8222;50 Jahre Jubiläumsmodell&#8220; kaufen</a>
                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4 suggestion-item">
-                    <a href="https://www.elferspot.com/de/finden/1959-porsche-kaufen/">1959 Porsche kaufen</a>
+                    <a href="https://www.elferspot.com/de/finden/porsche-911-s-kaufen/">Porsche 911 S kaufen</a>
                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4 suggestion-item">
-                    <a href="https://www.elferspot.com/de/finden/porsche-993-carrera-4-kaufen/">Porsche 993 Carrera 4 kaufen</a>
+                    <a href="https://www.elferspot.com/de/finden/porsche-993-x51-kaufen/">Porsche 993 X51 kaufen</a>
                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4 suggestion-item">
-                    <a href="https://www.elferspot.com/de/finden/porsche-997-gt3-rs-4-0-gebraucht-kaufen/">Porsche 997 GT3 RS 4.0 gebraucht kaufen</a>
+                    <a href="https://www.elferspot.com/de/finden/1977-porsche-kaufen/">1977 Porsche kaufen</a>
                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4 suggestion-item">
-                    <a href="https://www.elferspot.com/de/finden/porsche-singer-kaufen/">Porsche Singer kaufen</a>
+                    <a href="https://www.elferspot.com/de/finden/porsche-356-a-kaufen/">Porsche 356 A kaufen</a>
                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4 suggestion-item">
-                    <a href="https://www.elferspot.com/de/finden/porsche-996-gt3-clubsport-kaufen/">Porsche 996 GT3 Clubsport kaufen</a>
+                    <a href="https://www.elferspot.com/de/finden/porsche-911-gt2-gebraucht-kaufen/">Porsche 911 GT2 gebraucht kaufen</a>
                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4 suggestion-item">
-                    <a href="https://www.elferspot.com/de/finden/porsche-991-turbo-s-exclusive-series-gebraucht-kaufen/">Porsche 991 Turbo S Exclusive Series gebraucht kaufen</a>
+                    <a href="https://www.elferspot.com/de/finden/porsche-930-turbo-flachbau-kaufen/">Porsche 930 Turbo Flachbau kaufen</a>
                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4 suggestion-item">
-                    <a href="https://www.elferspot.com/de/finden/1972-porsche-kaufen/">1972 Porsche kaufen</a>
+                    <a href="https://www.elferspot.com/de/finden/porsche-356-kaufen/">Porsche 356 kaufen</a>
                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-4 suggestion-item">
-                    <a href="https://www.elferspot.com/de/finden/2008-porsche-911-kaufen/">2008 Porsche (911) kaufen</a>
+                    <a href="https://www.elferspot.com/de/finden/porsche-928-gt-kaufen/">Porsche 928 GT kaufen</a>
                 </div>
                             <div class="col-xs-12 text-center">
                 <a href="https://www.elferspot.com/de/finden/" class="button">Mehr Suchanfragen</a>
@@ -2814,14 +2943,14 @@ if('1' === '1') {
         <div class="row">
             <div class="col-xs-12">
                 <div class="shop-teaser-container">
-			<a class="shop-teaser" id="shop-teaser-6ac75f4b70038" href="https://www.elferspot.com/de/produkt-kategorie/elferspot-kollektionen/key-on-the-left/" data-shop-teaser-id="6232611" data-shop-teaser-label="KEY ON THE LEFT">
-				<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201800%20375'%3E%3C/svg%3E" data-src="https://cdn.elferspot.com/wp-content/uploads/2026/09/07/shop-banner-key-on-the-left-1-1.jpeg?class=xl" width="1800" height="375" alt="KEY ON THE LEFT" class="hidden-xs lazy">
-				<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20547'%3E%3C/svg%3E" data-src="https://cdn.elferspot.com/wp-content/uploads/2026/09/07/shop-banner-key-on-the-left-mobile.jpeg?class=l" width="1024" height="547" alt="KEY ON THE LEFT" class="visible-xs lazy">
+			<a class="shop-teaser" id="shop-teaser-6ac7c8295cf1c" href="https://www.elferspot.com/de/produkt-kategorie/toys-gadgets/porsche-motoren-bausaetze/" data-shop-teaser-id="5458592" data-shop-teaser-label="Turbo Engine Kit">
+				<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201800%20375'%3E%3C/svg%3E" data-src="https://cdn.elferspot.com/wp-content/uploads/2024/07/22/banner-quer-turbo-engine-kit-scaled.webp?class=xl" width="1800" height="375" alt="Turbo Engine Kit" class="hidden-xs lazy">
+				<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20546'%3E%3C/svg%3E" data-src="https://cdn.elferspot.com/wp-content/uploads/2024/07/22/banner-mobile-turbo-engine-kit.webp?class=l" width="1024" height="546" alt="Turbo Engine Kit" class="visible-xs lazy">
 			</a>
 		</div>
 <script>
 	jQuery(function() {
-		var teaser = jQuery('#shop-teaser-6ac75f4b70038'),
+		var teaser = jQuery('#shop-teaser-6ac7c8295cf1c'),
 			teaserId = teaser.attr('data-shop-teaser-id') || '',
 			teaserLabel = teaser.attr('data-shop-teaser-label') || '',
 			href = teaser.attr('href');
@@ -2850,7 +2979,7 @@ if('1' === '1') {
 					}
 				});
 			}, { threshold: 0.5 }); // 50% visible
-			observer.observe(jQuery('#shop-teaser-6ac75f4b70038')[0]);
+			observer.observe(jQuery('#shop-teaser-6ac7c8295cf1c')[0]);
 		}
 	});
 </script>            </div>
@@ -3386,7 +3515,7 @@ var cf7appsHoneypotRefill = {"forceRefillOnInit":"1"};
 <script id="frcaptcha_wpcf7-friendly-captcha-js" src="https://cdn.elferspot.com/wp-content/plugins/friendly-captcha/modules/contact-form-7/script.js?x43862&amp;ver=1.17.2"></script>
 <script id="opinionstage-shortcodes-js" src="https://cdn.elferspot.com/wp-content/plugins/social-polls-by-opinionstage/assets/js/shortcodes.js?x43862&amp;ver=19.12.6"></script>
 <script id="wc-facebook-signals-js-extra">
-var wc_facebook_signals_params = {"ajax_url":"https://www.elferspot.com/wp-admin/admin-ajax.php","nonce":"aed76bdc4e","action":"wc_facebook_update_signals_state"};
+var wc_facebook_signals_params = {"ajax_url":"https://www.elferspot.com/wp-admin/admin-ajax.php","nonce":"6b9ec48409","action":"wc_facebook_update_signals_state"};
 //# sourceURL=wc-facebook-signals-js-extra
 </script>
 <script id="wc-facebook-signals-js" src="https://cdn.elferspot.com/wp-content/plugins/facebook-for-woocommerce/assets/js/facebook-for-woocommerce-signals.js?x43862&amp;ver=3.7.6"></script>
@@ -3421,15 +3550,15 @@ if (typeof clientParamBuilder !== "undefined" && !/(?:^|;\s*)wc_facebook_signals
 /* WooCommerce Facebook Integration Event Tracking */
 fbq('set', 'agent', (function(){var a='woocommerce_2-10.9.4-3.7.6';if(window.__wc_fb_page_generated&&(Math.floor(Date.now()/1000)-window.__wc_fb_page_generated)>1800){a=a.replace(/(\d+\.\d+\.\d+)/,'$1_c');}return a;})(), '1068460613259754');
 window.wcFacebookPixelFiredEvents = window.wcFacebookPixelFiredEvents || {};
-if (!window.wcFacebookPixelFiredEvents["53b85c9e-97d7-4450-9fde-4b0d5020f14f"]) {
-window.wcFacebookPixelFiredEvents["53b85c9e-97d7-4450-9fde-4b0d5020f14f"] = true;
+if (!window.wcFacebookPixelFiredEvents["1d8b2a5e-e6bd-4545-b1fc-181f63d47413"]) {
+window.wcFacebookPixelFiredEvents["1d8b2a5e-e6bd-4545-b1fc-181f63d47413"] = true;
 var isStale = window.__wc_fb_page_generated && (Math.floor(Date.now()/1000) - window.__wc_fb_page_generated) > 1800;
 if (window.FacebookSignals && typeof window.FacebookSignals.trackEvent === 'function') {
 	window.FacebookSignals.trackEvent('PageView', {
     "source": "woocommerce_2",
     "version": "10.9.4",
     "pluginVersion": "3.7.6"
-}, null, 'track', isStale ? null : "53b85c9e-97d7-4450-9fde-4b0d5020f14f");
+}, null, 'track', isStale ? null : "1d8b2a5e-e6bd-4545-b1fc-181f63d47413");
 } else if (isStale) {
 	fbq('track', 'PageView', {
     "source": "woocommerce_2",
@@ -3442,7 +3571,7 @@ if (window.FacebookSignals && typeof window.FacebookSignals.trackEvent === 'func
     "version": "10.9.4",
     "pluginVersion": "3.7.6"
 }, {
-    "eventID": "53b85c9e-97d7-4450-9fde-4b0d5020f14f"
+    "eventID": "1d8b2a5e-e6bd-4545-b1fc-181f63d47413"
 });
 }
 }
@@ -3488,5 +3617,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 Content Delivery Network via cdn.elferspot.com
 Lazy Loading
 
-Served from: www.elferspot.com @ 2026-10-08 11:15:55 by W3 Total Cache
+Served from: www.elferspot.com @ 2026-10-08 18:43:21 by W3 Total Cache
 -->
