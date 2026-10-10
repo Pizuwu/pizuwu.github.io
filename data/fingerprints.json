@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-10T17:35:39Z",
+ "updated_at": "2026-10-10T20:56:45Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -1554,6 +1554,14 @@
     },
     {
      "d": "2026-10-09",
+     "p": 47500
+    },
+    {
+     "d": "2026-10-10",
+     "p": 49500
+    },
+    {
+     "d": "2026-10-10",
      "p": 47500
     },
     {
@@ -4351,6 +4359,14 @@
     },
     {
      "d": "2026-10-09",
+     "p": 38500
+    },
+    {
+     "d": "2026-10-10",
+     "p": 42000
+    },
+    {
+     "d": "2026-10-10",
      "p": 38500
     },
     {
@@ -8437,10 +8453,10 @@
     }
    ],
    "title": "porsche 911 g modell 2 7l coup indischrot 1977",
-   "last_seen": "2026-09-29",
+   "last_seen": "2026-10-10",
    "vin": null,
    "ez": "04/1977",
-   "km": 105000,
+   "km": 205000,
    "ps": null
   },
   "200cc8a23365": {
@@ -10203,6 +10219,14 @@
     },
     {
      "d": "2026-10-09",
+     "p": 42912
+    },
+    {
+     "d": "2026-10-10",
+     "p": 55000
+    },
+    {
+     "d": "2026-10-10",
      "p": 42912
     },
     {
@@ -13791,7 +13815,7 @@
     }
    ],
    "title": "porsche 944 s2 tuev 4 28 targa tracktool motorsport rallye",
-   "last_seen": "2026-10-07",
+   "last_seen": "2026-10-10",
    "vin": null,
    "ez": "12/1990",
    "km": 342848,
@@ -14770,7 +14794,7 @@
     }
    ],
    "title": "porsche 944 s2 targa",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-10",
    "vin": null,
    "ez": "01/1991",
    "km": 180000,
@@ -15515,7 +15539,7 @@
     }
    ],
    "title": "porsche 944 s2 targa coup cabrio m fahrzeugbewertung",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-10",
    "vin": null,
    "ez": "10/1990",
    "km": 325000,
@@ -20488,6 +20512,10 @@
     {
      "d": "2026-10-05",
      "p": 38750
+    },
+    {
+     "d": "2026-10-10",
+     "p": 37500
     }
    ],
    "title": "porsche carrera cabrio x51 ab werk hardtop",
@@ -21334,6 +21362,64 @@
    "vin": null,
    "ez": "04/2005",
    "km": 34529,
+   "ps": null
+  },
+  "c57688d14da2": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-991-1-carrera-oder-targa-4s-4-gts-mit-handschaltung/3537057108-216-8620",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-10",
+   "prices": [],
+   "title": "suche porsche 991 1 carrera oder targa 4s 4 gts mit handschaltung",
+   "last_seen": "2026-10-10",
+   "vin": null,
+   "ez": "07/2015",
+   "km": 60000,
+   "ps": null
+  },
+  "e2adcd06150d": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-997-2-carrera-oder-targa-4s-mit-handschaltung/3537025261-216-8620",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-10",
+   "prices": [],
+   "title": "suche porsche 997 2 carrera oder targa 4s mit handschaltung",
+   "last_seen": "2026-10-10",
+   "vin": null,
+   "ez": "06/2012",
+   "km": 80000,
+   "ps": null
+  },
+  "f8676b653c52": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-997-carrera-4/3536995520-216-341",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-10",
+   "prices": [
+    {
+     "d": "2026-10-10",
+     "p": 38999
+    }
+   ],
+   "title": "porsche 997 carrera 4",
+   "last_seen": "2026-10-10",
+   "vin": null,
+   "ez": "04/2006",
+   "km": 201000,
+   "ps": null
+  },
+  "f8a94f74229f": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-scheunenfund-restaurationsobjekt/3536981945-216-7585",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-10",
+   "prices": [
+    {
+     "d": "2026-10-10",
+     "p": 27990
+    }
+   ],
+   "title": "porsche 911 scheunenfund restaurationsobjekt",
+   "last_seen": "2026-10-10",
+   "vin": null,
+   "ez": "10/1975",
+   "km": 63500,
    "ps": null
   }
  }
