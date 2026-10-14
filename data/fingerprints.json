@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-14T06:24:33Z",
+ "updated_at": "2026-10-14T12:14:16Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -2926,6 +2926,10 @@
     {
      "d": "2026-10-13",
      "p": 34000
+    },
+    {
+     "d": "2026-10-14",
+     "p": 33950
     }
    ],
    "title": "traumhaft schoener porsche 996 911 carrera 3 6 automatik",
@@ -10556,14 +10560,18 @@
     {
      "d": "2026-10-14",
      "p": 42912
+    },
+    {
+     "d": "2026-10-14",
+     "p": 55000
     }
    ],
-   "title": "porsche 912 bj 1968 tuev neu 09 28",
+   "title": "Porsche 912 Bj 1968 TÜV Neu 09/28 in Baden-Württemberg - Vaihingen an der Enz | Porsche 912 Gebrauchtwagen kaufen | kleinanzeigen.de",
    "last_seen": "2026-10-14",
    "vin": null,
-   "ez": "02/1968",
+   "ez": "07/1968",
    "km": 99999,
-   "ps": null,
+   "ps": 125,
    "hashes": [
     {
      "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ba/baa73f67-5e2e-4b9c-82f0-5e099b4cd692?rule=$_59.JPG",
@@ -14111,7 +14119,7 @@
     }
    ],
    "title": "porsche 944 s2 tuev 4 28 targa tracktool motorsport rallye",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-14",
    "vin": null,
    "ez": "12/1990",
    "km": 342848,
@@ -18410,6 +18418,10 @@
     {
      "d": "2026-10-06",
      "p": 33500
+    },
+    {
+     "d": "2026-10-14",
+     "p": 32500
     }
    ],
    "title": "porsche 911 996 carrera 4 cabriolet handschalter 300 ps",
@@ -19419,6 +19431,10 @@
     {
      "d": "2026-10-02",
      "p": 21000
+    },
+    {
+     "d": "2026-10-14",
+     "p": 20500
     }
    ],
    "title": "porsche 944 2 5 oldtimer",
@@ -19786,7 +19802,7 @@
     }
    ],
    "title": "porsche 924 aus 1 serie mit motorrevision im excellenten zust",
-   "last_seen": "2026-10-04",
+   "last_seen": "2026-10-14",
    "vin": null,
    "ez": "07/1977",
    "km": 107924,
@@ -21921,7 +21937,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/panamera-sport-turismo-tausch-taycan-911-997-356-bentley-63-amg/3519817057-216-3043",
    "src": "kleinanzeigen",
    "first_seen": "2026-10-12",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-10-14",
+     "p": 33950
+    }
+   ],
    "title": "panamera sport turismo tausch taycan 911 997 356 bentley 63 amg",
    "last_seen": "2026-10-14",
    "vin": null,
@@ -22092,6 +22113,57 @@
    "vin": null,
    "ez": "04/1990",
    "km": 159000,
+   "ps": null
+  },
+  "8df57c6df9fb": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-porsche-997-carrera-s-motor-neu-bose/3540732854-216-1449",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-14",
+   "prices": [
+    {
+     "d": "2026-10-14",
+     "p": 9111
+    }
+   ],
+   "title": "porsche porsche 997 carrera s motor neu bose",
+   "last_seen": "2026-10-14",
+   "vin": null,
+   "ez": "06/2006",
+   "km": 109589,
+   "ps": null
+  },
+  "e71ab05b27c3": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-1977-porsche-911-carrera-930-1-2564-nut-bolt/3540545023-216-5459",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-14",
+   "prices": [
+    {
+     "d": "2026-10-14",
+     "p": 10000
+    }
+   ],
+   "title": "porsche 1977 porsche 911 carrera 930 1 2564 nut bolt",
+   "last_seen": "2026-10-14",
+   "vin": null,
+   "ez": "03/1977",
+   "km": 54000,
+   "ps": null
+  },
+  "7ace0a3484f0": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-macan-turbo-3-6-2-hd-scheckheft-tausch-amg-c63-911/3540726580-216-1970",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-14",
+   "prices": [
+    {
+     "d": "2026-10-14",
+     "p": 25999
+    }
+   ],
+   "title": "porsche macan turbo 3 6 2 hd scheckheft tausch amg c63 911",
+   "last_seen": "2026-10-14",
+   "vin": null,
+   "ez": "10/2014",
+   "km": 230000,
    "ps": null
   }
  }
