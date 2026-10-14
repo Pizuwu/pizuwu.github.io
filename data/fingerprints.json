@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-14T12:14:16Z",
+ "updated_at": "2026-10-14T17:27:20Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -2672,6 +2672,10 @@
     {
      "d": "2026-10-05",
      "p": 30900
+    },
+    {
+     "d": "2026-10-14",
+     "p": 29900
     }
    ],
    "title": "porsche 911",
@@ -15106,7 +15110,7 @@
     }
    ],
    "title": "porsche 944 s2 targa",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-14",
    "vin": null,
    "ez": "01/1991",
    "km": 180000,
@@ -22164,6 +22168,35 @@
    "vin": null,
    "ez": "10/2014",
    "km": 230000,
+   "ps": null
+  },
+  "4ff1aa5126ee": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-cabrio/3541015179-216-4565",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-14",
+   "prices": [
+    {
+     "d": "2026-10-14",
+     "p": 15500
+    }
+   ],
+   "title": "porsche 911 996 cabrio",
+   "last_seen": "2026-10-14",
+   "vin": null,
+   "ez": "01/2002",
+   "km": 188000,
+   "ps": null
+  },
+  "73ad3923df5e": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/gesucht-porsche-911-turbo-s-serioeser-und-zuverlaessiger-ankauf/3540938220-216-1214",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-14",
+   "prices": [],
+   "title": "gesucht porsche 911 turbo s serioeser und zuverlaessiger ankauf",
+   "last_seen": "2026-10-14",
+   "vin": null,
+   "ez": "01/2024",
+   "km": 15000,
    "ps": null
   }
  }
