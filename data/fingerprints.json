@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-16T16:53:04Z",
+ "updated_at": "2026-10-16T19:48:45Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -6132,6 +6132,10 @@
     {
      "d": "2026-09-16",
      "p": 9999
+    },
+    {
+     "d": "2026-10-16",
+     "p": 9116
     }
    ],
    "title": "alfa romeo gtv 116 oldtimer h kennzeichen no 911 spider porsche",
@@ -18776,9 +18780,14 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-911-996-oder-997-und-boxster/3523879260-216-4411",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-26",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-10-16",
+     "p": 29999
+    }
+   ],
    "title": "suche porsche 911 996 oder 997 und boxster",
-   "last_seen": "2026-09-27",
+   "last_seen": "2026-10-16",
    "vin": null,
    "ez": "06/2001",
    "km": 150000,
@@ -22745,6 +22754,23 @@
    "vin": null,
    "ez": "09/1971",
    "km": 4400,
+   "ps": null
+  },
+  "06c774a65bfd": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-924-s/3456160510-216-2740",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-16",
+   "prices": [
+    {
+     "d": "2026-10-16",
+     "p": 20900
+    }
+   ],
+   "title": "porsche 924 s",
+   "last_seen": "2026-10-16",
+   "vin": null,
+   "ez": "09/1988",
+   "km": 119000,
    "ps": null
   }
  }
