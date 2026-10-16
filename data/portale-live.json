@@ -1,37 +1,49 @@
 {
- "fetched_at": "2026-10-16T19:48:09.669Z",
- "runner": "38957259233",
+ "fetched_at": "2026-10-16T22:22:41.173Z",
+ "runner": "38975094038",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 406622,
+   "size": 406839,
    "links": 41,
-   "treffer": 16
+   "treffer": 17
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 411391,
+   "size": 411692,
    "links": 41,
    "treffer": 30
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 375561,
+   "size": 375756,
    "links": 14,
    "treffer": 12
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 361527,
+   "size": 361612,
    "links": 3,
    "treffer": 3
   }
  ],
  "listings": [
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-1986-6296773/",
+   "title": "Porsche 911 Carrera 3.2 (1986)",
+   "price_eur": null,
+   "ez": "1986",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/16/img_5452-scaled.jpeg",
+   "snippet": "",
+   "filter": "targa"
+  },
   {
    "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-g-modell-1976-6304709/",
