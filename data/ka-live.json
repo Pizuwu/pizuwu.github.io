@@ -1,6 +1,6 @@
 {
- "fetched_at": "2026-10-17T18:56:49.782Z",
- "runner": "39060301343",
+ "fetched_at": "2026-10-17T21:11:59.441Z",
+ "runner": "39069909714",
  "queries": [
   {
    "q": "porsche-targa",
@@ -102,7 +102,7 @@
    "q": "porsche-911er",
    "code": 200,
    "blocked": false,
-   "count": 18
+   "count": 17
   },
   {
    "q": "porsche-carrera-3-2",
@@ -132,13 +132,13 @@
    "q": "porsche-911",
    "code": 200,
    "blocked": false,
-   "count": 24
+   "count": 25
   },
   {
    "q": "porsche-911#2",
    "code": 200,
    "blocked": false,
-   "count": 23
+   "count": 22
   },
   {
    "q": "porsche-911#3",
@@ -234,7 +234,7 @@
    "q": "vb:porsche-911",
    "code": 200,
    "blocked": false,
-   "count": 10
+   "count": 9
   },
   {
    "q": "vb:porsche-911#2",
@@ -270,7 +270,7 @@
    "q": "vb:porsche-964",
    "code": 200,
    "blocked": false,
-   "count": 14
+   "count": 12
   },
   {
    "q": "vb:porsche-964#2",
@@ -765,7 +765,7 @@
    "id": "3519934822",
    "query": "porsche-targa",
    "title": "porsche 944 2 5 targa h kennzeichen tuev neu",
-   "price_eur": 21900,
+   "price_eur": 21000,
    "vb": false,
    "km": 167824,
    "ez": "04/1986",
@@ -830,7 +830,7 @@
    "id": "3512244830",
    "query": "porsche-targa",
    "title": "porsche 944 s2 targa turbositze scheckheft brillantschwarz",
-   "price_eur": 18944,
+   "price_eur": 17944,
    "vb": true,
    "km": 203700,
    "ez": "08/1990",
@@ -2044,22 +2044,9 @@
    "km": 106000,
    "ez": "06/1999",
    "location": "58452 Witten",
-   "posted": "Gestern, 22:10",
+   "posted": "Heute, 22:10",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911/3435690202-216-1022"
-  },
-  {
-   "id": "3523468632",
-   "query": "porsche-911er",
-   "title": "porsche rueckbankausbau fuer hunde 911 991 1 coup",
-   "price_eur": null,
-   "vb": true,
-   "km": null,
-   "ez": "02/2015",
-   "location": "53332 Bornheim",
-   "posted": "10.10.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-rueckbankausbau-fuer-hunde-911-991-1-coup-/3523468632-216-1606"
   },
   {
    "id": "3534776386",
@@ -3180,19 +3167,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-s-de-auslieferung-klappe-alcantara/3536269938-216-6474"
   },
   {
-   "id": "3542087361",
-   "query": "porsche-911",
-   "title": "audi s8 plus 605ps tausch moeglich porsche 911 cayenne panamera",
-   "price_eur": 44444,
-   "vb": true,
-   "km": 305,
-   "ez": "10/2017",
-   "location": "10117 Mitte",
-   "posted": "Heute, 02:26",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/audi-s8-plus-605ps-tausch-moeglich-porsche-911-cayenne-panamera/3542087361-216-3520"
-  },
-  {
    "id": "3537466012",
    "query": "porsche-911",
    "title": "porsche carrera 4 cabrio schalter schwarz",
@@ -3349,6 +3323,19 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-911-3-4-cabrio-tuev-02-28-hardtop-automatik/3528881417-216-1801"
   },
   {
+   "id": "3528852700",
+   "query": "porsche-911",
+   "title": "porsche 911 urtyp 935",
+   "price_eur": 31500,
+   "vb": false,
+   "km": 200,
+   "ez": "05/1970",
+   "location": "73499 Wört",
+   "posted": "02.10.2026",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-urtyp-935/3528852700-216-8837"
+  },
+  {
    "id": "3340709770",
    "query": "porsche-911",
    "title": "porsche 911 997 carrera 3 6 coupe frische wartung",
@@ -3453,19 +3440,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-targa-3-6-revidiert-/3527196031-216-8771"
   },
   {
-   "id": "3488269195",
-   "query": "porsche-911",
-   "title": "motorschaden ankauf porsche cayenne macan boxster 911 panamera",
-   "price_eur": null,
-   "vb": true,
-   "km": 120000,
-   "ez": "08/2011",
-   "location": "01157 Cotta",
-   "posted": "",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/motorschaden-ankauf-porsche-cayenne-macan-boxster-911-panamera/3488269195-216-3846"
-  },
-  {
    "id": "3292887236",
    "query": "porsche-911",
    "title": "ankauf suche porsche 911 964 993 f g modell turbo 356 sammlungen",
@@ -3474,9 +3448,22 @@
    "km": 15000,
    "ez": "01/1985",
    "location": "69509 Mörlenbach",
-   "posted": "Heute, 19:12",
+   "posted": "",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-964-993-f-g-modell-turbo-356-sammlungen/3292887236-216-8262"
+  },
+  {
+   "id": "3291719082",
+   "query": "porsche-911",
+   "title": "ankauf suche porsche 911 f g 991 992 997 996 993 964 912 turbo",
+   "price_eur": null,
+   "vb": true,
+   "km": 150000,
+   "ez": "01/1973",
+   "location": "69509 Mörlenbach",
+   "posted": "Heute, 21:58",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-f-g-991-992-997-996-993-964-912-turbo/3291719082-216-8262"
   },
   {
    "id": "3441296553",
@@ -3503,19 +3490,6 @@
    "posted": "Heute, 18:24",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-911-gt3-gt2-rs-turbo-996-996-964-carrera-g/3473307785-216-5197"
-  },
-  {
-   "id": "3291719082",
-   "query": "porsche-911",
-   "title": "ankauf suche porsche 911 f g 991 992 997 996 993 964 912 turbo",
-   "price_eur": null,
-   "vb": true,
-   "km": 150000,
-   "ez": "01/1973",
-   "location": "69509 Mörlenbach",
-   "posted": "",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-f-g-991-992-997-996-993-964-912-turbo/3291719082-216-8262"
   },
   {
    "id": "3383105304",
@@ -3555,6 +3529,19 @@
    "posted": "Heute, 12:02",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-f-g-991-997-996-993-964-gt3-gt2-turbo-rs/3393063624-216-5197"
+  },
+  {
+   "id": "3488269195",
+   "query": "porsche-911",
+   "title": "motorschaden ankauf porsche cayenne macan boxster 911 panamera",
+   "price_eur": null,
+   "vb": true,
+   "km": 120000,
+   "ez": "08/2011",
+   "location": "01157 Cotta",
+   "posted": "Heute, 11:58",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/motorschaden-ankauf-porsche-cayenne-macan-boxster-911-panamera/3488269195-216-3846"
   },
   {
    "id": "3291774293",
