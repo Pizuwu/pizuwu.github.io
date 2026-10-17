@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T13:24:54Z",
+ "updated_at": "2026-10-17T16:35:34Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -6342,7 +6342,7 @@
     }
    ],
    "title": "porsche 996 carrera cabrio 3 6 l 6 gang schalter",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-17",
    "vin": null,
    "ez": "11/2003",
    "km": 105000,
@@ -15346,6 +15346,10 @@
     {
      "d": "2026-10-08",
      "p": 28695
+    },
+    {
+     "d": "2026-10-17",
+     "p": 28495
     }
    ],
    "title": "porsche 911 carrera 996 facelift 3 6 320ps tiptronic tuev neu",
@@ -22935,6 +22939,35 @@
    "vin": null,
    "ez": "05/1989",
    "km": 200000,
+   "ps": null
+  },
+  "a0e4b4666538": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/biete-porsche-964-c2-targa-suche-porsche-taycan/3543680181-216-1272",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-17",
+   "prices": [],
+   "title": "biete porsche 964 c2 targa suche porsche taycan",
+   "last_seen": "2026-10-17",
+   "vin": null,
+   "ez": "07/1991",
+   "km": 199000,
+   "ps": null
+  },
+  "8de89e94e220": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-carrera-cabriolet-carrera/3543650123-216-8023",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-17",
+   "prices": [
+    {
+     "d": "2026-10-17",
+     "p": 19990
+    }
+   ],
+   "title": "porsche 996 carrera cabriolet carrera",
+   "last_seen": "2026-10-17",
+   "vin": null,
+   "ez": "06/1999",
+   "km": 178000,
    "ps": null
   }
  }
