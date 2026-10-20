@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-20T19:33:12Z",
+ "updated_at": "2026-10-20T22:34:54Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -6361,7 +6361,7 @@
     }
    ],
    "title": "porsche 911 996 carrera 4 coupe tiptronic oehlins oz",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "vin": null,
    "ez": "06/2000",
    "km": 155452,
@@ -8670,7 +8670,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-911-f-g-modell-964-993-996-997-356-991-gt3/3441296553-216-8262",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-16",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-10-20",
+     "p": 33550
+    }
+   ],
    "title": "ankauf suche porsche 911 f g modell 964 993 996 997 356 991 gt3",
    "last_seen": "2026-10-20",
    "vin": null,
@@ -23716,6 +23721,23 @@
    "vin": null,
    "ez": "04/2006",
    "km": 109586,
+   "ps": null
+  },
+  "0423a4d39c35": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-kaufe-porsche-964-993-996-oder-968-aber-real-pv/3508206999-216-5080",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-20",
+   "prices": [
+    {
+     "d": "2026-10-20",
+     "p": 11215
+    }
+   ],
+   "title": "suche kaufe porsche 964 993 996 oder 968 aber real pv",
+   "last_seen": "2026-10-20",
+   "vin": null,
+   "ez": "06/1992",
+   "km": null,
    "ps": null
   }
  }
