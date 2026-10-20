@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-10-20T10:43:17.026Z",
- "runner": "39409590532",
+ "fetched_at": "2026-10-20T15:31:22.224Z",
+ "runner": "39448781638",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 406557,
+   "size": 406743,
    "links": 41,
    "treffer": 17
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 411391,
+   "size": 411548,
    "links": 41,
    "treffer": 30
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 375596,
-   "links": 14,
-   "treffer": 12
+   "size": 377792,
+   "links": 15,
+   "treffer": 13
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 362587,
+   "size": 362729,
    "links": 4,
    "treffer": 4
   }
@@ -595,6 +595,18 @@
    "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc00874-1024x680-1.jpg",
    "snippet": "",
    "filter": "g"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-1967-6320707/",
+   "title": "Porsche 912 (1967)",
+   "price_eur": null,
+   "ez": "1967",
+   "km": null,
+   "country": "NL",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/20/dsc09599.jpg",
+   "snippet": "",
+   "filter": "f"
   },
   {
    "src": "elferspot",
