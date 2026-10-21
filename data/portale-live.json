@@ -1,37 +1,49 @@
 {
- "fetched_at": "2026-10-21T06:14:37.716Z",
- "runner": "39553932862",
+ "fetched_at": "2026-10-21T12:09:38.804Z",
+ "runner": "39597032196",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 406776,
+   "size": 406770,
    "links": 41,
-   "treffer": 18
+   "treffer": 19
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 411616,
+   "size": 411635,
    "links": 41,
-   "treffer": 30
+   "treffer": 29
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 378661,
+   "size": 378808,
    "links": 16,
    "treffer": 13
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 362593,
+   "size": 362765,
    "links": 4,
    "treffer": 4
   }
  ],
  "listings": [
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1982-6322622/",
+   "title": "Porsche 911 SC (1982)",
+   "price_eur": null,
+   "ez": "1982",
+   "km": null,
+   "country": "NL",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/21/porsche-for-sale-on-elferspot-marktplatz_.jpeg",
+   "snippet": "",
+   "filter": "targa"
+  },
   {
    "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-e-1970-6321514/",
@@ -598,25 +610,13 @@
   },
   {
    "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1983-5554054/",
-   "title": "Porsche 911 SC (1983)",
-   "price_eur": null,
-   "ez": "1983",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc00874-1024x680-1.jpg",
-   "snippet": "",
-   "filter": "g"
-  },
-  {
-   "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-1967-6320707/",
    "title": "Porsche 912 (1967)",
    "price_eur": null,
    "ez": "1967",
    "km": null,
    "country": "NL",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/20/dsc09599.jpg",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/21/dsc09599-scaled.jpg",
    "snippet": "",
    "filter": "f"
   },
