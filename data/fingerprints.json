@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-21T20:50:19Z",
+ "updated_at": "2026-10-21T23:51:42Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -131,6 +131,14 @@
    "prices": [
     {
      "d": "2026-09-16",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-21",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-21",
      "p": 49911
     },
     {
@@ -23932,6 +23940,23 @@
    "vin": null,
    "ez": "06/1977",
    "km": 205000,
+   "ps": null
+  },
+  "71d85b5ed602": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-coup-s-dach-leder-navi-t-zustand/3548165344-216-3446",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-21",
+   "prices": [
+    {
+     "d": "2026-10-21",
+     "p": 36990
+    }
+   ],
+   "title": "porsche 911 carrera coup s dach leder navi t zustand",
+   "last_seen": "2026-10-21",
+   "vin": null,
+   "ez": "06/2003",
+   "km": 118135,
    "ps": null
   }
  }
