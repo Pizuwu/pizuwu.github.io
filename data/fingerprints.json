@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-21T01:11:51Z",
+ "updated_at": "2026-10-21T06:15:11Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -8595,7 +8595,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-964-993-f-g-modell-turbo-356-sammlungen/3292887236-216-8262",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-16",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-10-21",
+     "p": 33550
+    }
+   ],
    "title": "ankauf suche porsche 911 964 993 f g modell turbo 356 sammlungen",
    "last_seen": "2026-10-21",
    "vin": null,
@@ -23738,6 +23743,18 @@
    "vin": null,
    "ez": "06/1992",
    "km": null,
+   "ps": null
+  },
+  "b3c3a2b1b521": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ich-suche-sitzbeschlag-beifahrer-porsche-912/3547231866-216-3826",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-21",
+   "prices": [],
+   "title": "ich suche sitzbeschlag beifahrer porsche 912",
+   "last_seen": "2026-10-21",
+   "vin": null,
+   "ez": "07/1967",
+   "km": 1967,
    "ps": null
   }
  }
