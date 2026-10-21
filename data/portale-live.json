@@ -1,37 +1,49 @@
 {
- "fetched_at": "2026-10-20T22:34:21.547Z",
- "runner": "39508784818",
+ "fetched_at": "2026-10-21T01:11:13.108Z",
+ "runner": "39525582562",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 406757,
+   "size": 406750,
    "links": 41,
-   "treffer": 17
+   "treffer": 18
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 411658,
+   "size": 411622,
    "links": 41,
    "treffer": 30
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 377770,
-   "links": 15,
+   "size": 378625,
+   "links": 16,
    "treffer": 13
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 362606,
+   "size": 362601,
    "links": 4,
    "treffer": 4
   }
  ],
  "listings": [
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-e-1970-6321514/",
+   "title": "Porsche 911 E (1970)",
+   "price_eur": null,
+   "ez": "1970",
+   "km": null,
+   "country": "NL",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/20/dsc08662-scaled.jpg",
+   "snippet": "",
+   "filter": "targa"
+  },
   {
    "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-1986-6296773/",
