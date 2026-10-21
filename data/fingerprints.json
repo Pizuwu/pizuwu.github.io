@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-21T17:30:09Z",
+ "updated_at": "2026-10-21T20:50:19Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -131,6 +131,14 @@
    "prices": [
     {
      "d": "2026-09-16",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-21",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-21",
      "p": 49911
     },
     {
@@ -6085,7 +6093,7 @@
     }
    ],
    "title": "porsche 928 s4 dr hand deutsches fahrzeug h kennzeichen klima",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-21",
    "vin": null,
    "ez": "09/1987",
    "km": 125000,
@@ -6445,10 +6453,14 @@
     {
      "d": "2026-09-16",
      "p": 57500
+    },
+    {
+     "d": "2026-10-21",
+     "p": 45000
     }
    ],
    "title": "porsche 997 carrera 4s cabrio 911 weiss vollleder grau hu 07 2028",
-   "last_seen": "2026-09-16",
+   "last_seen": "2026-10-21",
    "vin": null,
    "ez": "10/2006",
    "km": 135500,
@@ -14528,7 +14540,7 @@
     }
    ],
    "title": "porsche 997 carrera coup mit pdk",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-21",
    "vin": null,
    "ez": "07/2010",
    "km": 170000,
@@ -23863,6 +23875,10 @@
     {
      "d": "2026-10-21",
      "p": 45000
+    },
+    {
+     "d": "2026-10-21",
+     "p": 42000
     }
    ],
    "title": "porsche 911 997",
@@ -23882,6 +23898,40 @@
    "vin": null,
    "ez": "08/1980",
    "km": 100000,
+   "ps": null
+  },
+  "c7da4386883e": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-macan-turbo-2hd-scheckheft-21zoll-tausch-porsche-996-911/3543469238-216-1970",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-21",
+   "prices": [
+    {
+     "d": "2026-10-21",
+     "p": 25999
+    }
+   ],
+   "title": "porsche macan turbo 2hd scheckheft 21zoll tausch porsche 996 911",
+   "last_seen": "2026-10-21",
+   "vin": null,
+   "ez": "05/2014",
+   "km": 230000,
+   "ps": null
+  },
+  "626fb6d83be4": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-g-modell-1977-2-7l-klassiker/3548095159-216-7437",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-21",
+   "prices": [
+    {
+     "d": "2026-10-21",
+     "p": 15000
+    }
+   ],
+   "title": "porsche 911 g modell 1977 2 7l klassiker",
+   "last_seen": "2026-10-21",
+   "vin": null,
+   "ez": "06/1977",
+   "km": 205000,
    "ps": null
   }
  }
