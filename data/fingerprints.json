@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-22T14:00:10Z",
+ "updated_at": "2026-10-22T18:18:18Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -159,6 +159,14 @@
     },
     {
      "d": "2026-10-21",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-22",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-22",
      "p": 44900
     },
     {
@@ -23817,7 +23825,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-targa-991-ii-fast-wie-neu/3547033217-216-4565",
    "src": "kleinanzeigen",
    "first_seen": "2026-10-20",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-10-22",
+     "p": 44900
+    }
+   ],
    "title": "porsche 911 targa 991 ii fast wie neu",
    "last_seen": "2026-10-22",
    "vin": null,
@@ -24183,6 +24196,40 @@
    "vin": null,
    "ez": "03/2004",
    "km": 155000,
+   "ps": null
+  },
+  "d167cfea2113": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-targa-1984-h-kennzeichen/3548383849-216-17470",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-22",
+   "prices": [
+    {
+     "d": "2026-10-22",
+     "p": 13000
+    }
+   ],
+   "title": "porsche 944 targa 1984 h kennzeichen",
+   "last_seen": "2026-10-22",
+   "vin": null,
+   "ez": "11/1984",
+   "km": 200000,
+   "ps": null
+  },
+  "6383f91b8ed7": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-macan-turbo-2hd-scheckheft-21zoll-tausch-c63-c43-996-911/3548848368-216-1970",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-22",
+   "prices": [
+    {
+     "d": "2026-10-22",
+     "p": 24490
+    }
+   ],
+   "title": "porsche macan turbo 2hd scheckheft 21zoll tausch c63 c43 996 911",
+   "last_seen": "2026-10-22",
+   "vin": null,
+   "ez": "10/2014",
+   "km": 230000,
    "ps": null
   }
  }
