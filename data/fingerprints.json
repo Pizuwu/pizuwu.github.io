@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-23T19:25:48Z",
+ "updated_at": "2026-10-23T22:28:53Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -199,6 +199,14 @@
     },
     {
      "d": "2026-10-22",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-23",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-23",
      "p": 44900
     },
     {
@@ -24539,6 +24547,35 @@
    "vin": null,
    "ez": "02/1996",
    "km": 83500,
+   "ps": null
+  },
+  "e98ec62b4efc": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porche-cayenne/3549961295-216-16298",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-23",
+   "prices": [
+    {
+     "d": "2026-10-23",
+     "p": 9990
+    }
+   ],
+   "title": "porche cayenne",
+   "last_seen": "2026-10-23",
+   "vin": null,
+   "ez": "11/2014",
+   "km": 278000,
+   "ps": null
+  },
+  "f90b14325878": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-turbo-4s-gesucht/3549955977-216-1546",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-23",
+   "prices": [],
+   "title": "porsche 911 996 turbo 4s gesucht",
+   "last_seen": "2026-10-23",
+   "vin": null,
+   "ez": "01/2002",
+   "km": 125000,
    "ps": null
   }
  }
