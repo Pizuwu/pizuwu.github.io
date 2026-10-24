@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-24T09:42:35Z",
+ "updated_at": "2026-10-24T13:47:14Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -247,6 +247,14 @@
     },
     {
      "d": "2026-10-23",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-24",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-24",
      "p": 44900
     },
     {
@@ -21897,7 +21905,7 @@
     }
    ],
    "title": "porsche 997 911 carrera 4 s cabrio",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-24",
    "vin": null,
    "ez": "07/2006",
    "km": 145000,
@@ -24187,7 +24195,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-targa-serie-one/3548192739-216-2187",
    "src": "kleinanzeigen",
    "first_seen": "2026-10-22",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-10-24",
+     "p": 44900
+    }
+   ],
    "title": "porsche 944 targa serie one",
    "last_seen": "2026-10-24",
    "vin": null,
@@ -24466,7 +24479,7 @@
     }
    ],
    "title": "porsche spyder rs60 limited edition",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "vin": null,
    "ez": "04/2008",
    "km": 10000,
@@ -24659,6 +24672,64 @@
    "vin": null,
    "ez": "10/1999",
    "km": 224587,
+   "ps": null
+  },
+  "a78a847dbf7b": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-911-targa-1978-1988/3550410649-216-1396",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-24",
+   "prices": [],
+   "title": "suche porsche 911 targa 1978 1988",
+   "last_seen": "2026-10-24",
+   "vin": null,
+   "ez": "01/1978",
+   "km": 100000,
+   "ps": null
+  },
+  "e8356333755c": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-997-911-carrera-s-cabrio-motor-ueberholt-bei-80tk/3550290015-216-439",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-24",
+   "prices": [
+    {
+     "d": "2026-10-24",
+     "p": 46900
+    }
+   ],
+   "title": "porsche 997 911 carrera s cabrio motor ueberholt bei 80tk",
+   "last_seen": "2026-10-24",
+   "vin": null,
+   "ez": "05/2005",
+   "km": 109200,
+   "ps": null
+  },
+  "9ab96ac09137": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-carrera-coup-carrera/3550539941-216-4431",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-24",
+   "prices": [
+    {
+     "d": "2026-10-24",
+     "p": 19996
+    }
+   ],
+   "title": "porsche 996 carrera coup carrera",
+   "last_seen": "2026-10-24",
+   "vin": null,
+   "ez": "01/1998",
+   "km": 203000,
+   "ps": null
+  },
+  "8aa40edd88f3": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-4s-cabrio-991-schalter/3550251005-216-16553",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-24",
+   "prices": [],
+   "title": "porsche 911 carrera 4s cabrio 991 schalter",
+   "last_seen": "2026-10-24",
+   "vin": null,
+   "ez": "03/2014",
+   "km": 94000,
    "ps": null
   }
  }
