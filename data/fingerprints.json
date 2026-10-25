@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T05:03:20Z",
+ "updated_at": "2026-10-25T10:00:28Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -303,6 +303,14 @@
     },
     {
      "d": "2026-10-24",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-25",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-25",
      "p": 44900
     },
     {
@@ -8918,7 +8926,7 @@
     }
    ],
    "title": "suche ankauf porsche 911 996 997 991 turbo gt3 gt2 rs",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "vin": null,
    "ez": "04/2003",
    "km": 5555,
@@ -21312,7 +21320,7 @@
     }
    ],
    "title": "motorschaden ankauf porsche cayenne macan boxster 911 panamera",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "vin": null,
    "ez": "08/2011",
    "km": 120000,
@@ -23773,7 +23781,7 @@
    "first_seen": "2026-10-19",
    "prices": [],
    "title": "porsche 911 3 2 carrera g modell ohne schiebedach sonderpreis",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-25",
    "vin": null,
    "ez": "12/1983",
    "km": 198000,
@@ -24529,7 +24537,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-911-991-oder-992-/3549429746-216-2088",
    "src": "kleinanzeigen",
    "first_seen": "2026-10-23",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-10-25",
+     "p": 33200
+    }
+   ],
    "title": "suche porsche 911 991 oder 992",
    "last_seen": "2026-10-25",
    "vin": null,
@@ -24976,6 +24989,74 @@
    "vin": null,
    "ez": "10/2014",
    "km": 230000,
+   "ps": null
+  },
+  "4a745456cd3d": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-928-s4-autom-oldtimer-h-zul-18-keskin-hu-27/3550914456-216-13532",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-25",
+   "prices": [
+    {
+     "d": "2026-10-25",
+     "p": 18980
+    }
+   ],
+   "title": "porsche 928 s4 autom oldtimer h zul 18 keskin hu 27",
+   "last_seen": "2026-10-25",
+   "vin": null,
+   "ez": "04/1988",
+   "km": 197500,
+   "ps": null
+  },
+  "813d53d19785": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-1983-2-hand-indischrot-oldtimer/3405887913-216-9421",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-25",
+   "prices": [
+    {
+     "d": "2026-10-25",
+     "p": 21900
+    }
+   ],
+   "title": "porsche 944 1983 2 hand indischrot oldtimer",
+   "last_seen": "2026-10-25",
+   "vin": null,
+   "ez": "05/1983",
+   "km": 188000,
+   "ps": null
+  },
+  "8b748f6521d7": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-4-coup-/3551247126-216-6906",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-25",
+   "prices": [
+    {
+     "d": "2026-10-25",
+     "p": 40500
+    }
+   ],
+   "title": "porsche 911 carrera 4 coup",
+   "last_seen": "2026-10-25",
+   "vin": null,
+   "ez": "06/2006",
+   "km": 138500,
+   "ps": null
+  },
+  "93cf4c040c00": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-997-911/3551192790-216-19656",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-25",
+   "prices": [
+    {
+     "d": "2026-10-25",
+     "p": 29999
+    }
+   ],
+   "title": "porsche 997 911",
+   "last_seen": "2026-10-25",
+   "vin": null,
+   "ez": "12/2005",
+   "km": 150000,
    "ps": null
   }
  }
