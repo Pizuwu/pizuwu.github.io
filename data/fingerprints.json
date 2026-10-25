@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T20:12:40Z",
+ "updated_at": "2026-10-25T22:44:44Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -303,6 +303,14 @@
     },
     {
      "d": "2026-10-24",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-25",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-25",
      "p": 44900
     },
     {
@@ -25230,6 +25238,23 @@
    "vin": null,
    "ez": "10/2010",
    "km": 70000,
+   "ps": null
+  },
+  "d059a5ba5d5f": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-s2/3399808653-216-29380",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-25",
+   "prices": [
+    {
+     "d": "2026-10-25",
+     "p": 20950
+    }
+   ],
+   "title": "porsche 944 s2",
+   "last_seen": "2026-10-25",
+   "vin": null,
+   "ez": "10/1989",
+   "km": 290000,
    "ps": null
   }
  }
