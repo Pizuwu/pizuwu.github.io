@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T14:08:46Z",
+ "updated_at": "2026-10-25T17:46:17Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -303,6 +303,14 @@
     },
     {
      "d": "2026-10-24",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-25",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-25",
      "p": 44900
     },
     {
@@ -25135,6 +25143,64 @@
    "vin": null,
    "ez": "07/1986",
    "km": 182000,
+   "ps": null
+  },
+  "537b1ab3a842": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-911-964-oder-993-guter-zustand-oder-projekt/3551942069-216-5197",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-25",
+   "prices": [],
+   "title": "suche porsche 911 964 oder 993 guter zustand oder projekt",
+   "last_seen": "2026-10-25",
+   "vin": null,
+   "ez": "01/1990",
+   "km": 100000,
+   "ps": null
+  },
+  "c368b8a42756": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-997-carrera-s-cabrio/3552140873-216-7924",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-25",
+   "prices": [
+    {
+     "d": "2026-10-25",
+     "p": 35000
+    }
+   ],
+   "title": "porsche 911 997 carrera s cabrio",
+   "last_seen": "2026-10-25",
+   "vin": null,
+   "ez": "03/2007",
+   "km": 108100,
+   "ps": null
+  },
+  "7a135b730e78": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-cabrio-cabrio-911-997-allrad-automatik-hardtop/3552213733-216-1369",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-25",
+   "prices": [
+    {
+     "d": "2026-10-25",
+     "p": 36900
+    }
+   ],
+   "title": "porsche cabrio cabrio 911 997 allrad automatik hardtop",
+   "last_seen": "2026-10-25",
+   "vin": null,
+   "ez": "03/2007",
+   "km": 194000,
+   "ps": null
+  },
+  "356784a20059": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-s-2-2-targa-f-model-1971-matching-numbers-komplet/3552148739-216-2127",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-25",
+   "prices": [],
+   "title": "porsche 911 s 2 2 targa f model 1971 matching numbers komplet",
+   "last_seen": "2026-10-25",
+   "vin": null,
+   "ez": "03/1971",
+   "km": 2500,
    "ps": null
   }
  }
