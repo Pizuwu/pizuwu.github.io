@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T17:46:17Z",
+ "updated_at": "2026-10-25T20:12:40Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -303,6 +303,14 @@
     },
     {
      "d": "2026-10-24",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-25",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-25",
      "p": 44900
     },
     {
@@ -25182,6 +25190,10 @@
     {
      "d": "2026-10-25",
      "p": 36900
+    },
+    {
+     "d": "2026-10-25",
+     "p": 35900
     }
    ],
    "title": "porsche cabrio cabrio 911 997 allrad automatik hardtop",
@@ -25201,6 +25213,23 @@
    "vin": null,
    "ez": "03/1971",
    "km": 2500,
+   "ps": null
+  },
+  "63541e2519b2": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-911-997-2-carrera-carrera-s-coup-pdk/3552522057-216-938",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-25",
+   "prices": [
+    {
+     "d": "2026-10-25",
+     "p": 29000
+    }
+   ],
+   "title": "suche porsche 911 997 2 carrera carrera s coup pdk",
+   "last_seen": "2026-10-25",
+   "vin": null,
+   "ez": "10/2010",
+   "km": 70000,
    "ps": null
   }
  }
