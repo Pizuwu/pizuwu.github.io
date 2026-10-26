@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-26T17:59:37Z",
+ "updated_at": "2026-10-26T22:14:39Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -359,6 +359,14 @@
     },
     {
      "d": "2026-10-25",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-26",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-26",
      "p": 44900
     },
     {
@@ -14353,7 +14361,7 @@
     }
    ],
    "title": "porsche 914 4 2 0 targa sonnengelb rostfrei aus 1974",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "vin": null,
    "ez": "05/1974",
    "km": 100060,
@@ -14962,12 +14970,12 @@
      "p": 65000
     }
    ],
-   "title": "Porsche 911 Carrera 3.2 SC G Modell Targa 964/993 in Baden-Württemberg - St. Märgen | Porsche 930 Gebrauchtwagen kaufen | kleinanzeigen.de",
+   "title": "porsche 911 carrera 3 2 sc g modell targa 964 993",
    "last_seen": "2026-10-26",
    "vin": null,
-   "ez": "03/1972",
+   "ez": "09/1984",
    "km": 82000,
-   "ps": 231,
+   "ps": null,
    "hashes": [
     {
      "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/32/328e0fae-cad1-4a38-ac47-be88cd2d74f2?rule=$_59.JPG",
@@ -23274,9 +23282,14 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-coupe-3-0-1977/3542922286-216-383",
    "src": "kleinanzeigen",
    "first_seen": "2026-10-17",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-10-26",
+     "p": 48000
+    }
+   ],
    "title": "porsche 911 carrera coupe 3 0 1977",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-26",
    "vin": null,
    "ez": "09/1976",
    "km": 175000,
@@ -25464,6 +25477,64 @@
    "vin": null,
    "ez": "04/1990",
    "km": 112500,
+   "ps": null
+  },
+  "7415d304862e": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-964-rs-n-gt-leichtbau-bj-1992/3553433072-216-4616",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-26",
+   "prices": [],
+   "title": "porsche 964 rs n gt leichtbau bj 1992",
+   "last_seen": "2026-10-26",
+   "vin": null,
+   "ez": "06/1992",
+   "km": 44560,
+   "ps": null
+  },
+  "a31add9f5680": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-carrera-4s-996/3553375203-216-1699",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-26",
+   "prices": [
+    {
+     "d": "2026-10-26",
+     "p": 37966
+    }
+   ],
+   "title": "porsche carrera 4s 996",
+   "last_seen": "2026-10-26",
+   "vin": null,
+   "ez": "03/2003",
+   "km": 221560,
+   "ps": null
+  },
+  "ba53458c14b6": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-millennium-edition-360-911-c00-handschalter/3553425847-216-6213",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-26",
+   "prices": [
+    {
+     "d": "2026-10-26",
+     "p": 29996
+    }
+   ],
+   "title": "porsche 911 996 millennium edition 360 911 c00 handschalter",
+   "last_seen": "2026-10-26",
+   "vin": null,
+   "ez": "10/1999",
+   "km": 267000,
+   "ps": null
+  },
+  "0551b3d9c003": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-targa-3-0-sc-restaurierungsprojekt/3552951454-216-16235",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-26",
+   "prices": [],
+   "title": "porsche 911 targa 3 0 sc restaurierungsprojekt",
+   "last_seen": "2026-10-26",
+   "vin": null,
+   "ez": "01/1978",
+   "km": 178000,
    "ps": null
   }
  }
