@@ -1,6 +1,6 @@
 {
- "fetched_at": "2026-10-26T00:52:11.945Z",
- "runner": "40251401687",
+ "fetched_at": "2026-10-26T05:36:42.282Z",
+ "runner": "40275134764",
  "queries": [
   {
    "q": "porsche-targa",
@@ -234,13 +234,13 @@
    "q": "vb:porsche-911",
    "code": 200,
    "blocked": false,
-   "count": 7
+   "count": 8
   },
   {
    "q": "vb:porsche-911#2",
    "code": 200,
    "blocked": false,
-   "count": 11
+   "count": 10
   },
   {
    "q": "vb:porsche-g-modell",
@@ -2244,6 +2244,19 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/traumhaft-schoener-porsche-996-911-carrera-3-6-automatik/3501324432-216-331"
   },
   {
+   "id": "3542925872",
+   "query": "porsche-carrera-3-2",
+   "title": "porsche 996 911 carrera cabrio leder navi shz",
+   "price_eur": 39911,
+   "vb": false,
+   "km": 70000,
+   "ez": "02/2000",
+   "location": "26789 Leer (Ostfriesland)",
+   "posted": "Heute, 03:02",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-911-carrera-cabrio-leder-navi-shz/3542925872-216-2751"
+  },
+  {
    "id": "3550290015",
    "query": "porsche-carrera-3-2",
    "title": "porsche 997 911 carrera s cabrio motor ueberholt bei 80tk",
@@ -2257,19 +2270,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-997-911-carrera-s-cabrio-motor-ueberholt-bei-80tk/3550290015-216-439"
   },
   {
-   "id": "3542925872",
-   "query": "porsche-carrera-3-2",
-   "title": "porsche 996 911 carrera cabrio leder navi shz",
-   "price_eur": 39911,
-   "vb": false,
-   "km": 70000,
-   "ez": "02/2000",
-   "location": "26789 Leer (Ostfriesland)",
-   "posted": "23.10.2026",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-911-carrera-cabrio-leder-navi-shz/3542925872-216-2751"
-  },
-  {
    "id": "3548643510",
    "query": "porsche-carrera-3-2",
    "title": "porsche 911 991 carrera pdk 1 hand",
@@ -2281,6 +2281,19 @@
    "posted": "22.10.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-991-carrera-pdk-1-hand/3548643510-216-1948"
+  },
+  {
+   "id": "3544008348",
+   "query": "porsche-carrera-3-2",
+   "title": "porsche carrera 911 s",
+   "price_eur": 44500,
+   "vb": false,
+   "km": 162981,
+   "ez": "01/2008",
+   "location": "31137 Hildesheim",
+   "posted": "Heute, 05:12",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-carrera-911-s/3544008348-216-3150"
   },
   {
    "id": "3549862075",
@@ -2333,19 +2346,6 @@
    "posted": "Gestern, 07:30",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-3-8-liter-355-ps-carrera-s-997-1-triple-black-cabrio/3542969033-216-7100"
-  },
-  {
-   "id": "3544008348",
-   "query": "porsche-carrera-3-2",
-   "title": "porsche carrera 911 s",
-   "price_eur": 44500,
-   "vb": false,
-   "km": 162981,
-   "ez": "01/2008",
-   "location": "31137 Hildesheim",
-   "posted": "Gestern, 05:12",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-carrera-911-s/3544008348-216-3150"
   },
   {
    "id": "3550539941",
@@ -3531,19 +3531,6 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-targa-991-ii-fast-wie-neu/3547033217-216-4565"
   },
   {
-   "id": "3291774293",
-   "query": "porsche-911",
-   "title": "ankauf suche porsche g f modell 911 930 964 993 996 997 turbo",
-   "price_eur": null,
-   "vb": true,
-   "km": 85238,
-   "ez": "01/1992",
-   "location": "69509 Mörlenbach",
-   "posted": "",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-g-f-modell-911-930-964-993-996-997-turbo/3291774293-216-8262"
-  },
-  {
    "id": "3393063624",
    "query": "porsche-911",
    "title": "ankauf suche porsche 911 f g 991 997 996 993 964 gt3 gt2 turbo rs",
@@ -3557,6 +3544,19 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-f-g-991-997-996-993-964-gt3-gt2-turbo-rs/3393063624-216-5197"
   },
   {
+   "id": "3488269195",
+   "query": "porsche-911",
+   "title": "motorschaden ankauf porsche cayenne macan boxster 911 panamera",
+   "price_eur": null,
+   "vb": true,
+   "km": 120000,
+   "ez": "08/2011",
+   "location": "01157 Cotta",
+   "posted": "",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/motorschaden-ankauf-porsche-cayenne-macan-boxster-911-panamera/3488269195-216-3846"
+  },
+  {
    "id": "3473307785",
    "query": "porsche-911",
    "title": "ankauf suche porsche 911 gt3 gt2 rs turbo 996 996 964 carrera g",
@@ -3568,19 +3568,6 @@
    "posted": "Gestern, 19:24",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-911-gt3-gt2-rs-turbo-996-996-964-carrera-g/3473307785-216-5197"
-  },
-  {
-   "id": "3291719082",
-   "query": "porsche-911",
-   "title": "ankauf suche porsche 911 f g 991 992 997 996 993 964 912 turbo",
-   "price_eur": null,
-   "vb": true,
-   "km": 150000,
-   "ez": "01/1973",
-   "location": "69509 Mörlenbach",
-   "posted": "",
-   "snippet": "",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-f-g-991-992-997-996-993-964-912-turbo/3291719082-216-8262"
   },
   {
    "id": "3441296553",
@@ -3620,6 +3607,19 @@
    "posted": "",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-964-993-f-g-modell-turbo-356-sammlungen/3292887236-216-8262"
+  },
+  {
+   "id": "3291774293",
+   "query": "porsche-g-modell",
+   "title": "ankauf suche porsche g f modell 911 930 964 993 996 997 turbo",
+   "price_eur": null,
+   "vb": true,
+   "km": 85238,
+   "ez": "01/1992",
+   "location": "69509 Mörlenbach",
+   "posted": "",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/-ankauf-suche-porsche-g-f-modell-911-930-964-993-996-997-turbo/3291774293-216-8262"
   },
   {
    "id": "3551592461",
@@ -3737,6 +3737,19 @@
    "posted": "15.09.2026",
    "snippet": "",
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-3-2-sc-g-modell-targa-964-993/3513786863-216-8292"
+  },
+  {
+   "id": "3291719082",
+   "query": "porsche-912",
+   "title": "ankauf suche porsche 911 f g 991 992 997 996 993 964 912 turbo",
+   "price_eur": null,
+   "vb": true,
+   "km": 150000,
+   "ez": "01/1973",
+   "location": "69509 Mörlenbach",
+   "posted": "",
+   "snippet": "",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ankauf-suche-porsche-911-f-g-991-992-997-996-993-964-912-turbo/3291719082-216-8262"
   },
   {
    "id": "3547231866",
