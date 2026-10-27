@@ -1,37 +1,49 @@
 {
- "fetched_at": "2026-10-27T07:05:56.888Z",
- "runner": "40464785881",
+ "fetched_at": "2026-10-27T13:28:01.153Z",
+ "runner": "40511905926",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 406786,
+   "size": 407125,
    "links": 41,
    "treffer": 20
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 411653,
+   "size": 411947,
    "links": 41,
-   "treffer": 26
+   "treffer": 25
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 377757,
+   "size": 377602,
    "links": 15,
    "treffer": 12
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 362711,
+   "size": 362598,
    "links": 4,
    "treffer": 4
   }
  ],
  "listings": [
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1982-6333260/",
+   "title": "Porsche 911 SC (1982)",
+   "price_eur": null,
+   "ez": "1982",
+   "km": null,
+   "country": "CA",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/27/porsche-for-sale-on-elferspot-marktplatz_1-1-scaled.jpeg",
+   "snippet": "",
+   "filter": "targa"
+  },
   {
    "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-1983-6328374/",
@@ -257,18 +269,6 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc06619-1024x680-1.jpg",
-   "snippet": "",
-   "filter": "targa"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1978-5854397/",
-   "title": "Porsche 911 SC (1978)",
-   "price_eur": null,
-   "ez": "1978",
-   "km": null,
-   "country": "BE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/03/19/911-sc-targa-te-koop-porsche-2.jpeg",
    "snippet": "",
    "filter": "targa"
   },
@@ -569,18 +569,6 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc06654-1024x680-1.jpg",
-   "snippet": "",
-   "filter": "g"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-s-g-modell-1977-5546313/",
-   "title": "Porsche 911 S (1977)",
-   "price_eur": null,
-   "ez": "1977",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/10/31/p9121317-scaled.jpg",
    "snippet": "",
    "filter": "g"
   },
