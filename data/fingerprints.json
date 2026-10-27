@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-27T01:36:00Z",
+ "updated_at": "2026-10-27T07:06:31Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -399,6 +399,14 @@
     },
     {
      "d": "2026-10-26",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-27",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-27",
      "p": 44900
     },
     {
@@ -3278,6 +3286,10 @@
     {
      "d": "2026-10-24",
      "p": 33200
+    },
+    {
+     "d": "2026-10-27",
+     "p": 33150
     }
    ],
    "title": "traumhaft schoener porsche 996 911 carrera 3 6 automatik",
@@ -14978,12 +14990,12 @@
      "p": 65000
     }
    ],
-   "title": "porsche 911 carrera 3 2 sc g modell targa 964 993",
+   "title": "Porsche 911 Carrera 3.2 SC G Modell Targa 964/993 in Baden-Württemberg - St. Märgen | Porsche 930 Gebrauchtwagen kaufen | kleinanzeigen.de",
    "last_seen": "2026-10-27",
    "vin": null,
-   "ez": "09/1984",
+   "ez": "03/1972",
    "km": 82000,
-   "ps": null,
+   "ps": 231,
    "hashes": [
     {
      "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/32/328e0fae-cad1-4a38-ac47-be88cd2d74f2?rule=$_59.JPG",
@@ -23874,7 +23886,7 @@
    "first_seen": "2026-10-19",
    "prices": [],
    "title": "porsche 911 3 2 carrera g modell ohne schiebedach sonderpreis",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "vin": null,
    "ez": "12/1983",
    "km": 198000,
@@ -25543,6 +25555,52 @@
    "vin": null,
    "ez": "01/1978",
    "km": 178000,
+   "ps": null
+  },
+  "33756fb91bb7": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-carrera/3553588520-216-2828",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "prices": [
+    {
+     "d": "2026-10-27",
+     "p": 29000
+    }
+   ],
+   "title": "porsche carrera",
+   "last_seen": "2026-10-27",
+   "vin": null,
+   "ez": "08/1994",
+   "km": 106000,
+   "ps": null
+  },
+  "472e39f6e8db": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-4s-996/3553375203-216-1699",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "prices": [
+    {
+     "d": "2026-10-27",
+     "p": 37966
+    }
+   ],
+   "title": "porsche 911 carrera 4s 996",
+   "last_seen": "2026-10-27",
+   "vin": null,
+   "ez": "03/2003",
+   "km": 221560,
+   "ps": null
+  },
+  "c5f38ef49f6c": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-997-4s-carrera-umbau-997-2-turbo-capristo-tausch/3553580424-216-3371",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "prices": [],
+   "title": "porsche 911 997 4s carrera umbau 997 2 turbo capristo tausch",
+   "last_seen": "2026-10-27",
+   "vin": null,
+   "ez": "10/2007",
+   "km": 57000,
    "ps": null
   }
  }
