@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-27T18:51:36Z",
+ "updated_at": "2026-10-27T22:48:10Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -399,6 +399,14 @@
     },
     {
      "d": "2026-10-26",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-27",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-27",
      "p": 44900
     },
     {
@@ -5141,7 +5149,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-911-er-g-modell-oder-964-er-coup-/3509342232-216-4252",
    "src": "kleinanzeigen",
    "first_seen": "2026-09-16",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-10-27",
+     "p": 39999
+    }
+   ],
    "title": "suche porsche 911 er g modell oder 964 er coup",
    "last_seen": "2026-10-27",
    "vin": null,
@@ -14717,7 +14730,7 @@
     }
    ],
    "title": "porsche 911 996 carrera 4 cabrio bose facelift",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-27",
    "vin": null,
    "ez": "07/2002",
    "km": 63268,
@@ -15565,7 +15578,7 @@
     }
    ],
    "title": "porsche 944 s2 targa",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-27",
    "vin": null,
    "ez": "01/1991",
    "km": 180000,
@@ -25855,6 +25868,93 @@
    "vin": null,
    "ez": "05/2003",
    "km": 124852,
+   "ps": null
+  },
+  "e4d9a0895974": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-993-964-911-997-suche-/3554373404-216-1834",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "prices": [],
+   "title": "porsche 993 964 911 997 suche",
+   "last_seen": "2026-10-27",
+   "vin": null,
+   "ez": "10/1980",
+   "km": null,
+   "ps": null
+  },
+  "28d43c6af5eb": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-912-1968-project/3554424436-216-1125",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "prices": [
+    {
+     "d": "2026-10-27",
+     "p": 19500
+    }
+   ],
+   "title": "porsche 912 1968 project",
+   "last_seen": "2026-10-27",
+   "vin": null,
+   "ez": "01/1968",
+   "km": 95000,
+   "ps": null
+  },
+  "25dc99aa95a1": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera-schalter-bose-bilstein-b16/3554315081-216-5199",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "prices": [
+    {
+     "d": "2026-10-27",
+     "p": 42900
+    }
+   ],
+   "title": "porsche 911 996 carrera schalter bose bilstein b16",
+   "last_seen": "2026-10-27",
+   "vin": null,
+   "ez": "07/2003",
+   "km": 36677,
+   "ps": null
+  },
+  "7bc648c62a21": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-clk-320-cabrio-amg-tausch-porsche-911-bmw-e36-m3-328/3554316998-216-3520",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "prices": [
+    {
+     "d": "2026-10-27",
+     "p": 9999
+    }
+   ],
+   "title": "mercedes clk 320 cabrio amg tausch porsche 911 bmw e36 m3 328",
+   "last_seen": "2026-10-27",
+   "vin": null,
+   "ez": "09/1999",
+   "km": 115000,
+   "ps": null
+  },
+  "117958a257fc": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-997-1-gt2/3554383897-216-16345",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "prices": [],
+   "title": "porsche 911 997 1 gt2",
+   "last_seen": "2026-10-27",
+   "vin": null,
+   "ez": "04/2008",
+   "km": null,
+   "ps": null
+  },
+  "cc313ed2ea49": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/e30-m3-hartge-hs38-24-wertanl-evtl-tausch-inz-porsche911m4m5m6amg/3554326485-216-9416",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "prices": [],
+   "title": "e30 m3 hartge hs38 24 wertanl evtl tausch inz porsche911m4m5m6amg",
+   "last_seen": "2026-10-27",
+   "vin": null,
+   "ez": "09/1992",
+   "km": 68000,
    "ps": null
   }
  }
