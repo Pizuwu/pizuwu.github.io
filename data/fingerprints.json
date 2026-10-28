@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T14:45:16Z",
+ "updated_at": "2026-10-28T20:02:36Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -439,6 +439,14 @@
     },
     {
      "d": "2026-10-27",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-28",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-28",
      "p": 44900
     },
     {
@@ -22387,6 +22395,10 @@
     {
      "d": "2026-10-26",
      "p": 38799
+    },
+    {
+     "d": "2026-10-28",
+     "p": 38499
     }
    ],
    "title": "porsche 997 carrera 4",
@@ -23463,10 +23475,14 @@
     {
      "d": "2026-10-19",
      "p": 41999
+    },
+    {
+     "d": "2026-10-28",
+     "p": 39999
     }
    ],
    "title": "porsche 911 3 8 liter 355 ps carrera s 997 1 triple black cabrio",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "vin": null,
    "ez": "04/2008",
    "km": 141500,
@@ -24302,6 +24318,10 @@
     {
      "d": "2026-10-21",
      "p": 9900
+    },
+    {
+     "d": "2026-10-28",
+     "p": 9000
     }
    ],
    "title": "porsche 914 2 0 breitbau schult lenner oldtimer",
@@ -26128,6 +26148,40 @@
    "vin": null,
    "ez": "04/2006",
    "km": 135000,
+   "ps": null
+  },
+  "1c83c4294ed5": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/2004-porsche-911-996-carrera-4s/3555189017-216-29167",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-28",
+   "prices": [
+    {
+     "d": "2026-10-28",
+     "p": 18000
+    }
+   ],
+   "title": "2004 porsche 911 996 carrera 4s",
+   "last_seen": "2026-10-28",
+   "vin": null,
+   "ez": "10/2004",
+   "km": 178840,
+   "ps": null
+  },
+  "799b9e2a1dfd": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-996/3555152601-216-4584",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-28",
+   "prices": [
+    {
+     "d": "2026-10-28",
+     "p": 25499
+    }
+   ],
+   "title": "porsche 911 carrera 996",
+   "last_seen": "2026-10-28",
+   "vin": null,
+   "ez": "07/2000",
+   "km": null,
    "ps": null
   }
  }

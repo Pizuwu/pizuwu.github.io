@@ -1,37 +1,49 @@
 {
- "fetched_at": "2026-10-28T14:44:41.970Z",
- "runner": "40708523640",
+ "fetched_at": "2026-10-28T20:01:56.388Z",
+ "runner": "40759172620",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 406963,
+   "size": 407287,
    "links": 41,
    "treffer": 20
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 411671,
+   "size": 412007,
    "links": 41,
-   "treffer": 25
+   "treffer": 24
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 377625,
-   "links": 15,
-   "treffer": 12
+   "size": 378967,
+   "links": 16,
+   "treffer": 13
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 362580,
-   "links": 4,
-   "treffer": 4
+   "size": 365105,
+   "links": 6,
+   "treffer": 6
   }
  ],
  "listings": [
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-1989-6337564/",
+   "title": "Porsche 911 Carrera 3.2 (1989)",
+   "price_eur": null,
+   "ez": "1989",
+   "km": null,
+   "country": "GB",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/28/porsche-for-sale-on-elferspot-marktplatz_31-4.jpeg",
+   "snippet": "",
+   "filter": "targa"
+  },
   {
    "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1982-6333260/",
@@ -262,15 +274,15 @@
   },
   {
    "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-us-1984-5554414/",
-   "title": "Porsche 911 Carrera 3.2 (1984)",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-1982-6337633/",
+   "title": "Porsche 911 SC (1982)",
    "price_eur": null,
-   "ez": "1984",
+   "ez": "1982",
    "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc06619-1024x680-1.jpg",
+   "country": "GB",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/28/porsche-for-sale-on-elferspot-marktplatz_42-2.jpeg",
    "snippet": "",
-   "filter": "targa"
+   "filter": "g"
   },
   {
    "src": "elferspot",
@@ -550,27 +562,15 @@
   },
   {
    "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-us-1984-5554480/",
-   "title": "Porsche 911 Carrera 3.2 (1984)",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-t-1971-6337416/",
+   "title": "Porsche 911 T (1971)",
    "price_eur": null,
-   "ez": "1984",
+   "ez": "1971",
    "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc06654-1024x680-1.jpg",
+   "country": "GB",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/28/porsche-for-sale-on-elferspot-marktplatz_61.jpeg",
    "snippet": "",
-   "filter": "g"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-s-g-modell-1977-5546313/",
-   "title": "Porsche 911 S (1977)",
-   "price_eur": null,
-   "ez": "1977",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/10/31/p9121317-scaled.jpg",
-   "snippet": "",
-   "filter": "g"
+   "filter": "f"
   },
   {
    "src": "elferspot",
@@ -715,6 +715,30 @@
    "image": "https://cdn.elferspot.com/wp-content/uploads/2023/02/01/IMG_3115-3-scaled.jpeg",
    "snippet": "",
    "filter": "f"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-964-carrera-2-1990-6337427/",
+   "title": "Porsche 964 Carrera 2 (1990)",
+   "price_eur": null,
+   "ez": "1990",
+   "km": null,
+   "country": "GB",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/28/porsche-for-sale-on-elferspot-marktplatz_9-4.jpeg",
+   "snippet": "",
+   "filter": "964"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-964-carrera-2-1990-6338653/",
+   "title": "Porsche 964 Carrera 2 (1990)",
+   "price_eur": null,
+   "ez": "1990",
+   "km": null,
+   "country": "GB",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/28/porsche-for-sale-on-elferspot-marktplatz_32-11.jpeg",
+   "snippet": "",
+   "filter": "964"
   },
   {
    "src": "elferspot",
