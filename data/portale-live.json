@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-10-28T20:01:56.388Z",
- "runner": "40759172620",
+ "fetched_at": "2026-10-28T23:57:28.137Z",
+ "runner": "40790568814",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 407287,
+   "size": 407171,
    "links": 41,
    "treffer": 20
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 412007,
+   "size": 411908,
    "links": 41,
    "treffer": 24
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 378967,
-   "links": 16,
-   "treffer": 13
+   "size": 379831,
+   "links": 17,
+   "treffer": 14
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 365105,
+   "size": 365121,
    "links": 6,
    "treffer": 6
   }
@@ -559,6 +559,18 @@
    "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc01299-1024x680-1.jpg",
    "snippet": "",
    "filter": "g"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-e-1976-6339544/",
+   "title": "Porsche 912 E (1976)",
+   "price_eur": null,
+   "ez": "1976",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/28/912-lehman-exterieur-23.jpg",
+   "snippet": "",
+   "filter": "f"
   },
   {
    "src": "elferspot",

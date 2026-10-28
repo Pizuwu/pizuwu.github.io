@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T20:02:36Z",
+ "updated_at": "2026-10-28T23:58:06Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -439,6 +439,14 @@
     },
     {
      "d": "2026-10-27",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-28",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-28",
      "p": 44900
     },
     {
@@ -15059,12 +15067,12 @@
      "p": 65000
     }
    ],
-   "title": "Porsche 911 Carrera 3.2 SC G Modell Targa 964/993 in Baden-Württemberg - St. Märgen | Porsche 930 Gebrauchtwagen kaufen | kleinanzeigen.de",
+   "title": "porsche 911 carrera 3 2 sc g modell targa 964 993",
    "last_seen": "2026-10-28",
    "vin": null,
-   "ez": "03/1972",
+   "ez": "09/1984",
    "km": 82000,
-   "ps": 231,
+   "ps": null,
    "hashes": [
     {
      "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/32/328e0fae-cad1-4a38-ac47-be88cd2d74f2?rule=$_59.JPG",
@@ -26182,6 +26190,18 @@
    "vin": null,
    "ez": "07/2000",
    "km": null,
+   "ps": null
+  },
+  "9866b7524d06": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/tausch-3-gegen-1-karmann-giha-scirocco1-porsche914-gegen-911-g/3531993629-216-6854",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-28",
+   "prices": [],
+   "title": "tausch 3 gegen 1 karmann giha scirocco1 porsche914 gegen 911 g",
+   "last_seen": "2026-10-28",
+   "vin": null,
+   "ez": "02/1968",
+   "km": 63999,
    "ps": null
   }
  }
