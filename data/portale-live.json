@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-10-29T10:37:09.487Z",
- "runner": "40858633947",
+ "fetched_at": "2026-10-29T17:14:41.362Z",
+ "runner": "40919016875",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 407446,
+   "size": 407218,
    "links": 41,
    "treffer": 20
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 412263,
+   "size": 411976,
    "links": 41,
-   "treffer": 24
+   "treffer": 25
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 380061,
+   "size": 379996,
    "links": 17,
    "treffer": 14
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 365237,
+   "size": 365143,
    "links": 6,
    "treffer": 6
   }
@@ -77,18 +77,6 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/22/porsche-on-elferspot29-25.jpeg",
-   "snippet": "",
-   "filter": "targa"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-1988-6325642/",
-   "title": "Porsche 911 Carrera 3.2 (1988)",
-   "price_eur": null,
-   "ez": "1988",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/22/porsche-for-sale-on-elferspot-marktplatz_12-2.jpeg",
    "snippet": "",
    "filter": "targa"
   },
@@ -269,6 +257,18 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/05/13/911-projekt-5.jpeg",
+   "snippet": "",
+   "filter": "targa"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-us-1984-5554414/",
+   "title": "Porsche 911 Carrera 3.2 (1984)",
+   "price_eur": null,
+   "ez": "1984",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc06619-1024x680-1.jpg",
    "snippet": "",
    "filter": "targa"
   },
@@ -557,6 +557,18 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc01299-1024x680-1.jpg",
+   "snippet": "",
+   "filter": "g"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-us-1984-5554480/",
+   "title": "Porsche 911 Carrera 3.2 (1984)",
+   "price_eur": null,
+   "ez": "1984",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc06654-1024x680-1.jpg",
    "snippet": "",
    "filter": "g"
   },
