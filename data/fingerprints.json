@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-30T01:29:37Z",
+ "updated_at": "2026-10-30T07:30:37Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -511,6 +511,14 @@
     },
     {
      "d": "2026-10-29",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-30",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-30",
      "p": 44900
     },
     {
@@ -3406,6 +3414,10 @@
     {
      "d": "2026-10-29",
      "p": 33090
+    },
+    {
+     "d": "2026-10-30",
+     "p": 33050
     }
    ],
    "title": "traumhaft schoener porsche 996 911 carrera 3 6 automatik",
@@ -15115,12 +15127,12 @@
      "p": 65000
     }
    ],
-   "title": "Porsche 911 Carrera 3.2 SC G Modell Targa 964/993 in Baden-Württemberg - St. Märgen | Porsche 930 Gebrauchtwagen kaufen | kleinanzeigen.de",
+   "title": "porsche 911 carrera 3 2 sc g modell targa 964 993",
    "last_seen": "2026-10-30",
    "vin": null,
-   "ez": "03/1972",
+   "ez": "09/1984",
    "km": 82000,
-   "ps": 231,
+   "ps": null,
    "hashes": [
     {
      "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/32/328e0fae-cad1-4a38-ac47-be88cd2d74f2?rule=$_59.JPG",
@@ -26453,6 +26465,35 @@
    "vin": null,
    "ez": "03/2023",
    "km": 39000,
+   "ps": null
+  },
+  "d08f26e8e5a5": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-carrera-4-cabriolet-us-import/3519538579-216-3520",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-30",
+   "prices": [
+    {
+     "d": "2026-10-30",
+     "p": 15500
+    }
+   ],
+   "title": "porsche 911 996 carrera 4 cabriolet us import",
+   "last_seen": "2026-10-30",
+   "vin": null,
+   "ez": "12/2000",
+   "km": 293000,
+   "ps": null
+  },
+  "a1c174f67296": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-997-4s-cabrio-carrera-umbau-turbo-997-2-tausch/3556178668-216-10513",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-30",
+   "prices": [],
+   "title": "porsche 911 997 4s cabrio carrera umbau turbo 997 2 tausch",
+   "last_seen": "2026-10-30",
+   "vin": null,
+   "ez": "12/2007",
+   "km": 57500,
    "ps": null
   }
  }
