@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-30T19:36:45Z",
+ "updated_at": "2026-10-30T23:25:59Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -511,6 +511,14 @@
     },
     {
      "d": "2026-10-29",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-30",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-30",
      "p": 44900
     },
     {
@@ -26526,6 +26534,52 @@
    "vin": null,
    "ez": "03/2004",
    "km": 194000,
+   "ps": null
+  },
+  "2e7107a57a1b": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-914-4-2-0-1973-oldtimer-dt-erstauslieferung-sonnengelb/3556969656-216-8147",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-30",
+   "prices": [
+    {
+     "d": "2026-10-30",
+     "p": 8900
+    }
+   ],
+   "title": "porsche 914 4 2 0 1973 oldtimer dt erstauslieferung sonnengelb",
+   "last_seen": "2026-10-30",
+   "vin": null,
+   "ez": "08/1973",
+   "km": 1875,
+   "ps": null
+  },
+  "ed33138da259": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-4s-cabriolet-pdk/3556921576-216-6477",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-30",
+   "prices": [
+    {
+     "d": "2026-10-30",
+     "p": 22500
+    }
+   ],
+   "title": "porsche 911 carrera 4s cabriolet pdk",
+   "last_seen": "2026-10-30",
+   "vin": null,
+   "ez": "04/2013",
+   "km": 147762,
+   "ps": null
+  },
+  "78095effad5b": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-3-0-sc-g-modell-targa-deutsch-turbooptik-widebody/3551952383-216-1303",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-30",
+   "prices": [],
+   "title": "porsche 911 3 0 sc g modell targa deutsch turbooptik widebody",
+   "last_seen": "2026-10-30",
+   "vin": null,
+   "ez": "02/1982",
+   "km": 133000,
    "ps": null
   }
  }
