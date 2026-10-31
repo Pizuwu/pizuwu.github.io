@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-31T02:37:57Z",
+ "updated_at": "2026-10-31T09:08:43Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -551,6 +551,14 @@
     },
     {
      "d": "2026-10-30",
+     "p": 44900
+    },
+    {
+     "d": "2026-10-31",
+     "p": 49911
+    },
+    {
+     "d": "2026-10-31",
      "p": 44900
     },
     {
@@ -7584,7 +7592,7 @@
     }
    ],
    "title": "porsche 911 996 carrera 2 coup 3 6 66 000km 2 hand",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "vin": null,
    "ez": "01/2001",
    "km": 2001,
@@ -9191,7 +9199,7 @@
     }
    ],
    "title": "suche ankauf porsche 911 996 997 991 turbo gt3 gt2 rs",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "vin": null,
    "ez": "04/2003",
    "km": 5555,
@@ -23017,7 +23025,7 @@
    "first_seen": "2026-10-14",
    "prices": [],
    "title": "suche porsche 911 old youngtimer g 964 993 996 997",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "vin": null,
    "ez": "01/2018",
    "km": 500000,
@@ -25169,6 +25177,10 @@
     {
      "d": "2026-10-29",
      "p": 28996
+    },
+    {
+     "d": "2026-10-31",
+     "p": 27996
     }
    ],
    "title": "porsche 911 996 handschalter gepflegter zustand eisenmann",
@@ -26234,7 +26246,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-991-1-targa-handschalter/3554755595-216-16362",
    "src": "kleinanzeigen",
    "first_seen": "2026-10-28",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-10-31",
+     "p": 26900
+    }
+   ],
    "title": "suche porsche 991 1 targa handschalter",
    "last_seen": "2026-10-31",
    "vin": null,
@@ -26359,7 +26376,7 @@
    "first_seen": "2026-10-29",
    "prices": [],
    "title": "ankauf suche oldtimer scheunenfund bmw jaguar porsche ford lanz",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "vin": null,
    "ez": "10/1985",
    "km": 99999,
@@ -26605,6 +26622,35 @@
    "vin": null,
    "ez": "06/2002",
    "km": null,
+   "ps": null
+  },
+  "a81a01b9e6c4": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-964-cabrio/3557046450-216-6080",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-31",
+   "prices": [
+    {
+     "d": "2026-10-31",
+     "p": 12345
+    }
+   ],
+   "title": "suche porsche 964 cabrio",
+   "last_seen": "2026-10-31",
+   "vin": null,
+   "ez": "05/1991",
+   "km": 123456,
+   "ps": null
+  },
+  "4774d9350540": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-924-targa/3557138562-216-7402",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-10-31",
+   "prices": [],
+   "title": "porsche 924 targa",
+   "last_seen": "2026-10-31",
+   "vin": null,
+   "ez": "05/1983",
+   "km": 111000,
    "ps": null
   }
  }
