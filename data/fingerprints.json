@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T19:53:10Z",
+ "updated_at": "2026-11-01T23:17:00Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -591,6 +591,14 @@
     },
     {
      "d": "2026-10-31",
+     "p": 44900
+    },
+    {
+     "d": "2026-11-01",
+     "p": 49911
+    },
+    {
+     "d": "2026-11-01",
      "p": 44900
     },
     {
@@ -26987,6 +26995,18 @@
    "vin": null,
    "ez": "01/1993",
    "km": 250000,
+   "ps": null
+  },
+  "d1072b5cd2a3": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-993/3559319956-216-23789",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-01",
+   "prices": [],
+   "title": "porsche 911 993",
+   "last_seen": "2026-11-01",
+   "vin": null,
+   "ez": "11/1994",
+   "km": 200000,
    "ps": null
   }
  }
