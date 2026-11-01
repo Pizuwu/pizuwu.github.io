@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-11-01T08:28:15.298Z",
- "runner": "41288822584",
+ "fetched_at": "2026-11-01T15:24:21.328Z",
+ "runner": "41320830375",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 407342,
+   "size": 406993,
    "links": 41,
-   "treffer": 21
+   "treffer": 20
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 412248,
+   "size": 411845,
    "links": 41,
    "treffer": 25
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 378993,
-   "links": 16,
-   "treffer": 13
+   "size": 379914,
+   "links": 17,
+   "treffer": 14
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 365211,
+   "size": 365043,
    "links": 6,
    "treffer": 6
   }
@@ -269,18 +269,6 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc06619-1024x680-1.jpg",
-   "snippet": "",
-   "filter": "targa"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1978-5854397/",
-   "title": "Porsche 911 SC (1978)",
-   "price_eur": null,
-   "ez": "1978",
-   "km": null,
-   "country": "BE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/03/19/911-sc-targa-te-koop-porsche-2.jpeg",
    "snippet": "",
    "filter": "targa"
   },
@@ -583,6 +571,18 @@
    "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc06654-1024x680-1.jpg",
    "snippet": "",
    "filter": "g"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-1967-6342929/",
+   "title": "Porsche 912 (1967)",
+   "price_eur": null,
+   "ez": "1967",
+   "km": null,
+   "country": "NL",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/31/b26392f2-12d2-4597-ae89-68c80d20a008.png",
+   "snippet": "",
+   "filter": "f"
   },
   {
    "src": "elferspot",
