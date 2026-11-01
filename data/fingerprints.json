@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T01:43:24Z",
+ "updated_at": "2026-11-01T08:28:43Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -591,6 +591,14 @@
     },
     {
      "d": "2026-10-31",
+     "p": 44900
+    },
+    {
+     "d": "2026-11-01",
+     "p": 49911
+    },
+    {
+     "d": "2026-11-01",
      "p": 44900
     },
     {
@@ -26424,7 +26432,7 @@
    "first_seen": "2026-10-29",
    "prices": [],
    "title": "ankauf suche oldtimer scheunenfund bmw jaguar porsche ford lanz",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "vin": null,
    "ez": "10/1985",
    "km": 99999,
@@ -26796,6 +26804,40 @@
    "vin": null,
    "ez": "01/1971",
    "km": 71500,
+   "ps": null
+  },
+  "1cc694211dbb": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-996-facelift-320ps-tiptronic-tuevneu-festpreis/3514916308-216-1595",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-01",
+   "prices": [
+    {
+     "d": "2026-11-01",
+     "p": 26500
+    }
+   ],
+   "title": "porsche 911 carrera 996 facelift 320ps tiptronic tuevneu festpreis",
+   "last_seen": "2026-11-01",
+   "vin": null,
+   "ez": "11/2002",
+   "km": 104000,
+   "ps": null
+  },
+  "702e29f2ce0c": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porche-panamera/3558029178-216-5197",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-01",
+   "prices": [
+    {
+     "d": "2026-11-01",
+     "p": 22000
+    }
+   ],
+   "title": "porche panamera",
+   "last_seen": "2026-11-01",
+   "vin": null,
+   "ez": "09/2012",
+   "km": 251000,
    "ps": null
   }
  }
