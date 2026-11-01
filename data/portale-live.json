@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-10-31T22:41:18.507Z",
- "runner": "41249112405",
+ "fetched_at": "2026-11-01T01:42:52.235Z",
+ "runner": "41262056169",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 407189,
+   "size": 407322,
    "links": 41,
-   "treffer": 20
+   "treffer": 21
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 412041,
+   "size": 412190,
    "links": 41,
    "treffer": 25
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 378953,
+   "size": 379019,
    "links": 16,
    "treffer": 13
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 365188,
+   "size": 365241,
    "links": 6,
    "treffer": 6
   }
@@ -269,6 +269,18 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc06619-1024x680-1.jpg",
+   "snippet": "",
+   "filter": "targa"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1978-5854397/",
+   "title": "Porsche 911 SC (1978)",
+   "price_eur": null,
+   "ez": "1978",
+   "km": null,
+   "country": "BE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/03/19/911-sc-targa-te-koop-porsche-2.jpeg",
    "snippet": "",
    "filter": "targa"
   },
