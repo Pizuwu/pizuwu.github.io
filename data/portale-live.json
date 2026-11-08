@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-11-07T22:09:44.476Z",
- "runner": "42419085292",
+ "fetched_at": "2026-11-08T01:40:00.701Z",
+ "runner": "42435053722",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 406918,
+   "size": 407083,
    "links": 41,
    "treffer": 19
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 411595,
+   "size": 411758,
    "links": 41,
-   "treffer": 26
+   "treffer": 27
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 379877,
-   "links": 17,
-   "treffer": 14
+   "size": 379075,
+   "links": 16,
+   "treffer": 13
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 365058,
+   "size": 365079,
    "links": 6,
    "treffer": 6
   }
@@ -214,18 +214,6 @@
   },
   {
    "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-1976-3835754/",
-   "title": "Porsche 911 (1976)",
-   "price_eur": null,
-   "ez": "1976",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2024/07/20/img_4174.jpeg",
-   "snippet": "",
-   "filter": "targa"
-  },
-  {
-   "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1982-5547046/",
    "title": "Porsche 911 SC (1982)",
    "price_eur": null,
@@ -257,6 +245,18 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc06619-1024x680-1.jpg",
+   "snippet": "",
+   "filter": "targa"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1978-5854397/",
+   "title": "Porsche 911 SC (1978)",
+   "price_eur": null,
+   "ez": "1978",
+   "km": null,
+   "country": "BE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/03/19/911-sc-targa-te-koop-porsche-2.jpeg",
    "snippet": "",
    "filter": "targa"
   },
@@ -574,6 +574,18 @@
   },
   {
    "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-g-modell-1973-5545710/",
+   "title": "Porsche 911 (1973)",
+   "price_eur": null,
+   "ez": "1973",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/10/31/dsc07559-800x532-1.jpg",
+   "snippet": "",
+   "filter": "g"
+  },
+  {
+   "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-1967-6342929/",
    "title": "Porsche 912 (1967)",
    "price_eur": null,
@@ -677,18 +689,6 @@
    "km": null,
    "country": "US",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/08/20/photo-aug-19-2026-8-43-08-pm.jpg",
-   "snippet": "",
-   "filter": "f"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-1968-6178239/",
-   "title": "Porsche 912 (1968)",
-   "price_eur": null,
-   "ez": "1968",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/08/09/img_0015.jpg",
    "snippet": "",
    "filter": "f"
   },
