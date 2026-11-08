@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T01:40:33Z",
+ "updated_at": "2026-11-08T08:22:26Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -24971,12 +24971,17 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-f-benzintank/3548932333-216-18614",
    "src": "kleinanzeigen",
    "first_seen": "2026-10-22",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-11-08",
+     "p": 29900
+    }
+   ],
    "title": "porsche 911 f benzintank",
    "last_seen": "2026-11-08",
    "vin": null,
    "ez": "05/1973",
-   "km": 1973,
+   "km": 126000,
    "ps": null
   },
   "3fdc49d74a1b": {
@@ -26600,7 +26605,7 @@
    "first_seen": "2026-10-29",
    "prices": [],
    "title": "ankauf suche oldtimer scheunenfund bmw jaguar porsche ford lanz",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-08",
    "vin": null,
    "ez": "10/1985",
    "km": 99999,
@@ -28227,6 +28232,23 @@
    "vin": null,
    "ez": "06/2001",
    "km": 139500,
+   "ps": null
+  },
+  "9125b1bb7fb3": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-4s-cabrio-traumzustand/3564849530-216-1920",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-08",
+   "prices": [
+    {
+     "d": "2026-11-08",
+     "p": 39996
+    }
+   ],
+   "title": "porsche 911 996 4s cabrio traumzustand",
+   "last_seen": "2026-11-08",
+   "vin": null,
+   "ez": "07/2004",
+   "km": 189996,
    "ps": null
   }
  }
