@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-11-09T10:40:53.471Z",
- "runner": "42602280814",
+ "fetched_at": "2026-11-09T21:14:29.386Z",
+ "runner": "42700199435",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 407420,
+   "size": 407220,
    "links": 41,
    "treffer": 19
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 412169,
+   "size": 411790,
    "links": 41,
    "treffer": 27
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 378876,
+   "size": 378871,
    "links": 16,
    "treffer": 13
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 365024,
+   "size": 365164,
    "links": 6,
    "treffer": 6
   }
@@ -262,6 +262,18 @@
   },
   {
    "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-1983-4523758/",
+   "title": "Porsche 911 SC (1983)",
+   "price_eur": null,
+   "ez": "1983",
+   "km": null,
+   "country": "FR",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/02/19/01.jpg",
+   "snippet": "",
+   "filter": "g"
+  },
+  {
+   "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-1982-6356280/",
    "title": "Porsche 911 SC (1982)",
    "price_eur": null,
@@ -413,18 +425,6 @@
    "km": null,
    "country": "FR",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/08/27/img_4925-scaled.jpeg",
-   "snippet": "",
-   "filter": "g"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-s-g-modell-1976-6210244/",
-   "title": "Porsche 911 S (1976)",
-   "price_eur": null,
-   "ez": "1976",
-   "km": null,
-   "country": "NL",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/08/26/porsche-for-sale-on-elferspot_8-5.jpeg",
    "snippet": "",
    "filter": "g"
   },
@@ -742,6 +742,18 @@
   },
   {
    "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-964-carrera-4-1990-6307964/",
+   "title": "Porsche 964 Carrera 4 (1990)",
+   "price_eur": null,
+   "ez": "1990",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/14/20261007_114057-scaled.jpg",
+   "snippet": "",
+   "filter": "964"
+  },
+  {
+   "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-964-carrera-2-1990-6337427/",
    "title": "Porsche 964 Carrera 2 (1990)",
    "price_eur": null,
@@ -761,18 +773,6 @@
    "km": null,
    "country": "GB",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/28/porsche-for-sale-on-elferspot-marktplatz_32-11.jpeg",
-   "snippet": "",
-   "filter": "964"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-964-carrera-4-1990-6307964/",
-   "title": "Porsche 964 Carrera 4 (1990)",
-   "price_eur": null,
-   "ez": "1990",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/14/20261007_114057-scaled.jpg",
    "snippet": "",
    "filter": "964"
   },
