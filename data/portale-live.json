@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-11-10T11:59:22.286Z",
- "runner": "42811585463",
+ "fetched_at": "2026-11-10T19:17:06.086Z",
+ "runner": "42883246187",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 406938,
+   "size": 407186,
    "links": 41,
    "treffer": 19
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 411698,
+   "size": 411916,
    "links": 41,
    "treffer": 27
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 378710,
+   "size": 379071,
    "links": 16,
    "treffer": 13
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 364938,
+   "size": 365154,
    "links": 6,
    "treffer": 6
   }
@@ -382,18 +382,6 @@
   },
   {
    "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-1980-6255936/",
-   "title": "Porsche 911 SC (1980)",
-   "price_eur": null,
-   "ez": "1980",
-   "km": null,
-   "country": "FI",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/09/18/1dsc03058-scaled.jpg",
-   "snippet": "",
-   "filter": "g"
-  },
-  {
-   "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1978-6081886/",
    "title": "Porsche 911 SC (1978)",
    "price_eur": null,
@@ -581,6 +569,18 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc01299-1024x680-1.jpg",
+   "snippet": "",
+   "filter": "g"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-us-1984-5554480/",
+   "title": "Porsche 911 Carrera 3.2 (1984)",
+   "price_eur": null,
+   "ez": "1984",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc06654-1024x680-1.jpg",
    "snippet": "",
    "filter": "g"
   },
