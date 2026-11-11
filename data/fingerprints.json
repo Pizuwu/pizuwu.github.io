@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T14:52:07Z",
+ "updated_at": "2026-11-11T21:42:28Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -7196,7 +7196,7 @@
     }
    ],
    "title": "porsche 997 4s carrera cabrio 2007",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-11",
    "vin": null,
    "ez": "11/2007",
    "km": 190000,
@@ -25429,6 +25429,10 @@
     {
      "d": "2026-10-24",
      "p": 29928
+    },
+    {
+     "d": "2026-11-11",
+     "p": 28928
     }
    ],
    "title": "porsche 928 1978 erste serie v8 h kennzeichen 127 000km",
@@ -27668,6 +27672,10 @@
     {
      "d": "2026-11-10",
      "p": 16900
+    },
+    {
+     "d": "2026-11-11",
+     "p": 16850
     }
    ],
    "title": "porsche 911 carrera 4 manuell",
@@ -28626,7 +28634,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-992-911/3566391712-216-9484",
    "src": "kleinanzeigen",
    "first_seen": "2026-11-09",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-11-11",
+     "p": 33350
+    }
+   ],
    "title": "suche porsche 992 911",
    "last_seen": "2026-11-11",
    "vin": null,
@@ -28868,6 +28881,40 @@
    "vin": null,
    "ez": "07/2014",
    "km": 43000,
+   "ps": null
+  },
+  "1bd91e138472": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-4-996-2-mit-schaltgetriebe/3568793038-216-5154",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-11",
+   "prices": [
+    {
+     "d": "2026-11-11",
+     "p": 26000
+    }
+   ],
+   "title": "porsche 911 carrera 4 996 2 mit schaltgetriebe",
+   "last_seen": "2026-11-11",
+   "vin": null,
+   "ez": "07/2004",
+   "km": 320000,
+   "ps": null
+  },
+  "fbf9d5e8cd76": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-cabriolet-weiss/3568590372-216-401",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-11",
+   "prices": [
+    {
+     "d": "2026-11-11",
+     "p": 44000
+    }
+   ],
+   "title": "porsche 911 cabriolet weiss",
+   "last_seen": "2026-11-11",
+   "vin": null,
+   "ez": "09/1985",
+   "km": 256000,
    "ps": null
   }
  }
