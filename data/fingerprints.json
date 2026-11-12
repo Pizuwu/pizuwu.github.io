@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12T18:32:57Z",
+ "updated_at": "2026-11-12T23:49:50Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -29066,6 +29066,35 @@
    "vin": null,
    "ez": "01/2020",
    "km": 2020,
+   "ps": null
+  },
+  "ceb764ec6ce3": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-930-turbo-3-3-wittwenmacher/3569588906-216-6062",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-12",
+   "prices": [
+    {
+     "d": "2026-11-12",
+     "p": 12345
+    }
+   ],
+   "title": "porsche 930 turbo 3 3 wittwenmacher",
+   "last_seen": "2026-11-12",
+   "vin": null,
+   "ez": "03/1985",
+   "km": 140000,
+   "ps": null
+  },
+  "51995ce7906a": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-997-911-carrera-s-cabriolet/3569703713-216-1069",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-12",
+   "prices": [],
+   "title": "porsche 997 911 carrera s cabriolet",
+   "last_seen": "2026-11-12",
+   "vin": null,
+   "ez": "01/2007",
+   "km": 100611,
    "ps": null
   }
  }
