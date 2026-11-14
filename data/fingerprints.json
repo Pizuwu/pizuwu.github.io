@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T14:25:18Z",
+ "updated_at": "2026-11-14T19:22:26Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -14794,6 +14794,10 @@
     {
      "d": "2026-11-09",
      "p": 19000
+    },
+    {
+     "d": "2026-11-14",
+     "p": 18750
     }
    ],
    "title": "porsche 944 targa",
@@ -15351,12 +15355,12 @@
      "p": 65000
     }
    ],
-   "title": "porsche 911 carrera 3 2 sc g modell targa 964 993",
+   "title": "Porsche 911 Carrera 3.2 SC G Modell Targa 964/993 in Baden-Württemberg - St. Märgen | Porsche 930 Gebrauchtwagen kaufen | kleinanzeigen.de",
    "last_seen": "2026-11-14",
    "vin": null,
-   "ez": "09/1984",
+   "ez": "03/1972",
    "km": 82000,
-   "ps": null,
+   "ps": 231,
    "hashes": [
     {
      "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/32/328e0fae-cad1-4a38-ac47-be88cd2d74f2?rule=$_59.JPG",
@@ -18503,7 +18507,7 @@
     }
    ],
    "title": "porsche 996 cabrio motor neu carrera2",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-14",
    "vin": null,
    "ez": "07/1999",
    "km": 192000,
@@ -19470,6 +19474,10 @@
     {
      "d": "2026-10-18",
      "p": 11999
+    },
+    {
+     "d": "2026-11-14",
+     "p": 10999
     }
    ],
    "title": "oldtimer porsche trecker",
@@ -28087,7 +28095,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-964-jubi-wtl/3563322965-216-6936",
    "src": "kleinanzeigen",
    "first_seen": "2026-11-06",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-11-14",
+     "p": 44500
+    }
+   ],
    "title": "porsche 964 jubi wtl",
    "last_seen": "2026-11-14",
    "vin": null,
@@ -28976,7 +28989,7 @@
     }
    ],
    "title": "porsche 911 cabriolet weiss",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "vin": null,
    "ez": "09/1985",
    "km": 256000,
@@ -29380,6 +29393,93 @@
    "vin": null,
    "ez": "01/2026",
    "km": 200000,
+   "ps": null
+  },
+  "e802981dc2d5": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-targa/3571447300-216-6434",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-14",
+   "prices": [
+    {
+     "d": "2026-11-14",
+     "p": 9950
+    }
+   ],
+   "title": "porsche 911 targa",
+   "last_seen": "2026-11-14",
+   "vin": null,
+   "ez": "09/1976",
+   "km": 131000,
+   "ps": null
+  },
+  "e481fd537fb4": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-912/3565110975-216-7359",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-14",
+   "prices": [
+    {
+     "d": "2026-11-14",
+     "p": 10000
+    }
+   ],
+   "title": "porsche 912",
+   "last_seen": "2026-11-14",
+   "vin": null,
+   "ez": "10/1966",
+   "km": 44549,
+   "ps": null
+  },
+  "e7713884594a": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-911-carrera-2-coup-handschalter/3571309772-216-7972",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-14",
+   "prices": [
+    {
+     "d": "2026-11-14",
+     "p": 20000
+    }
+   ],
+   "title": "suche porsche 911 carrera 2 coup handschalter",
+   "last_seen": "2026-11-14",
+   "vin": null,
+   "ez": "04/1998",
+   "km": 89000,
+   "ps": null
+  },
+  "d1b2bff03a27": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-c2-1987-g-50-getriebe-sonderfarbe-cassic-metallic/3571549723-216-1900",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-14",
+   "prices": [],
+   "title": "porsche 911 c2 1987 g 50 getriebe sonderfarbe cassic metallic",
+   "last_seen": "2026-11-14",
+   "vin": null,
+   "ez": "07/1987",
+   "km": 169500,
+   "ps": null
+  },
+  "3bb8e81ac2b4": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-911-964-993-ggfls-g-modell-ohne-schiebedach/3571472959-216-4909",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-14",
+   "prices": [],
+   "title": "suche porsche 911 964 993 ggfls g modell ohne schiebedach",
+   "last_seen": "2026-11-14",
+   "vin": null,
+   "ez": "02/1993",
+   "km": 200000,
+   "ps": null
+  },
+  "a5b105d587ff": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-911-coup-g-modell-1978-1981/3571407901-216-1027",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-14",
+   "prices": [],
+   "title": "suche porsche 911 coup g modell 1978 1981",
+   "last_seen": "2026-11-14",
+   "vin": null,
+   "ez": "11/1977",
+   "km": 300000,
    "ps": null
   }
  }
