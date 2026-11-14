@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T19:22:26Z",
+ "updated_at": "2026-11-14T23:14:18Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -29480,6 +29480,23 @@
    "vin": null,
    "ez": "11/1977",
    "km": 300000,
+   "ps": null
+  },
+  "2e01a4fe6df2": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5-targa-1983-97-000-km/3571627656-216-7956",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-14",
+   "prices": [
+    {
+     "d": "2026-11-14",
+     "p": 13500
+    }
+   ],
+   "title": "porsche 944 2 5 targa 1983 97 000 km",
+   "last_seen": "2026-11-14",
+   "vin": null,
+   "ez": "01/1983",
+   "km": 97000,
    "ps": null
   }
  }
