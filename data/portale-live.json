@@ -1,34 +1,34 @@
 {
- "fetched_at": "2026-11-13T19:58:17.399Z",
- "runner": "43496737301",
+ "fetched_at": "2026-11-14T00:37:49.852Z",
+ "runner": "43535148138",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 407274,
+   "size": 407229,
    "links": 41,
-   "treffer": 18
+   "treffer": 19
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 412016,
+   "size": 412033,
    "links": 41,
    "treffer": 27
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 379028,
+   "size": 378878,
    "links": 16,
    "treffer": 13
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 365272,
-   "links": 6,
-   "treffer": 6
+   "size": 363840,
+   "links": 5,
+   "treffer": 5
   }
  ],
  "listings": [
@@ -245,6 +245,18 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc06619-1024x680-1.jpg",
+   "snippet": "",
+   "filter": "targa"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1978-5854397/",
+   "title": "Porsche 911 SC (1978)",
+   "price_eur": null,
+   "ez": "1978",
+   "km": null,
+   "country": "BE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/03/19/911-sc-targa-te-koop-porsche-2.jpeg",
    "snippet": "",
    "filter": "targa"
   },
@@ -749,18 +761,6 @@
    "km": null,
    "country": "GB",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/28/porsche-for-sale-on-elferspot-marktplatz_9-4.jpeg",
-   "snippet": "",
-   "filter": "964"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-964-carrera-2-1990-6338653/",
-   "title": "Porsche 964 Carrera 2 (1990)",
-   "price_eur": null,
-   "ez": "1990",
-   "km": null,
-   "country": "GB",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/28/porsche-for-sale-on-elferspot-marktplatz_32-11.jpeg",
    "snippet": "",
    "filter": "964"
   },
