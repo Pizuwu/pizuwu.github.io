@@ -1,49 +1,37 @@
 {
- "fetched_at": "2026-11-14T23:13:46.187Z",
- "runner": "43651954011",
+ "fetched_at": "2026-11-15T02:56:32.283Z",
+ "runner": "43669878749",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 407031,
+   "size": 406651,
    "links": 41,
-   "treffer": 20
+   "treffer": 19
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 411935,
+   "size": 411449,
    "links": 41,
-   "treffer": 26
+   "treffer": 27
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 379028,
-   "links": 16,
-   "treffer": 13
+   "size": 377659,
+   "links": 15,
+   "treffer": 12
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 364057,
-   "links": 5,
-   "treffer": 5
+   "size": 362675,
+   "links": 4,
+   "treffer": 4
   }
  ],
  "listings": [
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-1989-6337564/",
-   "title": "Porsche 911 Carrera 3.2 (1989)",
-   "price_eur": null,
-   "ez": "1989",
-   "km": null,
-   "country": "GB",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/28/porsche-for-sale-on-elferspot-marktplatz_31-4.jpeg",
-   "snippet": "",
-   "filter": "targa"
-  },
   {
    "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1982-6333260/",
@@ -346,18 +334,6 @@
   },
   {
    "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-1982-6337633/",
-   "title": "Porsche 911 SC (1982)",
-   "price_eur": null,
-   "ez": "1982",
-   "km": null,
-   "country": "GB",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/28/porsche-for-sale-on-elferspot-marktplatz_42-2.jpeg",
-   "snippet": "",
-   "filter": "g"
-  },
-  {
-   "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-1983-5344485/",
    "title": "Porsche 911 Carrera 3.2 (1983)",
    "price_eur": null,
@@ -586,6 +562,30 @@
   },
   {
    "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-us-1984-5554480/",
+   "title": "Porsche 911 Carrera 3.2 (1984)",
+   "price_eur": null,
+   "ez": "1984",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc06654-1024x680-1.jpg",
+   "snippet": "",
+   "filter": "g"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-s-g-modell-1977-5546313/",
+   "title": "Porsche 911 S (1977)",
+   "price_eur": null,
+   "ez": "1977",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/10/31/p9121317-scaled.jpg",
+   "snippet": "",
+   "filter": "g"
+  },
+  {
+   "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-1967-6342929/",
    "title": "Porsche 912 (1967)",
    "price_eur": null,
@@ -605,18 +605,6 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/28/912-lehman-exterieur-23.jpg",
-   "snippet": "",
-   "filter": "f"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-t-1971-6337416/",
-   "title": "Porsche 911 T (1971)",
-   "price_eur": null,
-   "ez": "1971",
-   "km": null,
-   "country": "GB",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/28/porsche-for-sale-on-elferspot-marktplatz_61.jpeg",
    "snippet": "",
    "filter": "f"
   },
@@ -749,18 +737,6 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/14/20261007_114057-scaled.jpg",
-   "snippet": "",
-   "filter": "964"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-964-carrera-2-1990-6337427/",
-   "title": "Porsche 964 Carrera 2 (1990)",
-   "price_eur": null,
-   "ez": "1990",
-   "km": null,
-   "country": "GB",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/28/porsche-for-sale-on-elferspot-marktplatz_9-4.jpeg",
    "snippet": "",
    "filter": "964"
   },
