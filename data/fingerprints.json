@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-19T17:32:42Z",
+ "updated_at": "2026-11-19T23:46:00Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -7302,10 +7302,14 @@
     {
      "d": "2026-09-17",
      "p": 36900
+    },
+    {
+     "d": "2026-11-19",
+     "p": 34999
     }
    ],
    "title": "porsche 911 carrera 996",
-   "last_seen": "2026-09-23",
+   "last_seen": "2026-11-19",
    "vin": null,
    "ez": "01/2004",
    "km": 93500,
@@ -18009,12 +18013,12 @@
      "p": 18000
     }
    ],
-   "title": "porsche 912 coup 1965 swb matching numbers",
+   "title": "Porsche 912 Coupé 1965 (SWB) - Matching Numbers  in Baden-Württemberg - Kehl | Porsche 912 Gebrauchtwagen kaufen | kleinanzeigen.de",
    "last_seen": "2026-11-19",
    "vin": null,
-   "ez": "07/1965",
+   "ez": "01/1980",
    "km": 99999,
-   "ps": null,
+   "ps": 95,
    "hashes": [
     {
      "url": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f7/f735b387-37b2-40cd-b743-9c83d08b8427?rule=$_59.JPG",
@@ -30274,6 +30278,59 @@
    "vin": null,
    "ez": "07/1993",
    "km": 116950,
+   "ps": null
+  },
+  "afb5755a40bc": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-cabrio-motor-neu-carrera2/3576570073-216-2096",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-19",
+   "prices": [
+    {
+     "d": "2026-11-19",
+     "p": 29990
+    }
+   ],
+   "title": "porsche 996 cabrio motor neu carrera2",
+   "last_seen": "2026-11-19",
+   "vin": null,
+   "ez": "06/1999",
+   "km": 192000,
+   "ps": null
+  },
+  "a865b18c75fe": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-porsche-992-911-gt3-718-gt4-rs-982-weissach-991-gt3-rs/3566098220-216-4217",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-19",
+   "prices": [],
+   "title": "suche porsche 992 911 gt3 718 gt4 rs 982 weissach 991 gt3 rs",
+   "last_seen": "2026-11-19",
+   "vin": null,
+   "ez": "03/2024",
+   "km": 8000,
+   "ps": null
+  },
+  "ea7c84f6cb43": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/reduziert-porsche-911-996-carrera-4-vollrestrauriert-pccm-vb/3576581298-216-19183",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-19",
+   "prices": [],
+   "title": "reduziert porsche 911 996 carrera 4 vollrestrauriert pccm vb",
+   "last_seen": "2026-11-19",
+   "vin": null,
+   "ez": "10/1999",
+   "km": 14000,
+   "ps": null
+  },
+  "5fc664b7cb44": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/bmw-m4-competition-xdrive-cabrio-tausch-bmw-g-modell-porsche-ev/3575050368-216-8657",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-19",
+   "prices": [],
+   "title": "bmw m4 competition xdrive cabrio tausch bmw g modell porsche ev",
+   "last_seen": "2026-11-19",
+   "vin": null,
+   "ez": "12/2021",
+   "km": 60000,
    "ps": null
   }
  }
