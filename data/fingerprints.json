@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22T18:12:02Z",
+ "updated_at": "2026-11-22T23:44:30Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -28799,7 +28799,12 @@
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-verkaufen-persoenlich-professionell-ohne-stress-/3563106423-216-615",
    "src": "kleinanzeigen",
    "first_seen": "2026-11-08",
-   "prices": [],
+   "prices": [
+    {
+     "d": "2026-11-22",
+     "p": 26000
+    }
+   ],
    "title": "porsche verkaufen persoenlich professionell ohne stress",
    "last_seen": "2026-11-22",
    "vin": null,
@@ -30931,6 +30936,93 @@
    "vin": null,
    "ez": "06/2004",
    "km": 67190,
+   "ps": null
+  },
+  "133010e3e28b": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-carrera-4-s-coupe-bose-tiptronic-memo-sitze/3579850097-216-8105",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-22",
+   "prices": [
+    {
+     "d": "2026-11-22",
+     "p": 46900
+    }
+   ],
+   "title": "porsche 911 carrera 4 s coupe bose tiptronic memo sitze",
+   "last_seen": "2026-11-22",
+   "vin": null,
+   "ez": "10/2002",
+   "km": 132539,
+   "ps": null
+  },
+  "68be63f2203c": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-996-2/3579978311-216-4510",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-22",
+   "prices": [
+    {
+     "d": "2026-11-22",
+     "p": 17500
+    }
+   ],
+   "title": "porsche 911 996 2",
+   "last_seen": "2026-11-22",
+   "vin": null,
+   "ez": "06/2002",
+   "km": 278880,
+   "ps": null
+  },
+  "96d8393ae9c9": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/abdeckplane-autoplane-autocover-alle-porsche-911-993-964/3578027501-216-9241",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-22",
+   "prices": [
+    {
+     "d": "2026-11-22",
+     "p": 47500
+    }
+   ],
+   "title": "abdeckplane autoplane autocover alle porsche 911 993 964",
+   "last_seen": "2026-11-22",
+   "vin": null,
+   "ez": "01/1995",
+   "km": 1000,
+   "ps": null
+  },
+  "2104fd18715c": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-996-turbo-911/3577653388-216-7973",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-22",
+   "prices": [],
+   "title": "porsche 996 turbo 911",
+   "last_seen": "2026-11-22",
+   "vin": null,
+   "ez": "06/2001",
+   "km": 156000,
+   "ps": null
+  },
+  "39a519bea900": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/verkaufe-porsche-996-911/3579915910-216-3948",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-22",
+   "prices": [],
+   "title": "verkaufe porsche 996 911",
+   "last_seen": "2026-11-22",
+   "vin": null,
+   "ez": "10/1997",
+   "km": 137000,
+   "ps": null
+  },
+  "90149007302e": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/pontiac-gto-428cui-tausch-porsche-964-993/3579965815-216-4855",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-22",
+   "prices": [],
+   "title": "pontiac gto 428cui tausch porsche 964 993",
+   "last_seen": "2026-11-22",
+   "vin": null,
+   "ez": "07/1966",
+   "km": 24000,
    "ps": null
   }
  }
