@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23T04:52:17Z",
+ "updated_at": "2026-11-23T15:35:02Z",
  "items": {
   "2596807e4f89": {
    "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-944-2-5l-targa-automatik-1982-h-zulassung/3514392267-216-498",
@@ -19726,7 +19726,7 @@
     }
    ],
    "title": "porsche 928",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "vin": null,
    "ez": "01/1980",
    "km": 107000,
@@ -21761,10 +21761,14 @@
     {
      "d": "2026-10-16",
      "p": 29999
+    },
+    {
+     "d": "2026-11-23",
+     "p": 12345
     }
    ],
    "title": "porsche 911 gesucht 964 993 oder 997 gerne cabrio",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-11-23",
    "vin": null,
    "ez": "01/1985",
    "km": 999999,
@@ -23151,6 +23155,10 @@
     {
      "d": "2026-11-07",
      "p": 23900
+    },
+    {
+     "d": "2026-11-23",
+     "p": 22900
     }
    ],
    "title": "porsche 911 996 c2 carrera 2",
@@ -25784,6 +25792,10 @@
     {
      "d": "2026-10-25",
      "p": 21900
+    },
+    {
+     "d": "2026-11-23",
+     "p": 20900
     }
    ],
    "title": "porsche 944 1983 2 hand indischrot oldtimer",
@@ -27283,6 +27295,10 @@
     {
      "d": "2026-11-19",
      "p": 20000
+    },
+    {
+     "d": "2026-11-23",
+     "p": 19000
     }
    ],
    "title": "porche panamera",
@@ -31023,6 +31039,35 @@
    "vin": null,
    "ez": "07/1966",
    "km": 24000,
+   "ps": null
+  },
+  "04c6613a6ddc": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-3-0-flatnose-dp-motorsport/3580297345-216-7257",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-23",
+   "prices": [
+    {
+     "d": "2026-11-23",
+     "p": 39999
+    }
+   ],
+   "title": "porsche 911 3 0 flatnose dp motorsport",
+   "last_seen": "2026-11-23",
+   "vin": null,
+   "ez": "01/1969",
+   "km": 55139,
+   "ps": null
+  },
+  "d68e9fa9f2f6": {
+   "url": "https://www.kleinanzeigen.de/s-anzeige/porsche-911-2-7-coup-g-modell-bj-1974-matching-numbers-/3580464913-216-6564",
+   "src": "kleinanzeigen",
+   "first_seen": "2026-11-23",
+   "prices": [],
+   "title": "porsche 911 2 7 coup g modell bj 1974 matching numbers",
+   "last_seen": "2026-11-23",
+   "vin": null,
+   "ez": "07/1974",
+   "km": 40200,
    "ps": null
   }
  }
