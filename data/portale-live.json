@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-11-24T02:43:19.446Z",
- "runner": "45314134766",
+ "fetched_at": "2026-11-24T13:08:04.620Z",
+ "runner": "45399844452",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 407155,
+   "size": 407223,
    "links": 41,
    "treffer": 18
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 412040,
+   "size": 412083,
    "links": 41,
-   "treffer": 28
+   "treffer": 30
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 371912,
+   "size": 371854,
    "links": 10,
    "treffer": 7
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 362974,
+   "size": 362827,
    "links": 4,
    "treffer": 4
   }
@@ -53,30 +53,6 @@
    "km": null,
    "country": "CA",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/27/porsche-for-sale-on-elferspot-marktplatz_1-1-scaled.jpeg",
-   "snippet": "",
-   "filter": "targa"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-1983-6328374/",
-   "title": "Porsche 911 SC (1983)",
-   "price_eur": null,
-   "ez": "1983",
-   "km": null,
-   "country": "BE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/24/3-20261020_124631-scaled.jpg",
-   "snippet": "",
-   "filter": "targa"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-g-modell-1977-6327688/",
-   "title": "Porsche 911 (1977)",
-   "price_eur": null,
-   "ez": "1977",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/22/porsche-on-elferspot29-25.jpeg",
    "snippet": "",
    "filter": "targa"
   },
@@ -250,6 +226,30 @@
   },
   {
    "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-g-modell-1977-5546519/",
+   "title": "Porsche 911 (1977)",
+   "price_eur": null,
+   "ez": "1977",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/10/31/dsc09818-800x532-1.jpg",
+   "snippet": "",
+   "filter": "targa"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-modified-1975-5723970/",
+   "title": "Porsche 911 Modified (1975)",
+   "price_eur": null,
+   "ez": "1975",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/01/11/911-modified-kaufen-porsche-6.jpeg",
+   "snippet": "",
+   "filter": "targa"
+  },
+  {
+   "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-us-1987-6382691/",
    "title": "Porsche 911 Carrera 3.2 (1987)",
    "price_eur": null,
@@ -329,6 +329,18 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2025/09/13/p9110987-scaled.jpg",
+   "snippet": "",
+   "filter": "g"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-s-g-modell-1975-6298460/",
+   "title": "Porsche 911 (1975)",
+   "price_eur": null,
+   "ez": "1975",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/08/img_1692-scaled.jpeg",
    "snippet": "",
    "filter": "g"
   },
@@ -581,6 +593,18 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/04/07/911-cabrio-1.jpeg",
+   "snippet": "",
+   "filter": "g"
+  },
+  {
+   "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1983-5554054/",
+   "title": "Porsche 911 SC (1983)",
+   "price_eur": null,
+   "ez": "1983",
+   "km": null,
+   "country": "DE",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc00874-1024x680-1.jpg",
    "snippet": "",
    "filter": "g"
   },
