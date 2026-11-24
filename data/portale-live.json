@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-11-24T13:08:04.620Z",
- "runner": "45399844452",
+ "fetched_at": "2026-11-24T23:11:53.429Z",
+ "runner": "45507478627",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 407223,
+   "size": 407061,
    "links": 41,
    "treffer": 18
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 412083,
+   "size": 411875,
    "links": 41,
    "treffer": 30
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 371854,
+   "size": 371771,
    "links": 10,
    "treffer": 7
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 362827,
+   "size": 362884,
    "links": 4,
    "treffer": 4
   }
@@ -370,6 +370,18 @@
   },
   {
    "src": "elferspot",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-1980-6255936/",
+   "title": "Porsche 911 SC (1980)",
+   "price_eur": null,
+   "ez": "1980",
+   "km": null,
+   "country": "FI",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/09/18/1dsc03058-scaled.jpg",
+   "snippet": "",
+   "filter": "g"
+  },
+  {
+   "src": "elferspot",
    "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1978-6081886/",
    "title": "Porsche 911 SC (1978)",
    "price_eur": null,
@@ -593,18 +605,6 @@
    "km": null,
    "country": "DE",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/04/07/911-cabrio-1.jpeg",
-   "snippet": "",
-   "filter": "g"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-sc-us-1983-5554054/",
-   "title": "Porsche 911 SC (1983)",
-   "price_eur": null,
-   "ez": "1983",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2025/11/03/dsc00874-1024x680-1.jpg",
    "snippet": "",
    "filter": "g"
   },
