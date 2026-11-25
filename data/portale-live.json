@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-11-25T05:35:13.731Z",
- "runner": "45554292645",
+ "fetched_at": "2026-11-25T16:31:24.995Z",
+ "runner": "45654313159",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 407151,
+   "size": 407254,
    "links": 41,
-   "treffer": 18
+   "treffer": 17
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 411917,
+   "size": 412021,
    "links": 41,
    "treffer": 30
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 371858,
-   "links": 10,
-   "treffer": 7
+   "size": 368910,
+   "links": 8,
+   "treffer": 6
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 362981,
+   "size": 363049,
    "links": 4,
    "treffer": 4
   }
@@ -65,18 +65,6 @@
    "km": null,
    "country": "NL",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/21/porsche-for-sale-on-elferspot-marktplatz_.jpeg",
-   "snippet": "",
-   "filter": "targa"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-e-1970-6321514/",
-   "title": "Porsche 911 E (1970)",
-   "price_eur": null,
-   "ez": "1970",
-   "km": null,
-   "country": "NL",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/10/20/dsc08662-scaled.jpg",
    "snippet": "",
    "filter": "targa"
   },
@@ -607,18 +595,6 @@
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/04/07/911-cabrio-1.jpeg",
    "snippet": "",
    "filter": "g"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-912-1967-6342929/",
-   "title": "Porsche 912 (1967)",
-   "price_eur": null,
-   "ez": "1967",
-   "km": null,
-   "country": "NL",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/11/18/dsc02779-scaled.jpg",
-   "snippet": "",
-   "filter": "f"
   },
   {
    "src": "elferspot",
