@@ -1,32 +1,32 @@
 {
- "fetched_at": "2026-11-26T09:04:20.399Z",
- "runner": "45788176408",
+ "fetched_at": "2026-11-26T19:13:21.584Z",
+ "runner": "45881666560",
  "portale": [
   {
    "name": "elferspot-targa",
    "code": 200,
-   "size": 407184,
+   "size": 407238,
    "links": 41,
-   "treffer": 17
+   "treffer": 16
   },
   {
    "name": "elferspot-g",
    "code": 200,
-   "size": 411877,
+   "size": 412029,
    "links": 41,
    "treffer": 30
   },
   {
    "name": "elferspot-f",
    "code": 200,
-   "size": 368767,
+   "size": 368740,
    "links": 8,
    "treffer": 6
   },
   {
    "name": "elferspot-964",
    "code": 200,
-   "size": 362959,
+   "size": 362932,
    "links": 4,
    "treffer": 4
   }
@@ -226,15 +226,15 @@
   },
   {
    "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-modified-1975-5723970/",
-   "title": "Porsche 911 Modified (1975)",
+   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-1986-6393051/",
+   "title": "Porsche 911 Carrera 3.2 (1986)",
    "price_eur": null,
-   "ez": "1975",
+   "ez": "1986",
    "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/01/11/911-modified-kaufen-porsche-6.jpeg",
+   "country": "NL",
+   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/11/26/img_4681-1.jpg",
    "snippet": "",
-   "filter": "targa"
+   "filter": "g"
   },
   {
    "src": "elferspot",
@@ -581,18 +581,6 @@
    "km": null,
    "country": "NL",
    "image": "https://cdn.elferspot.com/wp-content/uploads/2026/04/15/dsc04025-scaled.jpg",
-   "snippet": "",
-   "filter": "g"
-  },
-  {
-   "src": "elferspot",
-   "url": "https://www.elferspot.com/de/fahrzeug/porsche-911-carrera-3-2-us-1986-5886990/",
-   "title": "Porsche 911 Carrera 3.2 (1986)",
-   "price_eur": null,
-   "ez": "1986",
-   "km": null,
-   "country": "DE",
-   "image": "https://cdn.elferspot.com/wp-content/uploads/2026/04/07/911-cabrio-1.jpeg",
    "snippet": "",
    "filter": "g"
   },
